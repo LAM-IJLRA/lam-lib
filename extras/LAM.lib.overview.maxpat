@@ -32,6 +32,39 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 418.0625, 194.0, 81.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 419.9375, 192.0, 150.0, 17.0 ],
+					"text" : "LAM.slidems~",
+					"varname" : "jmod.bcf2000[8]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 418.0625, 175.0, 150.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 419.9375, 173.0, 150.0, 19.0 ],
+					"text" : "Audio utilities"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -438,7 +471,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.729187, 42.75, 237.0, 26.0 ],
+					"patching_rect" : [ 656.729187, 42.75, 237.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr/Acces.php"
 				}
 
@@ -500,7 +533,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.729187, 8.75, 191.0, 26.0 ],
+					"patching_rect" : [ 656.729187, 8.75, 191.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr"
 				}
 
@@ -639,6 +672,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
