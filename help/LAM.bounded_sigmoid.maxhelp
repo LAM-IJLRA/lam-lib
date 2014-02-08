@@ -30,6 +30,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 321.0, 92.0, 72.0, 20.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "@obj-name", "LAM.bounded_pseudosigmoid", "@obj-desc", "A proper sigmoid function with input range reduced to 0-1 thanks to tanh." ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
@@ -139,7 +153,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.5, 493.0, 118.0, 110.0 ],
+					"patching_rect" : [ 206.0, 493.0, 118.0, 110.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 100,
@@ -268,8 +282,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 462.0, 174.0, 20.0 ],
-					"text" : "LAM.bounded_sigmoid"
+					"patching_rect" : [ 16.0, 460.0, 209.0, 20.0 ],
+					"text" : "LAM.bounded_sigmoid @gencoord 1"
 				}
 
 			}
@@ -488,6 +502,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
