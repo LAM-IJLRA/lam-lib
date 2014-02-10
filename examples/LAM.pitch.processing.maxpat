@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 573.0, 45.0, 813.0, 743.0 ],
+		"rect" : [ 15.0, 144.0, 813.0, 743.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -31,6 +31,21 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"items" : [ "Chromatic", ",", "Whole-tone", ",", "Major", ",", "Minor natural", ",", "Minor melodic", ",", "Pentatonic", ",", "Octaves", ",", "Octave-Fifth", ",", "Blues", ",", "(--", "Arabic", "Ajnas", "--)", ",", "Ajnas Ajam", ",", "Ajnas Bayati", ",", "Ajnas Hijaz", ",", "Ajnas Kurd", ",", "Ajnas Nahawand", ",", "Ajnas Nikriz", ",", "Ajnas Rast", ",", "Ajnas Saba", ",", "Ajnas Sika", ",", "Maqam Ajam", ",", "(--", "Arabic", "Maqams", "--)", ",", "Maqam Jiharkah", ",", "Maqam Shawq Afza", ",", "Maqam Sikah", ",", "Maqam Huzam", ",", "Maqam Iraq", ",", "Maqam Bastanikar", ",", "Maqam Mustaar", ",", "Maqam Sikah Baladi", ",", "Maqam Bayati", ",", "Maqam Karjighar", ",", "Maqam Husseini", ",", "Maqam Nahawand", ",", "Maqam Farahfaza", ",", "Maqam Sunbulah", ",", "Maqam Ushaq Masri", ",", "Maqam Rast", ",", "Maqam Suznak", ",", "Maqam Nairuz", ",", "Maqam Yakah", ",", "Maqam Mahur", ",", "Maqam Hijaz", ",", "Maqam Zanjaran", ",", "Maqam Saba", ",", "Maqam Saba Zamzam", ",", "Maqam Kurd", ",", "Maqam Hijaz Kar Kurd", ",", "Maqam Nawa Athar", ",", "Maqam Nikriz", ",", "Maqam Athar Kurd", ",", "(--", "Hindustani", "Thât", "--)", ",", "That Bhairav", ",", "That Asavari", ",", "That Khammaj", ",", "That Todi", ",", "That Bilawal", ",", "That Kalyan", ",", "That Pooravi", ",", "That Marwa", ",", "That Bhairavi", ",", "Raga marva", ",", "Bohlen–Pierce", ",", "(--", "Carnatic", "Mela", "--)", ",", "Mela Kanakangi", ",", "Mela Ratnangi", ",", "Mela Ganamurti", ",", "Mela Vanaspati", ",", "Mela Manavati", ",", "Mela Tanarupi", ",", "Mela Senavati", ",", "Mela Hanumattodi", ",", "Mela Dhenuka", ",", "Mela Natakapriya", ",", "Mela Kokilapriya", ",", "Mela Rupavati", ",", "Mela Gayakapriya", ",", "Mela Vakulabharanam", ",", "Mela Mayamalavagaula", ",", "Mela Chakravakam", ",", "Mela Suryakantam", ",", "Mela Hatakambari", ",", "Mela Jhankaradhvani", ",", "Mela Natabhairavi", ",", "Mela Kiravani", ",", "Mela Kharaharapriya", ",", "Mela Gaurimanohari", ",", "Mela Varunapriya", ",", "Mela Mararanjani", ",", "Mela Charukeshi", ",", "Mela Sarasangi", ",", "Mela Harikhamboji", ",", "Mela Dhirasankarabharana", ",", "Mela Naganadini", ",", "Mela Yagapriya", ",", "Mela Ragavardhani", ",", "Mela Gangeyabhusani", ",", "Mela Vagadhibhusani", ",", "Mela Sulini", ",", "Mela Chalanata", ",", "Mela Salagam", ",", "Mela Jalarnavam", ",", "Mela Jhalavarali", ",", "Mela Navanitam", ",", "Mela Pavani", ",", "Mela Raghupriya", ",", "Mela Gavambhodi", ",", "Mela Bhavapriya", ",", "Mela Subhapantuvarali", ",", "Mela Sadvidhamatgini", ",", "Mela Suvarnangi", ",", "Mela Dvyamani", ",", "Mela Dhavalambari", ",", "Mela Namanarayani", ",", "Mela Kamavardhani", ",", "Mela Ramapriya", ",", "Mela Gamanasrama", ",", "Mela Visvambari", ",", "Mela Syamalangi", ",", "Mela Sanmukhapriya", ",", "Mela Simhendramadhyama", ",", "Mela Hemavati", ",", "Mela Dharmavati", ",", "Mela Nitimati", ",", "Mela Kantamani", ",", "Mela Risabhapriya", ",", "Mela Lantangi", ",", "Mela Vachaspati", ",", "Mela Mechakalyani", ",", "Mela Chitrambari", ",", "Mela Sucharitra", ",", "Mela Jyotisvarupini", ",", "Mela Dhatuvardhani", ",", "Mela Nasikabhusani", ",", "Mela Kosalam", ",", "Mela Rasikapriya" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 336.0, 232.0, 211.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-177",
 					"maxclass" : "number",
@@ -38,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 513.0, 403.0, 50.0, 20.0 ]
+					"patching_rect" : [ 528.0, 434.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -52,8 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 639.0, 403.0, 49.0, 19.0 ],
-					"presentation_rect" : [ 639.0, 371.0, 0.0, 0.0 ]
+					"patching_rect" : [ 654.0, 434.0, 49.0, 19.0 ]
 				}
 
 			}
@@ -66,8 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 639.0, 426.0, 55.0, 17.0 ],
-					"presentation_rect" : [ 639.0, 394.0, 0.0, 0.0 ],
+					"patching_rect" : [ 654.0, 457.0, 55.0, 17.0 ],
 					"text" : "/rand $1"
 				}
 
@@ -82,8 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 575.0, 403.0, 49.0, 19.0 ],
-					"presentation_rect" : [ 575.0, 376.0, 0.0, 0.0 ]
+					"patching_rect" : [ 590.0, 434.0, 49.0, 19.0 ]
 				}
 
 			}
@@ -96,8 +108,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.0, 426.0, 55.0, 17.0 ],
-					"presentation_rect" : [ 575.0, 399.0, 0.0, 0.0 ],
+					"patching_rect" : [ 590.0, 457.0, 55.0, 17.0 ],
 					"text" : "/delay $1"
 				}
 
@@ -111,8 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.0, 426.0, 44.0, 17.0 ],
-					"presentation_rect" : [ 513.0, 399.0, 0.0, 0.0 ],
+					"patching_rect" : [ 528.0, 457.0, 44.0, 17.0 ],
 					"text" : "/qty $1"
 				}
 
@@ -155,6 +165,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 366.0, 75.0, 149.0, 18.0 ],
+									"text" : "/qty 6, /delay 10, /rand 0.2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 404.0, 40.0, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -204,8 +242,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.540161, 48.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 302.540161, 40.0, 0.0, 0.0 ]
+									"patching_rect" : [ 239.540161, 48.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -367,7 +404,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 84.540161, 53.0, 25.0, 25.0 ]
 								}
 
@@ -587,6 +624,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -606,7 +661,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 443.0, 452.0, 89.0, 22.0 ],
+					"patching_rect" : [ 412.0, 488.0, 135.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -634,7 +689,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 443.0, 492.5, 71.5, 20.0 ]
+					"patching_rect" : [ 412.0, 528.5, 71.5, 20.0 ]
 				}
 
 			}
@@ -647,8 +702,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 524.0, 54.0, 19.0 ],
-					"presentation_rect" : [ 405.208313, 492.5, 0.0, 0.0 ],
+					"patching_rect" : [ 412.0, 560.0, 54.0, 19.0 ],
 					"text" : "note $1"
 				}
 
@@ -663,7 +717,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 443.0, 593.0, 136.0, 31.0 ],
+					"patching_rect" : [ 412.0, 629.0, 136.0, 31.0 ],
 					"presentation_rect" : [ 30.0, 30.0, 50.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -694,7 +748,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 545.0, 490.0, 150.0, 25.0 ],
+					"patching_rect" : [ 514.0, 526.0, 150.0, 25.0 ],
 					"text" : "Enable voice stealing"
 				}
 
@@ -707,7 +761,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 526.208313, 489.5, 20.0, 20.0 ]
+					"patching_rect" : [ 495.208313, 525.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -720,7 +774,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.208313, 514.5, 58.0, 19.0 ],
+					"patching_rect" : [ 495.208313, 550.5, 58.0, 19.0 ],
 					"text" : "steal $1"
 				}
 
@@ -735,7 +789,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 639.0, 44.0, 44.0 ],
+					"patching_rect" : [ 412.0, 675.0, 44.0, 44.0 ],
 					"prototypename" : "helpfile"
 				}
 
@@ -749,7 +803,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 443.0, 558.0, 171.0, 21.0 ],
+					"patching_rect" : [ 412.0, 594.0, 171.0, 21.0 ],
 					"text" : "poly~ LAM.ez-synth.saw 32"
 				}
 
@@ -772,7 +826,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 601.0, 572.0 ],
+						"rect" : [ 25.0, 69.0, 689.0, 576.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -791,88 +845,506 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-89",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 461.0, 268.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-87",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 373.0, 467.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-85",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 367.0, 366.0, 52.5, 20.0 ],
-									"text" : "t b i"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-84",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 367.0, 420.0, 52.5, 20.0 ],
-									"text" : "+"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-83",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 367.0, 396.0, 32.5, 20.0 ],
-									"text" : "int"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-82",
+									"id" : "obj-111",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
-									"numoutlets" : 4,
-									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 367.0, 260.5, 59.5, 20.0 ],
-									"text" : "key"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 1,
+											"revision" : 5,
+											"architecture" : "x86"
+										}
+,
+										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 0,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"boxanimatetime" : 200,
+										"imprint" : 0,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-107",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 23.0, 207.5, 49.0, 20.0 ],
+													"text" : "clip 0 6"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-106",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 106.25, 207.5, 49.0, 20.0 ],
+													"text" : "clip 0 6"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-100",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 23.0, 244.5, 102.25, 20.0 ],
+													"text" : "pak 0 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-99",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 23.0, 276.5, 75.0, 18.0 ],
+													"text" : "select $1 $2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-95",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "int" ],
+													"patching_rect" : [ 106.25, 118.5, 52.5, 20.0 ],
+													"text" : "t b i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-96",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 106.25, 178.5, 52.5, 20.0 ],
+													"text" : "+"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-97",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 106.25, 154.5, 32.5, 20.0 ],
+													"text" : "int"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-93",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 120.5, 81.5, 24.0, 20.0 ],
+													"text" : "t 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 88.0, 81.5, 28.0, 20.0 ],
+													"text" : "t -1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-92",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 55.5, 81.5, 24.0, 20.0 ],
+													"text" : "t 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-91",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 23.0, 81.5, 28.0, 20.0 ],
+													"text" : "t -1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-90",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 5,
+													"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+													"patching_rect" : [ 23.0, 46.5, 149.0, 20.0 ],
+													"text" : "sel 28 29 30 31"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-85",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "int" ],
+													"patching_rect" : [ 23.0, 118.5, 52.5, 20.0 ],
+													"text" : "t b i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-84",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 23.0, 178.5, 52.5, 20.0 ],
+													"text" : "+"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-83",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 23.0, 154.5, 32.5, 20.0 ],
+													"text" : "int"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-82",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 4,
+													"outlettype" : [ "int", "int", "int", "int" ],
+													"patching_rect" : [ 23.0, 19.0, 59.5, 20.0 ],
+													"text" : "key"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-110",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 23.0, 309.5, 25.0, 25.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-99", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-100", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-100", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-106", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-97", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 115.75, 233.5, 167.5, 233.5, 167.5, 147.5, 129.25, 147.5 ],
+													"source" : [ "obj-106", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-100", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-107", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-83", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 32.5, 232.5, 78.25, 232.5, 78.25, 144.5, 46.0, 144.5 ],
+													"source" : [ "obj-107", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-90", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-82", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-84", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-83", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-107", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-84", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-83", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-85", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-84", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-85", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-91", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-90", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-92", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-90", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-93", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-90", 3 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-90", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-85", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-91", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-85", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-92", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-95", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-93", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-95", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-94", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-96", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-97", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-106", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-96", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-96", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-97", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-110", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-99", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 38.0, 70.0, 138.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p move-with-arrow-keys"
 								}
 
 							}
@@ -885,8 +1357,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 199.0, 238.0, 50.0, 18.0 ],
-									"text" : "3 2 G"
+									"patching_rect" : [ 199.0, 266.0, 50.0, 18.0 ],
+									"text" : "3 5"
 								}
 
 							}
@@ -899,7 +1371,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 38.0, 376.0, 167.0, 20.0 ],
+									"patching_rect" : [ 38.0, 404.0, 167.0, 20.0 ],
 									"text" : "vexpr $i1+60 @scalarmode 1"
 								}
 
@@ -913,7 +1385,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 38.0, 401.0, 27.0, 20.0 ],
+									"patching_rect" : [ 38.0, 429.0, 27.0, 20.0 ],
 									"text" : "iter"
 								}
 
@@ -925,7 +1397,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 433.0, 25.0, 25.0 ]
+									"patching_rect" : [ 38.0, 461.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -939,8 +1411,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 189.798828, 370.0, 33.0 ],
-									"text" : "vertically : shifts a fitfth\nhorizontally : alternatively :  make minor / Major shifted a minor third"
+									"patching_rect" : [ 275.0, 217.798828, 370.0, 33.0 ],
+									"text" : "vertically : shifts a fifth\nhorizontally : alternatively :  make minor / Major shifted a minor third"
 								}
 
 							}
@@ -1086,7 +1558,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 38.0, 218.798828, 94.0, 20.0 ],
+									"patching_rect" : [ 38.0, 246.798828, 94.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1113,8 +1585,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.0, 350.0, 186.0, 18.0 ],
-									"text" : "7 11 14"
+									"patching_rect" : [ 61.0, 378.0, 186.0, 18.0 ],
+									"text" : "-14 -10 -7"
 								}
 
 							}
@@ -1127,8 +1599,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 25.0, 200.0, 22.0 ],
-									"presentation_rect" : [ 38.0, 24.0, 0.0, 0.0 ],
+									"patching_rect" : [ 38.0, 16.0, 200.0, 22.0 ],
 									"text" : "Gottfried Weber square lattice"
 								}
 
@@ -1194,7 +1665,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 50.0, 24.0, 81.0, 20.0 ],
-													"presentation_rect" : [ 49.0, 24.0, 0.0, 0.0 ],
 													"text" : "+ 100000000"
 												}
 
@@ -1605,7 +2075,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 38.0, 313.5, 209.0, 22.0 ],
+									"patching_rect" : [ 38.0, 341.5, 209.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1632,7 +2102,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 38.0, 260.5, 209.0, 20.0 ],
+									"patching_rect" : [ 38.0, 288.5, 209.0, 20.0 ],
 									"text" : "unpack 0 0"
 								}
 
@@ -1651,7 +2121,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 38.0, 65.0, 209.0, 145.0 ],
+									"patching_rect" : [ 38.0, 93.0, 209.0, 145.0 ],
 									"rowheight" : 20,
 									"rows" : 7,
 									"stcolor" : [ 0.655691, 0.738248, 0.898039, 1.0 ],
@@ -1669,8 +2139,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 38.0, 285.5, 50.0, 20.0 ],
-									"presentation_rect" : [ 353.0, 144.0, 0.0, 0.0 ]
+									"patching_rect" : [ 38.0, 313.5, 50.0, 20.0 ]
 								}
 
 							}
@@ -1684,7 +2153,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 228.0, 285.5, 50.0, 20.0 ]
+									"patching_rect" : [ 228.0, 313.5, 50.0, 20.0 ]
 								}
 
 							}
@@ -1698,7 +2167,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 70.5, 156.0, 100.0 ],
+									"patching_rect" : [ 275.0, 98.5, 156.0, 100.0 ],
 									"text" : "d♯ \tF♯ \tf♯ \tA \ta \tC \tc\ng♯ \tB \tb \tD \td \tF \tf\nc♯ \tE \te \tG \tg \tB♭ \tb♭\nf♯ \tA \ta \tC \tc \tE♭ \te♭\nb \tD \td \tF \tf \tA♭ \ta♭\ne \tG \tg \tB♭ \tb♭ \tD♭ \td♭\na \tC \tc \tE♭ \te♭ \tG♭ \tg♭"
 								}
 
@@ -1712,13 +2181,22 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 45.0, 235.0, 20.0 ],
+									"patching_rect" : [ 38.0, 36.0, 235.0, 20.0 ],
 									"text" : "http://en.wikipedia.org/wiki/Chordal_space"
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-111", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
 									"disabled" : 0,
@@ -1826,57 +2304,10 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-89", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-82", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-84", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-83", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-83", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 376.5, 449.0, 422.25, 449.0, 422.25, 386.0, 390.0, 386.0 ],
-									"source" : [ "obj-84", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-83", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-85", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-84", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-85", 1 ]
-								}
-
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 513.0, 200.0, 110.0, 22.0 ],
-					"presentation_rect" : [ 813.0, 297.0, 0.0, 0.0 ],
+					"patching_rect" : [ 412.0, 443.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2620,7 +3051,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 703.5, 61.0, 72.0, 20.0 ],
+					"patching_rect" : [ 677.5, 71.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -2698,8 +3129,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 178.0, 234.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 177.0, 234.0, 0.0, 0.0 ]
+									"patching_rect" : [ 178.0, 234.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -3592,7 +4022,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 703.5, 166.0, 43.0, 20.0 ],
+					"patching_rect" : [ 677.5, 176.0, 43.0, 20.0 ],
 					"text" : "s beat"
 				}
 
@@ -3764,7 +4194,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 703.5, 137.0, 81.0, 20.0 ],
+					"patching_rect" : [ 677.5, 147.0, 81.0, 20.0 ],
 					"text" : "counter 0 0 3"
 				}
 
@@ -3779,7 +4209,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 755.5, 88.0, 50.0, 20.0 ]
+					"patching_rect" : [ 729.5, 98.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -3791,7 +4221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 703.5, 88.0, 20.0, 20.0 ]
+					"patching_rect" : [ 677.5, 98.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -3804,7 +4234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 703.5, 112.0, 71.0, 20.0 ],
+					"patching_rect" : [ 677.5, 122.0, 71.0, 20.0 ],
 					"text" : "qmetro 200"
 				}
 
@@ -3867,8 +4297,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.0, 189.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 503.0, 326.0, 0.0, 0.0 ]
+									"patching_rect" : [ 204.0, 189.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -4529,7 +4958,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4557,7 +4986,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 80.5, 127.0, 33.0, 19.0 ],
+									"patching_rect" : [ 80.5, 101.0, 33.0, 19.0 ],
 									"text" : "*~ 1."
 								}
 
@@ -4585,7 +5014,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 80.5, 100.0, 63.0, 19.0 ],
+									"patching_rect" : [ 80.5, 74.0, 63.0, 19.0 ],
 									"text" : "cycle~ 110"
 								}
 
@@ -4612,7 +5041,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 65.333328, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 50.0, 5.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -4787,7 +5216,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 44.0, 354.0, 607.0, 33.0 ],
-									"presentation_rect" : [ 44.0, 356.0, 0.0, 0.0 ],
 									"text" : "Ces échelles ne rebouclent pas forcément sur l'octave (cf. cycle des quintes), comment faire pour avoir chien et chat qui supportent des échelles qui ne bouclent pas ?"
 								}
 
@@ -4802,7 +5230,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 44.0, 334.0, 601.0, 20.0 ],
-									"presentation_rect" : [ 44.0, 337.0, 0.0, 0.0 ],
 									"text" : "Inclure chien, chat (and more) dans ces échelles 1D, 2D ... ?"
 								}
 
@@ -4817,7 +5244,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 44.0, 314.0, 601.0, 20.0 ],
-									"presentation_rect" : [ 44.0, 322.0, 0.0, 0.0 ],
 									"text" : "Une quantization 2D pourrait être obtenue en sommant les sorties de 2 quantization 1D à échelles différentes ?"
 								}
 
@@ -4889,7 +5315,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "Pitch processing example", "@obj-desc", "Various kind of pitch transformation, meant for copy/paste" ],
+					"args" : [ "@obj-name", "Pitch processing example", "@obj-desc", "Various kind of pitch spaces and transformations, meant for copy/paste" ],
 					"id" : "obj-27",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -4964,6 +5390,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 387.0, 150.0, 20.0 ],
+									"text" : "raga hindu"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 354.0, 150.0, 20.0 ],
+									"text" : "maqam arabes 24 1/4tons"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -6982,30 +7436,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.622532, 0.600733, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-82",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.0, 266.5, 82.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 203.0, 346.0, 174.0, 17.0 ],
-					"text" : "tone"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 14.0,
 					"id" : "obj-80",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -7015,7 +7452,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 928.0, 44.0, 640.0, 480.0 ],
+						"rect" : [ 426.0, 159.0, 955.0, 447.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7038,122 +7475,1446 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 192.0, 30.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 252.0, 233.0, 32.5, 20.0 ],
-									"text" : "* 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-21",
+									"id" : "obj-94",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.0, 273.0, 67.0, 20.0 ],
-									"text" : "append 64"
-								}
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 1,
+											"revision" : 5,
+											"architecture" : "x86"
+										}
+,
+										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 0,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"boxanimatetime" : 200,
+										"imprint" : 0,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 129.0, 161.0, 32.5, 20.0 ],
+													"text" : "* 2"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 172.0, 297.0, 53.0, 20.0 ],
-									"text" : "zl group"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 161.0, 67.0, 20.0 ],
+													"text" : "append 64"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-19",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 252.0, 205.0, 39.0, 20.0 ],
-									"text" : "zl len"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-20",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 194.0, 98.0, 20.0 ],
+													"text" : "zl group"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-18",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 130.0, 346.0, 88.0, 20.0 ],
-									"text" : "prepend chord"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-19",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 129.0, 133.0, 39.0, 20.0 ],
+													"text" : "zl len"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.0, 214.0, 27.0, 20.0 ],
-									"text" : "iter"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-18",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 223.0, 88.0, 20.0 ],
+													"text" : "prepend chord"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-16",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "clear", "zl_clear" ],
-									"patching_rect" : [ 193.0, 179.0, 94.0, 20.0 ],
-									"text" : "t l clear zl_clear"
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-17",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 135.0, 27.0, 20.0 ],
+													"text" : "iter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-16",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "clear", "zl_clear" ],
+													"patching_rect" : [ 50.0, 100.0, 94.0, 20.0 ],
+													"text" : "t l clear zl_clear"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-92",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-93",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 45.0, 303.0, 25.0, 25.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-93", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-17", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-93", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-18", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-19", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-20", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-92", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 197.0, 267.0, 81.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p build-chord"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"comment" : "",
-									"id" : "obj-15",
-									"maxclass" : "outlet",
-									"numinlets" : 1,
+									"id" : "obj-91",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 62.0, 31.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-90",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 157.0, 410.0, 25.0, 25.0 ]
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 1,
+											"revision" : 5,
+											"architecture" : "x86"
+										}
+,
+										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 0,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"boxanimatetime" : 200,
+										"imprint" : 0,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-2",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 60.0, 25.0, 561.0, 20.0 ],
+													"text" : "was usefull to make the scales from http://www.maqamworld.com/maqamat/nawa-athar.html#athar-kurd"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-55",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 277.0, 137.0, 18.0 ],
+													"text" : "0 1. 3. 6. 7. 8. 11. 12."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-54",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 205.5, 375.0, 65.0, 20.0 ],
+													"text" : "zl ecils 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-51",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 205.5, 315.0, 160.0, 20.0 ],
+													"text" : "vexpr $f1*2 @scalarmode 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-50",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 205.5, 341.0, 65.0, 20.0 ],
+													"text" : "prepend 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-49",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 397.0, 137.0, 18.0 ],
+													"text" : "0 1. 3. 6. 7. 8. 11."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-47",
+													"maxclass" : "number",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 266.0, 245.0, 50.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-45",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 266.0, 214.0, 39.0, 20.0 ],
+													"text" : "zl len"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-44",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 205.5, 277.0, 53.0, 20.0 ],
+													"text" : "zl group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"patching_rect" : [ 206.0, 140.0, 111.0, 20.0 ],
+													"text" : "t l l 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-42",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "float" ],
+													"patching_rect" : [ 205.5, 237.0, 32.5, 20.0 ],
+													"text" : "f 0."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-39",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 206.0, 163.0, 27.0, 20.0 ],
+													"text" : "iter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-38",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "float" ],
+													"patching_rect" : [ 205.5, 205.0, 32.5, 20.0 ],
+													"text" : "+ 0."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-30",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 206.0, 100.0, 145.0, 18.0 ],
+													"text" : "0.5 1 1.5 0.5 0.5 1.5 0.5"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-38", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-38", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-39", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-38", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-44", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-38", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-45", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-51", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-47", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-45", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-44", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-47", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-54", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-50", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-55", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-50", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-50", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-51", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-49", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-54", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 358.5, 52.0, 205.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p scale from intervals between notes"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-89",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 94.0, 99.0, 96.0, 20.0 ],
+									"text" : "prepend symbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-88",
+									"items" : [ "Chromatic", ",", "Whole-tone", ",", "Major", ",", "Minor natural", ",", "Minor melodic", ",", "Pentatonic", ",", "Octaves", ",", "Octave-Fifth", ",", "Blues", ",", "(--", "Arabic", "Ajnas", "--)", ",", "Ajnas Ajam", ",", "Ajnas Bayati", ",", "Ajnas Hijaz", ",", "Ajnas Kurd", ",", "Ajnas Nahawand", ",", "Ajnas Nikriz", ",", "Ajnas Rast", ",", "Ajnas Saba", ",", "Ajnas Sika", ",", "Maqam Ajam", ",", "(--", "Arabic", "Maqams", "--)", ",", "Maqam Jiharkah", ",", "Maqam Shawq Afza", ",", "Maqam Sikah", ",", "Maqam Huzam", ",", "Maqam Iraq", ",", "Maqam Bastanikar", ",", "Maqam Mustaar", ",", "Maqam Sikah Baladi", ",", "Maqam Bayati", ",", "Maqam Karjighar", ",", "Maqam Husseini", ",", "Maqam Nahawand", ",", "Maqam Farahfaza", ",", "Maqam Sunbulah", ",", "Maqam Ushaq Masri", ",", "Maqam Rast", ",", "Maqam Suznak", ",", "Maqam Nairuz", ",", "Maqam Yakah", ",", "Maqam Mahur", ",", "Maqam Hijaz", ",", "Maqam Zanjaran", ",", "Maqam Saba", ",", "Maqam Saba Zamzam", ",", "Maqam Kurd", ",", "Maqam Hijaz Kar Kurd", ",", "Maqam Nawa Athar", ",", "Maqam Nikriz", ",", "Maqam Athar Kurd", ",", "(--", "Hindustani", "Thât", "--)", ",", "That Bhairav", ",", "That Asavari", ",", "That Khammaj", ",", "That Todi", ",", "That Bilawal", ",", "That Kalyan", ",", "That Pooravi", ",", "That Marwa", ",", "That Bhairavi", ",", "Raga marva", ",", "Bohlen–Pierce", ",", "(--", "Carnatic", "Mela", "--)", ",", "Mela Kanakangi", ",", "Mela Ratnangi", ",", "Mela Ganamurti", ",", "Mela Vanaspati", ",", "Mela Manavati", ",", "Mela Tanarupi", ",", "Mela Senavati", ",", "Mela Hanumattodi", ",", "Mela Dhenuka", ",", "Mela Natakapriya", ",", "Mela Kokilapriya", ",", "Mela Rupavati", ",", "Mela Gayakapriya", ",", "Mela Vakulabharanam", ",", "Mela Mayamalavagaula", ",", "Mela Chakravakam", ",", "Mela Suryakantam", ",", "Mela Hatakambari", ",", "Mela Jhankaradhvani", ",", "Mela Natabhairavi", ",", "Mela Kiravani", ",", "Mela Kharaharapriya", ",", "Mela Gaurimanohari", ",", "Mela Varunapriya", ",", "Mela Mararanjani", ",", "Mela Charukeshi", ",", "Mela Sarasangi", ",", "Mela Harikhamboji", ",", "Mela Dhirasankarabharana", ",", "Mela Naganadini", ",", "Mela Yagapriya", ",", "Mela Ragavardhani", ",", "Mela Gangeyabhusani", ",", "Mela Vagadhibhusani", ",", "Mela Sulini", ",", "Mela Chalanata", ",", "Mela Salagam", ",", "Mela Jalarnavam", ",", "Mela Jhalavarali", ",", "Mela Navanitam", ",", "Mela Pavani", ",", "Mela Raghupriya", ",", "Mela Gavambhodi", ",", "Mela Bhavapriya", ",", "Mela Subhapantuvarali", ",", "Mela Sadvidhamatgini", ",", "Mela Suvarnangi", ",", "Mela Dvyamani", ",", "Mela Dhavalambari", ",", "Mela Namanarayani", ",", "Mela Kamavardhani", ",", "Mela Ramapriya", ",", "Mela Gamanasrama", ",", "Mela Visvambari", ",", "Mela Syamalangi", ",", "Mela Sanmukhapriya", ",", "Mela Simhendramadhyama", ",", "Mela Hemavati", ",", "Mela Dharmavati", ",", "Mela Nitimati", ",", "Mela Kantamani", ",", "Mela Risabhapriya", ",", "Mela Lantangi", ",", "Mela Vachaspati", ",", "Mela Mechakalyani", ",", "Mela Chitrambari", ",", "Mela Sucharitra", ",", "Mela Jyotisvarupini", ",", "Mela Dhatuvardhani", ",", "Mela Nasikabhusani", ",", "Mela Kosalam", ",", "Mela Rasikapriya" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 94.0, 65.0, 100.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-87",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 739.0, 175.0, 37.0, 18.0 ],
+									"text" : "clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-70",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 637.0, 86.0, 57.0, 20.0 ],
+									"text" : "zl slice 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-69",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 637.0, 175.0, 98.0, 20.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-68",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 637.0, 131.0, 79.0, 20.0 ],
+									"text" : "route symbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-67",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 637.0, 25.0, 41.0, 18.0 ],
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"coll_data" : 									{
+										"count" : 131,
+										"data" : [ 											{
+												"key" : [ "Chromatic", 1 ],
+												"value" : [ "Chromatic", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Whole-tone", 2 ],
+												"value" : [ "Whole-tone", 0, 2, 4, 6, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Major", 3 ],
+												"value" : [ "Major", 0, 2, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Minor natural", 4 ],
+												"value" : [ "Minor natural", 0, 2, 3, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Minor melodic", 5 ],
+												"value" : [ "Minor melodic", 0, 2, 3, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Pentatonic", 6 ],
+												"value" : [ "Pentatonic", 0, 2, 4, 7, 9 ]
+											}
+, 											{
+												"key" : [ "Octaves", 7 ],
+												"value" : [ "Octaves", 0 ]
+											}
+, 											{
+												"key" : [ "Octave-Fifth", 8 ],
+												"value" : [ "Octave-Fifth", 0, 7 ]
+											}
+, 											{
+												"key" : [ "Blues", 9 ],
+												"value" : [ "Blues", 0, 3, 5, 6, 7, 10 ]
+											}
+, 											{
+												"key" : [ "Ajnas Ajam", 10 ],
+												"value" : [ "Ajnas Ajam", 0, 2, 4 ]
+											}
+, 											{
+												"key" : [ "Ajnas Bayati", 11 ],
+												"value" : [ "Ajnas Bayati", 0, 1.5, 3, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Hijaz", 12 ],
+												"value" : [ "Ajnas Hijaz", 0, 1, 4, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Kurd", 13 ],
+												"value" : [ "Ajnas Kurd", 0, 1, 3, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Nahawand", 14 ],
+												"value" : [ "Ajnas Nahawand", 0, 2, 3, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Nikriz", 15 ],
+												"value" : [ "Ajnas Nikriz", 0, 2, 3, 6, 7 ]
+											}
+, 											{
+												"key" : [ "Ajnas Rast", 16 ],
+												"value" : [ "Ajnas Rast", 0, 2, 3.5, 5, 7, 9, 10.5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Saba", 17 ],
+												"value" : [ "Ajnas Saba", 0, 1.5, 3, 4 ]
+											}
+, 											{
+												"key" : [ "Ajnas Sika", 18 ],
+												"value" : [ "Ajnas Sika", 0, 1.5, 3.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Ajam", 19 ],
+												"value" : [ "Maqam Ajam", 0, 2.0, 4.0, 5.0, 7.0, 9.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Jiharkah", 20 ],
+												"value" : [ "Maqam Jiharkah", 0, 2.0, 4.0, 5.0, 7.0, 9.0, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Shawq Afza", 21 ],
+												"value" : [ "Maqam Shawq Afza", 0, 2.0, 4.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Sikah", 22 ],
+												"value" : [ "Maqam Sikah", 0, 1.5, 3.5, 5.5, 7.0, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Huzam", 23 ],
+												"value" : [ "Maqam Huzam", 0, 1.5, 3.5, 4.5, 7.5, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Iraq", 24 ],
+												"value" : [ "Maqam Iraq", 0, 1.5, 3.5, 5.0, 6.5, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Bastanikar", 25 ],
+												"value" : [ "Maqam Bastanikar", 0, 1.5, 3.5, 5.0, 6.5, 7.5, 10.5, 11.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Mustaar", 26 ],
+												"value" : [ "Maqam Mustaar", 0, 2.5, 3.5, 5.5, 6.5, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Sikah Baladi", 27 ],
+												"value" : [ "Maqam Sikah Baladi", 0, 1.0, 4.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Bayati", 28 ],
+												"value" : [ "Maqam Bayati", 0, 1.5, 3.0, 5.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Karjighar", 29 ],
+												"value" : [ "Maqam Karjighar", 0, 1.5, 3.0, 5.0, 6.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Husseini", 30 ],
+												"value" : [ "Maqam Husseini", 0, 1.5, 3.0, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nahawand", 31 ],
+												"value" : [ "Maqam Nahawand", 0, 2.0, 3.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Farahfaza", 32 ],
+												"value" : [ "Maqam Farahfaza", 0, 2.0, 3.0, 5.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Sunbulah", 33 ],
+												"value" : [ "Maqam Sunbulah", 0, 2.0, 3.0, 5.0, 6.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Ushaq Masri", 34 ],
+												"value" : [ "Maqam Ushaq Masri", 0, 2.0, 3.0, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Rast", 35 ],
+												"value" : [ "Maqam Rast", 0, 2.0, 3.5, 5.0, 7.0, 9.0, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Suznak", 36 ],
+												"value" : [ "Maqam Suznak", 0, 2.0, 3.5, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nairuz", 37 ],
+												"value" : [ "Maqam Nairuz", 0, 2.0, 3.5, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Yakah", 38 ],
+												"value" : [ "Maqam Yakah", 0, 2.0, 3.5, 5.0, 7.0, 9.0, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Mahur", 39 ],
+												"value" : [ "Maqam Mahur", 0, 2.0, 3.5, 5.0, 7.0, 9.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Hijaz", 40 ],
+												"value" : [ "Maqam Hijaz", 0, 1.0, 4.0, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Zanjaran", 41 ],
+												"value" : [ "Maqam Zanjaran", 0, 1.0, 4.0, 5.0, 7.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Saba", 42 ],
+												"value" : [ "Maqam Saba", 0, 1.5, 3.0, 4.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Saba Zamzam", 43 ],
+												"value" : [ "Maqam Saba Zamzam", 0, 1.0, 3.0, 4.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Kurd", 44 ],
+												"value" : [ "Maqam Kurd", 0, 1.0, 3.0, 5.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Hijaz Kar Kurd", 45 ],
+												"value" : [ "Maqam Hijaz Kar Kurd", 0, 1.0, 4.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nawa Athar", 46 ],
+												"value" : [ "Maqam Nawa Athar", 0, 2.0, 3.0, 6.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nikriz", 47 ],
+												"value" : [ "Maqam Nikriz", 0, 2.0, 3.0, 6.0, 7.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Athar Kurd", 48 ],
+												"value" : [ "Maqam Athar Kurd", 0, 1.0, 3.0, 6.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "That Bhairav", 49 ],
+												"value" : [ "That Bhairav", 0, 1, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "That Asavari", 50 ],
+												"value" : [ "That Asavari", 0, 2, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "That Khammaj", 51 ],
+												"value" : [ "That Khammaj", 0, 2, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "That Todi", 52 ],
+												"value" : [ "That Todi", 0, 1, 3, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "That Bilawal", 53 ],
+												"value" : [ "That Bilawal", 0, 2, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "That Kalyan", 54 ],
+												"value" : [ "That Kalyan", 0, 2, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "That Pooravi", 55 ],
+												"value" : [ "That Pooravi", 0, 1, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "That Marwa", 56 ],
+												"value" : [ "That Marwa", 0, 1, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "That Bhairavi", 57 ],
+												"value" : [ "That Bhairavi", 0, 1, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Raga marwa", 58 ],
+												"value" : [ "Raga marva", 0, 1, 4, 6, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Bohlen–Pierce", 59 ],
+												"value" : [ "Bohlen–Pierce", 3.0185, 4.3508, 5.8251, 8.8436, 10.176, 13.1944, 14.6687, 17.687201, 19.0196 ]
+											}
+, 											{
+												"key" : [ "Mela Kanakangi", 60 ],
+												"value" : [ "Mela Kanakangi", 0, 3, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Ratnangi", 61 ],
+												"value" : [ "Mela Ratnangi", 0, 1, 2, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Ganamurti", 62 ],
+												"value" : [ "Mela Ganamurti", 0, 1, 2, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vanaspati", 63 ],
+												"value" : [ "Mela Vanaspati", 0, 1, 2, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Manavati", 64 ],
+												"value" : [ "Mela Manavati", 0, 1, 2, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Tanarupi", 65 ],
+												"value" : [ "Mela Tanarupi", 0, 1, 2, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Senavati", 66 ],
+												"value" : [ "Mela Senavati", 0, 1, 2, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Hanumattodi", 67 ],
+												"value" : [ "Mela Hanumattodi", 0, 1, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dhenuka", 68 ],
+												"value" : [ "Mela Dhenuka", 0, 1, 3, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Natakapriya", 69 ],
+												"value" : [ "Mela Natakapriya", 0, 1, 3, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kokilapriya", 70 ],
+												"value" : [ "Mela Kokilapriya", 0, 1, 3, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Rupavati", 71 ],
+												"value" : [ "Mela Rupavati", 0, 1, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Gayakapriya", 72 ],
+												"value" : [ "Mela Gayakapriya", 0, 1, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vakulabharanam", 73 ],
+												"value" : [ "Mela Vakulabharanam", 0, 1, 4, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Mayamalavagaula", 74 ],
+												"value" : [ "Mela Mayamalavagaula", 0, 1, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Chakravakam", 75 ],
+												"value" : [ "Mela Chakravakam", 0, 1, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Suryakantam", 76 ],
+												"value" : [ "Mela Suryakantam", 0, 1, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Hatakambari", 77 ],
+												"value" : [ "Mela Hatakambari", 0, 1, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Jhankaradhvani", 78 ],
+												"value" : [ "Mela Jhankaradhvani", 0, 1, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Natabhairavi", 79 ],
+												"value" : [ "Mela Natabhairavi", 0, 2, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kiravani", 80 ],
+												"value" : [ "Mela Kiravani", 0, 2, 3, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Kharaharapriya", 81 ],
+												"value" : [ "Mela Kharaharapriya", 0, 2, 3, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Gaurimanohari", 82 ],
+												"value" : [ "Mela Gaurimanohari", 0, 2, 3, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Varunapriya", 83 ],
+												"value" : [ "Mela Varunapriya", 0, 2, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Mararanjani", 84 ],
+												"value" : [ "Mela Mararanjani", 0, 2, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Charukeshi", 85 ],
+												"value" : [ "Mela Charukeshi", 0, 2, 4, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Sarasangi", 86 ],
+												"value" : [ "Mela Sarasangi", 0, 2, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Harikhamboji", 87 ],
+												"value" : [ "Mela Harikhamboji", 0, 2, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dhirasankarabharana", 88 ],
+												"value" : [ "Mela Dhirasankarabharana", 0, 2, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Naganadini", 89 ],
+												"value" : [ "Mela Naganadini", 0, 2, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Yagapriya", 90 ],
+												"value" : [ "Mela Yagapriya", 0, 2, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Ragavardhani", 91 ],
+												"value" : [ "Mela Ragavardhani", 0, 3, 4, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Gangeyabhusani", 92 ],
+												"value" : [ "Mela Gangeyabhusani", 0, 3, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vagadhibhusani", 93 ],
+												"value" : [ "Mela Vagadhibhusani", 0, 3, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Sulini", 94 ],
+												"value" : [ "Mela Sulini", 0, 3, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Chalanata", 95 ],
+												"value" : [ "Mela Chalanata", 0, 3, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Salagam", 96 ],
+												"value" : [ "Mela Salagam", 0, 3, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Jalarnavam", 97 ],
+												"value" : [ "Mela Jalarnavam", 0, 1, 2, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Jhalavarali", 98 ],
+												"value" : [ "Mela Jhalavarali", 0, 1, 2, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Navanitam", 99 ],
+												"value" : [ "Mela Navanitam", 0, 1, 2, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Pavani", 100 ],
+												"value" : [ "Mela Pavani", 0, 1, 2, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Raghupriya", 101 ],
+												"value" : [ "Mela Raghupriya", 0, 1, 2, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Gavambhodi", 102 ],
+												"value" : [ "Mela Gavambhodi", 0, 1, 2, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Bhavapriya", 103 ],
+												"value" : [ "Mela Bhavapriya", 0, 1, 3, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Subhapantuvarali", 104 ],
+												"value" : [ "Mela Subhapantuvarali", 0, 1, 3, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Sadvidhamatgini", 105 ],
+												"value" : [ "Mela Sadvidhamatgini", 0, 1, 3, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Suvarnangi", 106 ],
+												"value" : [ "Mela Suvarnangi", 0, 1, 3, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Dvyamani", 107 ],
+												"value" : [ "Mela Dvyamani", 0, 1, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Dhavalambari", 108 ],
+												"value" : [ "Mela Dhavalambari", 0, 1, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Namanarayani", 109 ],
+												"value" : [ "Mela Namanarayani", 0, 1, 4, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kamavardhani", 110 ],
+												"value" : [ "Mela Kamavardhani", 0, 1, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Ramapriya", 111 ],
+												"value" : [ "Mela Ramapriya", 0, 1, 4, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Gamanasrama", 112 ],
+												"value" : [ "Mela Gamanasrama", 0, 1, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Visvambari", 113 ],
+												"value" : [ "Mela Visvambari", 0, 1, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Syamalangi", 114 ],
+												"value" : [ "Mela Syamalangi", 0, 1, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Sanmukhapriya", 115 ],
+												"value" : [ "Mela Sanmukhapriya", 0, 2, 3, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Simhendramadhyama", 116 ],
+												"value" : [ "Mela Simhendramadhyama", 0, 2, 3, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Hemavati", 117 ],
+												"value" : [ "Mela Hemavati", 0, 2, 3, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dharmavati", 118 ],
+												"value" : [ "Mela Dharmavati", 0, 2, 3, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Nitimati", 119 ],
+												"value" : [ "Mela Nitimati", 0, 2, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Kantamani", 120 ],
+												"value" : [ "Mela Kantamani", 0, 2, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Risabhapriya", 121 ],
+												"value" : [ "Mela Risabhapriya", 0, 2, 4, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Lantangi", 122 ],
+												"value" : [ "Mela Lantangi", 0, 2, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vachaspati", 123 ],
+												"value" : [ "Mela Vachaspati", 0, 2, 4, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Mechakalyani", 124 ],
+												"value" : [ "Mela Mechakalyani", 0, 2, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Chitrambari", 125 ],
+												"value" : [ "Mela Chitrambari", 0, 2, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Sucharitra", 126 ],
+												"value" : [ "Mela Sucharitra", 0, 2, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Jyotisvarupini", 127 ],
+												"value" : [ "Mela Jyotisvarupini", 0, 3, 4, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dhatuvardhani", 128 ],
+												"value" : [ "Mela Dhatuvardhani", 0, 3, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Nasikabhusani", 129 ],
+												"value" : [ "Mela Nasikabhusani", 0, 3, 4, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kosalam", 130 ],
+												"value" : [ "Mela Kosalam", 0, 3, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Rasikapriya", 131 ],
+												"value" : [ "Mela Rasikapriya", 0, 3, 4, 6, 7, 10, 11 ]
+											}
+ ]
+									}
+,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-65",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 637.0, 52.0, 64.0, 17.0 ],
+									"presentation_rect" : [ 628.0, 90.0, 0.0, 0.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1
+									}
+,
+									"text" : "coll scale.coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-64",
+									"items" : [ "Chromatic", ",", "Whole-tone", ",", "Major", ",", "Minor natural", ",", "Minor melodic", ",", "Pentatonic", ",", "Octaves", ",", "Octave-Fifth", ",", "Blues", ",", "Ajnas Ajam", ",", "Ajnas Bayati", ",", "Ajnas Hijaz", ",", "Ajnas Kurd", ",", "Ajnas Nahawand", ",", "Ajnas Nikriz", ",", "Ajnas Rast", ",", "Ajnas Saba", ",", "Ajnas Sika", ",", "Maqam Ajam", ",", "Maqam Jiharkah", ",", "Maqam Shawq Afza", ",", "Maqam Sikah", ",", "Maqam Huzam", ",", "Maqam Iraq", ",", "Maqam Bastanikar", ",", "Maqam Mustaar", ",", "Maqam Sikah Baladi", ",", "Maqam Bayati", ",", "Maqam Karjighar", ",", "Maqam Husseini", ",", "Maqam Nahawand", ",", "Maqam Farahfaza", ",", "Maqam Sunbulah", ",", "Maqam Ushaq Masri", ",", "Maqam Rast", ",", "Maqam Suznak", ",", "Maqam Nairuz", ",", "Maqam Yakah", ",", "Maqam Mahur", ",", "Maqam Hijaz", ",", "Maqam Zanjaran", ",", "Maqam Saba", ",", "Maqam Saba Zamzam", ",", "Maqam Kurd", ",", "Maqam Hijaz Kar Kurd", ",", "Maqam Nawa Athar", ",", "Maqam Nikriz", ",", "Maqam Athar Kurd", ",", "That Bhairav", ",", "That Asavari", ",", "That Khammaj", ",", "That Todi", ",", "That Bilawal", ",", "That Kalyan", ",", "That Pooravi", ",", "That Marwa", ",", "That Bhairavi", ",", "Raga marva", ",", "Bohlen–Pierce", ",", "Mela Kanakangi", ",", "Mela Ratnangi", ",", "Mela Ganamurti", ",", "Mela Vanaspati", ",", "Mela Manavati", ",", "Mela Tanarupi", ",", "Mela Senavati", ",", "Mela Hanumattodi", ",", "Mela Dhenuka", ",", "Mela Natakapriya", ",", "Mela Kokilapriya", ",", "Mela Rupavati", ",", "Mela Gayakapriya", ",", "Mela Vakulabharanam", ",", "Mela Mayamalavagaula", ",", "Mela Chakravakam", ",", "Mela Suryakantam", ",", "Mela Hatakambari", ",", "Mela Jhankaradhvani", ",", "Mela Natabhairavi", ",", "Mela Kiravani", ",", "Mela Kharaharapriya", ",", "Mela Gaurimanohari", ",", "Mela Varunapriya", ",", "Mela Mararanjani", ",", "Mela Charukeshi", ",", "Mela Sarasangi", ",", "Mela Harikhamboji", ",", "Mela Dhirasankarabharana", ",", "Mela Naganadini", ",", "Mela Yagapriya", ",", "Mela Ragavardhani", ",", "Mela Gangeyabhusani", ",", "Mela Vagadhibhusani", ",", "Mela Sulini", ",", "Mela Chalanata", ",", "Mela Salagam", ",", "Mela Jalarnavam", ",", "Mela Jhalavarali", ",", "Mela Navanitam", ",", "Mela Pavani", ",", "Mela Raghupriya", ",", "Mela Gavambhodi", ",", "Mela Bhavapriya", ",", "Mela Subhapantuvarali", ",", "Mela Sadvidhamatgini", ",", "Mela Suvarnangi", ",", "Mela Dvyamani", ",", "Mela Dhavalambari", ",", "Mela Namanarayani", ",", "Mela Kamavardhani", ",", "Mela Ramapriya", ",", "Mela Gamanasrama", ",", "Mela Visvambari", ",", "Mela Syamalangi", ",", "Mela Sanmukhapriya", ",", "Mela Simhendramadhyama", ",", "Mela Hemavati", ",", "Mela Dharmavati", ",", "Mela Nitimati", ",", "Mela Kantamani", ",", "Mela Risabhapriya", ",", "Mela Lantangi", ",", "Mela Vachaspati", ",", "Mela Mechakalyani", ",", "Mela Chitrambari", ",", "Mela Sucharitra", ",", "Mela Jyotisvarupini", ",", "Mela Dhatuvardhani", ",", "Mela Nasikabhusani", ",", "Mela Kosalam", ",", "Mela Rasikapriya" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 637.0, 212.0, 100.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 394.0, 167.0, 34.0, 20.0 ],
+									"text" : "+ 40"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-34",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.0, 277.0, 187.0, 31.0 ],
+									"text" : "43 46 49 52 55 58 61 64 67 70 73 76"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 338.0, 208.0, 70.0, 20.0 ],
+									"text" : "zl group 12"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 338.0, 86.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 338.0, 109.0, 46.0, 20.0 ],
+									"text" : "uzi 12"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 338.0, 167.0, 32.5, 20.0 ],
+									"text" : "* 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 62.0, 171.0, 79.0, 20.0 ],
+									"text" : "route symbol"
 								}
 
 							}
@@ -7166,75 +8927,538 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 46.0, 168.0, 57.0, 20.0 ],
+									"patching_rect" : [ 62.0, 212.0, 57.0, 20.0 ],
 									"text" : "zl slice 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 278.0, 111.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-9",
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 274.0, 410.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"coll_data" : 									{
-										"count" : 9,
+										"count" : 131,
 										"data" : [ 											{
-												"key" : [ "semitone", 0 ],
-												"value" : [ "semitone", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+												"key" : [ "Chromatic", 1 ],
+												"value" : [ "Chromatic", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 											}
 , 											{
-												"key" : [ "tone", 1 ],
-												"value" : [ "tone", 0, 2, 4, 6, 8, 10 ]
+												"key" : [ "Whole-tone", 2 ],
+												"value" : [ "Whole-tone", 0, 2, 4, 6, 8, 10 ]
 											}
 , 											{
-												"key" : [ "major", 2 ],
-												"value" : [ "major", 0, 2, 4, 5, 7, 9, 11 ]
+												"key" : [ "Major", 3 ],
+												"value" : [ "Major", 0, 2, 4, 5, 7, 9, 11 ]
 											}
 , 											{
-												"key" : [ "minor_natural", 3 ],
-												"value" : [ "minor_natural", 0, 2, 3, 5, 7, 9, 11 ]
+												"key" : [ "Minor natural", 4 ],
+												"value" : [ "Minor natural", 0, 2, 3, 5, 7, 9, 11 ]
 											}
 , 											{
-												"key" : [ "minor_melodic", 4 ],
-												"value" : [ "minor_melodic", 0, 2, 3, 5, 7, 8, 11 ]
+												"key" : [ "Minor melodic", 5 ],
+												"value" : [ "Minor melodic", 0, 2, 3, 5, 7, 8, 11 ]
 											}
 , 											{
-												"key" : [ "pentatonique", 5 ],
-												"value" : [ "pentatonique", 0, 2, 4, 7, 9 ]
+												"key" : [ "Pentatonic", 6 ],
+												"value" : [ "Pentatonic", 0, 2, 4, 7, 9 ]
 											}
 , 											{
-												"key" : [ "octave_only", 6 ],
-												"value" : [ "octave_only", 0 ]
+												"key" : [ "Octaves", 7 ],
+												"value" : [ "Octaves", 0 ]
 											}
 , 											{
-												"key" : [ "octave_quinte", 7 ],
-												"value" : [ "octave_quinte", 0, 7 ]
+												"key" : [ "Octave-Fifth", 8 ],
+												"value" : [ "Octave-Fifth", 0, 7 ]
 											}
 , 											{
-												"key" : [ "marva", 8 ],
-												"value" : [ "marva", 0, 1, 4, 6, 9, 11 ]
+												"key" : [ "Blues", 9 ],
+												"value" : [ "Blues", 0, 3, 5, 6, 7, 10 ]
+											}
+, 											{
+												"key" : [ "Ajnas Ajam", 10 ],
+												"value" : [ "Ajnas Ajam", 0, 2, 4 ]
+											}
+, 											{
+												"key" : [ "Ajnas Bayati", 11 ],
+												"value" : [ "Ajnas Bayati", 0, 1.5, 3, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Hijaz", 12 ],
+												"value" : [ "Ajnas Hijaz", 0, 1, 4, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Kurd", 13 ],
+												"value" : [ "Ajnas Kurd", 0, 1, 3, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Nahawand", 14 ],
+												"value" : [ "Ajnas Nahawand", 0, 2, 3, 5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Nikriz", 15 ],
+												"value" : [ "Ajnas Nikriz", 0, 2, 3, 6, 7 ]
+											}
+, 											{
+												"key" : [ "Ajnas Rast", 16 ],
+												"value" : [ "Ajnas Rast", 0, 2, 3.5, 5, 7, 9, 10.5 ]
+											}
+, 											{
+												"key" : [ "Ajnas Saba", 17 ],
+												"value" : [ "Ajnas Saba", 0, 1.5, 3, 4 ]
+											}
+, 											{
+												"key" : [ "Ajnas Sika", 18 ],
+												"value" : [ "Ajnas Sika", 0, 1.5, 3.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Ajam", 19 ],
+												"value" : [ "Maqam Ajam", 0, 2.0, 4.0, 5.0, 7.0, 9.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Jiharkah", 20 ],
+												"value" : [ "Maqam Jiharkah", 0, 2.0, 4.0, 5.0, 7.0, 9.0, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Shawq Afza", 21 ],
+												"value" : [ "Maqam Shawq Afza", 0, 2.0, 4.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Sikah", 22 ],
+												"value" : [ "Maqam Sikah", 0, 1.5, 3.5, 5.5, 7.0, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Huzam", 23 ],
+												"value" : [ "Maqam Huzam", 0, 1.5, 3.5, 4.5, 7.5, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Iraq", 24 ],
+												"value" : [ "Maqam Iraq", 0, 1.5, 3.5, 5.0, 6.5, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Bastanikar", 25 ],
+												"value" : [ "Maqam Bastanikar", 0, 1.5, 3.5, 5.0, 6.5, 7.5, 10.5, 11.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Mustaar", 26 ],
+												"value" : [ "Maqam Mustaar", 0, 2.5, 3.5, 5.5, 6.5, 8.5, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Sikah Baladi", 27 ],
+												"value" : [ "Maqam Sikah Baladi", 0, 1.0, 4.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Bayati", 28 ],
+												"value" : [ "Maqam Bayati", 0, 1.5, 3.0, 5.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Karjighar", 29 ],
+												"value" : [ "Maqam Karjighar", 0, 1.5, 3.0, 5.0, 6.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Husseini", 30 ],
+												"value" : [ "Maqam Husseini", 0, 1.5, 3.0, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nahawand", 31 ],
+												"value" : [ "Maqam Nahawand", 0, 2.0, 3.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Farahfaza", 32 ],
+												"value" : [ "Maqam Farahfaza", 0, 2.0, 3.0, 5.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Sunbulah", 33 ],
+												"value" : [ "Maqam Sunbulah", 0, 2.0, 3.0, 5.0, 6.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Ushaq Masri", 34 ],
+												"value" : [ "Maqam Ushaq Masri", 0, 2.0, 3.0, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Rast", 35 ],
+												"value" : [ "Maqam Rast", 0, 2.0, 3.5, 5.0, 7.0, 9.0, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Suznak", 36 ],
+												"value" : [ "Maqam Suznak", 0, 2.0, 3.5, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nairuz", 37 ],
+												"value" : [ "Maqam Nairuz", 0, 2.0, 3.5, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Yakah", 38 ],
+												"value" : [ "Maqam Yakah", 0, 2.0, 3.5, 5.0, 7.0, 9.0, 10.5 ]
+											}
+, 											{
+												"key" : [ "Maqam Mahur", 39 ],
+												"value" : [ "Maqam Mahur", 0, 2.0, 3.5, 5.0, 7.0, 9.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Hijaz", 40 ],
+												"value" : [ "Maqam Hijaz", 0, 1.0, 4.0, 5.0, 7.0, 8.5, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Zanjaran", 41 ],
+												"value" : [ "Maqam Zanjaran", 0, 1.0, 4.0, 5.0, 7.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Saba", 42 ],
+												"value" : [ "Maqam Saba", 0, 1.5, 3.0, 4.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Saba Zamzam", 43 ],
+												"value" : [ "Maqam Saba Zamzam", 0, 1.0, 3.0, 4.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Kurd", 44 ],
+												"value" : [ "Maqam Kurd", 0, 1.0, 3.0, 5.0, 7.0, 8.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Hijaz Kar Kurd", 45 ],
+												"value" : [ "Maqam Hijaz Kar Kurd", 0, 1.0, 4.0, 5.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nawa Athar", 46 ],
+												"value" : [ "Maqam Nawa Athar", 0, 2.0, 3.0, 6.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Nikriz", 47 ],
+												"value" : [ "Maqam Nikriz", 0, 2.0, 3.0, 6.0, 7.0, 9.0, 10.0 ]
+											}
+, 											{
+												"key" : [ "Maqam Athar Kurd", 48 ],
+												"value" : [ "Maqam Athar Kurd", 0, 1.0, 3.0, 6.0, 7.0, 8.0, 11.0 ]
+											}
+, 											{
+												"key" : [ "That Bhairav", 49 ],
+												"value" : [ "That Bhairav", 0, 1, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "That Asavari", 50 ],
+												"value" : [ "That Asavari", 0, 2, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "That Khammaj", 51 ],
+												"value" : [ "That Khammaj", 0, 2, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "That Todi", 52 ],
+												"value" : [ "That Todi", 0, 1, 3, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "That Bilawal", 53 ],
+												"value" : [ "That Bilawal", 0, 2, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "That Kalyan", 54 ],
+												"value" : [ "That Kalyan", 0, 2, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "That Pooravi", 55 ],
+												"value" : [ "That Pooravi", 0, 1, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "That Marwa", 56 ],
+												"value" : [ "That Marwa", 0, 1, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "That Bhairavi", 57 ],
+												"value" : [ "That Bhairavi", 0, 1, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Raga marwa", 58 ],
+												"value" : [ "Raga marva", 0, 1, 4, 6, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Bohlen–Pierce", 59 ],
+												"value" : [ "Bohlen–Pierce", 3.0185, 4.3508, 5.8251, 8.8436, 10.176, 13.1944, 14.6687, 17.687201, 19.0196 ]
+											}
+, 											{
+												"key" : [ "Mela Kanakangi", 60 ],
+												"value" : [ "Mela Kanakangi", 0, 3, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Ratnangi", 61 ],
+												"value" : [ "Mela Ratnangi", 0, 1, 2, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Ganamurti", 62 ],
+												"value" : [ "Mela Ganamurti", 0, 1, 2, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vanaspati", 63 ],
+												"value" : [ "Mela Vanaspati", 0, 1, 2, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Manavati", 64 ],
+												"value" : [ "Mela Manavati", 0, 1, 2, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Tanarupi", 65 ],
+												"value" : [ "Mela Tanarupi", 0, 1, 2, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Senavati", 66 ],
+												"value" : [ "Mela Senavati", 0, 1, 2, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Hanumattodi", 67 ],
+												"value" : [ "Mela Hanumattodi", 0, 1, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dhenuka", 68 ],
+												"value" : [ "Mela Dhenuka", 0, 1, 3, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Natakapriya", 69 ],
+												"value" : [ "Mela Natakapriya", 0, 1, 3, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kokilapriya", 70 ],
+												"value" : [ "Mela Kokilapriya", 0, 1, 3, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Rupavati", 71 ],
+												"value" : [ "Mela Rupavati", 0, 1, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Gayakapriya", 72 ],
+												"value" : [ "Mela Gayakapriya", 0, 1, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vakulabharanam", 73 ],
+												"value" : [ "Mela Vakulabharanam", 0, 1, 4, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Mayamalavagaula", 74 ],
+												"value" : [ "Mela Mayamalavagaula", 0, 1, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Chakravakam", 75 ],
+												"value" : [ "Mela Chakravakam", 0, 1, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Suryakantam", 76 ],
+												"value" : [ "Mela Suryakantam", 0, 1, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Hatakambari", 77 ],
+												"value" : [ "Mela Hatakambari", 0, 1, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Jhankaradhvani", 78 ],
+												"value" : [ "Mela Jhankaradhvani", 0, 1, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Natabhairavi", 79 ],
+												"value" : [ "Mela Natabhairavi", 0, 2, 3, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kiravani", 80 ],
+												"value" : [ "Mela Kiravani", 0, 2, 3, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Kharaharapriya", 81 ],
+												"value" : [ "Mela Kharaharapriya", 0, 2, 3, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Gaurimanohari", 82 ],
+												"value" : [ "Mela Gaurimanohari", 0, 2, 3, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Varunapriya", 83 ],
+												"value" : [ "Mela Varunapriya", 0, 2, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Mararanjani", 84 ],
+												"value" : [ "Mela Mararanjani", 0, 2, 3, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Charukeshi", 85 ],
+												"value" : [ "Mela Charukeshi", 0, 2, 4, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Sarasangi", 86 ],
+												"value" : [ "Mela Sarasangi", 0, 2, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Harikhamboji", 87 ],
+												"value" : [ "Mela Harikhamboji", 0, 2, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dhirasankarabharana", 88 ],
+												"value" : [ "Mela Dhirasankarabharana", 0, 2, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Naganadini", 89 ],
+												"value" : [ "Mela Naganadini", 0, 2, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Yagapriya", 90 ],
+												"value" : [ "Mela Yagapriya", 0, 2, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Ragavardhani", 91 ],
+												"value" : [ "Mela Ragavardhani", 0, 3, 4, 5, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Gangeyabhusani", 92 ],
+												"value" : [ "Mela Gangeyabhusani", 0, 3, 4, 5, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vagadhibhusani", 93 ],
+												"value" : [ "Mela Vagadhibhusani", 0, 3, 4, 5, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Sulini", 94 ],
+												"value" : [ "Mela Sulini", 0, 3, 4, 5, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Chalanata", 95 ],
+												"value" : [ "Mela Chalanata", 0, 3, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Salagam", 96 ],
+												"value" : [ "Mela Salagam", 0, 3, 4, 5, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Jalarnavam", 97 ],
+												"value" : [ "Mela Jalarnavam", 0, 1, 2, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Jhalavarali", 98 ],
+												"value" : [ "Mela Jhalavarali", 0, 1, 2, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Navanitam", 99 ],
+												"value" : [ "Mela Navanitam", 0, 1, 2, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Pavani", 100 ],
+												"value" : [ "Mela Pavani", 0, 1, 2, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Raghupriya", 101 ],
+												"value" : [ "Mela Raghupriya", 0, 1, 2, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Gavambhodi", 102 ],
+												"value" : [ "Mela Gavambhodi", 0, 1, 2, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Bhavapriya", 103 ],
+												"value" : [ "Mela Bhavapriya", 0, 1, 3, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Subhapantuvarali", 104 ],
+												"value" : [ "Mela Subhapantuvarali", 0, 1, 3, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Sadvidhamatgini", 105 ],
+												"value" : [ "Mela Sadvidhamatgini", 0, 1, 3, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Suvarnangi", 106 ],
+												"value" : [ "Mela Suvarnangi", 0, 1, 3, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Dvyamani", 107 ],
+												"value" : [ "Mela Dvyamani", 0, 1, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Dhavalambari", 108 ],
+												"value" : [ "Mela Dhavalambari", 0, 1, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Namanarayani", 109 ],
+												"value" : [ "Mela Namanarayani", 0, 1, 4, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kamavardhani", 110 ],
+												"value" : [ "Mela Kamavardhani", 0, 1, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Ramapriya", 111 ],
+												"value" : [ "Mela Ramapriya", 0, 1, 4, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Gamanasrama", 112 ],
+												"value" : [ "Mela Gamanasrama", 0, 1, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Visvambari", 113 ],
+												"value" : [ "Mela Visvambari", 0, 1, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Syamalangi", 114 ],
+												"value" : [ "Mela Syamalangi", 0, 1, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Sanmukhapriya", 115 ],
+												"value" : [ "Mela Sanmukhapriya", 0, 2, 3, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Simhendramadhyama", 116 ],
+												"value" : [ "Mela Simhendramadhyama", 0, 2, 3, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Hemavati", 117 ],
+												"value" : [ "Mela Hemavati", 0, 2, 3, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dharmavati", 118 ],
+												"value" : [ "Mela Dharmavati", 0, 2, 3, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Nitimati", 119 ],
+												"value" : [ "Mela Nitimati", 0, 2, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Kantamani", 120 ],
+												"value" : [ "Mela Kantamani", 0, 2, 3, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Risabhapriya", 121 ],
+												"value" : [ "Mela Risabhapriya", 0, 2, 4, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Lantangi", 122 ],
+												"value" : [ "Mela Lantangi", 0, 2, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Vachaspati", 123 ],
+												"value" : [ "Mela Vachaspati", 0, 2, 4, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Mechakalyani", 124 ],
+												"value" : [ "Mela Mechakalyani", 0, 2, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Chitrambari", 125 ],
+												"value" : [ "Mela Chitrambari", 0, 2, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Sucharitra", 126 ],
+												"value" : [ "Mela Sucharitra", 0, 2, 4, 6, 7, 10, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Jyotisvarupini", 127 ],
+												"value" : [ "Mela Jyotisvarupini", 0, 3, 4, 6, 7, 8, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Dhatuvardhani", 128 ],
+												"value" : [ "Mela Dhatuvardhani", 0, 3, 4, 6, 7, 8, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Nasikabhusani", 129 ],
+												"value" : [ "Mela Nasikabhusani", 0, 3, 4, 6, 7, 9, 10 ]
+											}
+, 											{
+												"key" : [ "Mela Kosalam", 130 ],
+												"value" : [ "Mela Kosalam", 0, 3, 4, 6, 7, 9, 11 ]
+											}
+, 											{
+												"key" : [ "Mela Rasikapriya", 131 ],
+												"value" : [ "Mela Rasikapriya", 0, 3, 4, 6, 7, 10, 11 ]
 											}
  ]
 									}
@@ -7246,152 +9470,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 46.0, 146.0, 64.0, 17.0 ],
+									"patching_rect" : [ 62.0, 146.0, 64.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
 									"text" : "coll scale.coll"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 6,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 52.0, 86.5, 17.0 ],
-									"text" : "scale 0 127 0 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 354.0, 112.0, 20.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "length" ],
-									"patching_rect" : [ 354.0, 134.0, 48.0, 17.0 ],
-									"text" : "t 0 length"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 278.0, 52.0, 109.0, 17.0 ],
-									"text" : "loadmess read scale.coll"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"coll_data" : 									{
-										"count" : 9,
-										"data" : [ 											{
-												"key" : [ "semitone", 0 ],
-												"value" : [ "semitone", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
-											}
-, 											{
-												"key" : [ "tone", 1 ],
-												"value" : [ "tone", 0, 2, 4, 6, 8, 10 ]
-											}
-, 											{
-												"key" : [ "major", 2 ],
-												"value" : [ "major", 0, 2, 4, 5, 7, 9, 11 ]
-											}
-, 											{
-												"key" : [ "minor_natural", 3 ],
-												"value" : [ "minor_natural", 0, 2, 3, 5, 7, 9, 11 ]
-											}
-, 											{
-												"key" : [ "minor_melodic", 4 ],
-												"value" : [ "minor_melodic", 0, 2, 3, 5, 7, 8, 11 ]
-											}
-, 											{
-												"key" : [ "pentatonique", 5 ],
-												"value" : [ "pentatonique", 0, 2, 4, 7, 9 ]
-											}
-, 											{
-												"key" : [ "octave_only", 6 ],
-												"value" : [ "octave_only", 0 ]
-											}
-, 											{
-												"key" : [ "octave_quinte", 7 ],
-												"value" : [ "octave_quinte", 0, 7 ]
-											}
-, 											{
-												"key" : [ "marva", 8 ],
-												"value" : [ "marva", 0, 1, 4, 6, 9, 11 ]
-											}
- ]
-									}
-,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 276.0, 86.0, 64.0, 17.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 1
-									}
-,
-									"text" : "coll scale.coll"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 9.0, 74.0, 17.0 ],
-									"text" : "r MPD24.potar7"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-73",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 348.0, 191.0, 198.0, 17.0 ],
-									"text" : "loadmess chord 60 64 63 64 64 64 65 64 67 64"
 								}
 
 							}
@@ -7402,48 +9486,12 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 410.0, 25.0, 25.0 ]
+									"patching_rect" : [ 100.0, 280.0, 25.0, 25.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 4 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-13", 1 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-79", 0 ],
 									"disabled" : 0,
@@ -7454,172 +9502,64 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-94", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
+									"source" : [ "obj-13", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
+									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-16", 1 ]
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
+									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-16", 0 ]
+									"source" : [ "obj-29", 2 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
+									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-16", 0 ]
+									"source" : [ "obj-31", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
+									"destination" : [ "obj-34", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-16", 2 ]
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
+									"destination" : [ "obj-79", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-17", 0 ]
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
+									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-20", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
+									"source" : [ "obj-35", 0 ]
 								}
 
 							}
@@ -7628,14 +9568,122 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-70", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-69", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-68", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-69", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-68", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-70", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-87", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-89", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-88", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-89", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-91", 0 ]
 								}
 
 							}
  ]
 					}
 ,
-					"patching_rect" : [ 330.0, 259.0, 56.0, 19.0 ],
+					"patching_rect" : [ 330.0, 259.0, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -7649,7 +9697,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p receive"
+					"text" : "p scales"
 				}
 
 			}
@@ -7809,7 +9857,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 163.0, 253.5, 107.0, 20.0 ],
+									"patching_rect" : [ 212.0, 253.5, 107.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -8037,7 +10085,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 292.5, 242.5, 172.5, 242.5 ],
+									"midpoints" : [ 292.5, 242.5, 221.5, 242.5 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -8047,7 +10095,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 221.5, 239.5, 172.5, 239.5 ],
+									"midpoints" : [ 221.5, 239.5, 221.5, 239.5 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -8082,7 +10130,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 343.0, 337.0, 101.0, 19.0 ],
+					"patching_rect" : [ 345.0, 332.0, 101.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -8111,7 +10159,7 @@
 					"offset" : 0,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 345.0, 292.0, 56.0, 38.0 ],
+					"patching_rect" : [ 347.0, 287.0, 56.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 397.0, 105.0, 64.0 ],
 					"range" : 12
@@ -8163,52 +10211,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 195.0, 48.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-24",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 773.0, 158.5, 120.0, 31.0 ],
-									"text" : "0 1 2 3 4 5 6 7 8 9 10 11 11.9999"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-23",
-									"linecount" : 3,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 578.0, 91.0, 74.0, 31.0 ],
-									"text" : "0 1 2 3 4 5 6 7 8 9 10 11"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-21",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 545.0, 373.0, 140.0, 31.0 ],
-									"text" : "0. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 11.9999"
+									"patching_rect" : [ 195.0, 33.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -8222,7 +10225,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 558.0, 143.5, 103.0, 20.0 ],
+									"patching_rect" : [ 447.0, 144.0, 96.0, 20.0 ],
 									"text" : "append 11.9999"
 								}
 
@@ -8237,7 +10240,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 517.0, 292.5, 84.0, 20.0 ],
+									"patching_rect" : [ 447.0, 245.5, 117.0, 20.0 ],
 									"text" : "vexpr $f1+$f2"
 								}
 
@@ -8252,7 +10255,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 554.0, 171.5, 40.0, 20.0 ],
+									"patching_rect" : [ 447.0, 172.0, 179.0, 20.0 ],
 									"text" : "t l l l"
 								}
 
@@ -8267,7 +10270,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 595.0, 229.5, 102.0, 20.0 ],
+									"patching_rect" : [ 545.0, 218.5, 81.0, 20.0 ],
 									"text" : "vexpr $f1-$f2"
 								}
 
@@ -8282,7 +10285,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 618.0, 200.5, 81.0, 20.0 ],
+									"patching_rect" : [ 607.0, 194.0, 81.0, 20.0 ],
 									"text" : "vexpr int($f1)"
 								}
 
@@ -8297,7 +10300,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 511.0, 260.5, 88.0, 20.0 ],
+									"patching_rect" : [ 447.0, 218.5, 87.0, 20.0 ],
 									"text" : "vexpr $f1%12."
 								}
 
@@ -8367,7 +10370,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 357.0, 12.0, 25.0, 25.0 ]
+									"patching_rect" : [ 357.0, 33.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -8379,7 +10382,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 244.0, 11.0, 25.0, 25.0 ]
+									"patching_rect" : [ 244.0, 33.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -8402,7 +10405,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 130.0, 48.0, 25.0, 25.0 ]
+									"patching_rect" : [ 130.0, 33.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -8433,21 +10436,6 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 130.0, 78.5, 44.0, 20.0 ],
 									"text" : "+ 240."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.184314, 1.0, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-36",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 244.0, 171.5, 88.0, 20.0 ],
-									"text" : "vexpr $f1%12."
 								}
 
 							}
@@ -8584,15 +10572,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-23", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -8710,15 +10689,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -8732,15 +10702,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-24", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-49", 0 ]
 								}
 
 							}
@@ -12070,6 +14031,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-168", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-169", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -12425,7 +14395,7 @@
 					"destination" : [ "obj-38", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 391.5, 334.5, 434.5, 334.5 ],
+					"midpoints" : [ 393.5, 329.5, 436.5, 329.5 ],
 					"source" : [ "obj-74", 1 ]
 				}
 
@@ -12504,25 +14474,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-80", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 376.5, 280.0, 387.0, 280.0, 387.0, 257.0, 488.5, 257.0 ],
-					"source" : [ "obj-80", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -12566,10 +14517,19 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-40" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -12577,6 +14537,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.scales.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
