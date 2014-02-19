@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 889.0, 664.0 ],
+		"rect" : [ 610.0, 107.0, 889.0, 664.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 140.0, 287.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -102,7 +116,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 135.0, 171.0, 20.0 ],
+									"patching_rect" : [ 222.0, 135.0, 169.0, 33.0 ],
 									"text" : "vd #1. #2. timecount"
 								}
 
@@ -129,7 +143,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "AVloopBase", "mySlot1" ],
+									"outlettype" : [ "AVloop", "mySlot1" ],
 									"patching_rect" : [ 27.5, 57.0, 181.0, 20.0 ],
 									"text" : "t #1 #2"
 								}
@@ -361,12 +375,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 321.0, 180.0, 20.0 ],
+									"patching_rect" : [ 50.0, 321.0, 208.0, 20.0 ],
 									"text" : "vd #1. #2. framecount"
 								}
 
@@ -390,12 +403,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "AVloopBase", "mySlot1" ],
-									"patching_rect" : [ 66.5, 127.0, 101.0, 20.0 ],
+									"outlettype" : [ "AVloop", "mySlot1" ],
+									"patching_rect" : [ 66.5, 127.0, 128.0, 20.0 ],
 									"text" : "t #1 #2"
 								}
 
@@ -928,6 +940,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

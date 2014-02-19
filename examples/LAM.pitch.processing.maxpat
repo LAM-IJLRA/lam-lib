@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 15.0, 144.0, 813.0, 743.0 ],
+		"rect" : [ 28.0, 83.0, 813.0, 743.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -860,6 +860,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1373,7 +1374,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 266.0, 50.0, 18.0 ],
-									"text" : "0 0"
+									"text" : "0 1"
 								}
 
 							}
@@ -1601,7 +1602,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.0, 378.0, 186.0, 18.0 ],
-									"text" : "15 18 22"
+									"text" : "8 11 15"
 								}
 
 							}
@@ -4849,7 +4850,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 444.0, 247.0 ],
+						"rect" : [ 862.0, 131.0, 444.0, 247.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15146,8 +15147,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-40" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
