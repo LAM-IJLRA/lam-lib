@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 537.0, 126.0, 885.0, 640.0 ],
+		"rect" : [ 422.0, 124.0, 885.0, 640.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -463,13 +463,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-19",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 129.5, 120.0, 138.0, 50.0 ],
-					"text" : "jit.window poscalerect @mousewheel 1 @idlemouse 1"
+					"patching_rect" : [ 129.5, 120.0, 416.0, 21.0 ],
+					"text" : "jit.window poscalerect @mousewheel 1 @idlemouse 1 @size 320 240"
 				}
 
 			}
