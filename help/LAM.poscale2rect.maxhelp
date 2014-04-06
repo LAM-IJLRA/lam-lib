@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 537.0, 126.0, 885.0, 640.0 ],
+		"rect" : [ 430.0, 82.0, 885.0, 640.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 111.0, 444.0, 20.0 ],
+					"presentation_rect" : [ 310.0, 114.0, 0.0, 0.0 ],
+					"text" : "NB : init requires a slight resize of the jit.window... dunno why"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -468,7 +483,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 129.5, 120.0, 138.0, 50.0 ],
+					"patching_rect" : [ 129.5, 120.0, 139.0, 50.0 ],
 					"text" : "jit.window poscalerect @mousewheel 1 @idlemouse 1"
 				}
 

@@ -68,8 +68,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 355.35022, 87.0, 17.0 ],
-					"text" : "LAM.inbetween",
+					"patching_rect" : [ 8.9375, 355.35022, 92.0, 17.0 ],
+					"text" : "LAM.intbetween",
 					"varname" : "jmod.bcf2000[16]"
 				}
 
