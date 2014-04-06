@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 805.0, 527.0 ],
+		"rect" : [ 136.0, 77.0, 814.0, 496.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -420,7 +420,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 190.0, 368.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -1110,6 +1110,13 @@
 				"name" : "LAM.jit.textureset.p.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vd.maxpat",
+				"bootpath" : "/Users/vg/vg.PROJETS/PUCEMUSE/MM4-CORE2.Max6/include",
+				"patcherrelativepath" : "../../../../../vg.PROJETS/PUCEMUSE/MM4-CORE2.Max6/include",
 				"type" : "JSON",
 				"implicit" : 1
 			}
