@@ -32,13 +32,77 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 190.375, 194.0, 74.0, 17.0 ],
+					"presentation_rect" : [ 177.9375, 194.0, 0.0, 0.0 ],
+					"text" : "LAM.dec2bin",
+					"varname" : "jmod.bcf2000[22]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.9375, 435.0, 139.0, 17.0 ],
+					"presentation_rect" : [ 8.9375, 443.0, 0.0, 0.0 ],
+					"text" : "LAM.EqualLoudnessCurve",
+					"varname" : "jmod.bcf2000[21]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.9375, 415.0, 81.0, 17.0 ],
+					"presentation_rect" : [ 8.9375, 424.35022, 0.0, 0.0 ],
+					"text" : "LAM.%wrap",
+					"varname" : "jmod.bcf2000[20]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.9375, 395.35022, 81.0, 17.0 ],
+					"presentation_rect" : [ 8.9375, 400.35022, 0.0, 0.0 ],
+					"text" : "LAM.2d_index",
+					"varname" : "jmod.bcf2000[18]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.9375, 437.0, 76.0, 19.0 ],
+					"patching_rect" : [ 190.375, 456.0, 76.0, 19.0 ],
 					"text" : "prepend load"
 				}
 
@@ -52,8 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 375.35022, 103.0, 17.0 ],
-					"presentation_rect" : [ 251.9375, 416.35022, 0.0, 0.0 ],
+					"patching_rect" : [ 12.9375, 375.35022, 103.0, 17.0 ],
 					"text" : "LAM.PolarMapping",
 					"varname" : "jmod.bcf2000[19]"
 				}
@@ -69,8 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.9375, 459.0, 49.0, 19.0 ],
-					"presentation_rect" : [ 218.5, 467.0, 0.0, 0.0 ],
+					"patching_rect" : [ 190.375, 478.0, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -84,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0625, 324.0, 115.0, 17.0 ],
+					"patching_rect" : [ 542.1875, 324.0, 115.0, 17.0 ],
 					"text" : "LAM.viz.circularwave",
 					"varname" : "jmod.bcf2000[17]"
 				}
@@ -99,7 +161,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0625, 305.0, 150.0, 19.0 ],
+					"patching_rect" : [ 542.1875, 305.0, 104.0, 19.0 ],
 					"text" : "Audio vizualisation"
 				}
 
@@ -113,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 355.35022, 92.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 355.35022, 92.0, 17.0 ],
 					"text" : "LAM.intbetween",
 					"varname" : "jmod.bcf2000[16]"
 				}
@@ -128,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0625, 234.986664, 82.0, 17.0 ],
+					"patching_rect" : [ 542.1875, 234.986664, 82.0, 17.0 ],
 					"text" : "LAM.ntapout~",
 					"varname" : "jmod.bcf2000[15]"
 				}
@@ -143,7 +205,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0625, 214.493332, 75.0, 17.0 ],
+					"patching_rect" : [ 542.1875, 214.493332, 75.0, 17.0 ],
 					"text" : "LAM.ntapin~",
 					"varname" : "jmod.bcf2000[14]"
 				}
@@ -158,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.9375, 258.493347, 59.0, 17.0 ],
+					"patching_rect" : [ 337.0625, 258.493347, 59.0, 17.0 ],
 					"text" : "LAM.paf~",
 					"varname" : "jmod.bcf2000[13]"
 				}
@@ -173,7 +235,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.9375, 236.99556, 87.0, 17.0 ],
+					"patching_rect" : [ 337.0625, 236.99556, 87.0, 17.0 ],
 					"text" : "LAM.glissandi~",
 					"varname" : "jmod.bcf2000[12]"
 				}
@@ -188,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 335.181458, 60.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 335.181458, 60.0, 17.0 ],
 					"text" : "LAM.xy2lr",
 					"varname" : "jmod.bcf2000[11]"
 				}
@@ -203,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 315.012665, 98.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 315.012665, 98.0, 17.0 ],
 					"text" : "LAM.poscale2rect",
 					"varname" : "jmod.bcf2000[10]"
 				}
@@ -218,7 +280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 294.843903, 98.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 294.843903, 98.0, 17.0 ],
 					"text" : "LAM.rect2poscale",
 					"varname" : "jmod.bcf2000[9]"
 				}
@@ -233,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.9375, 324.0, 112.0, 17.0 ],
+					"patching_rect" : [ 337.0625, 324.0, 112.0, 17.0 ],
 					"text" : "LAM.CheapAutotune",
 					"varname" : "jmod.bcf2000[7]"
 				}
@@ -248,7 +310,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.9375, 305.0, 150.0, 19.0 ],
+					"patching_rect" : [ 337.0625, 305.0, 116.0, 19.0 ],
 					"text" : "Audio transformation"
 				}
 
@@ -262,7 +324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0625, 194.0, 81.0, 17.0 ],
+					"patching_rect" : [ 542.1875, 194.0, 81.0, 17.0 ],
 					"text" : "LAM.slidems~",
 					"varname" : "jmod.bcf2000[8]"
 				}
@@ -277,7 +339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0625, 175.0, 150.0, 19.0 ],
+					"patching_rect" : [ 542.1875, 175.0, 79.0, 19.0 ],
 					"text" : "Audio utilities"
 				}
 
@@ -291,7 +353,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.9375, 215.497787, 90.0, 17.0 ],
+					"patching_rect" : [ 337.0625, 215.497787, 90.0, 17.0 ],
 					"text" : "LAM.harmoFM~",
 					"varname" : "jmod.bcf2000[5]"
 				}
@@ -306,7 +368,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.9375, 194.0, 79.0, 17.0 ],
+					"patching_rect" : [ 337.0625, 194.0, 79.0, 17.0 ],
 					"text" : "LAM.karpizz~",
 					"varname" : "jmod.bcf2000[6]"
 				}
@@ -321,7 +383,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.9375, 175.0, 150.0, 19.0 ],
+					"patching_rect" : [ 337.0625, 175.0, 89.0, 19.0 ],
 					"text" : "Audio synthesis"
 				}
 
@@ -335,7 +397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 274.675079, 100.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 274.675079, 100.0, 17.0 ],
 					"text" : "LAM.quantize.dog",
 					"varname" : "jmod.bcf2000[3]"
 				}
@@ -350,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 254.506332, 96.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 254.506332, 96.0, 17.0 ],
 					"text" : "LAM.quantize.cat",
 					"varname" : "jmod.bcf2000[4]"
 				}
@@ -365,7 +427,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 234.33754, 137.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 234.33754, 137.0, 17.0 ],
 					"text" : "LAM.jit.bounded_sigmoid",
 					"varname" : "jmod.bcf2000[2]"
 				}
@@ -380,7 +442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 214.168777, 161.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 214.168777, 161.0, 17.0 ],
 					"text" : "LAM.bounded_pseudosigmoid",
 					"varname" : "jmod.bcf2000[1]"
 				}
@@ -396,7 +458,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.5, 437.0, 74.0, 19.0 ],
+					"patching_rect" : [ 88.9375, 456.0, 74.0, 19.0 ],
 					"text" : "prepend help"
 				}
 
@@ -411,7 +473,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.5, 459.0, 49.0, 19.0 ],
+					"patching_rect" : [ 88.9375, 478.0, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -425,7 +487,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.9375, 194.0, 150.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 194.0, 150.0, 17.0 ],
 					"text" : "LAM.bounded_sigmoid",
 					"varname" : "jmod.bcf2000"
 				}
@@ -440,7 +502,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.9375, 175.0, 150.0, 19.0 ],
+					"patching_rect" : [ 12.9375, 175.0, 150.0, 19.0 ],
 					"text" : "Transfer functions"
 				}
 
@@ -453,7 +515,7 @@
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.21875, 8.75, 306.0, 55.0 ]
+					"patching_rect" : [ 3.78125, 8.75, 306.0, 55.0 ]
 				}
 
 			}
@@ -464,7 +526,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.21875, 70.75, 644.84375, 8.0 ]
+					"patching_rect" : [ 3.78125, 70.75, 644.84375, 8.0 ]
 				}
 
 			}
@@ -475,7 +537,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1.21875, 69.75, 644.84375, 8.0 ]
+					"patching_rect" : [ 2.78125, 69.75, 644.84375, 8.0 ]
 				}
 
 			}
@@ -486,7 +548,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.21875, 3.75, 644.84375, 8.0 ]
+					"patching_rect" : [ 3.78125, 3.75, 644.84375, 8.0 ]
 				}
 
 			}
@@ -497,7 +559,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1.21875, 2.75, 644.84375, 8.0 ]
+					"patching_rect" : [ 2.78125, 2.75, 644.84375, 8.0 ]
 				}
 
 			}
@@ -511,7 +573,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -189.4375, 100.875, 55.0, 15.0 ],
+					"patching_rect" : [ -185.4375, 100.875, 55.0, 15.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -526,7 +588,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.5, 61.75, 33.28125, 17.0 ],
+					"patching_rect" : [ 13.5, 61.75, 33.28125, 17.0 ],
 					"text" : "grow"
 				}
 
@@ -541,7 +603,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ -189.4375, 146.257935, 46.0, 20.0 ],
+					"patching_rect" : [ -185.4375, 146.257935, 46.0, 20.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -555,7 +617,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -0.21875, 63.525238, 13.0, 13.0 ]
+					"patching_rect" : [ 3.78125, 63.525238, 13.0, 13.0 ]
 				}
 
 			}
@@ -568,7 +630,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.5625, 9.25, 268.5, 19.0 ],
+					"patching_rect" : [ 316.5625, 9.25, 268.5, 19.0 ],
 					"text" : "© 2013-13 LAM-IJLRA / Universite Paris 6",
 					"textcolor" : [ 0.317518, 0.317518, 0.317518, 1.0 ]
 				}
@@ -582,7 +644,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.5625, 8.75, 268.5, 32.0 ],
+					"patching_rect" : [ 316.5625, 8.75, 268.5, 32.0 ],
 					"rounded" : 6,
 					"shadow" : -1
 				}
@@ -598,7 +660,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -274.9375, 39.75, 177.0, 17.0 ],
+					"patching_rect" : [ -270.9375, 39.75, 177.0, 17.0 ],
 					"text" : "window flags grow, window exec"
 				}
 
@@ -613,7 +675,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -258.4375, 62.75, 190.0, 17.0 ],
+					"patching_rect" : [ -254.4375, 62.75, 190.0, 17.0 ],
 					"text" : "window flags nogrow, window exec"
 				}
 
@@ -627,7 +689,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ -161.0, 245.257935, 143.0, 20.0 ],
+					"patching_rect" : [ -157.0, 245.257935, 143.0, 20.0 ],
 					"text" : "bgcolor 0.93 0.93 0.92 1."
 				}
 
@@ -641,7 +703,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0625, 43.75, 65.0, 20.0 ],
+					"patching_rect" : [ 422.0625, 43.75, 65.0, 20.0 ],
 					"text" : "contact us",
 					"textcolor" : [ 0.392157, 0.494118, 0.666667, 1.0 ]
 				}
@@ -656,7 +718,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 418.0625, 43.75, 65.0, 20.0 ]
+					"patching_rect" : [ 422.0625, 43.75, 65.0, 20.0 ]
 				}
 
 			}
@@ -671,7 +733,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.729187, 42.75, 237.0, 25.0 ],
+					"patching_rect" : [ 660.729187, 42.75, 237.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr/Acces.php"
 				}
 
@@ -686,7 +748,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ -274.9375, 89.25, 69.0, 20.0 ],
+					"patching_rect" : [ -270.9375, 89.25, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -701,7 +763,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0625, 43.75, 96.0, 20.0 ],
+					"patching_rect" : [ 317.0625, 43.75, 96.0, 20.0 ],
 					"text" : "visit our website",
 					"textcolor" : [ 0.392157, 0.494118, 0.666667, 1.0 ]
 				}
@@ -716,7 +778,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 313.0625, 43.75, 96.0, 20.0 ]
+					"patching_rect" : [ 317.0625, 43.75, 96.0, 20.0 ]
 				}
 
 			}
@@ -731,7 +793,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.729187, 8.75, 191.0, 25.0 ],
+					"patching_rect" : [ 660.729187, 8.75, 191.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr"
 				}
 
@@ -745,7 +807,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -88.9375, 287.0, 45.0, 17.0 ],
+					"patching_rect" : [ -84.9375, 287.0, 45.0, 17.0 ],
 					"text" : "onecopy"
 				}
 
@@ -760,7 +822,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.9375, 86.5, 628.0, 59.0 ],
+					"patching_rect" : [ 12.9375, 86.5, 628.0, 59.0 ],
 					"text" : "The LAM.lib library is a set of abstractions and externals that are useful to build digital music instrument with Max. It includes mapping function and sound synthesis modules.",
 					"textcolor" : [ 0.27596, 0.276002, 0.27594, 1.0 ],
 					"varname" : "autohelp_top_description"
@@ -775,7 +837,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.9375, 86.25, 630.125, 74.25 ],
+					"patching_rect" : [ 12.9375, 86.25, 630.125, 74.25 ],
 					"rounded" : 15,
 					"shadow" : -1
 				}
@@ -789,7 +851,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0625, 43.75, 96.0, 20.0 ],
+					"patching_rect" : [ 317.0625, 43.75, 96.0, 20.0 ],
 					"rounded" : 6,
 					"shadow" : -1
 				}
@@ -803,7 +865,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0625, 43.75, 65.0, 20.0 ],
+					"patching_rect" : [ 422.0625, 43.75, 65.0, 20.0 ],
 					"rounded" : 6,
 					"shadow" : -1
 				}
@@ -983,6 +1045,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1005,6 +1076,33 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
