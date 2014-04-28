@@ -60,8 +60,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 424.0, 188.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 424.0, 188.0, 0.0, 0.0 ]
+					"patching_rect" : [ 424.0, 188.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -75,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.0, 188.0, 37.0, 18.0 ],
-					"presentation_rect" : [ 446.0, 188.0, 0.0, 0.0 ],
 					"text" : "open"
 				}
 
@@ -90,7 +88,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 424.0, 215.0, 59.0, 20.0 ],
-					"presentation_rect" : [ 424.0, 215.0, 0.0, 0.0 ],
 					"save" : [ "#N", "sfplay~", "", 1, 120960, 0, "", ";" ],
 					"text" : "sfplay~ 1"
 				}
@@ -287,7 +284,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 399.0, 284.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -310,12 +307,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 20.5, 29.0, 150.0, 20.0 ],
+									"text" : "texture your wave"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-61",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 373.5, 100.0, 71.0, 18.0 ],
+									"patching_rect" : [ 79.5, 87.0, 71.0, 18.0 ],
 									"text" : "texture toto"
 								}
 
@@ -329,7 +340,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 276.5, 100.0, 47.0, 18.0 ],
+									"patching_rect" : [ 20.5, 87.0, 47.0, 18.0 ],
 									"text" : "texture"
 								}
 
@@ -343,7 +354,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 50.0, 148.0, 296.0, 20.0 ],
+									"patching_rect" : [ 20.5, 56.0, 296.0, 20.0 ],
 									"text" : "jit.gl.texture CW.context @name toto @file dozer.mov"
 								}
 
@@ -355,7 +366,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 228.0, 25.0, 25.0 ]
+									"patching_rect" : [ 20.5, 162.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1514,11 +1525,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-24::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-47::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-24::obj-35" : [ "[9]", "Level", 0 ],
 			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-24::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-24::obj-35" : [ "[9]", "Level", 0 ],
 			"obj-24::obj-32" : [ "[10]", "[2]", 0 ]
 		}
 ,
