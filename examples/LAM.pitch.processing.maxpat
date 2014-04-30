@@ -36699,8 +36699,8 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 7.0, 348.0, 215.0, 34.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
+									"patching_rect" : [ 7.0, 348.0, 215.0, 48.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "live.gain~[3]",
@@ -39837,8 +39837,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.254456, 483.0, 77.0, 19.0 ],
-					"text" : "loadmess -24"
+					"patching_rect" : [ 542.0, 479.0, 77.0, 19.0 ],
+					"text" : "loadmess -50"
 				}
 
 			}
@@ -40177,6 +40177,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-143", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -40332,12 +40341,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
 			"obj-42" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
