@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 119.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -33,11 +33,27 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.5, 258.060059, 646.0, 33.0 ],
+					"presentation_rect" : [ 5.5, 89.060059, 0.0, 0.0 ],
+					"text" : "Credit goes to Charles Gondre for the max implementation. http://cycling74.com/forums/topic/equal-loudness-curves-implementation/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 395.0, 288.0, 45.0, 20.0 ],
+					"patching_rect" : [ 489.0, 228.0, 45.0, 20.0 ],
 					"text" : "Freqs"
 				}
 
@@ -51,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.0, 214.0, 31.0, 20.0 ],
+					"patching_rect" : [ 240.0, 154.0, 31.0, 20.0 ],
 					"text" : "SPL"
 				}
 
@@ -66,7 +82,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 181.0, 214.0, 259.0, 74.0 ],
+					"patching_rect" : [ 275.0, 154.0, 259.0, 74.0 ],
 					"range" : [ -20.0, 120.0 ]
 				}
 
@@ -81,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 181.0, 159.0, 50.0, 20.0 ]
+					"patching_rect" : [ 275.0, 99.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -95,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 47.0, 214.0, 50.0, 20.0 ]
+					"patching_rect" : [ 141.0, 154.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -109,7 +125,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 47.0, 159.0, 50.0, 20.0 ]
+					"patching_rect" : [ 141.0, 99.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -122,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 47.0, 188.0, 153.0, 20.0 ],
+					"patching_rect" : [ 141.0, 128.0, 153.0, 20.0 ],
 					"text" : "LAM.EqualLoudnessCurve"
 				}
 
@@ -148,8 +164,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 65.060059, 590.0, 20.0 ],
-					"text" : "Customize the header with arguments. You can also add some more documentation here about your module."
+					"patching_rect" : [ 5.5, 65.060059, 161.0, 20.0 ],
+					"text" : "Equal loudness curve table. "
 				}
 
 			}
@@ -208,14 +224,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.EqualLoudnessCurve.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
