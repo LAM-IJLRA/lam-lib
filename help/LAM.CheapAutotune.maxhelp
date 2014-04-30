@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 349.0, 127.0, 1024.0, 598.0 ],
+		"rect" : [ 100.0, 100.0, 804.0, 441.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 451.0, 425.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 405.0, 145.0, 20.0 ],
+									"patching_rect" : [ 64.0, 328.0, 145.0, 20.0 ],
 									"text" : "zl reg @zlmaxsize 16000"
 								}
 
@@ -88,7 +88,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "", "zlclear" ],
-									"patching_rect" : [ 83.0, 100.0, 68.0, 20.0 ],
+									"patching_rect" : [ 47.0, 86.0, 314.0, 20.0 ],
 									"text" : "t b l zlclear"
 								}
 
@@ -102,7 +102,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 83.0, 369.0, 145.0, 20.0 ],
+									"patching_rect" : [ 190.0, 296.0, 145.0, 20.0 ],
 									"text" : "zl reg @zlmaxsize 16000"
 								}
 
@@ -116,7 +116,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 83.0, 323.0, 146.0, 20.0 ],
+									"patching_rect" : [ 190.0, 259.0, 146.0, 20.0 ],
 									"text" : "zl join @zlmaxsize 16000"
 								}
 
@@ -128,7 +128,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 83.0, 126.0, 20.0, 20.0 ]
+									"patching_rect" : [ 47.0, 112.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -141,7 +141,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 83.0, 263.0, 171.0, 20.0 ],
+									"patching_rect" : [ 190.0, 219.0, 171.0, 20.0 ],
 									"text" : "vexpr $f1+$f2 @scalarmode 1"
 								}
 
@@ -155,7 +155,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 83.0, 196.5, 35.0, 20.0 ],
+									"patching_rect" : [ 190.0, 182.5, 35.0, 20.0 ],
 									"text" : "* 12."
 								}
 
@@ -169,7 +169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
-									"patching_rect" : [ 83.0, 159.0, 53.0, 20.0 ],
+									"patching_rect" : [ 47.0, 145.0, 162.0, 20.0 ],
 									"text" : "uzi 10 0"
 								}
 
@@ -182,7 +182,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 83.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 47.0, 26.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -193,7 +193,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 485.0, 25.0, 25.0 ]
+									"patching_rect" : [ 64.0, 363.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -257,6 +257,7 @@
 									"destination" : [ "obj-26", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 199.5, 325.0, 348.0, 325.0, 348.0, 249.0, 326.5, 249.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
