@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 610.0, 107.0, 889.0, 664.0 ],
+		"rect" : [ 112.0, 168.0, 889.0, 664.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -111,7 +111,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -140,10 +140,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "AVloop", "mySlot1" ],
+									"outlettype" : [ "MetaMallette", "208000.AVLooper.Slot" ],
 									"patching_rect" : [ 27.5, 57.0, 181.0, 20.0 ],
 									"text" : "t #1 #2"
 								}
@@ -319,7 +320,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -375,6 +376,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -403,10 +405,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "AVloop", "mySlot1" ],
+									"outlettype" : [ "MetaMallette", "208000.AVLooper.Slot" ],
 									"patching_rect" : [ 66.5, 127.0, 128.0, 20.0 ],
 									"text" : "t #1 #2"
 								}
@@ -618,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 383.0, 107.0, 20.0 ],
+					"patching_rect" : [ 323.0, 383.0, 183.0, 20.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -632,7 +635,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.299988, 383.0, 129.0, 20.0 ],
+					"patching_rect" : [ 213.299988, 383.0, 133.0, 20.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -724,14 +727,14 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "GL clock",
+					"annotation" : "",
 					"comment" : "GL clock",
 					"id" : "obj-76",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 103.0, 25.0, 25.0 ]
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 114.0, 103.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -799,7 +802,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 48.5, 441.0, 104.0, 20.0 ],
+					"patching_rect" : [ 48.5, 441.0, 180.0, 20.0 ],
 					"text" : "play~ #2.buf"
 				}
 
