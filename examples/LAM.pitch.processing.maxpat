@@ -6672,7 +6672,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 97.5, 542.0, 141.0, 22.0 ],
+					"patching_rect" : [ 97.5, 542.0, 117.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -6686,7 +6686,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p fffb~"
+					"text" : "p scale_formants"
 				}
 
 			}
@@ -8373,7 +8373,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 401.0, 282.0, 50.0, 18.0 ],
-																	"text" : "0. 3.5"
+																	"text" : "-1.5 2.5"
 																}
 
 															}
@@ -8773,7 +8773,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 535.0, 395.0, 151.0, 18.0 ],
-																									"text" : "0. 3.5"
+																									"text" : "2.5"
 																								}
 
 																							}
@@ -8787,7 +8787,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 610.0, 326.0, 60.0, 18.0 ],
-																									"text" : "0. 2."
+																									"text" : "-1. 1."
 																								}
 
 																							}
@@ -8914,7 +8914,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 129.0, 178.0, 60.0, 18.0 ],
-																									"text" : "7. 9."
+																									"text" : "6. 8."
 																								}
 
 																							}
@@ -22998,7 +22998,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 54.5, 376.5, 403.0, 18.0 ],
-									"text" : "0.836888 0.621185 0 1 0 0 1 0"
+									"text" : "0.691667 0.02994 0 0 0 0 0 0"
 								}
 
 							}
@@ -50613,7 +50613,7 @@
 					"destination" : [ "obj-47", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 301.5, 532.0, 229.0, 532.0 ],
+					"midpoints" : [ 301.5, 532.0, 205.0, 532.0 ],
 					"source" : [ "obj-75", 0 ]
 				}
 
