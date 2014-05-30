@@ -11,4 +11,4 @@ This library is a Max project. Put the lam-lib folder in your Max search path. U
 
 A good place to start is to open LAM.lib.overview.maxpat, which should automaticallu show up in the extra menu from Max.
 
-Although not compulsory, Feedback and donation are welcome !
+Enjoy!
