@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 73.0, 48.0, 1113.0, 679.0 ],
+		"rect" : [ 73.0, 48.0, 821.0, 733.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,7 +39,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 735.0, 205.858246, 73.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 681.0, 142.0, 73.0, 22.0 ],
+					"presentation_rect" : [ 666.0, 127.0, 73.0, 22.0 ],
 					"text" : "base note"
 				}
 
@@ -1112,13 +1112,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-9",
-																	"linecount" : 7,
+																	"linecount" : 5,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 436.0, 320.0, 40.0, 45.0 ],
-																	"text" : "0 2.5 3.5 5.5 6.5 8.5 10.5 12"
+																	"text" : "0 1 2 3 4 5 6 7 8 9 10 11 12"
 																}
 
 															}
@@ -6352,7 +6352,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1001.75, 310.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.5, 142.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 341.5, 127.0, 110.0, 22.0 ],
 					"text" : "grid dimensions"
 				}
 
@@ -6370,7 +6370,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 955.75, 310.0, 47.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.75, 142.0, 54.0, 22.0 ]
+					"presentation_rect" : [ 497.75, 127.0, 54.0, 22.0 ]
 				}
 
 			}
@@ -6387,7 +6387,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 905.75, 310.0, 47.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.75, 142.0, 54.0, 22.0 ]
+					"presentation_rect" : [ 447.75, 127.0, 54.0, 22.0 ]
 				}
 
 			}
@@ -6418,7 +6418,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 645.0, 85.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.0, 155.0, 85.0, 20.0 ],
+					"presentation_rect" : [ 119.0, 140.0, 85.0, 20.0 ],
 					"text" : "activate audio"
 				}
 
@@ -6886,7 +6886,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 975.25, 256.768951, 309.666687, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.666656, 113.0, 245.666687, 27.0 ]
+					"presentation_rect" : [ 305.666656, 98.0, 245.666687, 27.0 ]
 				}
 
 			}
@@ -6903,7 +6903,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 905.25, 191.858246, 271.000031, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.666656, 83.5, 284.666687, 27.0 ]
+					"presentation_rect" : [ 266.666656, 68.5, 284.666687, 27.0 ]
 				}
 
 			}
@@ -7055,7 +7055,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.0, 68.5, 239.5, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 83.5, 239.5, 43.0 ],
+					"presentation_rect" : [ 8.0, 68.5, 239.5, 43.0 ],
 					"text" : "click here to enter fullscreen",
 					"texton" : "click here to quit fullscreen"
 				}
@@ -9492,7 +9492,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.0, 149.0, 211.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 614.0, 83.5, 211.0, 27.0 ]
+					"presentation_rect" : [ 599.0, 68.5, 211.0, 27.0 ]
 				}
 
 			}
@@ -9509,7 +9509,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 735.0, 149.0, 73.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 752.0, 142.0, 73.0, 22.0 ]
+					"presentation_rect" : [ 737.0, 127.0, 73.0, 22.0 ]
 				}
 
 			}
@@ -11285,7 +11285,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 371.0, 30.0, 160.0, 18.0 ],
-																									"text" : "0. 2.5 3.5 5.5 6.5 8.5 10.5 12."
+																									"text" : "0. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12."
 																								}
 
 																							}
@@ -14997,9 +14997,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.0, 205.858246, 211.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 614.0, 110.0, 211.0, 21.0 ],
+					"presentation_rect" : [ 599.0, 95.0, 211.0, 21.0 ],
 					"readonly" : 1,
-					"text" : "0 2.5 3.5 5.5 6.5 8.5 10.5 12",
+					"text" : "0 1 2 3 4 5 6 7 8 9 10 11 12",
 					"wordwrap" : 0
 				}
 
@@ -15012,7 +15012,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 97.5, 620.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.5, 130.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 202.5, 115.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -21972,7 +21972,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 205.0, 296.0, 50.0, 18.0 ],
-																	"text" : "6.5"
+																	"text" : "0"
 																}
 
 															}
@@ -25001,7 +25001,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 54.5, 376.5, 403.0, 18.0 ],
-									"text" : "0.9 0.245509 0 1 0 0 0 0"
+									"text" : "0.196432 0.357271 0 1 0 0 0 0"
 								}
 
 							}
@@ -51625,7 +51625,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 308.0, 172.0, 194.0, 81.0 ],
 									"setminmax" : [ 0.0, 127.0 ],
-									"size" : 7
+									"size" : 12
 								}
 
 							}
@@ -54727,7 +54727,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 6.0, 802.0, 57.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 21.0, 802.0, 57.0 ]
+					"presentation_rect" : [ 8.0, 6.0, 802.0, 57.0 ]
 				}
 
 			}
@@ -54827,7 +54827,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 8.0, 194.832825, 239.5, 166.832825 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.75, 175.0, 796.5, 556.832825 ]
+					"presentation_rect" : [ 10.75, 160.0, 796.5, 556.832825 ]
 				}
 
 			}
@@ -55469,22 +55469,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.SympatheticStrings~.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.SympatheticStrings.p.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -55497,29 +55497,29 @@
 			}
 , 			{
 				"name" : "LAM.CheapAutotune.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.gizmo~.pfft.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "550px-HarmonicTableMusicNoteLayout.png",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/media/images",
-				"patcherrelativepath" : "../media/images",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/media/images",
+				"patcherrelativepath" : "../../lam-lib_/media/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "400px-Wicki-Hayden_Musical_Note_Layout.png",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/media/images",
-				"patcherrelativepath" : "../media/images",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/media/images",
+				"patcherrelativepath" : "../../lam-lib_/media/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
@@ -55532,22 +55532,22 @@
 			}
 , 			{
 				"name" : "LAM.ez-synth.saw.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.slidems~.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.quantize.cat.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib_/patchers",
+				"patcherrelativepath" : "../../lam-lib_/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
