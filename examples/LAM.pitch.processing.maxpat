@@ -21934,7 +21934,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 205.0, 296.0, 50.0, 18.0 ],
-																	"text" : "1"
+																	"text" : "4"
 																}
 
 															}
@@ -35137,13 +35137,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-29",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 55.5, 384.0, 80.0, 31.0 ],
-													"text" : "13 0 0 0 0 0 0 0"
+													"text" : "7536641"
 												}
 
 											}
@@ -36694,8 +36693,7 @@
 																									"maxclass" : "outlet",
 																									"numinlets" : 1,
 																									"numoutlets" : 0,
-																									"patching_rect" : [ 440.0, 330.0, 25.0, 25.0 ],
-																									"presentation_rect" : [ 445.0, 330.0, 0.0, 0.0 ]
+																									"patching_rect" : [ 440.0, 330.0, 25.0, 25.0 ]
 																								}
 
 																							}
@@ -39510,8 +39508,7 @@
 																									"maxclass" : "outlet",
 																									"numinlets" : 1,
 																									"numoutlets" : 0,
-																									"patching_rect" : [ 441.0, 283.0, 25.0, 25.0 ],
-																									"presentation_rect" : [ 438.0, 282.0, 0.0, 0.0 ]
+																									"patching_rect" : [ 441.0, 283.0, 25.0, 25.0 ]
 																								}
 
 																							}
@@ -40965,8 +40962,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 41.5, 502.0, 50.0, 20.0 ],
-													"presentation_rect" : [ 44.0, 502.0, 0.0, 0.0 ]
+													"patching_rect" : [ 41.5, 502.0, 50.0, 20.0 ]
 												}
 
 											}
@@ -42441,7 +42437,6 @@
 																									"numinlets" : 1,
 																									"numoutlets" : 0,
 																									"patching_rect" : [ 424.399994, 298.0, 187.0, 37.0 ],
-																									"presentation_rect" : [ 440.0, 295.0, 0.0, 0.0 ],
 																									"text" : "radial position for notenames can be made here"
 																								}
 
@@ -42637,8 +42632,7 @@
 																									"numinlets" : 0,
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 57.0, 172.0, 25.0, 25.0 ],
-																									"presentation_rect" : [ -20.0, 92.0, 0.0, 0.0 ]
+																									"patching_rect" : [ 57.0, 172.0, 25.0, 25.0 ]
 																								}
 
 																							}
@@ -49072,6 +49066,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-10",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
@@ -49146,6 +49141,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-29",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
@@ -57730,12 +57726,12 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-42" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-42" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -57796,8 +57792,8 @@
 			}
 , 			{
 				"name" : "sw.maxpat",
-				"bootpath" : "/Users/vg/vg.PROJETS/PUCEMUSE/MM4-CORE2.Max6/include",
-				"patcherrelativepath" : "../../../../../vg.PROJETS/PUCEMUSE/MM4-CORE2.Max6/include",
+				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

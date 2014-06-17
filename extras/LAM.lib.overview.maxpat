@@ -32,6 +32,37 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-48",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 176.5625, 315.012665, 150.0, 19.0 ],
+					"presentation_rect" : [ 178.9375, 319.0, 0.0, 0.0 ],
+					"text" : "Example patchers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 176.5625, 335.181458, 117.0, 17.0 ],
+					"presentation_rect" : [ 342.9375, 444.35022, 0.0, 0.0 ],
+					"text" : "LAM.pitch.processing",
+					"varname" : "jmod.bcf2000[25]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-45",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1161,6 +1192,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
