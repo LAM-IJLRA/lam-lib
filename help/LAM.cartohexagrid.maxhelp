@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 128.0, 195.0, 896.0, 574.0 ],
+		"rect" : [ 100.0, 100.0, 896.0, 574.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,8 +40,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 540.5, 156.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 560.0, 195.0, 0.0, 0.0 ]
+					"patching_rect" : [ 540.5, 156.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -204,8 +203,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 296.0, 40.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 296.0, 40.0, 0.0, 0.0 ]
+									"patching_rect" : [ 296.0, 40.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -300,7 +298,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -438,7 +436,6 @@
 					}
 ,
 					"patching_rect" : [ 696.5, 433.0, 51.0, 20.0 ],
-					"presentation_rect" : [ 814.0, 455.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -464,7 +461,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -824,14 +821,13 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 403.0, 159.0, 54.0, 18.0 ],
-													"presentation_rect" : [ 403.0, 159.0, 0.0, 0.0 ],
 													"text" : "plane -1"
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"cols" : 9,
+													"cols" : 7,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-9",
@@ -840,7 +836,6 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "list", "", "", "" ],
 													"patching_rect" : [ 403.0, 197.0, 200.0, 200.0 ],
-													"presentation_rect" : [ 403.0, 197.0, 0.0, 0.0 ],
 													"rows" : 7
 												}
 
@@ -872,7 +867,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 9,
+													"cols" : 7,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
@@ -1313,7 +1308,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 485.0, 521.446777, 156.0, 47.0 ],
-									"presentation_rect" : [ 81.0, 386.0, 0.0, 0.0 ],
 									"text" : "Flat top coords :\nx = size * 3/2 * q\ny = size * sqrt(3) * (r + q/2)"
 								}
 
@@ -1683,7 +1677,6 @@
 					}
 ,
 					"patching_rect" : [ 415.5, 222.053223, 150.0, 22.0 ],
-					"presentation_rect" : [ 583.0, 265.053223, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2744,7 +2737,6 @@
 					}
 ,
 					"patching_rect" : [ 443.0, 433.0, 59.0, 20.0 ],
-					"presentation_rect" : [ 564.5, 491.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2809,7 +2801,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
 									"patching_rect" : [ 369.0, 51.200005, 32.5, 20.0 ],
-									"presentation_rect" : [ 315.0, 83.400009, 0.0, 0.0 ],
 									"text" : "t b l"
 								}
 
@@ -2846,8 +2837,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 517.0, 291.5, 80.0, 60.0 ],
-									"presentation_rect" : [ 517.0, 291.5, 0.0, 0.0 ]
+									"patching_rect" : [ 517.0, 291.5, 80.0, 60.0 ]
 								}
 
 							}
@@ -2858,8 +2848,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 536.0, 480.0, 80.0, 60.0 ],
-									"presentation_rect" : [ 462.0, 410.5, 0.0, 0.0 ]
+									"patching_rect" : [ 536.0, 480.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -2870,8 +2859,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 530.0, 419.5, 20.0, 20.0 ],
-									"presentation_rect" : [ 456.0, 350.0, 0.0, 0.0 ]
+									"patching_rect" : [ 530.0, 419.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -3239,7 +3227,6 @@
 									}
 ,
 									"patching_rect" : [ 536.0, 450.5, 95.0, 20.0 ],
-									"presentation_rect" : [ 462.0, 381.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3324,8 +3311,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 381.0, 45.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 350.0, 46.0, 0.0, 0.0 ]
+													"patching_rect" : [ 381.0, 45.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -3767,8 +3753,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.0, 41.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 108.0, 50.0, 0.0, 0.0 ]
+									"patching_rect" : [ 68.0, 41.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -3863,7 +3848,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 369.0, 14.800003, 25.0, 25.0 ]
 								}
 
@@ -4198,7 +4183,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 194.0, 119.0, 83.0, 18.0 ],
-					"presentation_rect" : [ 220.0, 257.0, 0.0, 0.0 ],
 					"text" : "orientation $1"
 				}
 
@@ -5618,7 +5602,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 256.0, 203.0, 27.0 ],
-					"text" : "LAM.cartohexgrid"
+					"text" : "LAM.cartohexagrid"
 				}
 
 			}
@@ -5894,7 +5878,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.cartohexgrid.maxpat",
+				"name" : "LAM.cartohexagrid.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
