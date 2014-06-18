@@ -38,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 172.9375, 271.0, 105.0, 17.0 ],
-					"presentation_rect" : [ 173.9375, 268.0, 0.0, 0.0 ],
 					"text" : "LAM.cartohexagrid",
 					"varname" : "jmod.bcf2000[27]"
 				}
@@ -82,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 502.1875, 406.181458, 117.0, 17.0 ],
+					"patching_rect" : [ 502.1875, 407.012665, 117.0, 17.0 ],
 					"text" : "LAM.pitch.processing",
 					"varname" : "jmod.bcf2000[25]"
 				}
@@ -97,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.0625, 412.35022, 77.0, 17.0 ],
+					"patching_rect" : [ 350.0625, 407.012665, 77.0, 17.0 ],
 					"text" : "LAM.jit.verlet",
 					"varname" : "jmod.bcf2000[24]"
 				}
@@ -112,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.0625, 393.35022, 92.0, 19.0 ],
+					"patching_rect" : [ 350.0625, 386.012665, 92.0, 19.0 ],
 					"text" : "Dynamic Models"
 				}
 
