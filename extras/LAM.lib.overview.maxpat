@@ -37,9 +37,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 271.0, 98.0, 17.0 ],
+					"patching_rect" : [ 172.9375, 271.0, 105.0, 17.0 ],
 					"presentation_rect" : [ 173.9375, 268.0, 0.0, 0.0 ],
-					"text" : "LAM.cartohexgrid",
+					"text" : "LAM.cartohexagrid",
 					"varname" : "jmod.bcf2000[27]"
 				}
 
