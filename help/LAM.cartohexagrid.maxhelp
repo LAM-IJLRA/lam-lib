@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 376.0, 210.0, 822.0, 477.0 ],
+		"rect" : [ 95.0, 260.0, 822.0, 477.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,8 +38,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 100.0, 102.0, 24.0 ],
-					"presentation_rect" : [ 304.0, 101.0, 0.0, 0.0 ],
+					"patching_rect" : [ 302.0, 100.0, 102.0, 24.0 ],
 					"text" : "tile orientation"
 				}
 
@@ -86,7 +85,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 432.5, 191.0, 112.0, 24.0 ],
-					"presentation_rect" : [ 484.0, 133.0, 0.0, 0.0 ],
 					"text" : "grid dimensions"
 				}
 
@@ -162,7 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 171.0, 294.0, 50.0, 18.0 ],
-					"text" : "2 1"
+					"text" : "-6 -3"
 				}
 
 			}
@@ -615,12 +613,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-83",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 92.0, 70.946777, 150.0, 47.0 ],
-									"text" : "number of cells should be odd to have a cell in the center"
+									"patching_rect" : [ 696.0, 60.0, 179.0, 33.0 ],
+									"text" : "number of cells should be kept odd to have a cell in the center"
 								}
 
 							}
@@ -3410,13 +3408,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"items" : [ "pointy", "top", ",", "flat", "top" ],
+					"items" : [ "horizontal", "grid", ",", "vertical", "grid" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 194.0, 102.0, 100.0, 20.0 ]
+					"patching_rect" : [ 194.0, 102.0, 108.0, 20.0 ]
 				}
 
 			}
