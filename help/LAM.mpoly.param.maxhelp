@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 132.0, 105.0, 921.0, 652.0 ],
+		"rect" : [ 299.0, 45.0, 779.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,37 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 219.0, 522.287109, 50.0, 31.0 ],
+					"presentation_rect" : [ 224.0, 517.287109, 0.0, 0.0 ],
+					"text" : "/velocity 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 454.0, 522.287109, 50.0, 31.0 ],
+					"text" : "/id 1234"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-155",
 					"maxclass" : "newobj",
@@ -45,7 +76,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 462.0, 168.0, 489.0, 317.0 ],
+						"rect" : [ 462.0, 168.0, 518.0, 339.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -70,12 +101,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-2",
-									"linecount" : 20,
+									"linecount" : 22,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 21.0, 449.0, 275.0 ],
-									"text" : "MIDI protocol has somehow been designed with a keyboard in mind : there is only 1 pitch played at a time. It was up to the synthesizer to decide what happens when several \"note-on\" messages arrive with the same pitch. Should we trigger a new note ? Should it replace the old one ?\n\nIn Max, the poly~ object is somehow based on this idea. Though you can use (midi)note messages with value that do not reflect pitch (using other following data for that purpose), the \"busy\" state of the poly prevents one from modulating an active voice. \n\nThe mpoly.* objects manage voice allocation independantly, based on a \"event id\" that is not necessarily tied to the pitch value. \n\nEvent are activated with the help of LAM.mpoly.notonoff object, based on a velocity value. Events are shut off when the internal synthesizer algorithm mute itself (with a rule of its own, see inside poly~ for an example).\n\nActive event can then be modulated by using a lookup table thanks to the LAM.mpoly.param object, which will redirect messages to the corresponding poly~ voice."
+									"patching_rect" : [ 14.0, 21.0, 486.0, 301.0 ],
+									"text" : "MIDI protocol has somehow been designed with a keyboard in mind : there is only 1 pitch played at a time. It was up to the synthesizer to decide what happens when several \"note-on\" messages arrive with the same pitch. Should we trigger a new note ? Should it replace the old one ?\n\nIn Max, the poly~ object is somehow based on this idea. Though you can use (midi)note messages with value that do not reflect pitch (using other following data for that purpose), the \"busy\" state of the poly prevents one from modulating an active voice. \n\nThe mpoly.* objects manage voice allocation independantly, based on a \"event id\" that is not necessarily tied to the pitch value. \n\nEvent are activated with the help of LAM.mpoly.notonoff object, based on a velocity value. Events are shut off when the internal synthesizer algorithm mute itself (with a rule of its own, see inside poly~ for an example).\n\nActive event can then be modulated by using a lookup table thanks to the LAM.mpoly.param object, which will redirect messages to the corresponding poly~ voice.\n\nApplied to a piano keyboard, events ID can be tied to each piano key (hence to the pitch).\nApplied to string instrument, events ID can be tied to the string number.\nApplied to drums, events ID can be tied to each drum element."
 								}
 
 							}
@@ -150,7 +181,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 975.0, 71.0, 603.0, 514.0 ],
+						"rect" : [ 837.0, 71.0, 603.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -412,8 +443,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 599.0, 269.287109, 78.0, 18.0 ],
-					"text" : "$1 $2 31416"
+					"patching_rect" : [ 599.0, 269.287109, 208.0, 18.0 ],
+					"text" : "/pitch $1 31416, /filterFreq $2 31416"
 				}
 
 			}
@@ -648,8 +679,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.0, 162.287109, 54.0, 18.0 ],
-					"text" : "$1 1234"
+					"patching_rect" : [ 552.0, 162.287109, 86.0, 18.0 ],
+					"text" : "/pitch $1 1234"
 				}
 
 			}
@@ -777,20 +808,6 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 752.0, 337.0, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-107",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.0, 395.0, 130.0, 18.0 ],
-					"text" : "/pitch $1, /filterFreq $2"
 				}
 
 			}
@@ -987,7 +1004,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 132.0, 131.0, 921.0, 626.0 ],
+						"rect" : [ 0.0, 26.0, 779.0, 650.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1009,6 +1026,18 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "@obj-name", "LAM.mpoly.param", "@obj-desc", "Interactive polyphony." ],
+									"id" : "obj-29",
+									"maxclass" : "bpatcher",
+									"name" : "LAM.helpheader.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1.0, 2.060059, 802.0, 57.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
@@ -1016,7 +1045,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 442.287109, 85.0, 20.0 ],
+									"patching_rect" : [ 20.0, 484.287109, 85.0, 20.0 ],
 									"text" : "loadmess 100"
 								}
 
@@ -1027,11 +1056,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-95",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 559.75, 112.287109, 150.0, 20.0 ],
-									"text" : "cell index to event id"
+									"patching_rect" : [ 578.25, 154.287109, 91.0, 33.0 ],
+									"text" : "color hue to filterFrequency"
 								}
 
 							}
@@ -1044,7 +1074,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 353.75, 112.287109, 181.0, 20.0 ],
+									"patching_rect" : [ 302.75, 154.287109, 181.0, 20.0 ],
 									"text" : "cell index to event id... and pitch"
 								}
 
@@ -1058,7 +1088,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 137.0, 112.287109, 150.0, 20.0 ],
+									"patching_rect" : [ 137.0, 154.287109, 150.0, 20.0 ],
 									"text" : "luminance to velocity"
 								}
 
@@ -1072,7 +1102,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 545.75, 180.787109, 36.0, 20.0 ],
+									"patching_rect" : [ 545.75, 222.787109, 36.0, 20.0 ],
 									"text" : "sel 0"
 								}
 
@@ -1086,7 +1116,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 545.75, 239.787109, 45.0, 20.0 ],
+									"patching_rect" : [ 545.75, 281.787109, 45.0, 20.0 ],
 									"text" : "mtof 0."
 								}
 
@@ -1100,7 +1130,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 545.75, 206.787109, 112.0, 20.0 ],
+									"patching_rect" : [ 545.75, 248.787109, 112.0, 20.0 ],
 									"text" : "scale 0 255 0. 170."
 								}
 
@@ -1114,7 +1144,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 545.75, 131.287109, 32.5, 18.0 ],
+									"patching_rect" : [ 545.75, 173.287109, 32.5, 18.0 ],
 									"text" : "$5"
 								}
 
@@ -1128,7 +1158,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 496.75, 270.287109, 68.0, 20.0 ],
+									"patching_rect" : [ 496.75, 312.287109, 68.0, 20.0 ],
 									"text" : "pack 0. 0."
 								}
 
@@ -1142,7 +1172,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 497.0, 346.287109, 130.0, 18.0 ],
+									"patching_rect" : [ 497.0, 388.287109, 130.0, 18.0 ],
 									"text" : "/pitch $1, /filterFreq $2"
 								}
 
@@ -1156,7 +1186,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 569.75, 270.287109, 51.0, 20.0 ],
+									"patching_rect" : [ 569.75, 312.287109, 51.0, 20.0 ],
 									"text" : "params"
 								}
 
@@ -1170,7 +1200,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 695.0, 266.787109, 53.0, 20.0 ],
+									"patching_rect" : [ 695.0, 308.787109, 53.0, 20.0 ],
 									"text" : "event id"
 								}
 
@@ -1185,7 +1215,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 642.0, 266.787109, 50.0, 20.0 ]
+									"patching_rect" : [ 642.0, 308.787109, 50.0, 20.0 ]
 								}
 
 							}
@@ -1199,7 +1229,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 497.0, 308.287109, 164.0, 22.0 ],
+									"patching_rect" : [ 497.0, 350.287109, 164.0, 22.0 ],
 									"text" : "LAM.mpoly.param blabla"
 								}
 
@@ -1213,7 +1243,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 272.0, 280.287109, 36.0, 20.0 ],
+									"patching_rect" : [ 272.0, 322.287109, 36.0, 20.0 ],
 									"text" : "steal"
 								}
 
@@ -4823,7 +4853,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 123.0, 69.0, 591.0, 22.0 ],
+									"patching_rect" : [ 123.0, 111.0, 591.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -5381,7 +5411,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 394.0, 401.287109, 61.0, 20.0 ],
+									"patching_rect" : [ 394.0, 443.287109, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -5409,7 +5439,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 317.0, 280.287109, 50.0, 20.0 ]
+									"patching_rect" : [ 317.0, 322.287109, 50.0, 20.0 ]
 								}
 
 							}
@@ -5423,7 +5453,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 187.0, 472.287109, 221.0, 31.0 ],
+									"patching_rect" : [ 187.0, 514.287109, 221.0, 31.0 ],
 									"text" : "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
 								}
 
@@ -5437,7 +5467,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 496.75, 239.787109, 34.0, 20.0 ],
+									"patching_rect" : [ 496.75, 281.787109, 34.0, 20.0 ],
 									"text" : "+ 50"
 								}
 
@@ -5451,7 +5481,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 496.75, 216.787109, 32.5, 20.0 ],
+									"patching_rect" : [ 496.75, 258.787109, 32.5, 20.0 ],
 									"text" : "* 4"
 								}
 
@@ -5465,7 +5495,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 496.75, 186.787109, 38.0, 20.0 ],
+									"patching_rect" : [ 496.75, 228.787109, 38.0, 20.0 ],
 									"text" : "% 10"
 								}
 
@@ -5480,7 +5510,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 260.287109, 95.0, 33.0 ],
+									"patching_rect" : [ 20.0, 302.287109, 95.0, 33.0 ],
 									"text" : "amp mappé sur valeur de cell"
 								}
 
@@ -5493,7 +5523,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 123.0, 25.0, 39.0, 39.0 ]
+									"patching_rect" : [ 123.0, 67.0, 39.0, 39.0 ]
 								}
 
 							}
@@ -5506,7 +5536,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 496.75, 131.287109, 32.5, 18.0 ],
+									"patching_rect" : [ 496.75, 173.287109, 32.5, 18.0 ],
 									"text" : "$1"
 								}
 
@@ -5520,7 +5550,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.0, 346.287109, 72.0, 18.0 ],
+									"patching_rect" : [ 122.0, 388.287109, 72.0, 18.0 ],
 									"text" : "/velocity $1"
 								}
 
@@ -5534,7 +5564,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.0, 172.287109, 115.0, 20.0 ],
+									"patching_rect" : [ 123.0, 214.287109, 115.0, 20.0 ],
 									"text" : "scale 0 255 0. 127."
 								}
 
@@ -5548,7 +5578,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.0, 132.287109, 32.5, 18.0 ],
+									"patching_rect" : [ 123.0, 174.287109, 32.5, 18.0 ],
 									"text" : "$7"
 								}
 
@@ -5562,7 +5592,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 345.75, 131.287109, 32.5, 18.0 ],
+									"patching_rect" : [ 345.75, 173.287109, 32.5, 18.0 ],
 									"text" : "$1"
 								}
 
@@ -5575,7 +5605,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 252.0, 280.287109, 20.0, 20.0 ]
+									"patching_rect" : [ 252.0, 322.287109, 20.0, 20.0 ]
 								}
 
 							}
@@ -5589,7 +5619,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 122.0, 308.287109, 214.0, 22.0 ],
+									"patching_rect" : [ 122.0, 350.287109, 214.0, 22.0 ],
 									"text" : "LAM.mpoly.notonoff blabla"
 								}
 
@@ -5603,7 +5633,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 174.0, 232.287109, 45.0, 20.0 ],
+									"patching_rect" : [ 174.0, 274.287109, 45.0, 20.0 ],
 									"text" : "param"
 								}
 
@@ -5617,7 +5647,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 255.287109, 53.0, 20.0 ],
+									"patching_rect" : [ 240.0, 297.287109, 53.0, 20.0 ],
 									"text" : "event id"
 								}
 
@@ -5632,7 +5662,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 187.0, 255.287109, 50.0, 20.0 ]
+									"patching_rect" : [ 187.0, 297.287109, 50.0, 20.0 ]
 								}
 
 							}
@@ -5646,7 +5676,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 123.0, 232.287109, 50.0, 20.0 ]
+									"patching_rect" : [ 123.0, 274.287109, 50.0, 20.0 ]
 								}
 
 							}
@@ -5657,7 +5687,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 695.0, 100.287109, 204.0, 143.0 ]
+									"patching_rect" : [ 695.0, 142.287109, 204.0, 143.0 ]
 								}
 
 							}
@@ -5843,7 +5873,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 345.75, 33.5, 214.0, 22.0 ],
+									"patching_rect" : [ 345.75, 75.5, 214.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -5867,7 +5897,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 122.0, 558.287109, 45.0, 45.0 ]
+									"patching_rect" : [ 122.0, 591.287109, 45.0, 45.0 ]
 								}
 
 							}
@@ -5879,7 +5909,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 148.0, 472.287109, 24.0, 68.0 ]
+									"patching_rect" : [ 148.0, 514.287109, 24.0, 68.0 ]
 								}
 
 							}
@@ -5891,7 +5921,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 122.0, 472.287109, 24.0, 68.0 ]
+									"patching_rect" : [ 122.0, 514.287109, 24.0, 68.0 ]
 								}
 
 							}
@@ -8066,7 +8096,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 252.0, 401.287109, 127.0, 20.0 ],
+									"patching_rect" : [ 252.0, 443.287109, 127.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -8093,7 +8123,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 122.0, 442.287109, 286.0, 22.0 ],
+									"patching_rect" : [ 122.0, 484.287109, 286.0, 22.0 ],
 									"text" : "poly~ LAM.ez-mpolysynth 30 @args blabla"
 								}
 
@@ -8107,7 +8137,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 35.0, 401.287109, 71.0, 18.0 ],
+									"patching_rect" : [ 35.0, 443.287109, 71.0, 18.0 ],
 									"text" : "mutemap 1"
 								}
 
@@ -8291,7 +8321,7 @@
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 651.5, 387.787109, 131.5, 387.787109 ],
+									"midpoints" : [ 651.5, 429.787109, 131.5, 429.787109 ],
 									"source" : [ "obj-54", 1 ]
 								}
 
@@ -8401,7 +8431,7 @@
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 506.5, 373.287109, 131.5, 373.287109 ],
+									"midpoints" : [ 506.5, 415.287109, 131.5, 415.287109 ],
 									"source" : [ "obj-70", 0 ]
 								}
 
@@ -8421,7 +8451,7 @@
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 326.5, 382.787109, 131.5, 382.787109 ],
+									"midpoints" : [ 326.5, 424.787109, 131.5, 424.787109 ],
 									"source" : [ "obj-72", 1 ]
 								}
 
@@ -8651,15 +8681,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-103", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.981864, 0.463125, 0.0, 0.9 ],
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
@@ -8671,21 +8692,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-106", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.0, 0.747993, 0.8, 0.9 ],
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 561.5, 425.143555, 130.5, 425.143555 ],
-					"source" : [ "obj-107", 0 ]
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-106", 0 ]
 				}
 
 			}
@@ -8864,6 +8885,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -8911,6 +8941,15 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.747993, 0.8, 0.9 ],
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
