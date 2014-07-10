@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 119.0, 431.0, 407.0 ],
+		"rect" : [ 75.0, 119.0, 477.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 316.0, 295.0, 128.0, 18.0 ],
+					"presentation_rect" : [ 316.0, 295.0, 0.0, 0.0 ],
+					"text" : "target $2, mpoly.id $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "param output",
 					"id" : "obj-11",
 					"maxclass" : "outlet",
@@ -47,8 +62,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 339.0, 95.0, 18.0 ],
-					"text" : "target $2, /id $1"
+					"patching_rect" : [ 277.0, 339.0, 58.0, 18.0 ],
+					"text" : "target $2"
 				}
 
 			}
@@ -238,7 +253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 895.0, 240.0, 143.0, 47.0 ],
+					"patching_rect" : [ 234.5, 173.5, 143.0, 47.0 ],
 					"text" : "if note_index active, send to corresponding voice"
 				}
 
