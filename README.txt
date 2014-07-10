@@ -9,6 +9,6 @@
 INSTALLATION
 This library is a Max project. Put the lam-lib folder in your Max search path. Usual location (on Mac) are ~/Documents/Max or /Application/Max6/packages.
 
-A good place to start is to open LAM.lib.overview.maxpat, which should automaticallu show up in the extra menu from Max.
+A good place to start is to open LAM.lib.overview.maxpat, which should automatically show up in the extra menu from Max.
 
 Enjoy!
