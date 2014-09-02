@@ -1,6 +1,7 @@
 * LAM.lib
 * By Hugues Genevois, Vincent Goudard
 * http://lam.jussieu.fr
+* © 2013-2014 LAM-IJLRA
 *
 * This library is a toolkit for digital instrument making in Max (® Cycling74).
 * This code is under GNU-LGPL licence which can be read in the file named COPYING.
