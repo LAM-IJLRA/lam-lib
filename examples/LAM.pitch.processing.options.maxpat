@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 468.0, 1486.0, 499.0 ],
+		"rect" : [ -46.0, 468.0, 1486.0, 499.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -652,7 +652,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 104.278748, 103.0, 20.0 ],
-									"text" : "sw HexaGridSize"
+									"text" : "sw GridSize"
 								}
 
 							}
