@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -91,7 +91,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 387.0, 68.0, 327.0, 20.0 ],
-					"text" : "patcherargs @pitchlist 60 @brightness 0.9 @decaytime 0.5"
+					"text" : "patcherargs @pitchlist 60 @brightness 0.8 @decaytime 0.5"
 				}
 
 			}
