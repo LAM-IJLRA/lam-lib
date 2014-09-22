@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 430.0, 82.0, 885.0, 640.0 ],
+		"rect" : [ 455.0, 95.0, 885.0, 640.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,16 +30,14 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
+					"id" : "obj-3",
+					"idlemouse" : 1,
+					"maxclass" : "jit.pwindow",
+					"name" : "poscalerect",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 324.0, 111.0, 444.0, 20.0 ],
-					"presentation_rect" : [ 310.0, 114.0, 0.0, 0.0 ],
-					"text" : "NB : init requires a slight resize of the jit.window... dunno why"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 293.5, 98.0, 463.0, 307.0 ]
 				}
 
 			}
@@ -81,8 +79,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.5, 474.0, 376.0, 31.0 ],
-					"text" : "reset, color 1 0 0 1, moveto $1 $2, framecircle 0.1, moveto $3 $4, framecircle 0.1"
+					"patching_rect" : [ 473.5, 478.0, 272.0, 31.0 ],
+					"text" : "reset, color 1 0 0 1, moveto $1 $2, framecircle 0.05, moveto $3 $4, framecircle 0.05"
 				}
 
 			}
@@ -95,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 438.5, 508.0, 135.0, 20.0 ],
+					"patching_rect" : [ 473.5, 512.0, 135.0, 20.0 ],
 					"text" : "jit.gl.sketch poscalerect"
 				}
 
@@ -109,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.5, 448.0, 123.0, 22.0 ],
+					"patching_rect" : [ 473.5, 452.0, 123.0, 22.0 ],
 					"text" : "LAM.poscale2rect"
 				}
 
@@ -254,7 +252,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -427,7 +425,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 248.5, 180.0, 95.0, 20.0 ],
+					"patching_rect" : [ 151.0, 180.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -470,21 +468,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 98.0, 410.5, 156.0, 22.0 ],
 					"text" : "LAM.rect2poscale"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-19",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 129.5, 120.0, 139.0, 50.0 ],
-					"text" : "jit.window poscalerect @mousewheel 1 @idlemouse 1"
 				}
 
 			}
@@ -551,8 +534,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 98.0, 512.0, 307.0, 20.0 ],
-					"text" : "jit.gl.gridshape poscalerect @shape plane @scale 0 0 0"
+					"patching_rect" : [ 98.0, 512.0, 359.0, 20.0 ],
+					"text" : "jit.gl.gridshape poscalerect @shape plane @scale 0 0 0 @layer 1"
 				}
 
 			}
@@ -633,7 +616,8 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-19", 1 ]
+					"midpoints" : [ 747.0, 419.0, 771.25, 419.0, 771.25, 91.0, 160.5, 91.0 ],
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -660,7 +644,7 @@
 					"destination" : [ "obj-88", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 244.5, 439.75, 552.0, 439.75 ],
+					"midpoints" : [ 244.5, 439.75, 587.0, 439.75 ],
 					"source" : [ "obj-39", 1 ]
 				}
 
@@ -670,7 +654,7 @@
 					"destination" : [ "obj-88", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 107.5, 444.75, 448.0, 444.75 ],
+					"midpoints" : [ 107.5, 444.75, 483.0, 444.75 ],
 					"source" : [ "obj-39", 0 ]
 				}
 

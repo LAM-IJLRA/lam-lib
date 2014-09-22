@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 94.0, 815.0, 556.0 ],
+		"rect" : [ 100.0, 100.0, 807.0, 548.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 444.0, 358.0, 233.0, 20.0 ],
-					"presentation_rect" : [ 435.0, 355.0, 0.0, 0.0 ],
 					"text" : "min and max can be passed as attributes."
 				}
 
@@ -68,7 +67,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 434.0, 260.0, 344.0, 24.0 ],
-					"presentation_rect" : [ 10.5, 61.5, 0.0, 0.0 ],
 					"text" : "You can use min and max message to clip the output value."
 				}
 
@@ -196,7 +194,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 44.0, 315.0, 248.5, 22.0 ],
 					"text" : "LAM.addeltaclip"
 				}

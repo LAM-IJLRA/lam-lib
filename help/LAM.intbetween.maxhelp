@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 336.0, 215.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 147.0, 112.0, 22.0 ],
+					"patching_rect" : [ 300.0, 159.0, 112.0, 22.0 ],
 					"text" : "LAM.intbetween"
 				}
 
@@ -51,7 +51,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 194.0, 292.0, 18.0 ]
+					"patching_rect" : [ 27.0, 194.0, 292.0, 18.0 ],
+					"text" : "12 13 14 15 16 17 18 19"
 				}
 
 			}
@@ -65,7 +66,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 111.0, 50.0, 20.0 ]
+					"patching_rect" : [ 393.0, 123.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -79,7 +80,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 27.0, 111.0, 50.0, 20.0 ]
+					"patching_rect" : [ 300.0, 123.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -140,6 +141,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.intbetween.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
