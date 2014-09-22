@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 83.0, 44.0, 893.0, 649.0 ],
+		"rect" : [ 100.0, 100.0, 908.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -74,7 +74,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 21.0, 486.0, 301.0 ],
+									"patching_rect" : [ 14.0, 21.0, 488.0, 301.0 ],
 									"text" : "MIDI protocol has somehow been designed with a keyboard in mind : there is only 1 pitch played at a time. It was up to the synthesizer to decide what happens when several \"note-on\" messages arrive with the same pitch. Should we trigger a new note ? Should it replace the old one ?\n\nIn Max, the poly~ object is somehow based on this idea. Though you can use (midi)note messages with value that do not reflect pitch (using other following data for that purpose), the \"busy\" state of the poly prevents one from modulating an active voice. \n\nThe mpoly.* objects manage voice allocation independantly, based on a \"event id\" that is not necessarily tied to the pitch value. \n\nEvent are activated with the help of LAM.mpoly.notonoff object, based on a velocity value. Events are shut off when the internal synthesizer algorithm mute itself (with a rule of its own, see inside poly~ for an example).\n\nActive event can then be modulated by using a lookup table thanks to the LAM.mpoly.param object, which will redirect messages to the corresponding poly~ voice.\n\nApplied to a piano keyboard, events ID can be tied to each piano key (hence to the pitch).\nApplied to string instrument, events ID can be tied to the string number.\nApplied to drums, events ID can be tied to each drum element."
 								}
 
@@ -146,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -704,7 +704,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 158.0, 51.0, 18.0 ],
+					"patching_rect" : [ 133.0, 158.0, 51.0, 18.0 ],
 					"text" : "0. 1234"
 				}
 
@@ -955,11 +955,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 893.0, 623.0 ],
+						"rect" : [ 100.0, 126.0, 908.0, 650.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1217,11 +1217,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 651.0, 121.0, 784.0, 565.0 ],
+										"rect" : [ 730.0, 363.0, 784.0, 565.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1294,7 +1294,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -1593,7 +1593,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -2062,7 +2062,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -2339,7 +2339,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -2416,7 +2416,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -2548,7 +2548,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 7,
+																							"revision" : 8,
 																							"architecture" : "x86"
 																						}
 ,
@@ -3011,7 +3011,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -3298,7 +3298,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -3733,7 +3733,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -3809,7 +3809,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 7,
+																							"revision" : 8,
 																							"architecture" : "x86"
 																						}
 ,
@@ -4840,7 +4840,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -4877,7 +4877,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -5363,7 +5363,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 187.0, 514.287109, 221.0, 31.0 ],
-									"text" : "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+									"text" : "0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
 								}
 
 							}
@@ -5599,11 +5599,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1067.0, 63.0, 603.0, 514.0 ],
+										"rect" : [ 837.0, 63.0, 603.0, 514.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5666,7 +5666,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 2,
+													"cols" : 3,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-187",
@@ -5695,7 +5695,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 1,
+													"cols" : 3,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-183",
@@ -5704,7 +5704,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "list", "", "", "" ],
 													"patching_rect" : [ 40.0, 60.0, 427.0, 195.0 ],
-													"rows" : 1
+													"rows" : 11
 												}
 
 											}
