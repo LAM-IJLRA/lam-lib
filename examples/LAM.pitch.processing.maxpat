@@ -23057,7 +23057,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1018.0, 623.0, 640.0, 480.0 ],
+										"rect" : [ 583.0, 350.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -23076,7 +23076,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -88310,7 +88309,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 479.459839, 625.0, 148.0, 28.0 ],
+					"patching_rect" : [ 479.459839, 625.0, 148.0, 14.0 ],
 					"presentation_rect" : [ 246.166672, 680.0, 50.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -88600,8 +88599,8 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 7.0, 348.0, 215.0, 34.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
+									"patching_rect" : [ 7.0, 348.0, 215.0, 48.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "live.gain~[3]",
@@ -92898,12 +92897,12 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
 			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-42" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-42" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
