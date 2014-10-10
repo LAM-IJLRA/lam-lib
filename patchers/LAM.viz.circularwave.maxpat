@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 145.0, 222.0, 1158.0, 574.0 ],
+		"rect" : [ 5.0, 289.0, 1158.0, 574.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,14 +29,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 42.0, 337.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "1026.done" ],
-					"patching_rect" : [ 864.0, 86.0, 74.0, 20.0 ],
+					"outlettype" : [ "117844.done" ],
+					"patching_rect" : [ 864.0, 86.0, 84.0, 20.0 ],
 					"text" : "t #0.done"
 				}
 
@@ -79,7 +90,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 704.0, 284.796875, 87.0, 18.0 ],
-					"presentation_rect" : [ 843.0, 375.0, 0.0, 0.0 ],
 					"text" : "param bias $1"
 				}
 
@@ -121,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 112.0, 144.0, 20.0 ],
+					"patching_rect" : [ 784.0, 112.0, 154.0, 20.0 ],
 					"text" : "prepend texture #0.tex"
 				}
 
@@ -361,7 +371,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -771,7 +781,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 113.0, 25.0, 25.0 ]
 				}
 
@@ -825,7 +835,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 71.0, 420.796875, 231.0, 20.0 ],
+					"patching_rect" : [ 71.0, 420.796875, 243.0, 20.0 ],
 					"text" : "jit.gl.texture #1 @name #0.tex"
 				}
 
@@ -1022,6 +1032,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
