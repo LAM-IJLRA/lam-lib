@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 71.0, 90.0, 670.0, 507.0 ],
+		"rect" : [ 71.0, 90.0, 665.0, 613.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -32,13 +32,43 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-72",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 190.375, 194.0, 100.0, 17.0 ],
+					"presentation_rect" : [ 190.375, 198.362885, 0.0, 0.0 ],
+					"text" : "LAM.TUIO.decode",
+					"varname" : "jmod.bcf2000[36]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-71",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 190.375, 175.0, 132.0, 19.0 ],
+					"presentation_rect" : [ 190.375, 177.35022, 0.0, 0.0 ],
+					"text" : "Interfaces"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-70",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 320.0, 102.0, 17.0 ],
-					"presentation_rect" : [ 567.1875, 194.0, 0.0, 0.0 ],
+					"patching_rect" : [ 488.625, 320.35022, 102.0, 17.0 ],
 					"text" : "LAM.gen~.utilities",
 					"varname" : "jmod.bcf2000[35]"
 				}
@@ -53,8 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 279.044922, 101.0, 17.0 ],
-					"presentation_rect" : [ 335.0625, 282.0, 0.0, 0.0 ],
+					"patching_rect" : [ 352.5, 279.395142, 101.0, 17.0 ],
 					"text" : "LAM.gen.karpizz~",
 					"varname" : "jmod.bcf2000[34]"
 				}
@@ -69,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 297.806152, 181.0, 17.0 ],
+					"patching_rect" : [ 488.625, 298.156372, 181.0, 17.0 ],
 					"text" : "LAM.crosscorrelation.fft.zeropad~",
 					"varname" : "jmod.bcf2000[33]"
 				}
@@ -84,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 277.044922, 144.0, 17.0 ],
+					"patching_rect" : [ 488.625, 277.395142, 144.0, 17.0 ],
 					"text" : "LAM.crosscorrelation.pfft~",
 					"varname" : "jmod.bcf2000[32]"
 				}
@@ -99,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 256.283691, 137.0, 17.0 ],
+					"patching_rect" : [ 488.625, 256.633911, 137.0, 17.0 ],
 					"text" : "LAM.crosscorrelation.fft~",
 					"varname" : "jmod.bcf2000[31]"
 				}
@@ -114,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 437.012665, 120.0, 17.0 ],
+					"patching_rect" : [ 190.375, 437.362885, 120.0, 17.0 ],
 					"text" : "LAM.mpoly.insidepoly",
 					"varname" : "jmod.bcf2000[30]"
 				}
@@ -129,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 416.012665, 110.0, 17.0 ],
+					"patching_rect" : [ 190.375, 416.362885, 110.0, 17.0 ],
 					"text" : "LAM.mpoly.notonoff",
 					"varname" : "jmod.bcf2000[29]"
 				}
@@ -144,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 396.0, 101.0, 17.0 ],
+					"patching_rect" : [ 190.375, 396.35022, 101.0, 17.0 ],
 					"text" : "LAM.mpoly.param",
 					"varname" : "jmod.bcf2000[28]"
 				}
@@ -159,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.9375, 375.0, 132.0, 19.0 ],
+					"patching_rect" : [ 190.375, 375.35022, 132.0, 19.0 ],
 					"text" : "Polyphony management"
 				}
 
@@ -173,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 271.0, 105.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 493.012665, 105.0, 17.0 ],
 					"text" : "LAM.cartohexagrid",
 					"varname" : "jmod.bcf2000[27]"
 				}
@@ -188,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 234.0, 89.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 456.012665, 89.0, 17.0 ],
 					"text" : "LAM.addeltaclip",
 					"varname" : "jmod.bcf2000[26]"
 				}
@@ -203,7 +232,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.1875, 431.012665, 100.0, 19.0 ],
+					"patching_rect" : [ 488.625, 431.362885, 100.0, 19.0 ],
 					"text" : "Example patchers"
 				}
 
@@ -217,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 452.012665, 117.0, 17.0 ],
+					"patching_rect" : [ 488.625, 452.362885, 117.0, 17.0 ],
 					"text" : "LAM.pitch.processing",
 					"varname" : "jmod.bcf2000[25]"
 				}
@@ -232,7 +261,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 437.012665, 77.0, 17.0 ],
+					"patching_rect" : [ 352.5, 437.362885, 77.0, 17.0 ],
 					"text" : "LAM.jit.verlet",
 					"varname" : "jmod.bcf2000[24]"
 				}
@@ -247,7 +276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0625, 416.012665, 92.0, 19.0 ],
+					"patching_rect" : [ 352.5, 416.362885, 92.0, 19.0 ],
 					"text" : "Dynamic Models"
 				}
 
@@ -261,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 390.0, 157.0, 17.0 ],
+					"patching_rect" : [ 488.625, 390.35022, 157.0, 17.0 ],
 					"text" : "LAM.viz.DualSpeedWaveform",
 					"varname" : "jmod.bcf2000[23]"
 				}
@@ -276,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 251.0, 74.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 473.012665, 74.0, 17.0 ],
 					"text" : "LAM.dec2bin",
 					"varname" : "jmod.bcf2000[22]"
 				}
@@ -291,7 +320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 214.0, 139.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 436.012665, 139.0, 17.0 ],
 					"text" : "LAM.EqualLoudnessCurve",
 					"varname" : "jmod.bcf2000[21]"
 				}
@@ -306,7 +335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.9375, 194.0, 70.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 416.012665, 70.0, 17.0 ],
 					"text" : "LAM.%wrap",
 					"varname" : "jmod.bcf2000[20]"
 				}
@@ -381,7 +410,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 369.0, 115.0, 17.0 ],
+					"patching_rect" : [ 488.625, 369.35022, 115.0, 17.0 ],
 					"text" : "LAM.viz.circularwave",
 					"varname" : "jmod.bcf2000[17]"
 				}
@@ -396,7 +425,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.1875, 350.0, 104.0, 19.0 ],
+					"patching_rect" : [ 488.625, 350.35022, 104.0, 19.0 ],
 					"text" : "Audio vizualisation"
 				}
 
@@ -425,7 +454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 235.522461, 82.0, 17.0 ],
+					"patching_rect" : [ 488.625, 235.872681, 82.0, 17.0 ],
 					"text" : "LAM.ntapout~",
 					"varname" : "jmod.bcf2000[15]"
 				}
@@ -440,7 +469,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 214.76123, 75.0, 17.0 ],
+					"patching_rect" : [ 488.625, 215.11145, 75.0, 17.0 ],
 					"text" : "LAM.ntapin~",
 					"varname" : "jmod.bcf2000[14]"
 				}
@@ -455,7 +484,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 258.493347, 59.0, 17.0 ],
+					"patching_rect" : [ 352.5, 258.843567, 59.0, 17.0 ],
 					"text" : "LAM.paf~",
 					"varname" : "jmod.bcf2000[13]"
 				}
@@ -470,7 +499,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 236.99556, 87.0, 17.0 ],
+					"patching_rect" : [ 352.5, 237.345779, 87.0, 17.0 ],
 					"text" : "LAM.glissandi~",
 					"varname" : "jmod.bcf2000[12]"
 				}
@@ -530,7 +559,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 354.0, 112.0, 17.0 ],
+					"patching_rect" : [ 352.5, 354.35022, 112.0, 17.0 ],
 					"text" : "LAM.CheapAutotune",
 					"varname" : "jmod.bcf2000[7]"
 				}
@@ -545,7 +574,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0625, 335.0, 116.0, 19.0 ],
+					"patching_rect" : [ 352.5, 335.35022, 116.0, 19.0 ],
 					"text" : "Audio transformation"
 				}
 
@@ -559,7 +588,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.1875, 194.0, 81.0, 17.0 ],
+					"patching_rect" : [ 488.625, 194.35022, 81.0, 17.0 ],
 					"text" : "LAM.slidems~",
 					"varname" : "jmod.bcf2000[8]"
 				}
@@ -574,7 +603,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.1875, 175.0, 79.0, 19.0 ],
+					"patching_rect" : [ 488.625, 175.35022, 79.0, 19.0 ],
 					"text" : "Audio utilities"
 				}
 
@@ -588,7 +617,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 215.497787, 90.0, 17.0 ],
+					"patching_rect" : [ 352.5, 215.848007, 90.0, 17.0 ],
 					"text" : "LAM.harmoFM~",
 					"varname" : "jmod.bcf2000[5]"
 				}
@@ -603,7 +632,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0625, 194.0, 79.0, 17.0 ],
+					"patching_rect" : [ 352.5, 194.35022, 79.0, 17.0 ],
 					"text" : "LAM.karpizz~",
 					"varname" : "jmod.bcf2000[6]"
 				}
@@ -618,7 +647,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0625, 175.0, 89.0, 19.0 ],
+					"patching_rect" : [ 352.5, 175.35022, 89.0, 19.0 ],
 					"text" : "Audio synthesis"
 				}
 
@@ -1509,6 +1538,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}
