@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 400.0, 119.0, 811.0, 609.0 ],
+		"rect" : [ 100.0, 100.0, 811.0, 609.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -938,8 +938,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.5, 467.0, 436.0, 27.0 ],
-					"text" : "LAM.viz.circularwave CW.context @contrast.scale 20"
+					"patching_rect" : [ 95.5, 467.0, 455.0, 27.0 ],
+					"text" : "LAM.jit.gl.circularwave~ CW.context @contrast.scale 20"
 				}
 
 			}
@@ -973,7 +973,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.viz.circularwave", "@obj-desc", "A sound vizualisation module. Pretty self-explicit." ],
+					"args" : [ "@obj-name", "LAM.jit.gl.circularwave~", "@obj-desc", "A sound vizualisation module. Pretty self-explicit." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -992,8 +992,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 66.060059, 779.0, 20.0 ],
-					"text" : "Customize the header with arguments. You can also add some more documentation here about your module. Hit play and watch the jit.window!"
+					"patching_rect" : [ 6.75, 66.060059, 292.0, 20.0 ],
+					"text" : "Activate the render, hit play and watch the jit.window!"
 				}
 
 			}
@@ -1046,8 +1046,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.5, 297.0, 342.0, 47.0 ],
-					"text" : "LAM.viz.circularwave CW.context @position -0.3 -0.5 0 @contrast.scale 20"
+					"patching_rect" : [ 95.5, 297.0, 345.25, 47.0 ],
+					"text" : "LAM.jit.gl.circularwave~ CW.context @position -0.3 -0.5 0 @contrast.scale 20"
 				}
 
 			}
@@ -1325,16 +1325,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-47::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-24::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-24::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-47::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-24::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-24::obj-35" : [ "[9]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "LAM.viz.circularwave.maxpat",
+				"name" : "LAM.jit.gl.circularwave~.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -1388,6 +1388,166 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.texture.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rminus.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.fpsgui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "maximum.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "speedlim.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.gain~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sfplay~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "regexp.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "times~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "line~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "metro.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "adc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "deferlow.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pink~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bgcolor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tab.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tosymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "split.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.render.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.window.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "swatch.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

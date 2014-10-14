@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 806.0, 361.0 ],
+		"rect" : [ 94.0, 318.0, 806.0, 377.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,6 +30,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 279.0, 178.060059, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
@@ -47,6 +58,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.629166, 1.0, 0.790095, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-19",
@@ -54,7 +66,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.0, 214.060059, 52.0, 25.0 ],
+					"patching_rect" : [ 279.0, 204.0, 52.0, 25.0 ],
 					"text" : "clear"
 				}
 
@@ -73,11 +85,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 870.0, 327.0, 516.0, 603.0 ],
+						"rect" : [ 271.0, 251.0, 516.0, 603.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -148,11 +160,11 @@
 									"patching_rect" : [ 335.5, 158.0, 100.0, 40.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-5", "flonum", "float", 1000.0, 5, "obj-7", "flonum", "float", 60000.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-17", "flonum", "float", 0.0, 5, "obj-19", "flonum", "float", 0.0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-23", "flonum", "float", 4.0, 5, "obj-22", "flonum", "float", 1.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-26", "flonum", "float", 0.0, 5, "obj-44", "flonum", "float", 768.0, 11, "obj-9", "swatch", "list", 1.0, 0.697953, 0.424658, 1.0, 0.079169, 1.0, 0.712329, 5, "obj-10", "multislider", "list", 1.0, 5, "obj-12", "multislider", "list", 1.0, 11, "obj-33", "swatch", "list", 0.643836, 0.935243, 1.0, 1.0, 0.530303, 1.0, 0.821918, 5, "obj-31", "multislider", "list", 1.0, 5, "obj-21", "multislider", "list", 1.0 ]
+											"data" : [ 5, "obj-5", "flonum", "float", 1000.0, 5, "obj-7", "flonum", "float", 60000.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-17", "flonum", "float", 0.0, 5, "obj-19", "flonum", "float", 0.0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-23", "flonum", "float", 1.0, 5, "obj-22", "flonum", "float", 1.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-26", "flonum", "float", 0.0, 5, "obj-44", "flonum", "float", 768.0, 11, "obj-9", "swatch", "list", 1.0, 0.697953, 0.424658, 1.0, 0.079169, 1.0, 0.712329, 5, "obj-10", "multislider", "list", 1.0, 5, "obj-12", "multislider", "list", 1.0, 11, "obj-33", "swatch", "list", 0.643836, 0.935243, 1.0, 1.0, 0.530303, 1.0, 0.821918, 5, "obj-31", "multislider", "list", 1.0, 5, "obj-21", "multislider", "list", 1.0 ]
 										}
 , 										{
 											"number" : 2,
-											"data" : [ 5, "obj-5", "flonum", "float", 1000.0, 5, "obj-7", "flonum", "float", 60000.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-17", "flonum", "float", 0.0, 5, "obj-19", "flonum", "float", 0.0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-23", "flonum", "float", 1.0, 5, "obj-22", "flonum", "float", 1.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-26", "flonum", "float", 0.0, 5, "obj-44", "flonum", "float", 768.0, 11, "obj-9", "swatch", "list", 1.0, 0.697953, 0.424658, 1.0, 0.079169, 1.0, 0.712329, 5, "obj-10", "multislider", "list", 1.0, 5, "obj-12", "multislider", "list", 1.0, 11, "obj-33", "swatch", "list", 0.643836, 0.935243, 1.0, 1.0, 0.530303, 1.0, 0.821918, 5, "obj-31", "multislider", "list", 1.0, 5, "obj-21", "multislider", "list", 1.0 ]
+											"data" : [ 5, "obj-5", "flonum", "float", 100.0, 5, "obj-7", "flonum", "float", 10000.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-17", "flonum", "float", 0.0, 5, "obj-19", "flonum", "float", 0.0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-23", "flonum", "float", 4.0, 5, "obj-22", "flonum", "float", 1.0, 5, "obj-28", "flonum", "float", 0.0, 5, "obj-27", "flonum", "float", 0.0, 5, "obj-26", "flonum", "float", 0.0, 5, "obj-44", "flonum", "float", 1213.0, 11, "obj-9", "swatch", "list", 0.452055, 1.0, 0.513083, 1.0, 0.351896, 1.0, 0.726027, 5, "obj-10", "multislider", "list", 1.0, 5, "obj-12", "multislider", "list", 1.0, 11, "obj-33", "swatch", "list", 0.816688, 0.369863, 1.0, 1.0, 0.784849, 1.0, 0.684932, 5, "obj-31", "multislider", "list", 1.0, 5, "obj-21", "multislider", "list", 1.0 ]
 										}
  ]
 								}
@@ -898,7 +910,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 282.0, 244.060059, 77.0, 20.0 ],
+					"patching_rect" : [ 298.0, 234.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -948,8 +960,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 434.0, 289.0, 150.0, 20.0 ],
-					"text" : "jit.window DSWF @fsaa 1"
+					"patching_rect" : [ 434.0, 275.0, 183.0, 20.0 ],
+					"text" : "jit.window ContextDSW @fsaa 1"
 				}
 
 			}
@@ -990,8 +1002,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 434.0, 214.0, 109.0, 20.0 ],
-					"text" : "jit.gl.render DSWF"
+					"patching_rect" : [ 434.0, 214.060059, 143.0, 20.0 ],
+					"text" : "jit.gl.render ContextDSW"
 				}
 
 			}
@@ -1004,8 +1016,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.0, 275.0, 242.0, 22.0 ],
-					"text" : "LAM.viz.DualSpeedWaveform DSWF"
+					"patching_rect" : [ 40.0, 275.0, 258.0, 22.0 ],
+					"text" : "LAM.jit.gl.DSW~ ContextDSW"
 				}
 
 			}
@@ -1024,7 +1036,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.viz.DualSpeedWaveform", "@obj-desc", "Running signal vs engraved signal" ],
+					"args" : [ "@obj-name", "LAM.jit.gl.DSW~", "@obj-desc", "'a.k.a. Dual Speed Waveform'. Running signal vs engraved signal" ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -1044,7 +1056,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 65.060059, 639.0, 20.0 ],
-					"text" : "LAM.viz.DualSpeedWaveform tries to show in a compact form the lively \"travelling signal\" and the \"sedimented signal\"."
+					"text" : "LAM.jit.gl.DSW~ tries to show in a compact form the lively \"travelling signal\" and the \"sedimented signal\"."
 				}
 
 			}
@@ -1065,10 +1077,28 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -1147,8 +1177,8 @@
  ],
 		"parameters" : 		{
 			"obj-47::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-47::obj-32" : [ "[8]", "[2]", 0 ]
+			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1194,11 +1224,183 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.viz.DualSpeedWaveform.maxpat",
+				"name" : "LAM.jit.gl.DSW~.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "bgcolor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tab.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tosymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "regexp.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "split.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.gain~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sfplay~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "times~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "line~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "metro.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "adc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "deferlow.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pink~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "line.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "delay.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "scale.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.matrix.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "speedlim.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "vexpr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rminus.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.render.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.window.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "swatch.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "multislider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

@@ -32,13 +32,44 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-74",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.625, 494.35022, 115.0, 17.0 ],
+					"presentation_rect" : [ 488.625, 508.35022, 0.0, 0.0 ],
+					"text" : "LAM.jit.gl.circlemesh",
+					"varname" : "jmod.bcf2000[38]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-73",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.625, 473.35022, 123.0, 17.0 ],
+					"presentation_rect" : [ 484.625, 484.35022, 0.0, 0.0 ],
+					"text" : "LAM.jit.gl.squaremesh",
+					"varname" : "jmod.bcf2000[37]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-72",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.375, 194.0, 100.0, 17.0 ],
-					"presentation_rect" : [ 190.375, 198.362885, 0.0, 0.0 ],
 					"text" : "LAM.TUIO.decode",
 					"varname" : "jmod.bcf2000[36]"
 				}
@@ -54,7 +85,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.375, 175.0, 132.0, 19.0 ],
-					"presentation_rect" : [ 190.375, 177.35022, 0.0, 0.0 ],
 					"text" : "Interfaces"
 				}
 
@@ -290,8 +320,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.625, 390.35022, 157.0, 17.0 ],
-					"text" : "LAM.viz.DualSpeedWaveform",
+					"patching_rect" : [ 488.625, 390.35022, 94.0, 17.0 ],
+					"text" : "LAM.jit.gl.DSW~",
 					"varname" : "jmod.bcf2000[23]"
 				}
 
@@ -410,8 +440,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.625, 369.35022, 115.0, 17.0 ],
-					"text" : "LAM.viz.circularwave",
+					"patching_rect" : [ 488.625, 369.35022, 132.0, 17.0 ],
+					"text" : "LAM.jit.gl.circularwave~",
 					"varname" : "jmod.bcf2000[17]"
 				}
 
@@ -559,8 +589,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.5, 354.35022, 112.0, 17.0 ],
-					"text" : "LAM.CheapAutotune",
+					"patching_rect" : [ 352.5, 354.35022, 120.0, 17.0 ],
+					"text" : "LAM.CheapAutotune~",
 					"varname" : "jmod.bcf2000[7]"
 				}
 
@@ -1555,6 +1585,24 @@
 					"destination" : [ "obj-158", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1566,6 +1614,82 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bgcolor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tab.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tosymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "regexp.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "split.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
