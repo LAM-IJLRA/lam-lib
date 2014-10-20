@@ -32,13 +32,28 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-89",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.9375, 620.0, 57.0, 17.0 ],
+					"presentation_rect" : [ 12.9375, 623.35022, 0.0, 0.0 ],
+					"text" : "LAM.ravg",
+					"varname" : "jmod.bcf2000[50]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-88",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.9375, 599.35022, 90.0, 17.0 ],
-					"presentation_rect" : [ 12.9375, 619.35022, 0.0, 0.0 ],
 					"text" : "LAM.energizer~",
 					"varname" : "jmod.bcf2000[49]"
 				}
@@ -54,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.9375, 579.35022, 82.0, 17.0 ],
-					"presentation_rect" : [ 12.9375, 594.35022, 0.0, 0.0 ],
 					"text" : "LAM.energizer",
 					"varname" : "jmod.bcf2000[48]"
 				}
@@ -1882,6 +1896,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-89", 0 ]
 				}
 
 			}
