@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 128.0, 671.0, 685.0 ],
+		"rect" : [ 730.0, 112.0, 579.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -136,7 +136,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 293.0, 267.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 382.0, 124.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -153,7 +152,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 205.0, 267.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 294.0, 124.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -170,7 +168,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 119.0, 267.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 208.0, 124.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -183,7 +180,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 119.0, 233.0, 280.0, 22.0 ],
-					"presentation_rect" : [ 208.0, 51.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.unpack 3"
 				}
@@ -214,7 +210,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 268.0, 485.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 406.0, 374.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -231,7 +226,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 180.0, 485.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 318.0, 374.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -248,7 +242,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 94.0, 485.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 232.0, 374.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -265,7 +258,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 282.0, 391.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 415.0, 259.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
@@ -282,7 +274,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 194.0, 391.0, 76.0, 37.0 ],
-					"presentation_rect" : [ 327.0, 259.0, 0.0, 0.0 ],
 					"rows" : 1
 				}
 
