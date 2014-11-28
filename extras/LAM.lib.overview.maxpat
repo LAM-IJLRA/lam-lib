@@ -41,13 +41,29 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-98",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 190.375, 367.529419, 107.0, 21.0 ],
+					"presentation_rect" : [ 190.375, 374.470581, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "LAM.polytop.router",
+					"varname" : "jmod.bcf2000[58]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-97",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 368.625, 472.967773, 100.0, 21.0 ],
-					"presentation_rect" : [ 371.625, 475.012665, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "LAM.jit.3Dscope~",
 					"varname" : "jmod.bcf2000[57]"
@@ -109,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 362.470581, 113.0, 21.0 ],
+					"patching_rect" : [ 190.375, 345.470581, 113.0, 21.0 ],
 					"style" : "",
 					"text" : "LAM.rpoly.insidepoly",
 					"varname" : "jmod.bcf2000[54]"
@@ -125,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 342.411774, 89.0, 21.0 ],
+					"patching_rect" : [ 190.375, 325.411774, 89.0, 21.0 ],
 					"style" : "",
 					"text" : "LAM.rpoly.route",
 					"varname" : "jmod.bcf2000[53]"
@@ -141,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 322.352936, 60.0, 21.0 ],
+					"patching_rect" : [ 190.375, 305.352936, 60.0, 21.0 ],
 					"style" : "",
 					"text" : "LAM.rpoly",
 					"varname" : "jmod.bcf2000[52]"
@@ -521,7 +537,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 292.124146, 120.0, 21.0 ],
+					"patching_rect" : [ 190.375, 282.124146, 120.0, 21.0 ],
 					"style" : "",
 					"text" : "LAM.mpoly.insidepoly",
 					"varname" : "jmod.bcf2000[30]"
@@ -537,7 +553,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 271.124146, 110.0, 21.0 ],
+					"patching_rect" : [ 190.375, 261.124146, 110.0, 21.0 ],
 					"style" : "",
 					"text" : "LAM.mpoly.notonoff",
 					"varname" : "jmod.bcf2000[29]"
@@ -553,7 +569,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 251.111435, 101.0, 21.0 ],
+					"patching_rect" : [ 190.375, 241.111435, 101.0, 21.0 ],
 					"style" : "",
 					"text" : "LAM.mpoly.param",
 					"varname" : "jmod.bcf2000[28]"
@@ -568,7 +584,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.375, 230.11145, 132.0, 19.0 ],
+					"patching_rect" : [ 190.375, 220.11145, 132.0, 19.0 ],
 					"style" : "",
 					"text" : "Polyphony management"
 				}
@@ -2190,8 +2206,17 @@
 				"patchline" : 				{
 					"destination" : [ "obj-158", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-98", 0 ]
 				}
 
 			}
@@ -2204,7 +2229,26 @@
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
