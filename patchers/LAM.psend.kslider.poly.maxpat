@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 128.0, 728.0, 441.0 ],
+		"rect" : [ 834.0, 88.0, 728.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,9 +42,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.166626, 176.5, 242.0, 22.0 ],
+					"patching_rect" : [ 172.166626, 176.5, 163.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.psend #1/ID #1/pitch"
+					"text" : "LAM.psend #1/pitch"
 				}
 
 			}
@@ -67,9 +67,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.166626, 321.5, 235.0, 22.0 ],
+					"patching_rect" : [ 102.166626, 321.5, 156.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.psend #1/ID #1/ON"
+					"text" : "LAM.psend #1/ON"
 				}
 
 			}
@@ -118,9 +118,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.166626, 267.0, 257.0, 22.0 ],
+					"patching_rect" : [ 137.166626, 267.0, 178.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.psend #1/ID #1/velocity"
+					"text" : "LAM.psend #1/velocity"
 				}
 
 			}
