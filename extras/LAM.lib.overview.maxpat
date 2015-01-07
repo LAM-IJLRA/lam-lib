@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 71.0, 90.0, 670.0, 648.0 ],
+		"rect" : [ 71.0, 90.0, 689.0, 691.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -41,13 +41,29 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-99",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.9375, 643.0, 54.0, 21.0 ],
+					"presentation_rect" : [ 12.9375, 650.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "LAM.grid",
+					"varname" : "jmod.bcf2000[59]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-98",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.375, 367.529419, 107.0, 21.0 ],
-					"presentation_rect" : [ 190.375, 374.470581, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "LAM.polytop.router",
 					"varname" : "jmod.bcf2000[58]"
@@ -2217,6 +2233,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
