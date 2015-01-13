@@ -260,7 +260,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 78.0, 172.0, 54.0, 20.0 ],
-									"text" : "gate 2 1"
+									"text" : "gate 2 2"
 								}
 
 							}
@@ -739,7 +739,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 71.0, 38.0, 25.0, 25.0 ]
 				}
 
