@@ -32,13 +32,28 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-105",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.9375, 707.0, 64.0, 17.0 ],
+					"presentation_rect" : [ 12.9375, 711.0, 0.0, 0.0 ],
+					"text" : "LAM.proba",
+					"varname" : "jmod.bcf2000[65]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-104",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 690.0, 96.0, 17.0 ],
-					"presentation_rect" : [ 12.9375, 690.0, 0.0, 0.0 ],
+					"patching_rect" : [ 12.9375, 687.0, 96.0, 17.0 ],
 					"text" : "LAM.randistlist",
 					"varname" : "jmod.bcf2000[64]"
 				}
@@ -1643,6 +1658,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-105", 0 ]
 				}
 
 			}
