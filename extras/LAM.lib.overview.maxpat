@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 9,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 71.0, 90.0, 676.0, 719.0 ],
+		"rect" : [ 71.0, 90.0, 849.0, 665.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -18,17 +19,42 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-106",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 343.375, 350.661346, 97.0, 21.0 ],
+					"presentation_rect" : [ 191.375, 395.529419, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "LAM.makenoteID",
+					"varname" : "jmod.bcf2000[66]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -37,8 +63,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 707.0, 64.0, 17.0 ],
-					"presentation_rect" : [ 12.9375, 711.0, 0.0, 0.0 ],
+					"patching_rect" : [ 197.9375, 347.64978, 64.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.proba",
 					"varname" : "jmod.bcf2000[65]"
 				}
@@ -53,7 +79,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 687.0, 96.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 326.27124, 96.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.randistlist",
 					"varname" : "jmod.bcf2000[64]"
 				}
@@ -68,7 +95,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 428.35022, 86.0, 17.0 ],
+					"patching_rect" : [ 529.625, 435.938446, 86.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.slopeclip~",
 					"varname" : "jmod.bcf2000[63]"
 				}
@@ -83,7 +111,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.625, 522.222046, 92.0, 17.0 ],
+					"patching_rect" : [ 714.625, 532.222046, 92.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.polytexture",
 					"varname" : "jmod.bcf2000[62]"
 				}
@@ -98,7 +127,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 405.35022, 71.0, 17.0 ],
+					"patching_rect" : [ 529.625, 414.248596, 71.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.padsr~",
 					"varname" : "jmod.bcf2000[61]"
 				}
@@ -113,7 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 666.0, 82.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 303.8927, 82.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.gridindex",
 					"varname" : "jmod.bcf2000[60]"
 				}
@@ -128,7 +159,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 643.0, 54.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 281.51416, 54.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.grid",
 					"varname" : "jmod.bcf2000[59]"
 				}
@@ -143,7 +175,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 367.529419, 107.0, 17.0 ],
+					"patching_rect" : [ 343.375, 327.759735, 107.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.polytop.router",
 					"varname" : "jmod.bcf2000[58]"
 				}
@@ -158,7 +191,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 518.719849, 100.0, 17.0 ],
+					"patching_rect" : [ 529.625, 529.719849, 100.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.3Dscope~",
 					"varname" : "jmod.bcf2000[57]"
 				}
@@ -173,7 +207,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.625, 499.222015, 102.0, 17.0 ],
+					"patching_rect" : [ 714.625, 510.222015, 102.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.cartospher",
 					"varname" : "jmod.bcf2000[56]"
 				}
@@ -183,12 +218,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 553.625, 454.764709, 100.0, 19.0 ],
+					"patching_rect" : [ 714.625, 466.764709, 100.0, 19.0 ],
+					"style" : "",
 					"text" : "Jitter functions"
 				}
 
@@ -202,7 +237,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.625, 475.76474, 102.0, 17.0 ],
+					"patching_rect" : [ 714.625, 487.76474, 102.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.sphertocar",
 					"varname" : "jmod.bcf2000[55]"
 				}
@@ -217,7 +253,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 345.470581, 113.0, 17.0 ],
+					"patching_rect" : [ 343.375, 305.858154, 113.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.rpoly.insidepoly",
 					"varname" : "jmod.bcf2000[54]"
 				}
@@ -232,7 +269,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 325.411774, 89.0, 17.0 ],
+					"patching_rect" : [ 343.375, 283.956604, 89.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.rpoly.route",
 					"varname" : "jmod.bcf2000[53]"
 				}
@@ -247,7 +285,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 305.352936, 60.0, 17.0 ],
+					"patching_rect" : [ 343.375, 262.054993, 60.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.rpoly",
 					"varname" : "jmod.bcf2000[52]"
 				}
@@ -262,7 +301,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 382.35022, 120.0, 17.0 ],
+					"patching_rect" : [ 529.625, 391.558777, 120.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.gen.onepolems~",
 					"varname" : "jmod.bcf2000[51]"
 				}
@@ -277,7 +317,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 620.0, 57.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 260.13562, 57.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.ravg",
 					"varname" : "jmod.bcf2000[50]"
 				}
@@ -292,7 +333,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 599.35022, 90.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 237.75708, 90.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.energizer~",
 					"varname" : "jmod.bcf2000[49]"
 				}
@@ -307,7 +349,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 579.35022, 82.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 216.37854, 82.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.energizer",
 					"varname" : "jmod.bcf2000[48]"
 				}
@@ -322,7 +365,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 557.35022, 86.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 194.0, 86.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.hysteresis",
 					"varname" : "jmod.bcf2000[47]"
 				}
@@ -337,7 +381,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 362.35022, 94.0, 17.0 ],
+					"patching_rect" : [ 529.625, 369.868927, 94.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.hysteresis~",
 					"varname" : "jmod.bcf2000[46]"
 				}
@@ -352,7 +397,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.625, 235.872681, 77.0, 17.0 ],
+					"patching_rect" : [ 714.625, 237.872681, 77.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.ducker~",
 					"varname" : "jmod.bcf2000[45]"
 				}
@@ -367,7 +413,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.625, 215.11145, 87.0, 17.0 ],
+					"patching_rect" : [ 714.625, 216.11145, 87.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.dist.atan~",
 					"varname" : "jmod.bcf2000[44]"
 				}
@@ -382,7 +429,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.625, 194.35022, 88.0, 17.0 ],
+					"patching_rect" : [ 714.625, 194.35022, 88.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.dist.tanh~",
 					"varname" : "jmod.bcf2000[43]"
 				}
@@ -392,12 +440,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 553.625, 175.35022, 79.0, 19.0 ],
+					"patching_rect" : [ 714.625, 175.0, 79.0, 19.0 ],
+					"style" : "",
 					"text" : "Audio effects"
 				}
 
@@ -411,7 +459,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 620.0, 77.0, 17.0 ],
+					"patching_rect" : [ 343.375, 619.23877, 77.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.Roulette",
 					"varname" : "jmod.bcf2000[42]"
 				}
@@ -426,7 +475,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 341.35022, 64.0, 17.0 ],
+					"patching_rect" : [ 529.625, 348.179108, 64.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.PLL~ ",
 					"varname" : "jmod.bcf2000[41]"
 				}
@@ -441,7 +491,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 535.0, 52.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 567.0, 52.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.r2d",
 					"varname" : "jmod.bcf2000[40]"
 				}
@@ -456,7 +507,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 514.941162, 52.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 545.0, 52.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.d2r",
 					"varname" : "jmod.bcf2000[39]"
 				}
@@ -471,7 +523,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 610.752075, 115.0, 17.0 ],
+					"patching_rect" : [ 529.625, 624.752075, 115.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.gl.circlemesh",
 					"varname" : "jmod.bcf2000[38]"
 				}
@@ -486,7 +539,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 589.752075, 123.0, 17.0 ],
+					"patching_rect" : [ 529.625, 602.752075, 123.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.gl.squaremesh",
 					"varname" : "jmod.bcf2000[37]"
 				}
@@ -501,7 +555,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 194.0, 100.0, 17.0 ],
+					"patching_rect" : [ 197.9375, 400.0, 100.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.TUIO.decode",
 					"varname" : "jmod.bcf2000[36]"
 				}
@@ -511,12 +566,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.375, 175.0, 132.0, 19.0 ],
+					"patching_rect" : [ 197.9375, 381.0, 61.0, 19.0 ],
+					"style" : "",
 					"text" : "Interfaces"
 				}
 
@@ -530,7 +585,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 320.35022, 102.0, 17.0 ],
+					"patching_rect" : [ 529.625, 326.489258, 102.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.gen~.utilities",
 					"varname" : "jmod.bcf2000[35]"
 				}
@@ -545,7 +601,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 493.519348, 101.0, 17.0 ],
+					"patching_rect" : [ 343.375, 490.758118, 101.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.gen.karpizz~",
 					"varname" : "jmod.bcf2000[34]"
 				}
@@ -560,7 +617,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 298.156372, 181.0, 17.0 ],
+					"patching_rect" : [ 529.625, 303.799438, 181.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.crosscorrelation.fft.zeropad~",
 					"varname" : "jmod.bcf2000[33]"
 				}
@@ -575,7 +633,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 277.395142, 144.0, 17.0 ],
+					"patching_rect" : [ 529.625, 282.109589, 144.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.crosscorrelation.pfft~",
 					"varname" : "jmod.bcf2000[32]"
 				}
@@ -590,7 +649,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 256.633911, 137.0, 17.0 ],
+					"patching_rect" : [ 529.625, 260.419739, 137.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.crosscorrelation.fft~",
 					"varname" : "jmod.bcf2000[31]"
 				}
@@ -605,7 +665,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 282.124146, 120.0, 17.0 ],
+					"patching_rect" : [ 343.375, 240.153381, 120.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.mpoly.insidepoly",
 					"varname" : "jmod.bcf2000[30]"
 				}
@@ -620,7 +681,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 261.124146, 110.0, 17.0 ],
+					"patching_rect" : [ 343.375, 218.251801, 110.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.mpoly.notonoff",
 					"varname" : "jmod.bcf2000[29]"
 				}
@@ -635,7 +697,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 241.111435, 101.0, 17.0 ],
+					"patching_rect" : [ 343.375, 196.350204, 101.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.mpoly.param",
 					"varname" : "jmod.bcf2000[28]"
 				}
@@ -645,12 +708,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-57",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.375, 220.11145, 132.0, 19.0 ],
+					"patching_rect" : [ 343.375, 175.0, 132.0, 19.0 ],
+					"style" : "",
 					"text" : "Polyphony management"
 				}
 
@@ -664,7 +727,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 494.882355, 105.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 523.0, 105.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.cartohexagrid",
 					"varname" : "jmod.bcf2000[27]"
 				}
@@ -679,7 +743,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 454.764709, 89.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 479.0, 89.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.addeltaclip",
 					"varname" : "jmod.bcf2000[26]"
 				}
@@ -689,12 +754,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.625, 547.764771, 100.0, 19.0 ],
+					"patching_rect" : [ 529.625, 559.764771, 100.0, 19.0 ],
+					"style" : "",
 					"text" : "Example patchers"
 				}
 
@@ -708,7 +773,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 568.764771, 117.0, 17.0 ],
+					"patching_rect" : [ 529.625, 580.764771, 117.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.pitch.processing",
 					"varname" : "jmod.bcf2000[25]"
 				}
@@ -723,7 +789,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 600.012695, 77.0, 17.0 ],
+					"patching_rect" : [ 343.375, 597.251465, 77.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.verlet",
 					"varname" : "jmod.bcf2000[24]"
 				}
@@ -733,12 +800,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.375, 579.012695, 92.0, 19.0 ],
+					"patching_rect" : [ 343.375, 576.251465, 92.0, 19.0 ],
+					"style" : "",
 					"text" : "Dynamic Models"
 				}
 
@@ -752,7 +819,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 494.764709, 94.0, 17.0 ],
+					"patching_rect" : [ 529.625, 507.764709, 94.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.gl.DSW~",
 					"varname" : "jmod.bcf2000[23]"
 				}
@@ -767,7 +835,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 474.823517, 74.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 501.0, 74.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.dec2bin",
 					"varname" : "jmod.bcf2000[22]"
 				}
@@ -782,7 +851,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 434.705872, 139.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 457.0, 139.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.EqualLoudnessCurve",
 					"varname" : "jmod.bcf2000[21]"
 				}
@@ -797,7 +867,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 414.647064, 70.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 435.0, 70.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.%wrap",
 					"varname" : "jmod.bcf2000[20]"
 				}
@@ -812,7 +883,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 394.588226, 81.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 413.0, 81.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.2d_index",
 					"varname" : "jmod.bcf2000[18]"
 				}
@@ -828,7 +900,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 483.0625, 645.102295, 76.0, 19.0 ],
+					"patching_rect" : [ 644.0625, 657.102295, 76.0, 21.0 ],
+					"style" : "",
 					"text" : "prepend load"
 				}
 
@@ -842,7 +915,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 374.529419, 102.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 391.0, 102.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.PolarMapping",
 					"varname" : "jmod.bcf2000[19]"
 				}
@@ -858,7 +932,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 483.0625, 667.102295, 49.0, 19.0 ],
+					"patching_rect" : [ 644.0625, 679.102295, 49.0, 21.0 ],
+					"style" : "",
 					"text" : "pcontrol"
 				}
 
@@ -872,7 +947,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 473.764709, 132.0, 17.0 ],
+					"patching_rect" : [ 529.625, 485.764709, 132.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.gl.circularwave~",
 					"varname" : "jmod.bcf2000[17]"
 				}
@@ -882,12 +958,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.625, 454.764709, 104.0, 19.0 ],
+					"patching_rect" : [ 529.625, 467.764709, 104.0, 19.0 ],
+					"style" : "",
 					"text" : "Audio vizualisation"
 				}
 
@@ -901,7 +977,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 354.470581, 91.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 369.0, 91.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.intbetween",
 					"varname" : "jmod.bcf2000[16]"
 				}
@@ -916,7 +993,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 235.872681, 82.0, 17.0 ],
+					"patching_rect" : [ 529.625, 237.729904, 82.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.ntapout~",
 					"varname" : "jmod.bcf2000[15]"
 				}
@@ -931,7 +1009,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 215.11145, 75.0, 17.0 ],
+					"patching_rect" : [ 529.625, 216.040054, 75.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.ntapin~",
 					"varname" : "jmod.bcf2000[14]"
 				}
@@ -946,7 +1025,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 472.967773, 59.0, 17.0 ],
+					"patching_rect" : [ 343.375, 469.206543, 59.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.paf~",
 					"varname" : "jmod.bcf2000[13]"
 				}
@@ -961,7 +1041,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 453.469971, 87.0, 17.0 ],
+					"patching_rect" : [ 343.375, 446.70874, 87.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.glissandi~",
 					"varname" : "jmod.bcf2000[12]"
 				}
@@ -976,7 +1057,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 334.411774, 60.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 347.0, 60.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.xy2lr",
 					"varname" : "jmod.bcf2000[11]"
 				}
@@ -991,7 +1073,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 314.352936, 98.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 325.0, 98.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.poscale2rect",
 					"varname" : "jmod.bcf2000[10]"
 				}
@@ -1006,7 +1089,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 294.294128, 98.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 303.0, 98.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.rect2poscale",
 					"varname" : "jmod.bcf2000[9]"
 				}
@@ -1021,7 +1105,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 546.953918, 120.0, 17.0 ],
+					"patching_rect" : [ 343.375, 544.192688, 120.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.CheapAutotune~",
 					"varname" : "jmod.bcf2000[7]"
 				}
@@ -1031,12 +1116,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.375, 527.953918, 116.0, 19.0 ],
+					"patching_rect" : [ 343.375, 525.192688, 116.0, 19.0 ],
+					"style" : "",
 					"text" : "Audio transformation"
 				}
 
@@ -1050,7 +1135,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.625, 194.35022, 81.0, 17.0 ],
+					"patching_rect" : [ 529.625, 194.35022, 81.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.slidems~",
 					"varname" : "jmod.bcf2000[8]"
 				}
@@ -1060,12 +1146,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.625, 175.35022, 79.0, 19.0 ],
+					"patching_rect" : [ 529.625, 175.0, 79.0, 19.0 ],
+					"style" : "",
 					"text" : "Audio utilities"
 				}
 
@@ -1079,7 +1165,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 432.972229, 90.0, 17.0 ],
+					"patching_rect" : [ 343.375, 425.210999, 90.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.harmoFM~",
 					"varname" : "jmod.bcf2000[5]"
 				}
@@ -1094,7 +1181,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.375, 413.474426, 79.0, 17.0 ],
+					"patching_rect" : [ 343.375, 402.713196, 79.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.karpizz~",
 					"varname" : "jmod.bcf2000[6]"
 				}
@@ -1104,12 +1192,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.375, 394.474426, 89.0, 19.0 ],
+					"patching_rect" : [ 343.375, 383.713196, 89.0, 19.0 ],
+					"style" : "",
 					"text" : "Audio synthesis"
 				}
 
@@ -1123,7 +1211,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 274.235291, 100.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 281.0, 100.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.quantize.dog",
 					"varname" : "jmod.bcf2000[3]"
 				}
@@ -1138,7 +1227,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 254.176468, 96.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 259.0, 96.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.quantize.cat",
 					"varname" : "jmod.bcf2000[4]"
 				}
@@ -1153,7 +1243,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 234.117645, 137.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 237.0, 137.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.jit.bounded_sigmoid",
 					"varname" : "jmod.bcf2000[2]"
 				}
@@ -1168,7 +1259,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 214.058823, 160.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 216.0, 160.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.bounded_pseudosigmoid",
 					"varname" : "jmod.bcf2000[1]"
 				}
@@ -1184,7 +1276,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.625, 645.102295, 74.0, 19.0 ],
+					"patching_rect" : [ 542.625, 657.102295, 74.0, 21.0 ],
+					"style" : "",
 					"text" : "prepend help"
 				}
 
@@ -1199,7 +1292,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.625, 667.102295, 49.0, 19.0 ],
+					"patching_rect" : [ 542.625, 679.102295, 49.0, 21.0 ],
+					"style" : "",
 					"text" : "pcontrol"
 				}
 
@@ -1213,7 +1307,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.9375, 194.0, 124.0, 17.0 ],
+					"patching_rect" : [ 12.9375, 194.0, 124.0, 21.0 ],
+					"style" : "",
 					"text" : "LAM.bounded_sigmoid",
 					"varname" : "jmod.bcf2000"
 				}
@@ -1223,12 +1318,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-78",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.9375, 175.0, 150.0, 19.0 ],
+					"style" : "",
 					"text" : "Transfer functions"
 				}
 
@@ -1236,12 +1331,20 @@
 , 			{
 				"box" : 				{
 					"args" : [ "@obj-name", "LAM.lib", "@obj-desc", "A library for digital lutherie." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-33",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.78125, 8.75, 306.0, 55.0 ]
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 3.78125, 8.75, 306.0, 55.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -1299,7 +1402,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -185.4375, 100.875, 55.0, 15.0 ],
+					"patching_rect" : [ -185.4375, 100.875, 55.0, 17.0 ],
+					"style" : "",
 					"text" : "loadmess 1"
 				}
 
@@ -1308,13 +1412,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.425629,
-					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.5, 76.75, 33.28125, 17.0 ],
+					"style" : "",
 					"text" : "grow"
 				}
 
@@ -1329,7 +1433,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ -185.4375, 146.257935, 46.0, 20.0 ],
+					"patching_rect" : [ -185.4375, 146.257935, 46.0, 22.0 ],
+					"style" : "",
 					"text" : "sel 0 1"
 				}
 
@@ -1343,7 +1448,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.78125, 78.525238, 13.0, 13.0 ]
+					"patching_rect" : [ 3.78125, 78.525238, 13.0, 13.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1351,12 +1457,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
-					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 316.5625, 9.25, 268.5, 19.0 ],
+					"style" : "",
 					"text" : "© 2013-13 LAM-IJLRA / Universite Paris 6",
 					"textcolor" : [ 0.317518, 0.317518, 0.317518, 1.0 ]
 				}
@@ -1364,15 +1470,19 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.05 ],
 					"bordercolor" : [ 0.235294, 0.235294, 0.235294, 0.2 ],
 					"id" : "obj-28",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 316.5625, 8.75, 268.5, 32.0 ],
+					"proportion" : 0.39,
 					"rounded" : 6,
-					"shadow" : -1
+					"shadow" : -1,
+					"style" : ""
 				}
 
 			}
@@ -1386,7 +1496,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -270.9375, 39.75, 177.0, 17.0 ],
+					"patching_rect" : [ -270.9375, 39.75, 177.0, 21.0 ],
+					"style" : "",
 					"text" : "window flags grow, window exec"
 				}
 
@@ -1401,7 +1512,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -254.4375, 62.75, 190.0, 17.0 ],
+					"patching_rect" : [ -254.4375, 62.75, 190.0, 21.0 ],
+					"style" : "",
 					"text" : "window flags nogrow, window exec"
 				}
 
@@ -1415,7 +1527,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ -157.0, 245.257935, 143.0, 20.0 ],
+					"patching_rect" : [ -157.0, 245.257935, 143.0, 22.0 ],
+					"style" : "",
 					"text" : "bgcolor 0.93 0.93 0.92 1."
 				}
 
@@ -1424,12 +1537,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 422.0625, 43.75, 65.0, 20.0 ],
+					"style" : "",
 					"text" : "contact us",
 					"textcolor" : [ 0.392157, 0.494118, 0.666667, 1.0 ]
 				}
@@ -1459,7 +1572,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.729187, 42.75, 237.0, 25.0 ],
+					"patching_rect" : [ 660.729187, 42.75, 237.0, 29.0 ],
+					"style" : "",
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr/Acces.php"
 				}
 
@@ -1474,8 +1588,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ -270.9375, 89.25, 69.0, 20.0 ],
+					"patching_rect" : [ -270.9375, 89.25, 69.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"style" : "",
 					"text" : "thispatcher"
 				}
 
@@ -1484,12 +1599,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-80",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.0625, 43.75, 96.0, 20.0 ],
+					"style" : "",
 					"text" : "visit our website",
 					"textcolor" : [ 0.392157, 0.494118, 0.666667, 1.0 ]
 				}
@@ -1519,7 +1634,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.729187, 8.75, 191.0, 25.0 ],
+					"patching_rect" : [ 660.729187, 8.75, 191.0, 29.0 ],
+					"style" : "",
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr"
 				}
 
@@ -1533,7 +1649,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -84.9375, 287.0, 45.0, 17.0 ],
+					"patching_rect" : [ -84.9375, 287.0, 45.0, 19.0 ],
+					"style" : "",
 					"text" : "onecopy"
 				}
 
@@ -1542,13 +1659,13 @@
 				"box" : 				{
 					"fontname" : "Goudy Old Style",
 					"fontsize" : 15.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.9375, 86.5, 584.0, 51.0 ],
+					"style" : "",
 					"text" : "The LAM.lib library is a set of abstractions and externals that are useful to build digital music instrument with Max. It includes mapping function and sound synthesis modules.",
 					"textcolor" : [ 0.27596, 0.276002, 0.27594, 1.0 ],
 					"varname" : "autohelp_top_description"
@@ -1557,43 +1674,55 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.94324, 0.954082, 0.954082, 1.0 ],
 					"bordercolor" : [ 0.235294, 0.235294, 0.235294, 0.2 ],
 					"id" : "obj-26",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.9375, 86.25, 630.125, 74.25 ],
+					"proportion" : 0.39,
 					"rounded" : 15,
-					"shadow" : -1
+					"shadow" : -1,
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.05 ],
 					"bordercolor" : [ 0.235294, 0.235294, 0.235294, 0.2 ],
 					"id" : "obj-67",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.0625, 43.75, 96.0, 20.0 ],
+					"proportion" : 0.39,
 					"rounded" : 6,
-					"shadow" : -1
+					"shadow" : -1,
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.05 ],
 					"bordercolor" : [ 0.235294, 0.235294, 0.235294, 0.2 ],
 					"id" : "obj-69",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 422.0625, 43.75, 65.0, 20.0 ],
+					"proportion" : 0.39,
 					"rounded" : 6,
-					"shadow" : -1
+					"shadow" : -1,
+					"style" : ""
 				}
 
 			}
@@ -1667,6 +1796,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-106", 0 ]
 				}
 
 			}
@@ -2285,12 +2423,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }
