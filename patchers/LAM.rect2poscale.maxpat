@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 187.0, 231.0, 99.0, 20.0 ],
-					"text" : "vexpr ($f1-$f2)/2"
+					"text" : "vexpr ($f2-$f1)/2"
 				}
 
 			}
