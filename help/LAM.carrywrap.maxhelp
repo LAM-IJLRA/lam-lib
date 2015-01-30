@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 855.0, 271.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.5, 147.5, 30.0, 20.0 ],
-					"presentation_rect" : [ 95.5, 186.5, 0.0, 0.0 ],
 					"text" : "day"
 				}
 
@@ -53,8 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.5, 147.5, 50.0, 20.0 ],
-					"presentation_rect" : [ 45.5, 186.5, 0.0, 0.0 ]
+					"patching_rect" : [ 28.5, 147.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -82,7 +80,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.5, 147.5, 30.0, 20.0 ],
-					"presentation_rect" : [ 121.5, 184.5, 0.0, 0.0 ],
 					"text" : "h"
 				}
 
@@ -97,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.5, 147.5, 30.0, 20.0 ],
-					"presentation_rect" : [ 285.0, 186.5, 0.0, 0.0 ],
 					"text" : "min"
 				}
 
@@ -112,7 +108,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 533.0, 147.5, 26.0, 20.0 ],
-					"presentation_rect" : [ 433.0, 184.0, 0.0, 0.0 ],
 					"text" : "s"
 				}
 
