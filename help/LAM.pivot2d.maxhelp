@@ -38,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 327.5, 183.0, 43.0, 18.0 ],
-					"presentation_rect" : [ 327.5, 188.0, 0.0, 0.0 ],
 					"text" : "set $1"
 				}
 
@@ -53,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.5, 183.0, 43.0, 18.0 ],
-					"presentation_rect" : [ 275.5, 188.0, 0.0, 0.0 ],
 					"text" : "set $1"
 				}
 
@@ -68,7 +66,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 275.5, 162.0, 71.0, 17.0 ],
-					"presentation_rect" : [ 275.5, 167.0, 0.0, 0.0 ],
 					"text" : "unpack 0. 0."
 				}
 
@@ -83,7 +80,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 556.5, 183.0, 43.0, 18.0 ],
-					"presentation_rect" : [ 555.5, 126.0, 0.0, 0.0 ],
 					"text" : "set $1"
 				}
 
@@ -219,7 +215,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 496.0, 290.0, 30.0, 85.0 ],
-									"text" : "0.497895 0.210507"
+									"text" : "-0.628736 0.346101"
 								}
 
 							}
@@ -4313,7 +4309,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"outlettype" : [ "float" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
 																		"appversion" : 																		{
@@ -5855,7 +5851,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "float" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -6499,7 +6495,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "float" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{

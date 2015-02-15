@@ -99,8 +99,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Rotation center position",
-					"hint" : "Rotation center position",
+					"comment" : "Pivot position",
+					"hint" : "",
 					"id" : "obj-23",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -112,8 +112,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Rotation center orientation (radians)",
-					"hint" : "Rotation center orientation (radians)",
+					"comment" : "Pivot orientation (radians)",
+					"hint" : "",
 					"id" : "obj-24",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -181,8 +181,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Rotation center orientation (radians)",
-					"hint" : "Rotation center orientation (radians)",
+					"comment" : "Pivot orientation (radians)",
+					"hint" : "",
 					"id" : "obj-11",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -193,8 +193,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Rotation center position",
-					"hint" : "Rotation center position",
+					"comment" : "Pivot position",
+					"hint" : "",
 					"id" : "obj-10",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -428,7 +428,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 533.0, 68.0, 17.0 ],
+					"patching_rect" : [ 109.0, 555.5, 68.0, 17.0 ],
 					"text" : "s #0.Fig.pos"
 				}
 
@@ -442,7 +442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 59.0, 471.5, 31.0, 15.0 ],
+					"patching_rect" : [ 59.0, 494.0, 31.0, 15.0 ],
 					"text" : "0. 0."
 				}
 
@@ -456,7 +456,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 59.0, 450.5, 48.0, 17.0 ],
+					"patching_rect" : [ 59.0, 473.0, 48.0, 17.0 ],
 					"text" : "loadbang"
 				}
 
@@ -470,7 +470,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 509.0, 92.0, 17.0 ],
+					"patching_rect" : [ 109.0, 531.5, 92.0, 17.0 ],
 					"text" : "vexpr $f1+$f2"
 				}
 
@@ -484,7 +484,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 471.5, 63.0, 17.0 ],
+					"patching_rect" : [ 109.0, 494.0, 63.0, 17.0 ],
 					"text" : "pack 0. 0."
 				}
 
@@ -498,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 153.0, 450.5, 39.0, 17.0 ],
+					"patching_rect" : [ 153.0, 473.0, 39.0, 17.0 ],
 					"text" : "* 0."
 				}
 
@@ -512,7 +512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 153.0, 426.5, 21.0, 17.0 ],
+					"patching_rect" : [ 153.0, 449.0, 21.0, 17.0 ],
 					"text" : "sin"
 				}
 
@@ -526,7 +526,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 109.0, 425.5, 26.0, 17.0 ],
+					"patching_rect" : [ 109.0, 448.0, 26.0, 17.0 ],
 					"text" : "cos"
 				}
 
@@ -540,19 +540,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 109.0, 449.5, 39.0, 17.0 ],
+					"patching_rect" : [ 109.0, 472.0, 39.0, 17.0 ],
 					"text" : "* 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-104",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 55.0, 237.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -679,15 +668,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-104", 0 ]
 				}
 
 			}
