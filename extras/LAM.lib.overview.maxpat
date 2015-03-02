@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 51.0, 79.0, 764.0, 673.0 ],
+		"rect" : [ 553.0, 80.0, 764.0, 673.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -146,8 +146,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 198.9375, 512.933716, 177.0, 35.28833 ],
-					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette" ]
+					"patching_rect" : [ 198.9375, 512.933716, 177.0, 55.28833 ],
+					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.RLEreader" ]
 				}
 
 			}
@@ -385,7 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.9375, 600.23877, 74.0, 19.0 ],
+					"patching_rect" : [ 301.9375, 617.23877, 74.0, 19.0 ],
 					"text" : "prepend help"
 				}
 
@@ -400,7 +400,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.9375, 622.23877, 49.0, 19.0 ],
+					"patching_rect" : [ 301.9375, 639.23877, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
