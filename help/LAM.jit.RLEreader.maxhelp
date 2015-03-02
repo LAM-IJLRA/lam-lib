@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 59.0, 45.0, 809.0, 551.0 ],
+		"rect" : [ 351.0, 181.0, 809.0, 551.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,6 +30,47 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.5, 98.060059, 496.0, 33.0 ],
+					"presentation_rect" : [ 7.5, 96.060059, 0.0, 0.0 ],
+					"text" : "You can find some example file in folder /patcher/data/RLE-patterns, and more file on the web, for example at http://www.conwaylife.com"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 136.0, 259.0, 37.0, 18.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 6.0, 240.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -49,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 282.0, 196.0, 71.0, 20.0 ],
-					"presentation_rect" : [ 294.0, 189.0, 0.0, 0.0 ],
 					"text" : "jit.matrix"
 				}
 
@@ -64,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 389.0, 196.0, 71.0, 20.0 ],
-					"presentation_rect" : [ 384.0, 192.0, 0.0, 0.0 ],
 					"text" : "dimensions"
 				}
 
@@ -79,7 +118,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 508.0, 195.0, 66.0, 20.0 ],
-					"presentation_rect" : [ 508.0, 193.0, 0.0, 0.0 ],
 					"text" : "rule"
 				}
 
@@ -94,8 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.5, 229.5, 50.0, 18.0 ],
-					"presentation_rect" : [ 474.0, 212.0, 0.0, 0.0 ],
-					"text" : "B3/S23"
+					"text" : "b3/s23"
 				}
 
 			}
@@ -109,7 +146,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 601.0, 195.0, 66.0, 20.0 ],
-					"presentation_rect" : [ 601.0, 191.0, 0.0, 0.0 ],
 					"text" : "comments"
 				}
 
@@ -158,7 +194,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -267,8 +303,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 70.0, 239.0, 260.0, 19.0 ],
-									"text" : "jit.matrix life2 @adapt 0 @thru 1 @usedstdim 1"
+									"patching_rect" : [ 71.0, 265.0, 313.0, 19.0 ],
+									"text" : "jit.matrix RLEreaderHelp @adapt 0 @thru 1 @usedstdim 1"
 								}
 
 							}
@@ -468,7 +504,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.0, 159.0, 61.0, 17.0 ],
-									"text" : "13 9"
+									"text" : "111 72"
 								}
 
 							}
@@ -767,8 +803,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.0, 229.5, 41.0, 18.0 ],
-					"text" : "13 9"
+					"patching_rect" : [ 389.0, 229.5, 81.0, 18.0 ],
+					"text" : "111 72"
 				}
 
 			}
@@ -821,8 +857,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 16.0, 168.0, 63.0, 19.0 ],
-					"text" : "metro 100"
+					"patching_rect" : [ 16.0, 168.0, 69.0, 19.0 ],
+					"text" : "qmetro 100"
 				}
 
 			}
@@ -891,8 +927,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 16.0, 343.0, 123.0, 19.0 ],
-					"text" : "jit.matrix life2 @thru 1"
+					"patching_rect" : [ 16.0, 343.0, 137.0, 19.0 ],
+					"text" : "jit.matrix RLEreaderHelp"
 				}
 
 			}
@@ -905,8 +941,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 16.0, 288.0, 146.0, 19.0 ],
-					"text" : "jit.matrix life2 1 char 40 30"
+					"patching_rect" : [ 16.0, 288.0, 204.0, 19.0 ],
+					"text" : "jit.matrix RLEreaderHelp 1 char 40 30"
 				}
 
 			}
@@ -980,7 +1016,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 384.25, 221.75, 420.5, 221.75 ],
+					"midpoints" : [ 384.25, 221.75, 460.5, 221.75 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -1147,6 +1183,15 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1157,6 +1202,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
