@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-59",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 19.0, 61.0, 473.0, 20.0 ],
+					"text" : "Further info on envelope : http://en.wikipedia.org/wiki/Envelope_%28mathematics%29"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-50",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -913,7 +927,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.jit.roundedpolygon", "@obj-desc", "Rounded corners." ],
+					"args" : [ "@obj-name", "LAM.jit.roundedpolygon", "@obj-desc", "Envelope based corner easing." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
