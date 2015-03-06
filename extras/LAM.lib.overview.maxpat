@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.125, 544.248596, 177.0, 56.320007 ],
+					"patching_rect" : [ 560.125, 545.914734, 177.0, 56.320007 ],
 					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping" ]
 				}
 
@@ -54,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.625, 525.558777, 64.0, 19.0 ],
+					"patching_rect" : [ 618.625, 527.224915, 64.0, 19.0 ],
 					"text" : "EXAMPLES"
 				}
 
@@ -70,8 +70,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.125, 284.569458, 177.0, 124.989319 ],
-					"tabs" : [ "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh" ]
+					"patching_rect" : [ 560.125, 284.569458, 177.0, 142.989319 ],
+					"tabs" : [ "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon" ]
 				}
 
 			}
