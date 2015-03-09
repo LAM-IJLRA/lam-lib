@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 822.0, 236.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,8 +37,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.0, 136.0, 80.0, 20.0 ],
-					"text" : "mode"
+					"patching_rect" : [ 219.0, 136.0, 100.0, 20.0 ],
+					"text" : "list/symbol mode"
 				}
 
 			}
@@ -91,8 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 202.0, 221.0, 18.0 ],
-					"text" : "110001"
+					"patching_rect" : [ 78.0, 202.0, 221.0, 18.0 ]
 				}
 
 			}

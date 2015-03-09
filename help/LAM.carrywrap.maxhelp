@@ -135,8 +135,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 94.0, 165.0, 20.0 ],
-					"text" : "arguments : min max bounds"
+					"patching_rect" : [ 263.0, 94.0, 175.0, 20.0 ],
+					"text" : "arguments : [min max] bounds"
 				}
 
 			}

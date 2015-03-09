@@ -730,11 +730,11 @@
 					"fontsize" : 15.0,
 					"frgb" : 0.0,
 					"id" : "obj-5",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 97.875, 584.0, 51.0 ],
+					"patching_rect" : [ 22.9375, 97.875, 605.0, 36.0 ],
 					"text" : "The LAM.lib library is a set of abstractions and externals that are useful to build digital music instrument with Max. It includes mapping function and sound synthesis modules.",
 					"textcolor" : [ 0.27596, 0.276002, 0.27594, 1.0 ],
 					"varname" : "autohelp_top_description"
