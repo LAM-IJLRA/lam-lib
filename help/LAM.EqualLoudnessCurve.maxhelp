@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 806.0, 324.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 258.060059, 646.0, 33.0 ],
-					"presentation_rect" : [ 5.5, 89.060059, 0.0, 0.0 ],
 					"text" : "Credit goes to Charles Gondre for the max implementation. http://cycling74.com/forums/topic/equal-loudness-curves-implementation/"
 				}
 
