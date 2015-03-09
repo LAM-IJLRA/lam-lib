@@ -1851,8 +1851,8 @@ function getSites()
 	for (var i = 0; i < VoronoiDemo.sites.length; i++) {
     	//alert(myStringArray[i]);
     	//Do something
-		siteArray.push(VoronoiDemo.sites[i].voronoiId,VoronoiDemo.sites[i].x, VoronoiDemo.sites[i].y);
-		//outlet(0, VoronoiDemo.sites[i].voronoiId,VoronoiDemo.sites[i].x, VoronoiDemo.sites[i].y);
+		//siteArray.push(VoronoiDemo.sites[i].voronoiId,VoronoiDemo.sites[i].x, VoronoiDemo.sites[i].y);
+		siteArray.push(VoronoiDemo.sites[i].x, VoronoiDemo.sites[i].y);
 	}
 	outlet(0, "sites", "data", siteArray);
 }
@@ -1964,4 +1964,90 @@ function getFirstSiteCellArea(){
 		}
 		outlet(0, "cell0", "area", -0.5*area);
 	}
+}
+
+
+function getCell(cellId){
+
+	// clip cell ID to available range
+	cellId = cellId.clamp(0,VoronoiDemo.diagram.cells.length-1);
+	
+	var cell = VoronoiDemo.diagram.cells[VoronoiDemo.sites[cellId].voronoiId];
+
+	// there is no guarantee a Voronoi cell will exist for any particular site
+	if (cell) {
+		//post("---"+JSON.stringify(cell)+"\n");
+		var hE_list = [],
+			halfedges = cell.halfedges,
+			nHalfedges = halfedges.length,
+			area = 0;
+			
+		if (nHalfedges > 2) {
+			for (var iHalfedge=0; iHalfedge<nHalfedges-1; iHalfedge++) {
+				hE_list.push(halfedges[iHalfedge].getStartpoint().x,halfedges[iHalfedge].getStartpoint().y);
+				area += halfedges[iHalfedge].getStartpoint().x * halfedges[iHalfedge+1].getStartpoint().y;
+				area -= halfedges[iHalfedge].getStartpoint().y * halfedges[iHalfedge+1].getStartpoint().x;
+			}
+			// loop to 1st point
+			area += halfedges[nHalfedges-1].getStartpoint().x * halfedges[0].getStartpoint().y;
+			area -= halfedges[nHalfedges-1].getStartpoint().y * halfedges[0].getStartpoint().x;
+			hE_list.push(halfedges[nHalfedges-1].getStartpoint().x,halfedges[nHalfedges-1].getStartpoint().y);
+
+			outlet(0, "cell", "data", hE_list);
+			outlet(0, "cell", "area", -0.5*area);
+		}
+	}
+}
+
+
+/**
+ * Returns a number whose value is limited to the given range.
+ *
+ * Example: limit the output of this computation to between 0 and 255
+ * (x * 255).clamp(0, 255)
+ *
+ * @param {Number} min The lower boundary of the output range
+ * @param {Number} max The upper boundary of the output range
+ * @returns A number in the range [min, max]
+ * @type Number
+ */
+Number.prototype.clamp = function(min, max) {
+  return Math.min(Math.max(this, min), max);
+};
+
+var cellMatrix = new JitterMatrix(2,"float32",1);
+
+function getCellMatrix(){
+
+	var cell,
+		nCell=VoronoiDemo.diagram.cells.length;
+	
+	cellMatrix.dim = nCell ;	
+
+	
+	
+	
+	// there is no guarantee a Voronoi cell will exist for any particular site
+	for (var iCell=0; iCell<nCell; iCell++){
+		
+		var cell = VoronoiDemo.diagram.cells[iCell];
+		
+		if (cell) {
+			//post("---"+JSON.stringify(cell)+"\n");
+			var hE_list = [];
+
+			var halfedges = cell.halfedges,
+				nHalfedges = halfedges.length;
+			if (nHalfedges > 2) {
+				for (var iHalfedge=0; iHalfedge<nHalfedges; iHalfedge++) {
+					hE_list.push(halfedges[iHalfedge].getStartpoint().x,halfedges[iHalfedge].getStartpoint().y);
+				}
+				outlet(0, "cell", "data", hE_list);
+			}
+		}
+	}
+	
+	//outlet(0,"cellMatrix", "jit_matrix",cellMatrix.name);
+	outlet(0,"cellMatrix", nCell);
+	
 }
