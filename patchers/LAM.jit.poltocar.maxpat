@@ -29,19 +29,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "y",
 					"id" : "obj-4",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 134.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 121.0, 205.0, 0.0, 0.0 ]
+					"patching_rect" : [ 97.0, 134.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "x",
 					"id" : "obj-3",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -52,20 +51,19 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "magnitude",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 35.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 101.0, 68.0, 0.0, 0.0 ]
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 28.0, 35.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "angle",
 					"id" : "obj-1",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -207,8 +205,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
