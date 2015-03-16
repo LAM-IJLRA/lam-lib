@@ -953,20 +953,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-17",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 186.0, 370.0, 150.0, 20.0 ],
-									"text" : "all in one ?"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1002,20 +988,6 @@
 									"outlettype" : [ "bang", "float" ],
 									"patching_rect" : [ 446.0, 285.0, 32.5, 20.0 ],
 									"text" : "t b f"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 182.0, 388.5, 319.0, 20.0 ],
-									"text" : "jit.expr @expr in[4]*(pow(1-((cell[0]%in[1])/(in[1]-1)))\\,in[3]))"
 								}
 
 							}

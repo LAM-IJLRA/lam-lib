@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 14.0, 45.0, 758.0, 743.0 ],
+		"rect" : [ 14.0, 45.0, 745.0, 760.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.125, 545.914734, 177.0, 56.320007 ],
+					"patching_rect" : [ 560.125, 584.914734, 177.0, 56.320007 ],
 					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping" ]
 				}
 
@@ -54,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.625, 527.224915, 64.0, 19.0 ],
+					"patching_rect" : [ 618.625, 566.224915, 64.0, 19.0 ],
 					"text" : "EXAMPLES"
 				}
 
@@ -70,8 +70,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.125, 284.569458, 177.0, 217.058807 ],
-					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade" ]
+					"patching_rect" : [ 560.125, 284.569458, 177.0, 253.058807 ],
+					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si" ]
 				}
 
 			}
@@ -242,8 +242,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.9375, 196.666473, 186.0, 528.572266 ],
-					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.energizer", "LAM.energizer~", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate" ]
+					"patching_rect" : [ 12.9375, 196.666473, 186.0, 545.572266 ],
+					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.energizer", "LAM.energizer~", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si2d" ]
 				}
 
 			}
@@ -313,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 639.125, 628.764771, 76.0, 19.0 ],
+					"patching_rect" : [ 639.125, 667.764771, 76.0, 19.0 ],
 					"text" : "prepend load"
 				}
 
@@ -328,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 639.125, 656.077881, 49.0, 19.0 ],
+					"patching_rect" : [ 639.125, 695.077881, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 

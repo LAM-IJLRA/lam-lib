@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 351.0, 181.0, 809.0, 551.0 ],
+		"rect" : [ 100.0, 100.0, 809.0, 551.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -32,6 +32,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 344.0, 136.0, 114.0, 18.0 ],
+					"presentation_rect" : [ 344.0, 137.0, 0.0, 0.0 ],
+					"text" : "read koksgalaxy.rle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-9",
 					"linecount" : 2,
@@ -39,7 +54,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 98.060059, 496.0, 33.0 ],
-					"presentation_rect" : [ 7.5, 96.060059, 0.0, 0.0 ],
 					"text" : "You can find some example file in folder /patcher/data/RLE-patterns, and more file on the web, for example at http://www.conwaylife.com"
 				}
 
@@ -132,7 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 491.5, 229.5, 50.0, 18.0 ],
-					"text" : "b3/s23"
+					"text" : "23/3"
 				}
 
 			}
@@ -504,7 +518,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.0, 159.0, 61.0, 17.0 ],
-									"text" : "111 72"
+									"text" : "9 9"
 								}
 
 							}
@@ -804,7 +818,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 389.0, 229.5, 81.0, 18.0 ],
-					"text" : "111 72"
+					"text" : "9 9"
 				}
 
 			}
@@ -1135,6 +1149,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1228,126 +1251,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tab.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.matrix.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pak.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "metro.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "slider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "text.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "atoi.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "itoa.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "uzi.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "deferlow.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "opendialog.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "vexpr.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
