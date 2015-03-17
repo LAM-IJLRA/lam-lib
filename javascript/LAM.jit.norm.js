@@ -9,20 +9,28 @@ inlets = 1;
 outlets = 1;
 
 var inputMatrix = new JitterMatrix(1,"float32",1,1);
+var evalMatrix = new JitterMatrix(1,"float32",1,1);
 var normMatrix = new JitterMatrix(1,"float32",1,1);
+var unpacker = new JitterObject("jit.unpack");
+
 var dim = [];
 var planecount = 0;
 var dimcount  = 0;
 var dimtemp;
+var myJitOp = new JitterObject("jit.op");
+
 
 function jit_matrix()
 {
+	normMatrix.clear();
 	
 	inputMatrix.name = arguments[0];
+	type = inputMatrix.type;
 	dimtemp = inputMatrix.dim;
 	planecount = inputMatrix.planecount;
 	dimcount = dim.length;
-	normMatrix.dim = dimtemp;
+	evalMatrix.planecount = planecount;
+	evalMatrix.type = type;
 	
 	
 	if (Array.isArray(dimtemp))
@@ -33,41 +41,36 @@ function jit_matrix()
 	else
 	{
 		//post("dim is monodimensional","\n");
+		dim.clear;
 		dim[0] = dimtemp;
 	}
 	
-	recursiveTraverse(0);
+	normMatrix.dim = dim;
+	evalMatrix.dim = dim;
+
 	
-	outlet(0,"jit_matrix",normMatrix.name);
-}
-
-
-//function norm(x) {
-//	return sqrt(sum(x^2));
-//}
-
-var cellIndex = [];
-
-function recursiveTraverse(dimIndex)
-{
-	for (var iDim=0; iDim<dim[dimIndex]; iDim++)
+	// take the square
+	myJitOp.op = "*";
+	myJitOp.matrixcalc([inputMatrix,inputMatrix],evalMatrix);
+	
+	// unpack the planes 
+	var planeArray = [];
+	for (iPlane=0;iPlane<planecount;iPlane++)
 	{
-		cellIndex[dimIndex] = iDim;
-		if (dimIndex==(dimcount-1))
-		{//we are in the last dimension, compute norm accross plane
-			var norm = 0;
-			for (var iPlane=0;iPlane<planecount;iPlane++)
-			{
-				norm += Math.pow(inputMatrix.getcell(cellIndex)[iPlane],2);
-			}
-			norm = Math.sqrt(norm);
-			normMatrix.setcell(cellIndex, "val", norm);
-		}
-		else
-		{//go to next dimension
-			recursiveTraverse(dimIndex+1);
-		}
+		planeArray[iPlane] = new JitterMatrix(1,type,dim);
 	}	
+	unpacker.matrixcalc(evalMatrix,planeArray);
+
+	// sum the planes
+	myJitOp.op = "+";
+	for (iPlane=0;iPlane<(planecount);iPlane++)
+	{
+		myJitOp.matrixcalc([planeArray[iPlane],normMatrix],normMatrix);
+	}
+	
+	// get the square root
+	myJitOp.op = "sqrt";
+	myJitOp.matrixcalc([normMatrix,normMatrix],normMatrix);
+	outlet(0,"jit_matrix",normMatrix.name);
+	
 }
-	
-	
