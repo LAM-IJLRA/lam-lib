@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 675.0, 59.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.827393, 115.0, 41.0, 20.0 ],
-					"presentation_rect" : [ 169.741089, 96.0, 0.0, 0.0 ],
 					"text" : "dbtoa"
 				}
 
@@ -258,7 +257,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "signal gain output (0-1)",
 					"id" : "obj-143",
 					"maxclass" : "outlet",
 					"numinlets" : 1,

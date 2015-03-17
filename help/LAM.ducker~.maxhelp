@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 178.0, 44.0, 786.0, 654.0 ],
+		"rect" : [ 100.0, 100.0, 825.0, 650.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 322.0, 25.0, 20.0 ],
-					"presentation_rect" : [ 391.5, 322.0, 0.0, 0.0 ],
 					"text" : "ms"
 				}
 
@@ -53,7 +52,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 334.75, 290.0, 25.0, 20.0 ],
-					"presentation_rect" : [ 328.0, 294.0, 0.0, 0.0 ],
 					"text" : "ms"
 				}
 
@@ -68,7 +66,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.0, 322.0, 25.0, 20.0 ],
-					"presentation_rect" : [ 276.0, 321.0, 0.0, 0.0 ],
 					"text" : "dB"
 				}
 
@@ -338,8 +335,8 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 26.0, 494.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"patching_rect" : [ 26.0, 535.0, 136.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -521,7 +518,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 552.0, 48.25, 48.25 ]
+					"patching_rect" : [ 26.0, 593.0, 48.25, 48.25 ]
 				}
 
 			}
@@ -883,9 +880,9 @@
  ],
 		"parameters" : 		{
 			"obj-98" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-38" : [ "dry", "dry", 0 ],
-			"obj-12::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-12::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-12::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-38" : [ "dry", "dry", 0 ],
 			"obj-12::obj-32" : [ "[8]", "[2]", 0 ]
 		}
 ,
@@ -933,8 +930,8 @@
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}
@@ -947,8 +944,8 @@
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}

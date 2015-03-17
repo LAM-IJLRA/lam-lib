@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+		"rect" : [ 100.0, 100.0, 813.0, 527.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -204,7 +204,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.dist.tanh~", "@obj-desc", "Hyperbolic tangent distorsion." ],
+					"args" : [ "@obj-name", "LAM.dist.atan~", "@obj-desc", "Arc-tangent distorsion." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
