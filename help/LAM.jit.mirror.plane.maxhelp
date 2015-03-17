@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 526.0, 56.0, 857.0, 601.0 ],
+		"rect" : [ 100.0, 100.0, 857.0, 601.0 ],
+		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2978,7 +2979,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 102.0, 232.0, 123.0, 20.0 ],
-									"presentation_rect" : [ 50.0, 222.0, 0.0, 0.0 ],
 									"text" : "jit.op @op - @val 0.5"
 								}
 
@@ -3655,6 +3655,20 @@
 					"outlettype" : [ "bang", "bang", "erase" ],
 					"patching_rect" : [ 683.0, 151.0, 73.0, 21.0 ],
 					"text" : "t b b erase"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 0,
+					"patching_rect" : [ 386.5, 29.0, 95.0, 17.0 ],
+					"text" : "bgcolor 0.9 0.91 0.91"
 				}
 
 			}
