@@ -10,33 +10,33 @@ outlets = 1;
 
 var inputMatrix = new JitterMatrix(1,"float32",1,1);
 var normMatrix = new JitterMatrix(1,"float32",1,1);
-
+var dim = [];
+var planecount = 0;
+var dimcount  = 0;
+var dimtemp;
 
 function jit_matrix()
 {
 	
 	inputMatrix.name = arguments[0];
-	var dim = inputMatrix.dim;
-	var planecount = inputMatrix.planecount;
+	dimtemp = inputMatrix.dim;
+	planecount = inputMatrix.planecount;
+	dimcount = dim.length;
+	normMatrix.dim = dimtemp;
 	
-	normMatrix.dim = dim;
 	
-	//post("dim", dim,"\n");
-	//post("plane", planecount,"\n");
+	if (Array.isArray(dimtemp))
+	{
+		//post("dim is multidimensional","\n");
+		dim = dimtemp;
+	}
+	else
+	{
+		//post("dim is monodimensional","\n");
+		dim[0] = dimtemp;
+	}
 	
-	for (var i=0;i<dim;i++)
-		{
-			var norm = 0;
-			for (var iPlane=0;iPlane<planecount;iPlane++)
-			{
-				norm += Math.pow(inputMatrix.getcell(i)[iPlane],2);
-				
-				//post("cell ", i,iPlane, theCell+"\n");
-			}
-			//var norm = Math.norm(inputMatrix.getcell[i], planecount);
-			norm = Math.sqrt(norm);
-			normMatrix.setcell(i, "val", norm);	
-		}
+	recursiveTraverse(0);
 	
 	outlet(0,"jit_matrix",normMatrix.name);
 }
@@ -45,3 +45,29 @@ function jit_matrix()
 //function norm(x) {
 //	return sqrt(sum(x^2));
 //}
+
+var cellIndex = [];
+
+function recursiveTraverse(dimIndex)
+{
+	for (var iDim=0; iDim<dim[dimIndex]; iDim++)
+	{
+		cellIndex[dimIndex] = iDim;
+		if (dimIndex==(dimcount-1))
+		{//we are in the last dimension, compute norm accross plane
+			var norm = 0;
+			for (var iPlane=0;iPlane<planecount;iPlane++)
+			{
+				norm += Math.pow(inputMatrix.getcell(cellIndex)[iPlane],2);
+			}
+			norm = Math.sqrt(norm);
+			normMatrix.setcell(cellIndex, "val", norm);
+		}
+		else
+		{//go to next dimension
+			recursiveTraverse(dimIndex+1);
+		}
+	}	
+}
+	
+	
