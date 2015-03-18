@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 462.0, 92.0, 841.0, 748.0 ],
+		"rect" : [ 569.0, 47.0, 841.0, 748.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -689,7 +689,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 16.0, 511.0, 640.0, 480.0 ],
+						"rect" : [ 146.0, 511.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5583,7 +5583,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 271.0, 472.5, 136.0, 34.0 ],
+									"patching_rect" : [ 271.0, 472.5, 136.0, 48.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
@@ -6981,7 +6981,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 72.5, 85.0, 30.0, 20.0 ],
-													"presentation_rect" : [ 50.0, 75.0, 0.0, 0.0 ],
 													"text" : "r ck"
 												}
 
@@ -10700,7 +10699,6 @@
 									}
 ,
 									"patching_rect" : [ 67.0, 218.0, 117.0, 20.0 ],
-									"presentation_rect" : [ 123.0, 217.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -11162,7 +11160,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 55.0, 455.0, 25.0, 25.0 ]
+									"patching_rect" : [ 57.0, 335.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -11172,7 +11170,7 @@
 									"destination" : [ "obj-115", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -14303,8 +14301,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-19::obj-12" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-42" : [ "live.gain~[1]", "live.gain~[1]", 0 ]
+			"obj-42" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-19::obj-12" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -14350,7 +14348,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.deflatedpolygon.maxpat",
+				"name" : "LAM.jit.roundedpolygon.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

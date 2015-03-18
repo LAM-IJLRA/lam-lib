@@ -2051,3 +2051,13 @@ function getCellMatrix(){
 	outlet(0,"cellMatrix", nCell);
 	
 }
+
+
+
+var siteMatrix = new JitterMatrix(2,"float32",1,1);
+
+function setSitesMatrix()
+{ 
+	siteMatrix.name = arguments[1];
+	outlet(1, "jit_matrix",siteMatrix.name);
+}
