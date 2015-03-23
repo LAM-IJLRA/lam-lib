@@ -130,8 +130,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 374.9375, 510.933716, 177.0, 71.301025 ],
-					"tabs" : [ "LAM.CheapAutotune~ ", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~" ]
+					"patching_rect" : [ 374.9375, 510.933716, 177.0, 88.301025 ],
+					"tabs" : [ "LAM.CheapAutotune~ ", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~" ]
 				}
 
 			}
