@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"ghostbar" : 70,
+					"id" : "obj-12",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 152.0, 273.0, 19.0, 113.0 ],
+					"signed" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-34",
@@ -42,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -355,7 +369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 386.0, 150.0, 20.0 ],
+					"patching_rect" : [ 280.0, 386.0, 150.0, 20.0 ],
 					"text" : "pitch deviation"
 				}
 
@@ -369,7 +383,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.0, 273.0, 19.0, 113.0 ],
+					"patching_rect" : [ 293.0, 273.0, 19.0, 113.0 ],
 					"signed" : 1
 				}
 
@@ -406,6 +420,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-23",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -442,7 +457,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 170.0, 242.0, 129.0, 20.0 ],
+					"patching_rect" : [ 183.0, 242.0, 129.0, 20.0 ],
 					"text" : "LAM.CheapAutotune~"
 				}
 
@@ -455,7 +470,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.0, 273.0, 26.0, 113.0 ]
+					"patching_rect" : [ 183.0, 273.0, 26.0, 113.0 ]
 				}
 
 			}
@@ -468,7 +483,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 42.0, 195.0, 147.0, 20.0 ],
+					"patching_rect" : [ 42.0, 195.0, 160.0, 20.0 ],
 					"text" : "IO"
 				}
 
@@ -503,7 +518,7 @@
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ]
+					"patching_rect" : [ -0.5, 3.0, 802.0, 57.0 ]
 				}
 
 			}
@@ -553,7 +568,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -563,7 +578,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 179.5, 402.0, 30.25, 402.0, 30.25, 165.0, 179.5, 165.0 ],
+					"midpoints" : [ 192.5, 402.0, 30.25, 402.0, 30.25, 165.0, 192.5, 165.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -572,7 +587,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -600,7 +615,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -643,6 +658,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -660,8 +684,8 @@
 			}
 , 			{
 				"name" : "IO.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/utilities/input_output IO/lib",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/utilities/input_output IO/lib",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/patchers",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -678,130 +702,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tab.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "opendialog.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "coll.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sfplay~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "adc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dac~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "slider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "vexpr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "adstatus.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "multislider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "loadmess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "uzi.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

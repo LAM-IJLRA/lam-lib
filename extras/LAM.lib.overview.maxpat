@@ -131,7 +131,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 374.9375, 558.933716, 177.0, 106.301025 ],
-					"tabs" : [ "LAM.CheapAutotune~ ", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~" ]
+					"tabs" : [ "LAM.CheapAutotune~", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~" ]
 				}
 
 			}
