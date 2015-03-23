@@ -130,8 +130,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 374.9375, 510.933716, 177.0, 88.301025 ],
-					"tabs" : [ "LAM.CheapAutotune~ ", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~" ]
+					"patching_rect" : [ 374.9375, 558.933716, 177.0, 106.301025 ],
+					"tabs" : [ "LAM.CheapAutotune~ ", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~" ]
 				}
 
 			}
@@ -194,8 +194,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 374.9375, 406.248596, 177.0, 74.379669 ],
-					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~ LAM.paf~ " ]
+					"patching_rect" : [ 374.9375, 424.248596, 177.0, 104.516174 ],
+					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~" ]
 				}
 
 			}
@@ -342,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.4375, 492.764771, 143.0, 19.0 ],
+					"patching_rect" : [ 394.4375, 540.764771, 143.0, 19.0 ],
 					"text" : "AUDIO TRANSFORMATION"
 				}
 
@@ -370,7 +370,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.9375, 387.558777, 106.0, 19.0 ],
+					"patching_rect" : [ 412.9375, 405.558777, 106.0, 19.0 ],
 					"text" : "AUDIO SYNTHESIS"
 				}
 
@@ -385,7 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.9375, 596.23877, 74.0, 19.0 ],
+					"patching_rect" : [ 301.9375, 626.23877, 74.0, 19.0 ],
 					"text" : "prepend help"
 				}
 
@@ -400,7 +400,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.9375, 618.23877, 49.0, 19.0 ],
+					"patching_rect" : [ 301.9375, 648.23877, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
