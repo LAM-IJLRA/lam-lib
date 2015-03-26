@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 363.75, 290.0, 49.0, 20.0 ],
+					"patching_rect" : [ 357.75, 300.0, 49.0, 20.0 ],
 					"text" : "zl nth 2"
 				}
 
@@ -343,19 +343,19 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "input matrix",
 					"id" : "obj-73",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 85.0, 55.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "sum dim (int)",
 					"id" : "obj-75",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -367,7 +367,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "output matrix",
 					"id" : "obj-76",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -702,8 +702,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
