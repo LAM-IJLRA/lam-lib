@@ -401,7 +401,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.9375, 611.23877, 74.0, 19.0 ],
+					"patching_rect" : [ 496.9375, 616.23877, 74.0, 19.0 ],
 					"text" : "prepend help"
 				}
 
@@ -416,7 +416,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.9375, 633.23877, 49.0, 19.0 ],
+					"patching_rect" : [ 496.9375, 638.23877, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
