@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 105.0, 1166.0, 702.0 ],
+		"rect" : [ 78.0, 232.0, 1166.0, 702.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -108,7 +108,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -597,7 +597,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1202,7 +1202,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-34",
 					"ignoreclick" : 1,
-					"items" : [ ",", "Launch html reference page for LAM.lib.super_module", ",", "Launch LAM.lib overview patch", ",", "Credits and acknowledgements", ",", "Show the bug tracker entries for LAM.lib.super_module", ",", "How to report a bug?", ",", "Paypal donation via pledgie.com" ],
+					"items" : [ ",", "Launch html reference page for LAM.lib.super_module", ",", "Launch LAM.lib overview patch", ",", "Credits and acknowledgements", ",", "Show the bug tracker entries for LAM.lib.super_module", ",", "How to report a bug?", ",", "..." ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1230,7 +1230,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1816,7 +1816,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 28.0, 446.0, 21.0 ],
+					"patching_rect" : [ 78.0, 28.0, 487.0625, 21.0 ],
 					"text" : "A digital lutherie library",
 					"textcolor" : [ 0.999903, 1.0, 0.99983, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1866,7 +1866,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 29.0, 459.0, 21.0 ],
+					"patching_rect" : [ 79.0, 29.0, 486.0625, 21.0 ],
 					"text" : "A digital lutherie library",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"varname" : "autohelp_top_digest[4]"

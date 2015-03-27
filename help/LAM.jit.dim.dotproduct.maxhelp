@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 120.0, 819.0, 347.0 ],
+		"rect" : [ 100.0, 100.0, 819.0, 347.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -128,7 +128,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.jit.plane.dotproduct", "@obj-desc", "Performs the dot product of two vectors expressed on jit.matrices planes." ],
+					"args" : [ "@obj-name", "LAM.jit.dim.dotproduct", "@obj-desc", "Performs the dot product of two vectors expressed on jit.matrices dimensions." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
