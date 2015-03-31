@@ -178,8 +178,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.9375, 160.666473, 177.0, 212.892303 ],
-					"tabs" : [ "LAM.slidems~", "LAM.ntapin~ ", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~" ]
+					"patching_rect" : [ 573.9375, 160.666473, 177.0, 228.892303 ],
+					"tabs" : [ "LAM.slidems~", "LAM.ntapin~ ", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.dpr~" ]
 				}
 
 			}
@@ -210,7 +210,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.9375, 409.248596, 177.0, 104.516174 ],
+					"patching_rect" : [ 573.9375, 415.248596, 177.0, 104.516174 ],
 					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~" ]
 				}
 
@@ -386,7 +386,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.9375, 390.558777, 106.0, 19.0 ],
+					"patching_rect" : [ 611.9375, 396.558777, 106.0, 19.0 ],
 					"text" : "AUDIO SYNTHESIS"
 				}
 
