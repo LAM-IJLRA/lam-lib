@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 43.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 43.0, 104.0, 165.0, 191.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,13 +29,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "vector 2 (list)",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 55.0, 25.0, 25.0 ]
+					"patching_rect" : [ 97.0, 40.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -48,7 +48,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 65.0, 124.0, 45.0, 20.0 ],
+					"patching_rect" : [ 35.0, 109.0, 45.0, 20.0 ],
 					"text" : "zl sum"
 				}
 
@@ -62,31 +62,31 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 91.0, 81.0, 20.0 ],
+					"patching_rect" : [ 35.0, 76.0, 81.0, 20.0 ],
 					"text" : "vexpr $f1*$f2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "vector 1 (list)",
 					"id" : "obj-11",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 55.0, 25.0, 25.0 ]
+					"patching_rect" : [ 35.0, 40.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "scalar output (float)",
 					"id" : "obj-12",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 153.0, 25.0, 25.0 ]
+					"patching_rect" : [ 35.0, 138.0, 25.0, 25.0 ]
 				}
 
 			}

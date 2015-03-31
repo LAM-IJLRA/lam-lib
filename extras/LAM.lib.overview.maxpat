@@ -162,8 +162,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 393.9375, 477.933716, 177.0, 71.28833 ],
-					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.RLEreader", "LAM.voronoijs" ]
+					"patching_rect" : [ 393.9375, 477.933716, 177.0, 90.28833 ],
+					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.satellites", "LAM.jit.RLEreader", "LAM.voronoijs" ]
 				}
 
 			}

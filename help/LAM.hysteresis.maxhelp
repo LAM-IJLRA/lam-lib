@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 809.0, 385.0 ],
+		"rect" : [ 100.0, 100.0, 804.0, 393.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-26",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 400.0, 197.0, 204.0, 60.0 ],
+					"presentation_rect" : [ 401.0, 198.0, 0.0, 0.0 ],
+					"text" : "optional attribute : \n@init 1 = initialize output to low out\n@init 2 = initialize output to high out\n@init 0 = no init for output value"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"contdata" : 1,
 					"ghostbar" : 70,
@@ -187,8 +203,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 150.5, 43.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 148.0, 44.0, 0.0, 0.0 ]
+									"patching_rect" : [ 150.5, 43.0, 25.0, 25.0 ]
 								}
 
 							}

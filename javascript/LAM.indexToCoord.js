@@ -6,7 +6,7 @@
 // LAM.jit.dimintegrator.js
 
 inlets = 1;
-outlets = 1;
+outlets = 2;
 
 var dim = [];
 var blockSize = [];
@@ -17,12 +17,14 @@ function msg_int(){
 	
 	if (value<0)
 	{
-		post("LAM.jit.dimintegrator.js : invalid index\n");
+		//post("LAM.jit.dimintegrator.js : invalid index\n");
+		outlet(1,"underflow");
 		return;
 	}
 	else if (value>blockSize[dim.length])
 	{
-		post("LAM.jit.dimintegrator.js : overflow index\n");
+		//post("LAM.jit.dimintegrator.js : overflow index\n");
+		outlet(1,"overflow");
 		return;
 	}
 	
