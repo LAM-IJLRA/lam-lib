@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 205.0, 50.0, 965.0, 674.0 ],
+		"rect" : [ 205.0, 50.0, 1138.0, 672.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -86,7 +86,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 755.125, 248.569458, 177.0, 371.655457 ],
+					"patching_rect" : [ 938.125, 248.569458, 177.0, 371.655457 ],
 					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct" ]
 				}
 
@@ -100,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 797.625, 229.879639, 104.0, 19.0 ],
+					"patching_rect" : [ 980.625, 229.879639, 104.0, 19.0 ],
 					"text" : "JITTER FUNCTION"
 				}
 
@@ -116,7 +116,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 755.125, 160.666473, 177.0, 52.572296 ],
+					"patching_rect" : [ 938.125, 160.666473, 177.0, 52.572296 ],
 					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3Dscope~" ]
 				}
 
@@ -130,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 783.25, 143.0, 128.0, 19.0 ],
+					"patching_rect" : [ 966.25, 143.0, 128.0, 19.0 ],
 					"text" : "AUDIO VISUALIZATION"
 				}
 
@@ -146,7 +146,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.9375, 549.933716, 177.0, 106.301025 ],
+					"patching_rect" : [ 573.9375, 353.351593, 177.0, 106.301025 ],
 					"tabs" : [ "LAM.CheapAutotune~", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~" ]
 				}
 
@@ -178,7 +178,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.9375, 160.666473, 177.0, 228.892303 ],
+					"patching_rect" : [ 756.9375, 160.666473, 177.0, 228.892303 ],
 					"tabs" : [ "LAM.slidems~", "LAM.ntapin~ ", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.dpr~" ]
 				}
 
@@ -210,8 +210,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.9375, 415.248596, 177.0, 104.516174 ],
-					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~" ]
+					"patching_rect" : [ 573.9375, 160.666473, 177.0, 142.512634 ],
+					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~" ]
 				}
 
 			}
@@ -358,7 +358,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 593.4375, 531.764771, 143.0, 19.0 ],
+					"patching_rect" : [ 593.4375, 335.182648, 143.0, 19.0 ],
 					"text" : "AUDIO TRANSFORMATION"
 				}
 
@@ -372,7 +372,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.9375, 143.0, 99.0, 19.0 ],
+					"patching_rect" : [ 794.9375, 143.0, 99.0, 19.0 ],
 					"text" : "AUDIO UTILITIES"
 				}
 
@@ -386,7 +386,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.9375, 396.558777, 106.0, 19.0 ],
+					"patching_rect" : [ 611.9375, 141.976654, 106.0, 19.0 ],
 					"text" : "AUDIO SYNTHESIS"
 				}
 
