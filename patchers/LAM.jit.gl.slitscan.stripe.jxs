@@ -1,0 +1,58 @@
+<jittershader name="vstripe">
+	<param name="vthreshold" type="vec4" default="0. 0. 0. 0.">
+		<description>threshold</description>
+	</param>
+	<param name="vrange" type="vec4" default="0. 0. 0. 0.">
+		<description>range</description>
+	</param>
+	<param name="mini" type="vec4" default="0. 0. 0. 0.">
+		<description>mini</description>
+	</param>
+	<param name="tex0" type="int" default="0" />
+	<param name="tex1" type="int" default="1" />
+	<language name="glsl" version="1.0">
+		<bind param="vthreshold" program="fp" />
+		<bind param="vrange" program="fp" />
+		<bind param="mini" program="fp" />
+		<bind param="tex0" program="fp" />
+		<bind param="tex1" program="fp" />
+		<program name="vp" type="vertex" source="op.binary.vp.glsl" />
+		<program name="fp" type="fragment"> 
+<![CDATA[
+//
+// Pixel shader for video time delay
+// Uses a mask on right inlet to define which is the profile to explore past frames :
+//	Threshold defines which part of the mask we will read in the incoming frame
+//	Range defines the size of the slice we will extract from the inconming frame
+//	Overlap defines the percentage (0. - 1.) of overlap between time layers.
+// Author: Vincent Goudard
+// Copyright (c) 2008 
+//
+// Check Creative Commons philosophy on the net
+
+
+varying vec2 texcoord0;
+varying vec2 texcoord1;
+
+uniform	vec4 vthreshold;
+uniform vec4 vrange;
+uniform vec4 mini;
+
+uniform sampler2DRect tex0;
+uniform sampler2DRect tex1;
+
+
+
+void main( void )
+{
+	vec4 v0 = texture2DRect(tex0, texcoord0);
+	vec4 v1 = texture2DRect(tex1, texcoord1);
+	vec4 one = vec4(1.0);
+	
+	gl_FragColor = v0*vec4(max((one-((abs(v1-vthreshold))/vrange)),mini));
+}
+]]>
+		</program>
+	</language>
+</jittershader>
+ 
