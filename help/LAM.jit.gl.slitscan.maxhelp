@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 393.0, 396.0, 804.0, 340.0 ],
+		"rect" : [ 75.0, 390.0, 804.0, 340.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -359,7 +359,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 532.0, 152.0, 115.0, 20.0 ],
-					"text" : "jit.qt.movie 160 120"
+					"text" : "jit.qt.movie 320 240"
 				}
 
 			}
@@ -401,7 +401,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 273.0, 183.0, 123.0, 21.0 ],
-					"text" : "jit.qt.movie 160 120"
+					"text" : "jit.qt.movie 320 240"
 				}
 
 			}
@@ -415,7 +415,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 273.0, 219.0, 278.0, 27.0 ],
-					"text" : "LAM.jit.gl.slitscan GLslitscan 50"
+					"text" : "LAM.jit.gl.slitscan GLslitscan 100"
 				}
 
 			}
