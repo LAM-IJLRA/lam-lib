@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 205.0, 50.0, 1138.0, 672.0 ],
+		"rect" : [ 5.0, 45.0, 1138.0, 672.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -86,8 +86,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 938.125, 248.569458, 177.0, 371.655457 ],
-					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct" ]
+					"patching_rect" : [ 938.125, 248.569458, 177.0, 386.669312 ],
+					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan" ]
 				}
 
 			}
@@ -210,8 +210,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.9375, 160.666473, 177.0, 142.512634 ],
-					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~" ]
+					"patching_rect" : [ 573.9375, 160.666473, 177.0, 159.512634 ],
+					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~", "LAM.handclap~" ]
 				}
 
 			}
