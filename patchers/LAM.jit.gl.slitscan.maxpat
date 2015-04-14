@@ -50,8 +50,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 399.0, 119.0, 288.0, 20.0 ],
-					"text" : "jit.gl.texture #1 @name #0.tapname.mask "
+					"patching_rect" : [ 399.0, 119.0, 404.0, 20.0 ],
+					"text" : "jit.gl.texture #1 @name #0.tapname.mask @defaultimage white"
 				}
 
 			}
