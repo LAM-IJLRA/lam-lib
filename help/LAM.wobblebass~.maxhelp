@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 806.0, 435.0 ],
+		"rect" : [ 4.0, 69.0, 806.0, 435.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -757,38 +757,38 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-217" : [ "dial[1]", "dial", 0 ],
 			"obj-228" : [ "dial[3]", "dial", 0 ],
-			"obj-270" : [ "dial[10]", "dial", 0 ],
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-270" : [ "dial[10]", "dial", 0 ],
 			"obj-180" : [ "dial", "dial", 0 ],
-			"obj-231" : [ "dial[4]", "dial", 0 ]
+			"obj-231" : [ "dial[4]", "dial", 0 ],
+			"obj-217" : [ "dial[1]", "dial", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/gladys/Documents/Max 7/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.wobblebass~.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/gladys/Documents/Max 7/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.rectoddeven~.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/gladys/Documents/Max 7/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.wobblefilter~.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/gladys/Documents/Max 7/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
