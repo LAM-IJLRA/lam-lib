@@ -749,7 +749,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
 					"patching_rect" : [ 79.0, 203.0, 170.0, 27.0 ],
-					"text" : "LAM.pv2si2D"
+					"text" : "LAM.pv2si"
 				}
 
 			}
@@ -1023,7 +1023,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.pv2si2D.maxpat",
+				"name" : "LAM.pv2si.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
