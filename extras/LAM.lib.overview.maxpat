@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 5.0, 45.0, 1139.0, 703.0 ],
+		"rect" : [ 157.0, 45.0, 1139.0, 703.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -56,7 +56,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.9375, 585.914734, 177.0, 56.320007 ],
+					"patching_rect" : [ 12.9375, 616.23877, 177.0, 56.320007 ],
 					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping" ]
 				}
 
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.4375, 567.224915, 64.0, 19.0 ],
+					"patching_rect" : [ 71.4375, 597.54895, 64.0, 19.0 ],
 					"text" : "EXAMPLES"
 				}
 
@@ -258,8 +258,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.9375, 160.666473, 177.0, 400.572266 ],
-					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade" ]
+					"patching_rect" : [ 12.9375, 160.666473, 177.0, 416.572266 ],
+					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade", "LAM.list.xfade" ]
 				}
 
 			}
@@ -329,7 +329,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.125, 595.764771, 76.0, 19.0 ],
+					"patching_rect" : [ 216.125, 626.088806, 76.0, 19.0 ],
 					"text" : "prepend load"
 				}
 
@@ -344,7 +344,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.125, 623.077881, 49.0, 19.0 ],
+					"patching_rect" : [ 216.125, 653.401917, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
