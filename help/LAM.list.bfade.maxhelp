@@ -30,6 +30,35 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 241.5, 202.0, 21.0, 20.0 ],
+					"presentation_rect" : [ 233.5, 200.0, 0.0, 0.0 ],
+					"text" : "%"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 188.0, 202.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"candycane" : 12,
 					"ghostbar" : 50,
 					"id" : "obj-19",
@@ -54,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 92.5, 139.0, 74.0, 18.0 ],
-					"presentation_rect" : [ 93.5, 240.0, 0.0, 0.0 ],
 					"text" : "4 5 6 7.5 10"
 				}
 
@@ -171,8 +199,8 @@
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "float", "" ],
 					"patching_rect" : [ 66.5, 173.0, 262.0, 22.0 ],
 					"text" : "LAM.list.bfade 50"
 				}
@@ -225,6 +253,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -237,7 +274,7 @@
 					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-21", 1 ]
+					"source" : [ "obj-21", 2 ]
 				}
 
 			}
