@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 345.0, 201.0, 20.0 ],
+					"text" : "hover this window with your mouse !"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -150,7 +164,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -270,7 +284,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -430,7 +444,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -466,7 +480,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -532,7 +546,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 9,
 																			"architecture" : "x86"
 																		}
 ,
@@ -759,7 +773,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 7,
+																							"revision" : 9,
 																							"architecture" : "x86"
 																						}
 ,
@@ -2133,7 +2147,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2407,7 +2421,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2606,7 +2620,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3740,7 +3754,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4316,7 +4330,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4626,7 +4640,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4988,7 +5002,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5077,7 +5091,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -6350,16 +6364,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-11" : [ "live.gain~[14]", "live.gain~[8]", 0 ],
-			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-17::obj-41::obj-35::obj-26::obj-41" : [ "live.gain~[12]", "live.gain~[12]", 0 ],
 			"obj-16::obj-11" : [ "live.gain~[11]", "live.gain~[8]", 0 ],
 			"obj-17::obj-11" : [ "live.gain~[13]", "live.gain~[8]", 0 ],
+			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-13::obj-11" : [ "live.gain~[14]", "live.gain~[8]", 0 ],
+			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-14::obj-11" : [ "live.gain~[1]", "live.gain~[8]", 0 ],
 			"obj-18::obj-4" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-47::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-13::obj-20" : [ "live.gain~[7]", "live.gain~[7]", 0 ]
+			"obj-17::obj-41::obj-35::obj-26::obj-41" : [ "live.gain~[12]", "live.gain~[12]", 0 ],
+			"obj-13::obj-20" : [ "live.gain~[7]", "live.gain~[7]", 0 ],
+			"obj-47::obj-35" : [ "[5]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6378,8 +6392,8 @@
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}
@@ -6392,8 +6406,8 @@
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}

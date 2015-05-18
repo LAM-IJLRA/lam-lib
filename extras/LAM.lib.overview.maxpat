@@ -56,8 +56,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 495.0, 180.0, 45.0 ],
-					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping" ]
+					"patching_rect" : [ 210.0, 465.0, 180.0, 61.0 ],
+					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier" ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.0, 480.0, 64.0, 19.0 ],
+					"patching_rect" : [ 268.0, 450.0, 64.0, 19.0 ],
 					"text" : "EXAMPLES"
 				}
 
@@ -117,7 +117,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.0, 435.0, 180.0, 75.0 ],
-					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3Dscope~", "LAM.jit.gl.magnifier2d", "LAM.jit.gl.spectroscope" ]
+					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3Dscope~", "LAM.jit.gl.spectroscope" ]
 				}
 
 			}
