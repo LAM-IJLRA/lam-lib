@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 101.0, 141.0, 1182.0, 588.0 ],
+		"rect" : [ 200.0, 151.0, 1182.0, 588.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -116,7 +116,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 435.0, 180.0, 75.0 ],
+					"patching_rect" : [ 795.0, 435.0, 180.0, 61.0 ],
 					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3Dscope~", "LAM.jit.gl.spectroscope" ]
 				}
 
