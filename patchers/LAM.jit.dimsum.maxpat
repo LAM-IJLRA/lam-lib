@@ -197,7 +197,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 77.0, 46.0, 25.0, 25.0 ]
 								}
 
@@ -346,8 +346,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 234.0, 190.0, 39.0, 20.0 ],
-					"text" : "zl len"
+					"patching_rect" : [ 234.0, 190.0, 143.0, 20.0 ],
+					"text" : "zl len @zlmaxsize 32000"
 				}
 
 			}
@@ -412,7 +412,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 287.0, 40.0, 25.0, 25.0 ]
 				}
 
