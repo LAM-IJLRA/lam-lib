@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 386.0, 102.0, 809.0, 427.0 ],
+		"rect" : [ 434.0, 169.0, 809.0, 427.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -35,8 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 553.0, 243.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 553.0, 245.0, 0.0, 0.0 ]
+					"patching_rect" : [ 553.0, 243.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -47,8 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 377.0, 243.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 378.0, 243.0, 0.0, 0.0 ]
+					"patching_rect" : [ 377.0, 243.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -94,6 +92,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
@@ -126,7 +126,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 331.0, 119.5, 60.0, 20.0 ],
-					"presentation_rect" : [ 249.0, 285.0, 0.0, 0.0 ],
 					"text" : "loadbang"
 				}
 
@@ -141,7 +140,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 331.0, 210.5, 123.0, 20.0 ],
-					"presentation_rect" : [ 249.0, 376.0, 0.0, 0.0 ],
 					"text" : "jit.op @op - @val 0.5"
 				}
 
@@ -153,8 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 331.0, 152.5, 20.0, 20.0 ],
-					"presentation_rect" : [ 249.0, 318.0, 0.0, 0.0 ]
+					"patching_rect" : [ 331.0, 152.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -167,9 +164,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 331.0, 183.5, 124.0, 20.0 ],
-					"presentation_rect" : [ 249.0, 349.0, 0.0, 0.0 ],
-					"text" : "jit.noise 3 float32 200"
+					"patching_rect" : [ 331.0, 183.5, 145.0, 20.0 ],
+					"text" : "jit.gencoord 3 float32 200"
 				}
 
 			}
