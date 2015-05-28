@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 656.0, 252.0, 640.0, 480.0 ],
+		"rect" : [ 197.0, 269.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -121,7 +121,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 151.5, 281.009766, 365.0, 20.0 ],
-					"text" : "filtercoeff~ bandpass 200. 1.23"
+					"text" : "filtercoeff~ bandpass"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 177.5, 115.0, 25.0, 25.0 ]
 				}
 
@@ -170,7 +170,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 497.5, 115.0, 25.0, 25.0 ]
 				}
 
@@ -194,7 +194,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 369.5, 115.0, 25.0, 25.0 ]
 				}
 
@@ -206,7 +206,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 292.5, 115.0, 25.0, 25.0 ]
 				}
 
