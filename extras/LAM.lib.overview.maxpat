@@ -39,8 +39,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 180.0, 240.0 ],
-					"tabs" : [ "LAM.energizer", "LAM.energizer~", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord" ]
+					"patching_rect" : [ 210.0, 165.0, 180.0, 255.0 ],
+					"tabs" : [ "LAM.energizer", "LAM.energizer~", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist" ]
 				}
 
 			}
