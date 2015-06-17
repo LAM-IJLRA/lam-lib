@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 751.0, 278.0, 408.0, 320.0 ],
+		"rect" : [ 926.0, 356.0, 408.0, 320.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,8 +48,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 265.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 92.0, 244.0, 0.0, 0.0 ]
+					"patching_rect" : [ 141.0, 265.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -77,7 +76,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 141.0, 236.0, 32.5, 20.0 ],
-					"presentation_rect" : [ 168.0, 215.0, 0.0, 0.0 ],
 					"text" : "*~"
 				}
 
@@ -119,8 +117,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 332.666656, 151.0, 49.0, 20.0 ],
-					"text" : "* 1000."
+					"patching_rect" : [ 332.666656, 148.0, 47.0, 20.0 ],
+					"text" : "/ 1000."
 				}
 
 			}
@@ -190,7 +188,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 238.0, 122.0, 54.0, 20.0 ],
-					"text" : "*~"
+					"text" : "/~"
 				}
 
 			}

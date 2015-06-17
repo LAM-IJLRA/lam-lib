@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 561.0, 331.0, 803.0, 461.0 ],
+		"rect" : [ 99.0, 353.0, 516.0, 407.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -459,7 +459,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 141.0, 97.0, 19.0 ],
+					"patching_rect" : [ 46.0, 80.0, 97.0, 19.0 ],
 					"text" : "midinote $1 $2"
 				}
 
