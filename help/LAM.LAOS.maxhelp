@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 120.0, 814.0, 288.0 ],
+		"rect" : [ 283.0, 45.0, 814.0, 288.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -64,9 +64,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 71.0, 160.0, 235.048553, 20.0 ],
-					"text" : "pak 0 0 0 0 0 0 0 0 0"
+					"text" : "funnel 9 1"
 				}
 
 			}
@@ -194,7 +194,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.LAOS", "@obj-desc", "Last Active Outputed Stack." ],
+					"args" : [ "@obj-name", "LAM.LAOS", "@obj-desc", "Last Active Output Stack." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
