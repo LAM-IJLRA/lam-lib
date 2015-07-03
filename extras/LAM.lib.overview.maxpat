@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 258.0, 45.0, 1182.0, 588.0 ],
+		"rect" : [ 293.0, 92.0, 1182.0, 588.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,8 +39,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 180.0, 242.0 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 268.0 ],
+					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find" ]
 				}
 
 			}
