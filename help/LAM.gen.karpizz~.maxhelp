@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 398.0, 94.0, 1013.0, 696.0 ],
+		"rect" : [ 334.0, 109.0, 1013.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -189,7 +189,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 439.5, 449.0, 136.0, 42.0 ],
-					"presentation_rect" : [ 437.0, 445.0, 50.0, 28.0 ],
+					"presentation_rect" : [ 437.0, 445.0, 50.0, 42.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -2403,7 +2403,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 222.0, 449.0, 136.0, 42.0 ],
-					"presentation_rect" : [ 225.0, 448.0, 50.0, 28.0 ],
+					"presentation_rect" : [ 225.0, 448.0, 50.0, 42.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -13380,7 +13380,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 43.0, 449.0, 136.0, 42.0 ],
-					"presentation_rect" : [ 90.0, 90.0, 50.0, 28.0 ],
+					"presentation_rect" : [ 90.0, 90.0, 50.0, 42.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -16305,7 +16305,7 @@
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-19", 2 ]
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -16924,9 +16924,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-19" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-18" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-19" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-18" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -16949,54 +16949,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "gDSP",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "phasor~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "lessthan~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gate~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "edge~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "textbutton.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tab.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "wave~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
