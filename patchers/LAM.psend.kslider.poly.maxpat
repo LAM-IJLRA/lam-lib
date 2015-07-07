@@ -120,7 +120,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 9.166626, 98.5, 147.833374, 20.0 ],
-					"text" : "swap 0 0"
+					"text" : "swap"
 				}
 
 			}
