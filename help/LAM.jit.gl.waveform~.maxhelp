@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 449.0, 105.0, 821.0, 542.0 ],
+		"rect" : [ 543.0, 78.0, 927.0, 542.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.5, 124.0, 27.0, 20.0 ],
+					"text" : "s b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1099,7 +1112,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 304.0, 72.0, 153.0, 18.0 ],
-									"text" : "mouse 53 138 0 0 0 0 0 0"
+									"text" : "mouse 119 208 0 0 0 0 0 0"
 								}
 
 							}
@@ -1348,8 +1361,8 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 315.25, 421.0, 123.0, 38.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 38.0 ],
+					"patching_rect" : [ 315.25, 406.0, 123.0, 38.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1374,7 +1387,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.25, 465.0, 45.0, 45.0 ]
+					"patching_rect" : [ 315.25, 450.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -1387,7 +1400,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 315.25, 391.0, 149.0, 20.0 ],
+					"patching_rect" : [ 315.25, 376.0, 149.0, 20.0 ],
 					"text" : "groove~ Buffer-A @loop 1"
 				}
 
@@ -1401,7 +1414,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.5, 471.0, 123.0, 18.0 ],
+					"patching_rect" : [ 67.5, 456.0, 123.0, 18.0 ],
 					"text" : "replace drumLoop.aif"
 				}
 
@@ -1415,7 +1428,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 67.5, 490.0, 95.0, 20.0 ],
+					"patching_rect" : [ 67.5, 475.0, 95.0, 20.0 ],
 					"text" : "buffer~ Buffer-A"
 				}
 
@@ -1430,7 +1443,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "float", "float", "" ],
 					"patching_rect" : [ 92.0, 281.0, 479.625, 22.0 ],
-					"text" : "LAM.jit.gl.waveform~ wavfrm.ctx"
+					"text" : "LAM.jit.gl.waveform~-withNode wavfrm.ctx"
 				}
 
 			}
@@ -1443,7 +1456,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.5, 421.0, 99.0, 18.0 ],
+					"patching_rect" : [ 67.5, 406.0, 99.0, 18.0 ],
 					"text" : "replace anton.aif"
 				}
 
@@ -1457,7 +1470,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 67.5, 440.0, 95.0, 20.0 ],
+					"patching_rect" : [ 67.5, 425.0, 95.0, 20.0 ],
 					"text" : "buffer~ Buffer-B"
 				}
 
@@ -2089,6 +2102,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2165,7 +2187,7 @@
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 324.75, 415.5, 428.75, 415.5 ],
+					"midpoints" : [ 324.75, 400.5, 428.75, 400.5 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -2192,7 +2214,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.gl.waveform~.maxpat",
+				"name" : "LAM.jit.gl.waveform~-withNode.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -2200,6 +2222,13 @@
 			}
 , 			{
 				"name" : "LAM.rect2poscale.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.intbetween.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
