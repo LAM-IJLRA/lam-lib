@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 9,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 879.0, 492.0 ],
+		"rect" : [ 101.0, 339.0, 879.0, 492.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -119,7 +119,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 126.0, 238.0, 228.0, 20.0 ],
-					"text" : "LAM.lowboost 100 11"
+					"text" : "LAM.lowboost~ 100 11"
 				}
 
 			}
@@ -296,20 +296,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 65.060059, 590.0, 20.0 ],
-					"text" : "Customize the header with arguments. You can also add some more documentation here about your module."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-1",
@@ -475,7 +461,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.lowboost.maxpat",
+				"name" : "LAM.lowboost~.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

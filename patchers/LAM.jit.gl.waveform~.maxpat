@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ -34.0, 335.0, 1438.0, 765.0 ],
+		"rect" : [ 1.0, 45.0, 1438.0, 765.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -8373,7 +8373,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 578.0, 169.0, 799.0, 440.0 ],
+						"rect" : [ 576.0, 246.0, 799.0, 440.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8396,12 +8396,40 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 99.0, 94.0, 293.0, 20.0 ],
+									"text" : "only the selection viz is clipped, not the actual region!"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 28.0, 95.0, 59.0, 20.0 ],
+									"text" : "clip -1. 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.5, 151.0, 119.0, 20.0 ],
+									"patching_rect" : [ 239.5, 195.0, 119.0, 20.0 ],
 									"text" : "r #0/selectshape"
 								}
 
@@ -8415,7 +8443,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.0, 151.0, 99.0, 20.0 ],
+									"patching_rect" : [ 28.0, 195.0, 99.0, 20.0 ],
 									"text" : "prepend position"
 								}
 
@@ -8429,7 +8457,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 132.0, 151.0, 86.0, 20.0 ],
+									"patching_rect" : [ 132.0, 195.0, 86.0, 20.0 ],
 									"text" : "prepend scale"
 								}
 
@@ -8443,7 +8471,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 28.0, 205.0, 658.0, 20.0 ],
+									"patching_rect" : [ 28.0, 249.0, 658.0, 20.0 ],
 									"text" : "jit.gl.gridshape #0.node @shape plane @color 1 0 0 0.2 @dim 2 2 @scale 0 0 0 @blend_enable 1 @depth_enable 0"
 								}
 
@@ -8457,7 +8485,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 132.0, 128.0, 44.0, 18.0 ],
+									"patching_rect" : [ 132.0, 172.0, 44.0, 18.0 ],
 									"text" : "$1 1 0"
 								}
 
@@ -8471,7 +8499,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.0, 128.0, 44.0, 18.0 ],
+									"patching_rect" : [ 28.0, 172.0, 44.0, 18.0 ],
 									"text" : "$1 0 0"
 								}
 
@@ -8485,7 +8513,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 28.0, 90.0, 123.0, 22.0 ],
+									"patching_rect" : [ 28.0, 134.0, 123.0, 22.0 ],
 									"text" : "LAM.rect2poscale"
 								}
 
@@ -8508,7 +8536,7 @@
 									"destination" : [ "obj-71", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 249.0, 190.5, 37.5, 190.5 ],
+									"midpoints" : [ 249.0, 234.5, 37.5, 234.5 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -8527,7 +8555,7 @@
 									"destination" : [ "obj-71", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 141.5, 181.0, 37.5, 181.0 ],
+									"midpoints" : [ 141.5, 225.0, 37.5, 225.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -8570,17 +8598,26 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-64", 0 ],
+									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-77", 0 ]
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 760.0, 647.0, 135.0, 27.0 ],
+					"patching_rect" : [ 760.0, 647.0, 125.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -8594,7 +8631,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p display-range"
+					"text" : "p select-range"
 				}
 
 			}
