@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 9,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 421.0, 307.0, 865.0, 542.0 ],
+		"rect" : [ 425.0, 285.0, 865.0, 542.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -57,7 +57,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 749.0, 363.0, 640.0, 480.0 ],
@@ -94,7 +94,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 9,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 306.0, 288.0, 1134.0, 502.0 ],
@@ -340,7 +340,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 9,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 470.0, 278.0, 640.0, 480.0 ],
@@ -686,7 +686,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 9,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 351.0, 273.0, 799.0, 233.0 ],
@@ -1159,7 +1159,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 40.0, 55.0, 194.0, 323.0 ],
@@ -1491,7 +1491,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 95.0, 640.0, 480.0 ],
@@ -1579,7 +1579,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 304.0, 72.0, 153.0, 18.0 ],
-									"text" : "mouse 230 140 0 0 0 0 0 0"
+									"text" : "mouse 175 151 0 0 0 0 0 0"
 								}
 
 							}
@@ -1786,7 +1786,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 349.25, 343.0, 43.0, 20.0 ],
+					"patching_rect" : [ 349.25, 323.0, 43.0, 20.0 ],
 					"text" : "sig~ 1"
 				}
 
@@ -1829,7 +1829,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 349.25, 405.0, 123.0, 38.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 38.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -2097,7 +2097,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 86.0, 108.0, 235.0, 205.0 ],
@@ -2492,6 +2492,17 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 40.5, 263.5, 135.5, 263.5 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 40.5, 365.0, 358.75, 365.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -2501,6 +2512,17 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 40.5, 260.5, 135.5, 260.5 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 40.5, 358.0, 358.75, 358.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
