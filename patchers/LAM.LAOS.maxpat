@@ -29,14 +29,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "float : default value when no input",
+					"comment" : "int : default value when no input",
 					"id" : "obj-1",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 252.5, 19.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 252.5, 22.0, 0.0, 0.0 ]
+					"patching_rect" : [ 252.5, 19.0, 25.0, 25.0 ]
 				}
 
 			}

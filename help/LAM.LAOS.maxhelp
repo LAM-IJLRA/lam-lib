@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 208.0, 196.0, 157.0, 20.0 ],
-					"presentation_rect" : [ 211.548553, 226.0, 0.0, 0.0 ],
 					"text" : "default value when no input"
 				}
 
@@ -66,8 +65,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.5, 227.0, 50.0, 18.0 ],
-					"text" : "4 0"
+					"patching_rect" : [ 11.5, 227.0, 50.0, 18.0 ]
 				}
 
 			}
