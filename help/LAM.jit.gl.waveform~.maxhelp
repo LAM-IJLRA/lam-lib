@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 9,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 24.0, 230.0, 804.0, 520.0 ],
+		"rect" : [ 501.0, 246.0, 824.0, 555.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -86,10 +86,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 570.0, 196.0, 233.0, 208.0 ],
+						"rect" : [ 570.0, 196.0, 388.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -112,6 +112,191 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x64"
+										}
+,
+										"rect" : [ 487.0, 71.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 0,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"boxanimatetime" : 200,
+										"imprint" : 0,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-2",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 87.0, 156.0, 25.0, 25.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-29",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 177.0, 53.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "float" ],
+													"patching_rect" : [ 177.0, 80.0, 47.0, 21.0 ],
+													"text" : "float"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
+													"id" : "obj-32",
+													"maxclass" : "flonum",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 201.0, 56.0, 52.0, 21.0 ],
+													"presentation_rect" : [ 60.0, 60.0, 50.0, 21.0 ],
+													"triscale" : 0.9
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-33",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 177.0, 104.0, 86.0, 19.0 ],
+													"text" : "normalize $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-47",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 87.0, 53.0, 37.0, 19.0 ],
+													"text" : "crop"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-30", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-29", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-33", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-30", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-32", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-47", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 76.208328, 121.0, 46.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p edit"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -123,7 +308,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 9,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 306.0, 288.0, 206.0, 310.0 ],
@@ -369,7 +554,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 9,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 470.0, 278.0, 640.0, 480.0 ],
@@ -715,7 +900,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 9,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 351.0, 273.0, 799.0, 233.0 ],
@@ -1043,12 +1228,21 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.208328, 141.0, 25.0, 25.0 ]
+									"patching_rect" : [ 25.208328, 187.0, 25.0, 25.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
@@ -1181,7 +1375,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 50.0, 95.0, 640.0, 480.0 ],
@@ -1269,7 +1463,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 304.0, 72.0, 153.0, 18.0 ],
-									"text" : "mouse 167 119 0 0 0 0 0 0"
+									"text" : "mouse 152 404 0 0 0 0 0 0"
 								}
 
 							}
@@ -1787,7 +1981,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 9,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 86.0, 108.0, 235.0, 205.0 ],
@@ -2444,6 +2638,162 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "bgcolor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tosymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "regexp.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "split.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.render.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "metro.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.window.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "buffer~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.fpsgui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "info~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rminus.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "minimum.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "maximum.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "speedlim.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "vexpr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "clip.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "uzi.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "scale.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "deferlow.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.gain~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "swatch.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
