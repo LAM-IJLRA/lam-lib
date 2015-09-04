@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 381.0, 414.0, 811.0, 346.0 ],
+		"rect" : [ 164.0, 419.0, 811.0, 346.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -47,7 +47,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1420,7 +1420,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "scale.mxo",
+				"name" : "rminus.mxo",
 				"type" : "iLaX"
 			}
  ]
