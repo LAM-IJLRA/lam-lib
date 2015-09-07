@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 501.0, 246.0, 824.0, 555.0 ],
+		"rect" : [ 100.0, 100.0, 824.0, 555.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,18 +29,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"buffername" : "",
-					"id" : "obj-13",
-					"maxclass" : "waveform~",
-					"numinlets" : 5,
-					"numoutlets" : 6,
-					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 617.0, 486.0, 256.0, 64.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -2826,6 +2814,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "deferlow.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "uzi.mxo",
 				"type" : "iLaX"
 			}
@@ -2838,10 +2830,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "deferlow.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "live.gain~.mxo",
 				"type" : "iLaX"
 			}
@@ -2851,10 +2839,6 @@
 			}
 , 			{
 				"name" : "swatch.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "waveform~.mxo",
 				"type" : "iLaX"
 			}
  ]
