@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
-			"architecture" : "x86"
+			"revision" : 10,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 811.0, 609.0 ],
+		"rect" : [ 458.0, 169.0, 811.0, 609.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -88,8 +88,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.5, 248.5, 86.0, 20.0 ],
-					"text" : "contrast offset"
+					"patching_rect" : [ 540.5, 248.5, 143.0, 20.0 ],
+					"text" : "contrast offset (default 0)"
 				}
 
 			}
@@ -130,8 +130,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 514.666626, 204.0, 86.0, 20.0 ],
-					"text" : "contrast gain"
+					"patching_rect" : [ 514.666626, 204.0, 137.0, 20.0 ],
+					"text" : "contrast gain (default 1)"
 				}
 
 			}
@@ -187,8 +187,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 399.0, 284.0 ],
@@ -478,8 +478,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 155.0, 145.0, 20.0 ],
-					"text" : "framesize in sample/pixel"
+					"patching_rect" : [ 486.0, 155.0, 223.0, 20.0 ],
+					"text" : "framesize in sample/pixel (default 1024)"
 				}
 
 			}
@@ -492,8 +492,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.25, 110.0, 86.0, 20.0 ],
-					"text" : "duration in ms"
+					"patching_rect" : [ 477.25, 110.0, 170.0, 20.0 ],
+					"text" : "duration in ms (default 10000)"
 				}
 
 			}
@@ -555,8 +555,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 439.0, 316.0 ],
@@ -618,8 +618,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 8,
-											"architecture" : "x86"
+											"revision" : 10,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1325,12 +1325,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-24::obj-32" : [ "[10]", "[2]", 0 ],
+			"obj-24::obj-21::obj-6" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-47::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-24::obj-32" : [ "[10]", "[2]", 0 ],
 			"obj-47::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-24::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-24::obj-35" : [ "[9]", "Level", 0 ]
+			"obj-24::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-47::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1356,8 +1356,8 @@
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}
@@ -1370,8 +1370,8 @@
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}
@@ -1388,166 +1388,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.texture.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "loadmess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rminus.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.fpsgui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "maximum.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "speedlim.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.gain~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sfplay~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "times~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "line~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "metro.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "adc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "deferlow.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pink~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tab.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.render.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.window.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "textbutton.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "swatch.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pak.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

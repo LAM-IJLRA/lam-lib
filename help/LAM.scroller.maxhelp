@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 164.0, 419.0, 811.0, 346.0 ],
+		"rect" : [ 100.0, 100.0, 811.0, 346.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -43,7 +43,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x64"
 						}
 ,
@@ -500,7 +500,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x64"
 						}
 ,
@@ -778,7 +778,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x64"
 						}
 ,
@@ -1012,11 +1012,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 60.060059, 313.0, 20.0 ],
-					"text" : "Drag the window horizontally to move, vertically to zoom."
+					"patching_rect" : [ 5.5, 60.060059, 317.0, 33.0 ],
+					"text" : "Drag the window horizontally to move, vertically to zoom. WARNING : this is beta and subject to change!"
 				}
 
 			}

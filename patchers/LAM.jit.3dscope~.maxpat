@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
-			"architecture" : "x86"
+			"revision" : 10,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 419.0, 122.0, 866.0, 639.0 ],
+		"rect" : [ 105.0, 198.0, 866.0, 639.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,8 +41,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 17.0, 431.0, 537.0, 499.0 ],
@@ -634,13 +634,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-264",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 961.0, 572.0, 313.0, 37.0 ],
-					"text" : "jit.gl.mesh #1 @blend_mode 3 5 @color 1 1 1 1 @blend_enable 1 @draw_mode points @automatic 0 @depth_enable 0 @draw_mode points @point_size 2 @antialias 1"
+					"patching_rect" : [ 961.0, 572.0, 579.0, 27.0 ],
+					"text" : "jit.gl.mesh #1 @blend_mode 1 1 @color 1 1 1 1 @blend_enable 1 @draw_mode points @automatic 0 @depth_enable 0 @point_size 2 @antialias 1"
 				}
 
 			}
@@ -915,7 +915,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 91.0, 25.0, 25.0 ]
 				}
 
@@ -1496,6 +1496,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
