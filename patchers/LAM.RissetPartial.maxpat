@@ -149,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 266.0, 50.0, 17.0 ],
+					"patching_rect" : [ 53.0, 262.0, 50.0, 17.0 ],
 					"text" : "*~ 1."
 				}
 
@@ -163,7 +163,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 236.0, 76.0, 17.0 ],
+					"patching_rect" : [ 53.0, 232.0, 76.0, 17.0 ],
 					"text" : "wave~ mysound"
 				}
 
@@ -203,7 +203,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 303.0, 15.0, 15.0 ]
+					"patching_rect" : [ 53.0, 299.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"destination" : [ "obj-13", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 182.5, 257.0, 62.5, 257.0 ],
+					"midpoints" : [ 182.5, 257.0, 93.5, 257.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
