@@ -32,12 +32,52 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 110.0, 141.0, 47.0, 20.0 ],
+					"text" : "mtof 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "kslider",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 110.0, 85.060059, 336.0, 53.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 336.0, 53.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 110.0, 175.0, 69.0, 20.0 ],
+					"text" : "s fo.toNote"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 236.0, 243.0, 20.0 ],
+					"patching_rect" : [ 355.0, 271.0, 243.0, 20.0 ],
 					"text" : "arguments : number of octaves, synthName"
 				}
 
@@ -51,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 205.0, 87.0, 20.0 ],
+					"patching_rect" : [ 321.0, 240.0, 87.0, 20.0 ],
 					"text" : "prepend synth"
 				}
 
@@ -65,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.0, 170.0, 96.0, 18.0 ],
+					"patching_rect" : [ 332.0, 205.0, 96.0, 18.0 ],
 					"presentation_rect" : [ 336.0, 170.0, 0.0, 0.0 ],
 					"text" : "LAM.fo.cycle~.p"
 				}
@@ -80,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 140.0, 121.0, 18.0 ],
+					"patching_rect" : [ 321.0, 175.0, 121.0, 18.0 ],
 					"text" : "LAM.fo.simpleFM~.p"
 				}
 
@@ -94,8 +134,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 110.0, 236.0, 236.0, 20.0 ],
-					"text" : "LAM.fadeoctave~ 10 LAM.fo.simpleFM~.p"
+					"patching_rect" : [ 104.0, 271.0, 236.0, 20.0 ],
+					"text" : "LAM.fadeoctave~ 15 LAM.fo.simpleFM~.p"
 				}
 
 			}
@@ -105,7 +145,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.0, 317.0, 45.0, 45.0 ]
+					"patching_rect" : [ 104.0, 352.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -119,7 +159,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 110.0, 266.0, 136.0, 31.0 ],
+					"patching_rect" : [ 104.0, 301.0, 136.0, 31.0 ],
 					"presentation_rect" : [ 30.0, 30.0, 50.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -150,7 +190,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 110.0, 205.0, 50.0, 20.0 ]
+					"patching_rect" : [ 104.0, 240.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -228,6 +268,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -405,6 +463,10 @@
 			}
 , 			{
 				"name" : "line~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mtof.mxo",
 				"type" : "iLaX"
 			}
  ]
