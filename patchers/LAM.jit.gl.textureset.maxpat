@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -36,8 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 161.0, 51.0, 18.0 ],
-					"presentation_rect" : [ 404.0, 187.0, 0.0, 0.0 ],
+					"patching_rect" : [ 441.0, 161.0, 51.0, 18.0 ],
 					"text" : "target 0"
 				}
 
@@ -50,8 +49,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 96.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 291.0, 104.0, 0.0, 0.0 ]
+					"patching_rect" : [ 349.0, 96.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -64,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 332.0, 134.0, 111.0, 20.0 ],
+					"patching_rect" : [ 349.0, 134.0, 111.0, 20.0 ],
 					"text" : "t l b"
 				}
 
@@ -143,8 +141,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 226.0, 332.0, 20.0 ],
-					"text" : "poly~ LAM.jit.textureset.p #1 @args #2 #3"
+					"patching_rect" : [ 19.0, 226.0, 349.0, 20.0 ],
+					"text" : "poly~ LAM.jit.gl.textureset.p #1 @args #2 #3"
 				}
 
 			}

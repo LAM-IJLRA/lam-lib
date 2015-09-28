@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -158,7 +158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 764.0, 116.0, 50.0, 18.0 ],
-					"text" : "8000"
+					"text" : "1000"
 				}
 
 			}
@@ -338,7 +338,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -397,7 +397,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "mySlot1" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 526.0, 295.0, 61.0, 20.0 ],
 									"text" : "t #2"
 								}
@@ -585,7 +585,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "AVloopBase", "mySlot1" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 292.0, 305.0, 189.0, 20.0 ],
 									"text" : "t #1 #2"
 								}
@@ -926,7 +926,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1001,7 +1001,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 334.0, 320.0, 84.0, 20.0 ],
-									"presentation_rect" : [ 334.0, 323.0, 0.0, 0.0 ],
 									"text" : "prepend send"
 								}
 
@@ -1014,7 +1013,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "mySlot1" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 334.0, 270.0, 61.0, 20.0 ],
 									"text" : "t #2"
 								}
@@ -1030,7 +1029,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 334.0, 243.0, 60.0, 20.0 ],
-									"presentation_rect" : [ 334.0, 246.0, 0.0, 0.0 ],
 									"text" : "loadbang"
 								}
 
@@ -1058,7 +1056,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.0, 351.0, 51.0, 20.0 ],
-									"presentation_rect" : [ 315.0, 354.0, 0.0, 0.0 ],
 									"text" : "forward"
 								}
 
@@ -1099,7 +1096,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "AVloopBase", "mySlot1" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 69.0, 270.0, 127.0, 20.0 ],
 									"text" : "t #1 #2"
 								}
@@ -1598,7 +1595,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 504.0, 264.0, 22.0 ],
-					"text" : "LAM.jit.textureset 1 #1 #2"
+					"text" : "LAM.jit.gl.textureset 1 #1 #2"
 				}
 
 			}
@@ -1691,7 +1688,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 60.0, 25.0, 25.0 ]
 				}
 
@@ -1704,7 +1701,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.0, 32.0, 25.0, 25.0 ]
 				}
 
@@ -2410,6 +2407,28 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "LAM.jit.gl.textureset.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.jit.gl.textureset.p.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vd.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

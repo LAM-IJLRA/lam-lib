@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 284.0, 259.0, 835.0, 443.0 ],
+		"rect" : [ 100.0, 100.0, 835.0, 443.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -90,7 +90,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 293.0, 23.0, 206.0, 33.0 ],
-									"presentation_rect" : [ 291.0, 21.0, 0.0, 0.0 ],
 									"text" : "change texture set name\n(will affect individual  texture's name)"
 								}
 
@@ -105,7 +104,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 293.0, 56.0, 85.0, 18.0 ],
-									"presentation_rect" : [ 294.0, 45.0, 0.0, 0.0 ],
 									"text" : "name Edward"
 								}
 
@@ -121,7 +119,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 21.0, 226.0, 33.0 ],
-									"presentation_rect" : [ 22.0, 30.0, 0.0, 0.0 ],
 									"text" : "change context\n(will affect individual  texture's name)"
 								}
 
@@ -136,7 +133,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 306.0, 83.0, 94.0, 18.0 ],
-									"presentation_rect" : [ 81.0, 150.0, 0.0, 0.0 ],
 									"text" : "name SetName"
 								}
 
@@ -375,7 +371,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.0, 299.0, 257.0, 18.0 ],
-					"text" : "jit_gl_texture 1.contextName.Edward.tex"
+					"text" : "jit_gl_texture 8.contextName.SetName.tex"
 				}
 
 			}
@@ -674,8 +670,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 270.0, 288.0, 22.0 ],
-					"text" : "LAM.jit.textureset 15 contextName SetName"
+					"patching_rect" : [ 193.0, 270.0, 302.0, 22.0 ],
+					"text" : "LAM.jit.gl.textureset 15 contextName SetName"
 				}
 
 			}
@@ -693,27 +689,13 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.jit.textureset", "@obj-desc", "Like jit.matrixset, for GL texture." ],
+					"args" : [ "@obj-name", "LAM.jit.gl.textureset", "@obj-desc", "Like jit.matrixset, for GL textures." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 65.060059, 590.0, 20.0 ],
-					"text" : "Customize the header with arguments. You can also add some more documentation here about your module."
 				}
 
 			}
@@ -968,9 +950,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-24::obj-4::obj-21" : [ "number", "number", 0 ],
 			"obj-24::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
-			"obj-24::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-24::obj-4::obj-21" : [ "number", "number", 0 ]
+			"obj-24::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -988,170 +970,18 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.textureset.maxpat",
+				"name" : "LAM.jit.gl.textureset.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.textureset.p.maxpat",
+				"name" : "LAM.jit.gl.textureset.p.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "textbutton.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.qt.movie.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "loadmess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "swatch.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.noise.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "metro.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pak.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.matrix.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "poly~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.texture.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "thispoly~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "counter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.render.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.videoplane.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "attrui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pipe.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 289.0, 44.0, 1151.0, 645.0 ],
+		"rect" : [ 289.0, 45.0, 1151.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -348,7 +348,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1026,11 +1026,11 @@
 					"fontsize" : 14.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 595.0, 250.0, 22.0 ],
-					"text" : "LAM.jit.textureset 200 #1 #2"
+					"text" : "LAM.jit.gl.textureset 200 #1 #2"
 				}
 
 			}
@@ -2099,14 +2099,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.jit.textureset.maxpat",
+				"name" : "LAM.jit.gl.textureset.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.textureset.p.maxpat",
+				"name" : "LAM.jit.gl.textureset.p.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
@@ -2114,8 +2114,8 @@
 			}
 , 			{
 				"name" : "vd.maxpat",
-				"bootpath" : "/Users/vg/vg.PROJETS/PUCEMUSE/MM4-CORE2.Max6/include",
-				"patcherrelativepath" : "../../../../../../vg.PROJETS/PUCEMUSE/MM4-CORE2.Max6/include",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
