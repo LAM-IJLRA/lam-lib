@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 94.0, 167.0, 20.0 ],
-					"text" : "jstrigger (a[0].toLowerCase())"
+					"text" : "jstrigger (a[0].toUpperCase())"
 				}
 
 			}
@@ -83,8 +83,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
