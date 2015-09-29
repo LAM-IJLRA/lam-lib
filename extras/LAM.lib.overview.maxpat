@@ -39,8 +39,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 315.0 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 360.0 ],
+					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave" ]
 				}
 
 			}
@@ -178,8 +178,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 165.0, 180.0, 225.0 ],
-					"tabs" : [ "LAM.slidems~", "LAM.ntapin~ ", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~" ]
+					"patching_rect" : [ 795.0, 165.0, 180.0, 241.0 ],
+					"tabs" : [ "LAM.slidems~", "LAM.ntapin~ ", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.fadeoctave~" ]
 				}
 
 			}

@@ -74,11 +74,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 271.0, 243.0, 20.0 ],
-					"text" : "arguments : number of octaves, synthName"
+					"patching_rect" : [ 355.0, 271.0, 243.0, 33.0 ],
+					"text" : "arguments : number of fading octaves, synthName"
 				}
 
 			}
@@ -106,7 +107,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 332.0, 205.0, 96.0, 18.0 ],
-					"presentation_rect" : [ 336.0, 170.0, 0.0, 0.0 ],
 					"text" : "LAM.fo.cycle~.p"
 				}
 
@@ -348,126 +348,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.gain~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "poly~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "plus~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "times~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "thispoly~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "loadmess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "uzi.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "peek~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "buffer~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rminus.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "line~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mtof.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
