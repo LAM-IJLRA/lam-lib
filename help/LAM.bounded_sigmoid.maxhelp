@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -44,7 +44,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.bounded_pseudosigmoid", "@obj-desc", "A proper sigmoid function with input range reduced to 0-1 thanks to tanh." ],
+					"args" : [ "@obj-name", "LAM.bounded_sigmoid", "@obj-desc", "A proper sigmoid function with input range reduced to 0-1 thanks to tanh." ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -642,6 +642,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,52 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "writeagain" ],
+					"patching_rect" : [ 251.0, 433.0, 82.0, 22.0 ],
+					"text" : "t writeagain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.4375, 469.0, 187.0, 22.0 ],
+					"text" : "pak store obj-name obj-desc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 16.4375, 504.0, 140.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"text" : "coll lamlib-helper.coll"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Lucida Grande",
 					"fontsize" : 11.0,
 					"hidden" : 1,
@@ -42,7 +88,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -108,7 +154,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -597,7 +643,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -1230,7 +1276,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1767,7 +1813,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.4375, 367.0, 168.0, 20.0 ],
+					"patching_rect" : [ 178.4375, 367.0, 168.0, 20.0 ],
 					"text" : "patching_rect 0. 0. $1 54."
 				}
 
@@ -1942,6 +1988,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -2015,6 +2070,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -2038,6 +2102,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 3 ]
 				}
 
 			}
@@ -2079,6 +2152,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2087,7 +2178,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }

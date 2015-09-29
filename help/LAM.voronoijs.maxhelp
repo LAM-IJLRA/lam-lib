@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 569.0, 47.0, 841.0, 748.0 ],
+		"rect" : [ 100.0, 100.0, 841.0, 748.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -48,7 +48,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 210.0, 644.0, 81.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -80,7 +80,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -685,7 +685,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1159,7 +1159,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1331,7 +1331,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -1438,7 +1438,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 9,
+															"revision" : 10,
 															"architecture" : "x86"
 														}
 ,
@@ -1786,7 +1786,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -2018,7 +2018,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -2055,7 +2055,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 9,
+															"revision" : 10,
 															"architecture" : "x86"
 														}
 ,
@@ -2542,7 +2542,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 9,
+															"revision" : 10,
 															"architecture" : "x86"
 														}
 ,
@@ -2738,7 +2738,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 9,
+																			"revision" : 10,
 																			"architecture" : "x86"
 																		}
 ,
@@ -2921,7 +2921,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 9,
+																			"revision" : 10,
 																			"architecture" : "x86"
 																		}
 ,
@@ -4092,7 +4092,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 9,
+															"revision" : 10,
 															"architecture" : "x86"
 														}
 ,
@@ -5326,7 +5326,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -5584,7 +5584,7 @@
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 271.0, 472.5, 136.0, 48.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "live.gain~",
@@ -5645,7 +5645,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -6514,7 +6514,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -6821,7 +6821,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -6858,7 +6858,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -7013,7 +7013,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 9,
+															"revision" : 10,
 															"architecture" : "x86"
 														}
 ,
@@ -7227,7 +7227,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 9,
+																			"revision" : 10,
 																			"architecture" : "x86"
 																		}
 ,
@@ -7308,7 +7308,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 9,
+																							"revision" : 10,
 																							"architecture" : "x86"
 																						}
 ,
@@ -7942,7 +7942,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 9,
+																							"revision" : 10,
 																							"architecture" : "x86"
 																						}
 ,
@@ -8942,7 +8942,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 9,
+																			"revision" : 10,
 																			"architecture" : "x86"
 																		}
 ,
@@ -9309,7 +9309,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 9,
+																			"revision" : 10,
 																			"architecture" : "x86"
 																		}
 ,
@@ -10730,7 +10730,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -11301,7 +11301,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -11434,7 +11434,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -12081,7 +12081,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -12228,7 +12228,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -12732,7 +12732,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -12769,7 +12769,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -13171,7 +13171,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 9,
+											"revision" : 10,
 											"architecture" : "x86"
 										}
 ,
@@ -13662,7 +13662,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -13841,7 +13841,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.voronoi.js", "@obj-desc", "Interactive voronoi algorithm." ],
+					"args" : [ "@obj-name", "LAM.voronoijs", "@obj-desc", "Interactive voronoi algorithm." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -14310,6 +14310,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

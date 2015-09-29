@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 216.0, 118.0, 813.0, 578.0 ],
+		"rect" : [ 100.0, 100.0, 813.0, 578.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -400,7 +400,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.ntapin~ & LAM.ntapout~", "@obj-desc", "Very much like tapin~ and tapout~, but with a name." ],
+					"args" : [ "@obj-name", "LAM.ntapout~", "@obj-desc", "Very much like tapin~ and tapout~, but with a name." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -605,6 +605,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "LAM.ntapin~.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -627,8 +634,8 @@
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}
@@ -641,8 +648,8 @@
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
+				"bootpath" : "/Users/vg/Documents/Max/vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
+				"patcherrelativepath" : "../../../vg-maxdev/vg.maxmspjitter.library/misc/EML/EML-200/media",
 				"type" : "svg ",
 				"implicit" : 1
 			}

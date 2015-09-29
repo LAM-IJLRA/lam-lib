@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -270,7 +270,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -499,7 +499,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 183.75, 120.0, 224.5, 36.0 ],
+					"patching_rect" : [ 183.75, 120.0, 228.0, 36.0 ],
 					"text" : "jit.window poscalerect @mousewheel 1 @idlemouse 1 @size 320 240"
 				}
 
@@ -562,7 +562,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.rect2poscale & LAM.poscale2rect", "@obj-desc", "Converts min/max coordinates into position/scale and vice versa." ],
+					"args" : [ "@obj-name", "LAM.rect2poscale", "@obj-desc", "Converts min/max coordinates into position/scale." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -820,6 +820,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 120.0, 108.0, 885.0, 640.0 ],
+		"rect" : [ 100.0, 100.0, 885.0, 640.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,14 +30,32 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"idlemouse" : 1,
-					"maxclass" : "jit.pwindow",
-					"name" : "rectposcale",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "textbutton",
+					"mode" : 1,
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 293.5, 98.0, 463.0, 307.0 ]
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 44.0, 120.0, 100.0, 20.0 ],
+					"text" : "OFF",
+					"texton" : "ON"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 387.0, 211.0, 444.0, 20.0 ],
+					"text" : "NB : init requires a slight resize of the jit.window... dunno why"
 				}
 
 			}
@@ -79,8 +97,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.5, 478.0, 272.0, 31.0 ],
-					"text" : "reset, color 1 0 0 1, moveto $1 $2, framecircle 0.05, moveto $3 $4, framecircle 0.05"
+					"patching_rect" : [ 438.5, 474.0, 376.0, 31.0 ],
+					"text" : "reset, color 1 0 0 1, moveto $1 $2, framecircle 0.1, moveto $3 $4, framecircle 0.1"
 				}
 
 			}
@@ -93,8 +111,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 473.5, 512.0, 135.0, 20.0 ],
-					"text" : "jit.gl.sketch rectposcale"
+					"patching_rect" : [ 438.5, 508.0, 135.0, 20.0 ],
+					"text" : "jit.gl.sketch poscalerect"
 				}
 
 			}
@@ -107,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.5, 452.0, 123.0, 22.0 ],
+					"patching_rect" : [ 438.5, 448.0, 123.0, 22.0 ],
 					"text" : "LAM.poscale2rect"
 				}
 
@@ -253,7 +271,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -425,7 +443,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 151.0, 180.0, 95.0, 20.0 ],
+					"patching_rect" : [ 389.25, 165.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -475,13 +493,28 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 183.75, 120.0, 228.0, 36.0 ],
+					"text" : "jit.window poscalerect @mousewheel 1 @idlemouse 1 @size 320 240"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 44.0, 223.0, 145.0, 21.0 ],
-					"text" : "jit.gl.render rectposcale"
+					"text" : "jit.gl.render poscalerect"
 				}
 
 			}
@@ -496,18 +529,6 @@
 					"outlettype" : [ "bang", "erase" ],
 					"patching_rect" : [ 44.0, 180.0, 63.0, 21.0 ],
 					"text" : "t b erase"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 44.0, 120.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -534,14 +555,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 98.0, 512.0, 359.0, 20.0 ],
-					"text" : "jit.gl.gridshape rectposcale @shape plane @scale 0 0 0 @layer 1"
+					"patching_rect" : [ 98.0, 512.0, 307.0, 20.0 ],
+					"text" : "jit.gl.gridshape poscalerect @shape plane @scale 0 0 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.rect2poscale & LAM.poscale2rect", "@obj-desc", "Converts min/max coordinates into position/scale and vice versa." ],
+					"args" : [ "@obj-name", "LAM.poscale2rect", "@obj-desc", "Converts position/scale to min/max coordinates ." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -595,15 +616,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -616,8 +628,16 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 747.0, 419.0, 771.25, 419.0, 771.25, 91.0, 160.5, 91.0 ],
-					"source" : [ "obj-3", 1 ]
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -644,7 +664,7 @@
 					"destination" : [ "obj-88", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 244.5, 439.75, 587.0, 439.75 ],
+					"midpoints" : [ 244.5, 439.75, 552.0, 439.75 ],
 					"source" : [ "obj-39", 1 ]
 				}
 
@@ -654,7 +674,7 @@
 					"destination" : [ "obj-88", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 107.5, 444.75, 483.0, 444.75 ],
+					"midpoints" : [ 107.5, 444.75, 448.0, 444.75 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -803,6 +823,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "LAM.rect2poscale.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -815,94 +842,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "metro.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.render.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "vexpr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "match.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "uzi.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
