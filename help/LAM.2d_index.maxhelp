@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 86.0, 119.0, 723.0, 412.0 ],
+		"rect" : [ 100.0, 100.0, 723.0, 412.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 298.200012, 270.0, 19.0, 20.0 ],
-					"presentation_rect" : [ 340.200012, 243.0, 0.0, 0.0 ],
 					"text" : "N"
 				}
 
@@ -53,7 +52,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.199997, 270.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 213.199997, 247.0, 0.0, 0.0 ],
 					"text" : "M"
 				}
 
@@ -208,7 +206,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.2dgrid", "@obj-desc", "A module from the LAM.lib." ],
+					"args" : [ "@obj-name", "LAM.2d_index", "@obj-desc", "Splits a surface into MxN zones." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -334,6 +332,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

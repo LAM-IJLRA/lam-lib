@@ -872,7 +872,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 70.0, 598.0, 620.0 ],
+						"rect" : [ 26.0, 70.0, 598.0, 620.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -891,7 +891,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3581,8 +3580,8 @@
  ],
 		"parameters" : 		{
 			"obj-16" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-10::obj-106" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-12::obj-106" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-12::obj-106" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-10::obj-106" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3590,6 +3589,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

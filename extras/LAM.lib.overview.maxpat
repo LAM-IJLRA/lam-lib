@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 115.0, 45.0, 1184.0, 620.0 ],
+		"rect" : [ 74.0, 117.0, 1184.0, 620.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,7 +39,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 433.0, 259.5, 124.0, 20.0 ],
-					"presentation_rect" : [ 437.0, 261.0, 0.0, 0.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -55,7 +54,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 433.0, 315.0, 124.0, 20.0 ],
-					"presentation_rect" : [ 406.0, 340.0, 0.0, 0.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -328,7 +326,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.0, 461.170105, 180.0, 75.0 ],
-					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3Dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~" ]
+					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~" ]
 				}
 
 			}
@@ -389,8 +387,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 165.0, 180.0, 241.0 ],
-					"tabs" : [ "LAM.slidems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.fadeoctave~" ]
+					"patching_rect" : [ 795.0, 165.0, 180.0, 255.0 ],
+					"tabs" : [ "LAM.slidems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.fadeoctave~" ]
 				}
 
 			}
