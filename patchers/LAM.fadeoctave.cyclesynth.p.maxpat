@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 153.0, 124.0, 41.0, 18.0 ],
-					"presentation_rect" : [ 153.0, 128.0, 0.0, 0.0 ],
 					"text" : "$1 30"
 				}
 
@@ -52,7 +51,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 153.0, 156.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 153.0, 160.0, 0.0, 0.0 ],
 					"text" : "line~"
 				}
 
@@ -163,7 +161,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 277.0, 44.0, 20.0 ],
+					"patching_rect" : [ 96.0, 309.0, 44.0, 20.0 ],
 					"text" : "out~ 1"
 				}
 

@@ -241,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 164.5, 405.0, 81.0, 20.0 ],
-					"text" : "graph size"
+					"text" : "table size"
 				}
 
 			}
