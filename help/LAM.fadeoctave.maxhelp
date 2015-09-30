@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 814.0, 589.0 ],
+		"rect" : [ 477.0, 88.0, 814.0, 589.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -639,7 +639,7 @@
 									"fontsize" : 14.0,
 									"id" : "obj-108",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 134.0, 123.0, 22.0 ],
@@ -1441,7 +1441,7 @@
 									"fontsize" : 14.0,
 									"id" : "obj-108",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 134.0, 123.0, 22.0 ],
@@ -1842,7 +1842,7 @@
 									"fontsize" : 14.0,
 									"id" : "obj-108",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 275.0, 198.0, 123.0, 22.0 ],
@@ -3272,7 +3272,7 @@
 					"fontsize" : 14.0,
 					"id" : "obj-52",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 197.0, 123.0, 22.0 ],
@@ -3524,10 +3524,10 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.4, 0.8, 1.0, 1.0 ],
-					"destination" : [ "obj-52", 0 ],
+					"destination" : [ "obj-52", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 403.5, 174.5, 36.5, 174.5 ],
+					"midpoints" : [ 403.5, 174.5, 140.5, 174.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
