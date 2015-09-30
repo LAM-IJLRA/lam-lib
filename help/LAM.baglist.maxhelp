@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 95.0, 845.0, 387.0 ],
+		"rect" : [ 462.0, 225.0, 845.0, 387.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -32,13 +32,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 110.723877, 263.0, 52.0, 18.0 ],
+					"presentation_rect" : [ 108.0, 257.0, 0.0, 0.0 ],
+					"text" : "---"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 475.0, 245.0, 52.0, 18.0 ],
+					"text" : "---"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.267395, 232.0, 43.0, 20.0 ],
-					"presentation_rect" : [ 546.991272, 244.0, 0.0, 0.0 ],
+					"patching_rect" : [ 495.267395, 223.0, 43.0, 20.0 ],
 					"text" : "empty"
 				}
 
@@ -50,8 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 475.0, 232.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 526.723877, 244.0, 0.0, 0.0 ]
+					"patching_rect" : [ 475.0, 223.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -64,9 +91,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 394.0, 232.0, 50.0, 18.0 ],
-					"presentation_rect" : [ 445.723877, 268.0, 0.0, 0.0 ],
-					"text" : "60"
+					"patching_rect" : [ 394.0, 248.0, 50.0, 18.0 ],
+					"text" : "---"
 				}
 
 			}
@@ -80,7 +106,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 425.0, 199.0, 69.0, 19.0 ],
-					"presentation_rect" : [ 476.723877, 217.0, 0.0, 0.0 ],
 					"text" : "LAM.baglist"
 				}
 
@@ -147,8 +172,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.723877, 232.0, 50.0, 18.0 ],
-					"text" : "3 4 7"
+					"patching_rect" : [ 29.723877, 263.0, 50.0, 18.0 ],
+					"text" : "---"
 				}
 
 			}
@@ -346,6 +371,7 @@
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 751.5, 196.5, 484.5, 196.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -365,6 +391,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -415,6 +450,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 7 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -442,6 +486,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 484.5, 272.0, 459.5, 272.0, 459.5, 238.0, 434.5, 238.0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -455,6 +509,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -527,6 +590,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

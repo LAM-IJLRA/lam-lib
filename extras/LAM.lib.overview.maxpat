@@ -173,7 +173,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 465.0, 180.0, 20.0 ],
+					"patching_rect" : [ 405.0, 430.0, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -188,7 +188,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 579.170105, 180.0, 20.0 ],
+					"patching_rect" : [ 405.0, 591.170105, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -371,7 +371,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 495.0, 180.0, 75.0 ],
+					"patching_rect" : [ 405.0, 507.0, 180.0, 75.0 ],
 					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.satellites", "LAM.jit.RLEreader", "LAM.voronoijs" ]
 				}
 
@@ -435,8 +435,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 345.0, 180.0, 120.0 ],
-					"tabs" : [ "LAM.mpoly.param", "LAM.mpoly.notonoff", "LAM.mpoly.insidepoly", "LAM.rpoly", "LAM.rpoly.route", "LAM.rpoly.insidepoly", "LAM.polytop.router", "LAM.makenoteID" ]
+					"patching_rect" : [ 405.0, 352.0, 180.0, 136.0 ],
+					"tabs" : [ "LAM.mpoly.param", "LAM.mpoly.notonoff", "LAM.mpoly.insidepoly", "LAM.rpoly", "LAM.rpoly.route", "LAM.rpoly.insidepoly", "LAM.polytop.router", "LAM.makenoteID", "LAM.polymited" ]
 				}
 
 			}
@@ -509,7 +509,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 330.0, 146.0, 19.0 ],
+					"patching_rect" : [ 420.0, 337.0, 146.0, 19.0 ],
 					"text" : "POLYPHONY MANAGEMENT"
 				}
 
@@ -519,12 +519,11 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 480.0, 104.0, 19.0 ],
+					"patching_rect" : [ 443.0, 492.0, 104.0, 19.0 ],
 					"text" : "DYNAMIC MODELS"
 				}
 
