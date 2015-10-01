@@ -158,7 +158,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 600.0, 516.170105, 180.0, 20.0 ],
+					"patching_rect" : [ 600.0, 530.170105, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -355,8 +355,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 600.0, 415.68512, 180.0, 92.31488 ],
-					"tabs" : [ "LAM.CheapAutotune~", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~" ]
+					"patching_rect" : [ 600.0, 415.68512, 180.0, 102.31488 ],
+					"tabs" : [ "LAM.CheapAutotune~", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~", "LAM.cheapvocoder~" ]
 				}
 
 			}
