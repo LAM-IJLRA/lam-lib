@@ -1,7 +1,9 @@
 
 globalContext=this;
 	
-
+/*  Algorithm implementation in JS by Raymond Hill
+	Draft port to Max'JS by Vincent Goudard
+*/
 
 /*!
 Copyright (C) 2010-2013 Raymond Hill: https://github.com/gorhill/Javascript-Voronoi
