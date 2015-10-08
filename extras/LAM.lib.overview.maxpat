@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 74.0, 117.0, 1184.0, 620.0 ],
+		"rect" : [ 362.0, 109.0, 1184.0, 620.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -203,7 +203,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 210.0, 530.170105, 179.0, 20.0 ],
+					"patching_rect" : [ 210.0, 477.483215, 179.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -248,8 +248,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 360.0 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 404.170105 ],
+					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup" ]
 				}
 
 			}
@@ -419,8 +419,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 600.0, 165.0, 180.0, 209.0 ],
-					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~", "LAM.handclap~", "LAM.pulse~", "LAM.simpler~", "LAM.filterSimpler~", "LAM.livelooping~", "LAM.stretcher~" ]
+					"patching_rect" : [ 600.0, 165.0, 180.0, 225.0 ],
+					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~", "LAM.handclap~", "LAM.pulse~", "LAM.simpler~", "LAM.filterSimpler~", "LAM.livelooping~", "LAM.stretcher~", "LAM.ac-supersaw~" ]
 				}
 
 			}
@@ -538,7 +538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.5, 580.170105, 76.0, 19.0 ],
+					"patching_rect" : [ 672.5, 105.25, 76.0, 19.0 ],
 					"text" : "prepend load"
 				}
 
@@ -553,7 +553,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.5, 607.483215, 49.0, 19.0 ],
+					"patching_rect" : [ 672.5, 132.56311, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 

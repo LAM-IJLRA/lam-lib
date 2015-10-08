@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 821.0, 381.0 ],
+		"rect" : [ 348.0, 128.0, 821.0, 381.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,8 +37,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 546.0, 189.0, 58.0, 18.0 ],
-					"text" : "set"
+					"patching_rect" : [ 546.0, 189.0, 47.0, 18.0 ],
+					"text" : "sender"
 				}
 
 			}
@@ -66,8 +66,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 546.0, 219.0, 58.0, 18.0 ],
-					"text" : "set bobo"
+					"patching_rect" : [ 546.0, 219.0, 78.0, 18.0 ],
+					"text" : "sender bobo"
 				}
 
 			}
@@ -107,8 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 202.0, 50.0, 18.0 ],
-					"text" : "set toto"
+					"patching_rect" : [ 106.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender toto"
 				}
 
 			}
@@ -121,8 +121,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 202.0, 50.0, 18.0 ],
-					"text" : "set tutu"
+					"patching_rect" : [ 29.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender tutu"
 				}
 
 			}
@@ -149,8 +149,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 248.0, 157.0, 20.0 ],
-					"text" : "LAM.preceive toto @prio -1"
+					"patching_rect" : [ 29.0, 248.0, 173.0, 20.0 ],
+					"text" : "LAM.preceive toto @priority -1"
 				}
 
 			}
@@ -176,8 +176,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 150.0, 50.0, 18.0 ],
-					"text" : "set toto"
+					"patching_rect" : [ 528.0, 150.0, 71.0, 18.0 ],
+					"text" : "sender toto"
 				}
 
 			}
@@ -204,8 +204,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 248.0, 153.0, 20.0 ],
-					"text" : "LAM.preceive toto @prio 1"
+					"patching_rect" : [ 528.0, 248.0, 169.0, 20.0 ],
+					"text" : "LAM.preceive toto @priority 1"
 				}
 
 			}
@@ -232,7 +232,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 381.0, 179.0, 50.0, 20.0 ]
+					"patching_rect" : [ 402.0, 179.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -245,8 +245,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 202.0, 72.0, 18.0 ],
-					"text" : "prio $1"
+					"patching_rect" : [ 401.0, 202.0, 63.0, 18.0 ],
+					"text" : "priority $1"
 				}
 
 			}
@@ -273,8 +273,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 202.0, 50.0, 18.0 ],
-					"text" : "set toto"
+					"patching_rect" : [ 327.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender toto"
 				}
 
 			}
@@ -287,8 +287,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.0, 202.0, 50.0, 18.0 ],
-					"text" : "set tutu"
+					"patching_rect" : [ 254.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender tutu"
 				}
 
 			}
@@ -315,8 +315,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.0, 248.0, 153.0, 20.0 ],
-					"text" : "LAM.preceive toto @prio 0"
+					"patching_rect" : [ 254.0, 248.0, 169.0, 20.0 ],
+					"text" : "LAM.preceive toto @priority 0"
 				}
 
 			}
@@ -560,6 +560,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

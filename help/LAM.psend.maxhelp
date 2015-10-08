@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 809.0, 375.0 ],
+		"rect" : [ 400.0, 266.0, 809.0, 375.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,8 +37,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 547.0, 196.0, 58.0, 18.0 ],
-					"text" : "set"
+					"patching_rect" : [ 546.0, 189.0, 47.0, 18.0 ],
+					"text" : "sender"
 				}
 
 			}
@@ -52,7 +52,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 616.0, 192.0, 160.0, 60.0 ],
+					"patching_rect" : [ 615.0, 185.0, 160.0, 60.0 ],
 					"text" : "setting to an unexisting sender adress will yield an error and leave the address unchanged"
 				}
 
@@ -66,8 +66,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 547.0, 226.0, 58.0, 18.0 ],
-					"text" : "set bobo"
+					"patching_rect" : [ 546.0, 219.0, 78.0, 18.0 ],
+					"text" : "sender bobo"
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 288.0, 106.0, 20.0 ],
+					"patching_rect" : [ 83.0, 281.0, 106.0, 20.0 ],
 					"text" : "this is receive first"
 				}
 
@@ -93,7 +93,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 324.0, 45.0, 20.0 ],
+					"patching_rect" : [ 29.0, 317.0, 45.0, 20.0 ],
 					"text" : "print A"
 				}
 
@@ -107,8 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 209.0, 50.0, 18.0 ],
-					"text" : "set toto"
+					"patching_rect" : [ 106.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender toto"
 				}
 
 			}
@@ -121,8 +121,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 209.0, 50.0, 18.0 ],
-					"text" : "set tutu"
+					"patching_rect" : [ 29.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender tutu"
 				}
 
 			}
@@ -136,7 +136,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 286.0, 50.0, 20.0 ]
+					"patching_rect" : [ 29.0, 279.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -149,8 +149,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 255.0, 157.0, 20.0 ],
-					"text" : "LAM.preceive toto @prio -1"
+					"patching_rect" : [ 29.0, 248.0, 173.0, 20.0 ],
+					"text" : "LAM.preceive toto @priority -1"
 				}
 
 			}
@@ -162,7 +162,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.0, 324.0, 46.0, 20.0 ],
+					"patching_rect" : [ 528.0, 317.0, 46.0, 20.0 ],
 					"text" : "print C"
 				}
 
@@ -176,8 +176,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.0, 157.0, 50.0, 18.0 ],
-					"text" : "set toto"
+					"patching_rect" : [ 528.0, 150.0, 71.0, 18.0 ],
+					"text" : "sender toto"
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 529.0, 286.0, 50.0, 20.0 ]
+					"patching_rect" : [ 528.0, 279.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -204,8 +204,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.0, 255.0, 153.0, 20.0 ],
-					"text" : "LAM.preceive toto @prio 1"
+					"patching_rect" : [ 528.0, 248.0, 169.0, 20.0 ],
+					"text" : "LAM.preceive toto @priority 1"
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 324.0, 45.0, 20.0 ],
+					"patching_rect" : [ 254.0, 317.0, 45.0, 20.0 ],
 					"text" : "print B"
 				}
 
@@ -232,7 +232,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 382.0, 186.0, 50.0, 20.0 ]
+					"patching_rect" : [ 402.0, 179.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -245,8 +245,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.0, 209.0, 72.0, 18.0 ],
-					"text" : "prio $1"
+					"patching_rect" : [ 401.0, 202.0, 63.0, 18.0 ],
+					"text" : "priority $1"
 				}
 
 			}
@@ -259,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 589.0, 288.0, 105.0, 20.0 ],
+					"patching_rect" : [ 588.0, 281.0, 105.0, 20.0 ],
 					"text" : "this is receive last"
 				}
 
@@ -273,8 +273,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 209.0, 50.0, 18.0 ],
-					"text" : "set toto"
+					"patching_rect" : [ 327.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender toto"
 				}
 
 			}
@@ -287,8 +287,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 209.0, 50.0, 18.0 ],
-					"text" : "set tutu"
+					"patching_rect" : [ 254.0, 202.0, 71.0, 18.0 ],
+					"text" : "sender tutu"
 				}
 
 			}
@@ -302,7 +302,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 255.0, 286.0, 50.0, 20.0 ]
+					"patching_rect" : [ 254.0, 279.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -315,8 +315,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 255.0, 153.0, 20.0 ],
-					"text" : "LAM.preceive toto @prio 0"
+					"patching_rect" : [ 254.0, 248.0, 169.0, 20.0 ],
+					"text" : "LAM.preceive toto @priority 0"
 				}
 
 			}
@@ -330,7 +330,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 271.0, 84.0, 50.0, 20.0 ]
+					"patching_rect" : [ 270.0, 77.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -342,7 +342,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 118.0, 95.0, 20.0 ],
+					"patching_rect" : [ 270.0, 111.0, 95.0, 20.0 ],
 					"text" : "LAM.psend tutu"
 				}
 
@@ -357,7 +357,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 84.0, 50.0, 20.0 ]
+					"patching_rect" : [ 29.0, 77.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -369,7 +369,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 118.0, 95.0, 20.0 ],
+					"patching_rect" : [ 29.0, 111.0, 95.0, 20.0 ],
 					"text" : "LAM.psend toto"
 				}
 
@@ -560,6 +560,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

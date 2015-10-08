@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 95.0, 457.0, 355.0 ],
+		"rect" : [ 641.0, 151.0, 740.0, 393.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,20 +35,18 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.210632, 43.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 434.210632, 53.0, 0.0, 0.0 ]
+					"patching_rect" : [ 371.210632, 43.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "input if it doesn't match",
 					"id" : "obj-3",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.210632, 282.798828, 25.0, 25.0 ],
-					"presentation_rect" : [ 343.210632, 353.798828, 0.0, 0.0 ]
+					"patching_rect" : [ 280.210632, 282.798828, 25.0, 25.0 ]
 				}
 
 			}
@@ -164,7 +162,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "output if it matches",
 					"id" : "obj-77",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
