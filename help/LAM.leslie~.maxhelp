@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -120,7 +120,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.super_module", "@obj-desc", "A module from the LAM.lib." ],
+					"args" : [ "@obj-name", "LAM.leslie~", "@obj-desc", "Imitate the leslie effect." ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -216,8 +216,8 @@
  ],
 		"parameters" : 		{
 			"obj-7::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-7::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-7::obj-35" : [ "[5]", "Level", 0 ]
 		}
 ,
@@ -226,6 +226,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
