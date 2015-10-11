@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 533.0, 78.0, 466.0, 426.0 ],
+		"rect" : [ 98.0, 65.0, 466.0, 426.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -220,8 +220,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 156.0, 141.0, 20.0 ],
-					"text" : "LAM.psend #1/pitch"
+					"patching_rect" : [ 167.0, 156.0, 49.0, 20.0 ],
+					"text" : "s /pitch"
 				}
 
 			}
@@ -247,8 +247,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.166626, 297.5, 134.0, 20.0 ],
-					"text" : "LAM.psend #1/ON"
+					"patching_rect" : [ 102.166626, 297.5, 41.0, 20.0 ],
+					"text" : "s /ON"
 				}
 
 			}
@@ -302,8 +302,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.166626, 183.0, 156.0, 20.0 ],
-					"text" : "LAM.psend #1/velocity"
+					"patching_rect" : [ 137.166626, 183.0, 63.0, 20.0 ],
+					"text" : "s /velocity"
 				}
 
 			}
@@ -343,8 +343,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.166626, 326.5, 128.0, 20.0 ],
-					"text" : "LAM.psend #1/ID"
+					"patching_rect" : [ 38.166626, 326.5, 35.0, 20.0 ],
+					"text" : "s /ID"
 				}
 
 			}

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 256.0, 109.0, 1184.0, 620.0 ],
+		"rect" : [ 26.0, 73.0, 1184.0, 688.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -83,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.9375, 582.483215, 170.0, 20.0 ],
+					"patching_rect" : [ 22.9375, 633.483215, 170.0, 20.0 ],
 					"text" : "r _lamlib_to_helper_comment"
 				}
 
@@ -218,7 +218,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 582.483215, 1147.0, 20.0 ]
+					"patching_rect" : [ 15.0, 633.483215, 1147.0, 20.0 ]
 				}
 
 			}
@@ -467,8 +467,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 165.0, 177.9375, 417.483215 ],
-					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.dec2hex", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade", "LAM.list.xfade", "LAM.notepress", "LAM.addeltaclip" ]
+					"patching_rect" : [ 15.0, 165.0, 177.9375, 433.483215 ],
+					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.quantizattack", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.dec2hex", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade", "LAM.list.xfade", "LAM.notepress", "LAM.addeltaclip" ]
 				}
 
 			}
