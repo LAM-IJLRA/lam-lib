@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 26.0, 73.0, 1184.0, 688.0 ],
+		"rect" : [ 26.0, 73.0, 1186.0, 662.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -250,23 +250,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 210.0, 165.0, 179.0, 417.483215 ],
 					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.pivot2d" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"button" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-126",
-					"maxclass" : "tab",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 407.0, 166.5, 179.0, 74.170105 ],
-					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback" ]
 				}
 
 			}
@@ -538,7 +521,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 672.5, 105.25, 76.0, 19.0 ],
+					"patching_rect" : [ 453.0, 194.085052, 76.0, 19.0 ],
 					"text" : "prepend load"
 				}
 
@@ -553,7 +536,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 672.5, 132.56311, 49.0, 19.0 ],
+					"patching_rect" : [ 453.0, 213.085052, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1005,6 +988,23 @@
 					"patching_rect" : [ 422.0625, 43.75, 65.0, 20.0 ],
 					"rounded" : 6,
 					"shadow" : -1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"button" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-126",
+					"maxclass" : "tab",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 407.0, 166.5, 179.0, 74.170105 ],
+					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback" ]
 				}
 
 			}
