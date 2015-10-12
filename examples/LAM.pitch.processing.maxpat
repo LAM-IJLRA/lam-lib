@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 51.0, 68.0, 1022.0, 724.0 ],
+		"rect" : [ 51.0, 68.0, 1271.0, 728.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -2541,6 +2541,7 @@
 					"name" : "LAM.pitch.processing.options.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+					"offset" : [ -250.0, 0.0 ],
 					"patching_rect" : [ 905.25, 257.794373, 253.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 809.5, 5.0, 250.0, 100.0 ]
@@ -15235,7 +15236,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 731.0, 781.0, 127.0, 18.0 ],
-																	"text" : "33. 81."
+																	"text" : "46. 94."
 																}
 
 															}
@@ -16942,7 +16943,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 245.5, 310.0, 50.0, 18.0 ],
-																									"text" : "20. 22."
+																									"text" : "22. 24."
 																								}
 
 																							}
@@ -17152,7 +17153,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 71.0, 169.0, 93.0, 18.0 ],
-																									"text" : "20. 22."
+																									"text" : "22. 24."
 																								}
 
 																							}
@@ -18215,7 +18216,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 232.0, 475.0, 50.0, 18.0 ],
-																					"text" : "48."
+																					"text" : "60."
 																				}
 
 																			}
@@ -27851,7 +27852,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 177.0, 176.0, 50.0, 18.0 ],
-																	"text" : "6"
+																	"text" : "10"
 																}
 
 															}
@@ -27865,7 +27866,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 313.0, 151.0, 50.0, 18.0 ],
-																	"text" : "6"
+																	"text" : "10"
 																}
 
 															}
@@ -38257,7 +38258,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.5, 405.5, 403.0, 18.0 ],
-									"text" : "0.797992 0.219031 0 1 0 0 1 0"
+									"text" : "0.603513 0.389587 0 1 0 0 0 0"
 								}
 
 							}
@@ -88435,7 +88436,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 479.459839, 625.0, 148.0, 28.0 ],
+					"patching_rect" : [ 479.459839, 625.0, 148.0, 14.0 ],
 					"presentation_rect" : [ 246.166672, 680.0, 50.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -93023,12 +93024,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-42" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-40" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-13::obj-7" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-40" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-121" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-75::obj-40" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-23" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

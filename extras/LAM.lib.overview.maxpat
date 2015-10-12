@@ -87,7 +87,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "clear" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 177,
+									"rows" : 181,
 									"selmode" : 3
 								}
 
@@ -1012,7 +1012,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 949.9375, 26.25, 44.0, 20.0 ],
+					"patching_rect" : [ 876.9375, 11.25, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1040,7 +1040,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 259.5, 124.0, 20.0 ],
+					"patching_rect" : [ 433.0, 277.5, 124.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1055,7 +1055,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 315.0, 124.0, 20.0 ],
+					"patching_rect" : [ 433.0, 333.0, 124.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1070,7 +1070,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 949.9375, 61.181335, 146.0, 19.0 ],
+					"patching_rect" : [ 968.9375, 4.681335, 146.0, 19.0 ],
 					"text" : "r _lamlib_to_help_pcontrol"
 				}
 
@@ -1130,7 +1130,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 795.0, 572.34021, 180.0, 20.0 ],
+					"patching_rect" : [ 795.0, 600.34021, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1175,7 +1175,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 430.0, 180.0, 20.0 ],
+					"patching_rect" : [ 405.0, 448.0, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1190,7 +1190,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 591.170105, 180.0, 20.0 ],
+					"patching_rect" : [ 405.0, 609.170105, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1310,8 +1310,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 491.170105, 180.0, 75.0 ],
-					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~" ]
+					"patching_rect" : [ 795.0, 504.170105, 180.0, 103.170105 ],
+					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~" ]
 				}
 
 			}
@@ -1324,7 +1324,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 476.170105, 128.0, 19.0 ],
+					"patching_rect" : [ 825.0, 488.170105, 128.0, 19.0 ],
 					"text" : "AUDIO VISUALIZATION"
 				}
 
@@ -1356,7 +1356,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 507.0, 180.0, 85.34021 ],
+					"patching_rect" : [ 405.0, 525.0, 180.0, 85.34021 ],
 					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.satellites", "LAM.jit.RLEreader", "LAM.jit.GOL.scoreMaker", "LAM.voronoijs" ]
 				}
 
@@ -1388,7 +1388,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 315.0, 180.0, 15.0 ],
+					"patching_rect" : [ 405.0, 333.0, 180.0, 15.0 ],
 					"tabs" : [ "LAM.TUIO.decode" ]
 				}
 
@@ -1420,7 +1420,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 352.0, 180.0, 136.0 ],
+					"patching_rect" : [ 405.0, 370.0, 180.0, 136.0 ],
 					"tabs" : [ "LAM.mpoly.param", "LAM.mpoly.notonoff", "LAM.mpoly.insidepoly", "LAM.rpoly", "LAM.rpoly.route", "LAM.rpoly.insidepoly", "LAM.polytop.router", "LAM.makenoteID", "LAM.polymited" ]
 				}
 
@@ -1436,7 +1436,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 255.0, 180.0, 45.0 ],
+					"patching_rect" : [ 405.0, 273.0, 180.0, 45.0 ],
 					"tabs" : [ "LAM.proba", "LAM.randistlist", "LAM.urndistlist" ]
 				}
 
@@ -1466,7 +1466,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 240.0, 78.0, 19.0 ],
+					"patching_rect" : [ 456.0, 258.0, 78.0, 19.0 ],
 					"text" : "PROBABILITY"
 				}
 
@@ -1480,7 +1480,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 300.0, 74.0, 19.0 ],
+					"patching_rect" : [ 465.0, 318.0, 74.0, 19.0 ],
 					"text" : "INTERFACES"
 				}
 
@@ -1494,7 +1494,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 337.0, 146.0, 19.0 ],
+					"patching_rect" : [ 420.0, 355.0, 146.0, 19.0 ],
 					"text" : "POLYPHONY MANAGEMENT"
 				}
 
@@ -1508,7 +1508,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 492.0, 104.0, 19.0 ],
+					"patching_rect" : [ 443.0, 510.0, 104.0, 19.0 ],
 					"text" : "DYNAMIC MODELS"
 				}
 
@@ -1595,7 +1595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 949.9375, 83.25, 74.0, 19.0 ],
+					"patching_rect" : [ 968.9375, 26.75, 74.0, 19.0 ],
 					"text" : "prepend help"
 				}
 
@@ -1610,7 +1610,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 949.9375, 105.25, 49.0, 19.0 ],
+					"patching_rect" : [ 968.9375, 48.75, 49.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1944,8 +1944,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 94.875, 605.0, 36.0 ],
-					"text" : "The LAM.lib library is a set of abstractions and externals that are useful to build digital music instrument with Max.",
+					"patching_rect" : [ 22.9375, 91.875, 1139.0625, 36.0 ],
+					"text" : "The LAM.lib library is a set of abstractions and externals that are useful to build digital music instrument with Max. This set of objet is mostly made of vanilla max objects, and aims at format stability. However, it is still in a beta version and subject to change. Do not hesistate to send feedback and/or contribute to it !",
 					"textcolor" : [ 0.27596, 0.276002, 0.27594, 1.0 ],
 					"varname" : "autohelp_top_description"
 				}
@@ -1959,7 +1959,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.9375, 83.25, 634.6875, 57.25 ],
+					"patching_rect" : [ 12.9375, 83.25, 1149.0625, 57.25 ],
 					"rounded" : 15,
 					"shadow" : -1
 				}
@@ -2005,8 +2005,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 407.0, 166.5, 179.0, 74.170105 ],
-					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback" ]
+					"patching_rect" : [ 407.0, 166.5, 178.0, 88.170105 ],
+					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback", "LAM.AVlooper" ]
 				}
 
 			}
@@ -2541,8 +2541,8 @@
 			}
 , 			{
 				"name" : "lamlib.sethelper.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
