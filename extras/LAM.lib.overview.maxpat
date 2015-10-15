@@ -504,7 +504,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 37.0, 347.0, 357.0, 20.0 ],
-									"text" : "Modulo wrapping linearly in the negative range."
+									"text" : "Patch... without patchcords."
 								}
 
 							}
@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 181,
+									"rows" : 185,
 									"selmode" : 3
 								}
 
@@ -1220,7 +1220,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 633.483215, 1147.0, 20.0 ]
+					"patching_rect" : [ 15.0, 633.483215, 1147.0, 20.0 ],
+					"text" : "Store hierarchical dictionaries with pointer reference."
 				}
 
 			}
@@ -1250,8 +1251,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 417.483215 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.pivot2d" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 445.34021 ],
+					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.OSC.leveldown", "LAM.pivot2d", "LAM.dict.reify" ]
 				}
 
 			}
