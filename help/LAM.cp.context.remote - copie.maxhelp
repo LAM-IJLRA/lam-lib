@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 45.0, 816.0, 671.0 ],
+		"rect" : [ 4.0, 45.0, 1007.0, 587.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -32,14 +32,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-48",
-					"linecount" : 2,
-					"maxclass" : "comment",
+					"id" : "obj-27",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 66.0, 357.0, 33.0 ],
-					"text" : "change broadcast @1999 pour multicast @1900 (cf https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol)"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.0, 471.779297, 115.0, 20.0 ],
+					"text" : "LAM.cp.sink /bidule"
 				}
 
 			}
@@ -53,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 182.0, 400.779297, 50.0, 20.0 ]
+					"patching_rect" : [ 239.0, 445.779297, 50.0, 20.0 ]
 				}
 
 			}
@@ -66,8 +65,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 379.779297, 115.0, 20.0 ],
-					"text" : "LAM.cp.sink /spirou"
+					"patching_rect" : [ 239.0, 424.779297, 115.0, 20.0 ],
+					"text" : "LAM.cp.sink /bidule"
 				}
 
 			}
@@ -712,89 +711,6 @@
 					}
 ,
 					"text" : "p colls"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-32",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 451.0, 480.484741, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-40",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 717.5, 449.779266, 102.0, 18.0 ],
-					"text" : "connect /spirou 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-43",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 598.5, 449.779266, 102.0, 18.0 ],
-					"text" : "connect /spirou 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-44",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 598.5, 471.484741, 111.0, 18.0 ],
-					"text" : "connect /fantazio 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-45",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 717.5, 473.779297, 111.0, 18.0 ],
-					"text" : "connect /fantazio 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-47",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 507.779297, 167.0, 20.0 ],
-					"text" : "LAM.cp.send.remote /zorglub"
 				}
 
 			}
@@ -2016,7 +1932,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 418.0, 155.705475, 100.0, 20.0 ],
+					"patching_rect" : [ 413.0, 196.705475, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3257,7 +3173,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 303.0, 513.0, 215.0, 70.0 ],
 									"rowhead" : 1,
-									"rows" : 2,
+									"rows" : 3,
 									"selmode" : 3
 								}
 
@@ -3289,7 +3205,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 303.0, 376.0, 215.0, 70.0 ],
 									"rowhead" : 1,
-									"rows" : 2,
+									"rows" : 4,
 									"selmode" : 3
 								}
 
@@ -3601,7 +3517,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 333.0, 155.705475, 71.0, 20.0 ],
+					"patching_rect" : [ 328.0, 196.705475, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4152,11 +4068,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 89.705475, 752.5, 33.0 ],
-					"text" : "LAM.cp.context.remote editAble @dataport 6666 @adminport 2001"
+					"patching_rect" : [ 27.0, 89.705475, 588.0, 60.0 ],
+					"text" : "LAM.cp.context.remote myTwoCents @dataport 5555 @adminport 2002"
 				}
 
 			}
@@ -4183,89 +4100,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 17.0 ],
 					"text" : "bgcolor 0.9 0.91 0.91"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-10",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 27.0, 482.779297, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/zorglub" ],
-					"border" : 1,
-					"id" : "obj-8",
-					"maxclass" : "bpatcher",
-					"name" : "LAM.cp.param.out.centralized.GUI.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 507.779297, 142.0, 17.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 549.779297, 252.0, 20.0 ],
-					"text" : "<= click on the param name to select sources"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-25",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 451.0, 569.779297, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/fantazio" ],
-					"border" : 1,
-					"id" : "obj-26",
-					"maxclass" : "bpatcher",
-					"name" : "LAM.cp.param.in.GUI.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.0, 549.779297, 142.0, 17.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-46",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 462.779297, 74.0, 20.0 ],
-					"text" : "GUI version"
 				}
 
 			}
@@ -4376,8 +4210,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.5, 379.779297, 125.0, 20.0 ],
-					"text" : "LAM.cp.sink /fantazio"
+					"patching_rect" : [ 444.5, 379.779297, 115.0, 20.0 ],
+					"text" : "LAM.cp.sink /bidule"
 				}
 
 			}
@@ -4445,36 +4279,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 444.5, 267.073853, 213.0, 20.0 ],
-					"text" : "LAM.cp.send.centralized /marsupilami"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 27.0, 569.779297, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/spirou" ],
-					"border" : 1,
-					"id" : "obj-19",
-					"maxclass" : "bpatcher",
-					"name" : "LAM.cp.param.in.GUI.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 549.779297, 142.0, 17.0 ]
+					"patching_rect" : [ 444.5, 267.073853, 195.0, 20.0 ],
+					"text" : "LAM.cp.send.centralized /chouette"
 				}
 
 			}
@@ -4634,15 +4440,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4703,15 +4500,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4730,19 +4518,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 678.0, 258.573822, 648.0, 258.573822 ],
+					"midpoints" : [ 678.0, 258.573822, 630.0, 258.573822 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -4752,7 +4531,7 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 559.0, 257.573822, 648.0, 257.573822 ],
+					"midpoints" : [ 559.0, 257.573822, 630.0, 257.573822 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -4762,7 +4541,7 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 559.0, 257.573822, 648.0, 257.573822 ],
+					"midpoints" : [ 559.0, 257.573822, 630.0, 257.573822 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -4772,17 +4551,8 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 678.0, 258.573822, 648.0, 258.573822 ],
+					"midpoints" : [ 678.0, 258.573822, 630.0, 258.573822 ],
 					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -4846,16 +4616,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 727.0, 499.279266, 608.5, 499.279266 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4869,36 +4629,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 608.0, 498.279266, 608.5, 498.279266 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 608.0, 498.279266, 608.5, 498.279266 ],
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 727.0, 499.279266, 608.5, 499.279266 ],
-					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -4939,27 +4669,6 @@
 			}
 , 			{
 				"name" : "LAM.cp.send.centralized.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.cp.param.in.GUI.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.cp.receive.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.cp.param.out.centralized.GUI.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -5009,13 +4718,6 @@
 			}
 , 			{
 				"name" : "LAM.OSC2dict.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.cp.send.remote.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
