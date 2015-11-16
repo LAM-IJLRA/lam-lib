@@ -38,8 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 603.0, 487.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 601.0, 484.0, 0.0, 0.0 ]
+					"patching_rect" : [ 603.0, 487.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -50,8 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 603.0, 434.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 601.0, 431.0, 0.0, 0.0 ]
+					"patching_rect" : [ 603.0, 434.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -65,7 +63,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
 					"patching_rect" : [ 603.0, 461.0, 37.0, 20.0 ],
-					"presentation_rect" : [ 601.0, 458.0, 0.0, 0.0 ],
 					"text" : "timer"
 				}
 
@@ -138,8 +135,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.5, 356.073853, 181.0, 20.0 ],
-					"text" : "LAM.cp.receive.centralized /toto"
+					"patching_rect" : [ 315.5, 356.073853, 127.0, 20.0 ],
+					"text" : "LAM.hub.receive /toto"
 				}
 
 			}
@@ -291,8 +288,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 582.5, 356.073853, 208.0, 20.0 ],
-					"text" : "LAM.cp.receive.centralized /bataclan"
+					"patching_rect" : [ 582.5, 356.073853, 153.0, 20.0 ],
+					"text" : "LAM.hub.receive /bataclan"
 				}
 
 			}
@@ -388,7 +385,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 177.0, 213.779297, 132.0, 20.0 ],
-					"text" : "connect /oyeah 1"
+					"text" : "connect /toto 1"
 				}
 
 			}
@@ -415,8 +412,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 356.073853, 194.0, 20.0 ],
-					"text" : "LAM.cp.receive.centralized /oyeah"
+					"patching_rect" : [ 27.0, 356.073853, 140.0, 20.0 ],
+					"text" : "LAM.hub.receive /oyeah"
 				}
 
 			}
@@ -979,14 +976,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 89.705475, 235.0, 33.0 ],
-					"text" : "LAM.cp.hub myLocal"
+					"patching_rect" : [ 27.0, 89.705475, 203.0, 33.0 ],
+					"text" : "LAM.hub myLocal"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.cp.hub", "@obj-desc", "Module connection made easy" ],
+					"args" : [ "@obj-name", "LAM.hub", "@obj-desc", "Module connection made easy" ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
@@ -1046,8 +1043,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 444.5, 267.073853, 181.0, 20.0 ],
-					"text" : "LAM.cp.send.centralized /bidule"
+					"patching_rect" : [ 444.5, 267.073853, 127.0, 20.0 ],
+					"text" : "LAM.hub.send /bidule"
 				}
 
 			}
@@ -1059,8 +1056,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 267.073853, 169.0, 20.0 ],
-					"text" : "LAM.cp.send.centralized /truc"
+					"patching_rect" : [ 27.0, 267.073853, 115.0, 20.0 ],
+					"text" : "LAM.hub.send /truc"
 				}
 
 			}
@@ -1330,7 +1327,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.cp.send.centralized.maxpat",
+				"name" : "LAM.hub.send.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -1351,7 +1348,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.cp.hub.maxpat",
+				"name" : "LAM.hub.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.hub.container.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.hub.LoopbackLink.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -1365,13 +1376,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cp.remotePlateformSender.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "LAM.showip.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -1379,7 +1383,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.cp.receive.centralized.maxpat",
+				"name" : "LAM.hub.receive.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
