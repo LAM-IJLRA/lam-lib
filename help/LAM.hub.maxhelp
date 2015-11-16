@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 110.0, 117.0, 810.0, 638.0 ],
+		"rect" : [ 100.0, 100.0, 810.0, 638.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -186,8 +186,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 180.705444, 201.0, 18.0 ],
-									"text" : "dictionary myHub/namespace/maps"
+									"patching_rect" : [ 13.0, 180.705444, 146.0, 18.0 ],
+									"text" : "dictionary myHub/n/maps"
 								}
 
 							}
@@ -1416,8 +1416,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.5, 232.705444, 212.0, 18.0 ],
-									"text" : "dictionary myHub/namespace/presets"
+									"patching_rect" : [ 18.5, 234.705444, 156.0, 18.0 ],
+									"text" : "dictionary myHub/n/presets"
 								}
 
 							}
@@ -3002,6 +3002,13 @@
 			}
 , 			{
 				"name" : "LAM.hub.container.maxpat",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.hub.RemoteLink.maxpat",
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
