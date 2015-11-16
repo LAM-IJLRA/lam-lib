@@ -945,8 +945,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 89.705475, 203.0, 33.0 ],
-					"text" : "LAM.hub myLocal"
+					"patching_rect" : [ 27.0, 89.705475, 189.0, 33.0 ],
+					"text" : "LAM.hub myHub"
 				}
 
 			}
