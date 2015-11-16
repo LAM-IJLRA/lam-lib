@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 770.0, 391.0, 568.0, 310.0 ],
+		"rect" : [ 770.0, 417.0, 568.0, 284.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3239,7 +3239,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 349.0, 134.0, 223.0, 18.0 ],
-													"text" : "127.0.0.1"
+													"text" : "192.168.1.13"
 												}
 
 											}
@@ -8314,7 +8314,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 141.5, 25.0, 181.0, 18.0 ],
-																					"text" : "/truc /toto"
+																					"text" : "/truc /oyeah"
 																				}
 
 																			}
@@ -14431,213 +14431,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-8",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 0,
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 6,
-															"minor" : 1,
-															"revision" : 10,
-															"architecture" : "x86"
-														}
-,
-														"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 0,
-														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"boxanimatetime" : 200,
-														"imprint" : 0,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"boxes" : [ 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-4",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 66.0, 100.0, 197.0, 18.0 ],
-																	"text" : "/myRemotePlatform localhost 1234"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-21",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 426.0, 100.0, 118.0, 18.0 ],
-																	"text" : "/myRemotePlatform"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 11.595187,
-																	"id" : "obj-20",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 407.0, 125.0, 89.0, 17.0 ],
-																	"text" : "script delete $1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 11.595187,
-																	"id" : "obj-5",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 125.0, 310.0, 17.0 ],
-																	"text" : "script newdefault $1 50 100 cp.remote.param.in.sender $1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-10",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 166.0, 257.0, 20.0 ],
-																	"text" : "LAM.cp.container cp.remote.params.in.sender"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-6",
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-7",
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 407.0, 40.0, 25.0, 25.0 ]
-																}
-
-															}
- ],
-														"lines" : [ 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"midpoints" : [ 416.5, 152.5, 59.5, 152.5 ],
-																	"source" : [ "obj-20", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-20", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-21", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-5", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-4", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-5", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-5", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-6", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-20", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-7", 0 ]
-																}
-
-															}
- ]
-													}
-,
-													"patching_rect" : [ 39.0, 347.0, 376.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"default_fontsize" : 12.0,
-														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p create/destroy-senders"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
 													"id" : "obj-7",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -16700,8 +16493,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 164.0, 180.0, 347.0, 17.0 ],
-																	"text" : "script newdefault $1 50 100 LAM.cp.hub.RemoteLink $1 $2 $3 $4"
+																	"patching_rect" : [ 164.0, 180.0, 332.0, 17.0 ],
+																	"text" : "script newdefault $1 50 100 LAM.hub.RemoteLink $1 $2 $3 $4"
 																}
 
 															}
@@ -21143,7 +20936,7 @@
 							}
 , 							{
 								"box" : 								{
-									"cols" : 2,
+									"cols" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
@@ -21152,7 +20945,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 607.5, 395.0, 200.0, 200.0 ],
-									"rows" : 5
+									"rows" : 7
 								}
 
 							}
@@ -21220,7 +21013,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 301.5, 395.0, 200.0, 200.0 ],
-									"rows" : 2
+									"rows" : 4
 								}
 
 							}
