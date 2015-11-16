@@ -87,8 +87,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.0, 166.0, 127.0, 20.0 ],
-									"text" : "v /cp/context/init/done"
+									"patching_rect" : [ 93.0, 166.0, 92.0, 20.0 ],
+									"text" : "v /hub/init/done"
 								}
 
 							}
@@ -115,8 +115,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.0, 51.0, 125.0, 20.0 ],
-									"text" : "r /cp/context/init/done"
+									"patching_rect" : [ 63.0, 51.0, 90.0, 20.0 ],
+									"text" : "r /hub/init/done"
 								}
 
 							}
@@ -289,8 +289,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 122.0, 87.0, 20.0 ],
-					"text" : "s /cp/manager"
+					"patching_rect" : [ 326.0, 122.0, 94.0, 20.0 ],
+					"text" : "s /hub/manager"
 				}
 
 			}

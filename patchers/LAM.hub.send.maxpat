@@ -73,8 +73,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.0, 51.0, 125.0, 20.0 ],
-									"text" : "r /cp/context/finit/start"
+									"patching_rect" : [ 63.0, 51.0, 90.0, 20.0 ],
+									"text" : "r /hub/finit/start"
 								}
 
 							}
@@ -203,8 +203,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.0, 166.0, 127.0, 20.0 ],
-									"text" : "v /cp/context/init/done"
+									"patching_rect" : [ 93.0, 166.0, 92.0, 20.0 ],
+									"text" : "v /hub/init/done"
 								}
 
 							}
@@ -231,8 +231,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.0, 51.0, 125.0, 20.0 ],
-									"text" : "r /cp/context/init/done"
+									"patching_rect" : [ 63.0, 51.0, 90.0, 20.0 ],
+									"text" : "r /hub/init/done"
 								}
 
 							}
@@ -391,8 +391,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 76.0, 71.0, 20.0 ],
-					"text" : "s /cp/router"
+					"patching_rect" : [ 20.0, 76.0, 78.0, 20.0 ],
+					"text" : "s /hub/router"
 				}
 
 			}
@@ -460,8 +460,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 115.0, 87.0, 20.0 ],
-					"text" : "s /cp/manager"
+					"patching_rect" : [ 179.0, 115.0, 95.0, 20.0 ],
+					"text" : "s /hub/manager"
 				}
 
 			}
@@ -484,7 +484,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 15.0, 25.0, 25.0 ]
 				}
 
