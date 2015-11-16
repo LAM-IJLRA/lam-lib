@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
+		"rect" : [ 71.0, 594.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 137.0, 25.0, 25.0 ]
+					"patching_rect" : [ 151.0, 148.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -46,7 +46,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 63.0, 25.0, 25.0 ]
+					"patching_rect" : [ 81.0, 21.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 137.0, 25.0, 25.0 ]
+					"patching_rect" : [ 119.0, 148.0, 25.0, 25.0 ]
 				}
 
 			}

@@ -36,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 222.0, 117.0, 114.0, 20.0 ],
-					"text" : "s /cp/data/loopback"
+					"text" : "s /data/loopback"
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 117.0, 123.0, 20.0 ],
-					"text" : "s /cp/admin/loopback"
+					"text" : "s /admin/loopback"
 				}
 
 			}

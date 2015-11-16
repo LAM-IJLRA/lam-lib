@@ -262,8 +262,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 326.0, 49.0, 187.0, 18.0 ],
-					"text" : "/hello #0 #1 inlet"
+					"patching_rect" : [ 326.0, 49.0, 143.0, 18.0 ],
+					"text" : "hello #0 #1 inlet"
 				}
 
 			}
@@ -276,8 +276,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 519.0, 49.0, 134.0, 18.0 ],
-					"text" : "/bye #0 "
+					"patching_rect" : [ 519.0, 49.0, 110.0, 18.0 ],
+					"text" : "bye #0"
 				}
 
 			}
