@@ -74,7 +74,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.0, 51.0, 90.0, 20.0 ],
-									"text" : "r /hub/finit/start"
+									"text" : "r /h/finit/start"
 								}
 
 							}
@@ -204,7 +204,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 93.0, 166.0, 92.0, 20.0 ],
-									"text" : "v /hub/init/done"
+									"text" : "v /h/init/done"
 								}
 
 							}
@@ -232,7 +232,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.0, 51.0, 90.0, 20.0 ],
-									"text" : "r /hub/init/done"
+									"text" : "r /h/init/done"
 								}
 
 							}
@@ -392,7 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 76.0, 78.0, 20.0 ],
-					"text" : "s /hub/router"
+					"text" : "s /h/r"
 				}
 
 			}
@@ -434,7 +434,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.0, 51.0, 132.0, 18.0 ],
-					"text" : "hello #0 #1 outlet"
+					"text" : "hl #0 #1 outlet"
 				}
 
 			}
@@ -448,7 +448,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 556.0, 51.0, 67.0, 18.0 ],
-					"text" : "bye #0 "
+					"text" : "b #0 "
 				}
 
 			}
@@ -461,7 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 179.0, 115.0, 95.0, 20.0 ],
-					"text" : "s /hub/manager"
+					"text" : "s /h"
 				}
 
 			}
@@ -484,7 +484,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 15.0, 25.0, 25.0 ]
 				}
 
@@ -573,7 +573,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

@@ -88,7 +88,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 93.0, 166.0, 92.0, 20.0 ],
-									"text" : "v /hub/init/done"
+									"text" : "v /h/init/done"
 								}
 
 							}
@@ -116,7 +116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.0, 51.0, 90.0, 20.0 ],
-									"text" : "r /hub/init/done"
+									"text" : "r /h/init/done"
 								}
 
 							}
@@ -263,7 +263,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 326.0, 49.0, 143.0, 18.0 ],
-					"text" : "hello #0 #1 inlet"
+					"text" : "hl #0 #1 inlet"
 				}
 
 			}
@@ -277,7 +277,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.0, 49.0, 110.0, 18.0 ],
-					"text" : "bye #0"
+					"text" : "b #0"
 				}
 
 			}
@@ -289,8 +289,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 122.0, 94.0, 20.0 ],
-					"text" : "s /hub/manager"
+					"patching_rect" : [ 326.0, 122.0, 43.0, 20.0 ],
+					"text" : "s /h"
 				}
 
 			}
@@ -446,7 +446,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

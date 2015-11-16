@@ -131,7 +131,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/in/connections.coll"
+									"text" : "coll /n/in/cn.coll"
 								}
 
 							}
@@ -177,7 +177,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/in/connections.coll"
+									"text" : "coll /n/in/cn.coll"
 								}
 
 							}
@@ -433,7 +433,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict #1/namespace/presets"
+									"text" : "dict #1/n/presets"
 								}
 
 							}
@@ -747,7 +747,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict #1/namespace/presets"
+									"text" : "dict #1/n/presets"
 								}
 
 							}
@@ -1590,7 +1590,7 @@
 																		"parameter_enable" : 0
 																	}
 ,
-																	"text" : "dict #1/namespace/in/state"
+																	"text" : "dict #1/n/in/state"
 																}
 
 															}
@@ -1999,7 +1999,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict #1/namespace/in/state"
+													"text" : "dict #1/n/in/state"
 												}
 
 											}
@@ -2814,7 +2814,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict #1/namespace/in/state"
+													"text" : "dict #1/n/in/state"
 												}
 
 											}
@@ -3054,7 +3054,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict #1/namespace/presets"
+									"text" : "dict #1/n/presets"
 								}
 
 							}
@@ -3197,7 +3197,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict #1/namespace/in/state"
+									"text" : "dict #1/n/in/state"
 								}
 
 							}
@@ -4981,7 +4981,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict #1/namespace/presets"
+													"text" : "dict #1/n/presets"
 												}
 
 											}
@@ -5329,7 +5329,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict #1/namespace/presets"
+													"text" : "dict #1/n/presets"
 												}
 
 											}
@@ -5969,7 +5969,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict #1/namespace/presets"
+													"text" : "dict #1/n/presets"
 												}
 
 											}

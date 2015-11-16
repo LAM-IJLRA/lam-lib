@@ -1869,7 +1869,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/out/connections.coll"
+																	"text" : "coll /n/out/cn.coll"
 																}
 
 															}
@@ -1915,7 +1915,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/in/connections.coll"
+																	"text" : "coll /n/in/cn.coll"
 																}
 
 															}
@@ -3119,7 +3119,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace/out/connections.coll"
+													"text" : "coll /n/out/cn.coll"
 												}
 
 											}
@@ -3538,7 +3538,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace.coll"
+									"text" : "coll /n.coll"
 								}
 
 							}
@@ -3584,7 +3584,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace.coll"
+									"text" : "coll /n.coll"
 								}
 
 							}
@@ -3728,7 +3728,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p getnamespace"
+					"text" : "p getn"
 				}
 
 			}
@@ -3840,7 +3840,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict #1/namespace/maps"
+									"text" : "dict #1/n/maps"
 								}
 
 							}
@@ -5602,7 +5602,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 83.333336, 427.0, 43.0, 20.0 ],
-													"text" : "s /hub"
+													"text" : "s /h"
 												}
 
 											}
@@ -5775,7 +5775,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict #1/namespace/maps"
+													"text" : "dict #1/n/maps"
 												}
 
 											}
@@ -6171,7 +6171,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict #1/namespace/maps"
+					"text" : "dict #1/n/maps"
 				}
 
 			}

@@ -73,7 +73,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 33.0, 414.0, 403.0, 20.0 ],
-									"text" : "=> réponse (envoyée à myPlateformeName) : /namespaces/in/list"
+									"text" : "=> réponse (envoyée à myPlateformeName) : /ns/in/list"
 								}
 
 							}
@@ -102,7 +102,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 24.0, 242.0, 421.0, 20.0 ],
-									"text" : "S'il n'existe plus d'instance de ce param, on le désenregistre"
+									"text" : "S'il n'existe plus d'i de ce param, on le désenregistre"
 								}
 
 							}
@@ -116,7 +116,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 28.0, 178.0, 421.0, 20.0 ],
-									"text" : "à partir du moment où il existe 1 ou + instances d'un paramètre, on le déclare"
+									"text" : "à partir du moment où il existe 1 ou + is d'un paramètre, on le déclare"
 								}
 
 							}
@@ -131,7 +131,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 381.0, 227.0, 18.0 ],
-									"text" : "/namespaces/in/getlist myPlateformeName"
+									"text" : "/ns/in/getlist myPlateformeName"
 								}
 
 							}
@@ -173,7 +173,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 338.0, 265.0, 403.0, 20.0 ],
-									"text" : "message broadcasted on port 1234 (\"admin port\") to unregister a platform"
+									"text" : "message bed on port 1234 (\"admin port\") to unregister a platform"
 								}
 
 							}
@@ -188,7 +188,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 262.0, 317.0, 18.0 ],
-									"text" : "/namespace/unregister myParamName myPlateformeName"
+									"text" : "/n/unregister myParamName myPlateformeName"
 								}
 
 							}
@@ -202,7 +202,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 338.0, 204.0, 389.0, 20.0 ],
-									"text" : "message broadcasted on port 1234 (\"admin port\") to register a platform"
+									"text" : "message bed on port 1234 (\"admin port\") to register a platform"
 								}
 
 							}
@@ -217,7 +217,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 204.0, 297.0, 18.0 ],
-									"text" : "/namespace/register myPlateformName myParamName"
+									"text" : "/n/register myPlateformName myParamName"
 								}
 
 							}
@@ -231,7 +231,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 301.0, 114.0, 403.0, 20.0 ],
-									"text" : "message broadcasted on port 1234 (\"admin port\") to unregister a platform"
+									"text" : "message bed on port 1234 (\"admin port\") to unregister a platform"
 								}
 
 							}
@@ -259,7 +259,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 301.0, 83.0, 389.0, 20.0 ],
-									"text" : "message broadcasted on port 1234 (\"admin port\") to register a platform"
+									"text" : "message bed on port 1234 (\"admin port\") to register a platform"
 								}
 
 							}
@@ -407,7 +407,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 127.0, 411.0, 92.0, 20.0 ],
-													"text" : "s /broadcast"
+													"text" : "s /b"
 												}
 
 											}
@@ -505,7 +505,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 214.333328, 239.0, 163.0, 20.0 ],
-													"text" : "prepend /namespace rem"
+													"text" : "prepend /n rem"
 												}
 
 											}
@@ -537,7 +537,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /revinstances.coll"
+													"text" : "coll /revis.coll"
 												}
 
 											}
@@ -713,7 +713,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p bye-params"
+									"text" : "p b-params"
 								}
 
 							}
@@ -785,7 +785,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 175.0, 384.0, 92.0, 20.0 ],
-													"text" : "s /broadcast"
+													"text" : "s /b"
 												}
 
 											}
@@ -869,7 +869,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 174.0, 221.0, 143.0, 20.0 ],
-													"text" : "prepend /hub bye"
+													"text" : "prepend /h b"
 												}
 
 											}
@@ -1009,7 +1009,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p bye-hub"
+									"text" : "p b-hub"
 								}
 
 							}
@@ -1171,7 +1171,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 252.0, 141.0, 109.0, 20.0 ],
-									"text" : "print /hub/init/done"
+									"text" : "print /h/init/done"
 								}
 
 							}
@@ -1185,7 +1185,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 154.0, 141.0, 92.0, 20.0 ],
-									"text" : "v /hub/init/done"
+									"text" : "v /h/init/done"
 								}
 
 							}
@@ -1198,7 +1198,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 50.0, 141.0, 92.0, 20.0 ],
-									"text" : "s /hub/init/done"
+									"text" : "s /h/init/done"
 								}
 
 							}
@@ -1291,7 +1291,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p /hub/init/done"
+					"text" : "p /h/init/done"
 				}
 
 			}
@@ -1400,7 +1400,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict #1/namespace/in/state"
+									"text" : "dict #1/n/in/state"
 								}
 
 							}
@@ -1776,7 +1776,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 153.0, 138.0, 92.0, 20.0 ],
-													"text" : "v /hub/init/done"
+													"text" : "v /h/init/done"
 												}
 
 											}
@@ -1789,7 +1789,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 50.0, 138.0, 92.0, 20.0 ],
-													"text" : "s /hub/init/done"
+													"text" : "s /h/init/done"
 												}
 
 											}
@@ -1936,7 +1936,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 174.0, 284.0, 92.0, 20.0 ],
-													"text" : "s /broadcast"
+													"text" : "s /b"
 												}
 
 											}
@@ -2262,7 +2262,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 174.0, 139.0, 126.0, 20.0 ],
-													"text" : "prepend /hub hello"
+													"text" : "prepend /h hl"
 												}
 
 											}
@@ -2425,7 +2425,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p broadcast-hello"
+									"text" : "p b-hl"
 								}
 
 							}
@@ -2715,7 +2715,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 173.0, 198.0, 113.0, 33.0 ],
-													"text" : "or set broadcast to loopback ?"
+													"text" : "or set b to loopback ?"
 												}
 
 											}
@@ -2784,7 +2784,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 173.0, 321.0, 92.0, 20.0 ],
-													"text" : "s /broadcast"
+													"text" : "s /b"
 												}
 
 											}
@@ -3900,7 +3900,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 50.0, 154.0, 154.0, 20.0 ],
-													"text" : "print #1.broadcasting"
+													"text" : "print #1.bing"
 												}
 
 											}
@@ -4322,7 +4322,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p broadcast"
+									"text" : "p b"
 								}
 
 							}
@@ -4374,7 +4374,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 16.0, 27.0, 121.0, 74.0 ],
-													"text" : "loopback used when no network is detected and broadcast would not work"
+													"text" : "loopback used when no network is detected and b would not work"
 												}
 
 											}
@@ -4830,7 +4830,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -4877,7 +4877,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -5154,7 +5154,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -5201,7 +5201,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -5941,7 +5941,7 @@
 																										"embed" : 0
 																									}
 ,
-																									"text" : "coll /namespace/in/connections.coll"
+																									"text" : "coll /n/in/cn.coll"
 																								}
 
 																							}
@@ -5960,7 +5960,7 @@
 																										"embed" : 0
 																									}
 ,
-																									"text" : "coll /namespace/out/connections.coll"
+																									"text" : "coll /n/out/cn.coll"
 																								}
 
 																							}
@@ -6826,7 +6826,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -6845,7 +6845,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -7412,7 +7412,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -7459,7 +7459,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -7736,7 +7736,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -7783,7 +7783,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -8281,7 +8281,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -8300,7 +8300,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -8683,7 +8683,7 @@
 																										"embed" : 0
 																									}
 ,
-																									"text" : "coll /namespace.coll"
+																									"text" : "coll /n.coll"
 																								}
 
 																							}
@@ -8956,7 +8956,7 @@
 																										"embed" : 0
 																									}
 ,
-																									"text" : "coll /namespace.coll"
+																									"text" : "coll /n.coll"
 																								}
 
 																							}
@@ -9310,7 +9310,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -9357,7 +9357,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -9460,7 +9460,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -9507,7 +9507,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -10134,7 +10134,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -10181,7 +10181,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/out/connections.coll"
+																					"text" : "coll /n/out/cn.coll"
 																				}
 
 																			}
@@ -10284,7 +10284,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -10331,7 +10331,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace/in/connections.coll"
+																					"text" : "coll /n/in/cn.coll"
 																				}
 
 																			}
@@ -10789,7 +10789,7 @@
 																									"numinlets" : 1,
 																									"numoutlets" : 0,
 																									"patching_rect" : [ 45.0, 129.0, 125.0, 20.0 ],
-																									"text" : "s /hub.receive/umenu"
+																									"text" : "s /h.receive/umenu"
 																								}
 
 																							}
@@ -10802,7 +10802,7 @@
 																									"numinlets" : 1,
 																									"numoutlets" : 0,
 																									"patching_rect" : [ 67.0, 97.0, 113.0, 20.0 ],
-																									"text" : "s /hub.send/umenu"
+																									"text" : "s /h.send/umenu"
 																								}
 
 																							}
@@ -11444,7 +11444,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/in/connections.coll"
+																	"text" : "coll /n/in/cn.coll"
 																}
 
 															}
@@ -11463,7 +11463,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/in/connections.coll"
+																	"text" : "coll /n/in/cn.coll"
 																}
 
 															}
@@ -11659,7 +11659,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p rem-from-connections"
+													"text" : "p rem-from-cn"
 												}
 
 											}
@@ -11784,7 +11784,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/out/connections.coll"
+																	"text" : "coll /n/out/cn.coll"
 																}
 
 															}
@@ -11803,7 +11803,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/in/connections.coll"
+																	"text" : "coll /n/in/cn.coll"
 																}
 
 															}
@@ -11999,7 +11999,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p init-connections"
+													"text" : "p init-cn"
 												}
 
 											}
@@ -12096,7 +12096,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -12157,7 +12157,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -12186,7 +12186,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 362.0, 225.0, 150.0, 60.0 ],
-																	"text" : "if no hub hosts this param anymore, remove it from namespace and from locations"
+																	"text" : "if no hub hosts this param anymore, remove it from n and from ls"
 																}
 
 															}
@@ -12232,7 +12232,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace.coll"
+																	"text" : "coll /n.coll"
 																}
 
 															}
@@ -12375,7 +12375,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p rem-from-namespace/location?"
+													"text" : "p rem-from-n/l?"
 												}
 
 											}
@@ -12486,7 +12486,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -12519,7 +12519,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -12594,7 +12594,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -12624,7 +12624,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 664.0, 322.0, 164.0, 18.0 ],
-																	"text" : "refer /namespace/locations.coll"
+																	"text" : "refer /n/ls.coll"
 																}
 
 															}
@@ -12667,7 +12667,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 199.0, 215.0, 213.0, 20.0 ],
-																	"text" : "<== filter out host from list of locations"
+																	"text" : "<== filter out host from list of ls"
 																}
 
 															}
@@ -12682,7 +12682,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 150.0, 543.5, 150.0, 47.0 ],
-																	"text" : "if no hub hosts this param anymore, remove it from namespace"
+																	"text" : "if no hub hosts this param anymore, remove it from n"
 																}
 
 															}
@@ -12838,7 +12838,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -13127,7 +13127,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p filter-locations"
+													"text" : "p filter-ls"
 												}
 
 											}
@@ -13192,7 +13192,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 169.0, 46.0, 155.0, 74.0 ],
-																	"text" : "should maybe check if it is in namespace before changing the info for this param, and if info do not match, warn the sender (?)"
+																	"text" : "should maybe check if it is in n before changing the info for this param, and if info do not match, warn the sender (?)"
 																}
 
 															}
@@ -13238,7 +13238,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace.coll"
+																	"text" : "coll /n.coll"
 																}
 
 															}
@@ -13299,7 +13299,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p add-to-namespace"
+													"text" : "p add-to-n"
 												}
 
 											}
@@ -13350,7 +13350,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 232.0, 269.0, 156.0, 47.0 ],
-																	"text" : "append location (hubName) to list of active locations for this param"
+																	"text" : "append l (hubName) to list of active ls for this param"
 																}
 
 															}
@@ -13425,7 +13425,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -13542,7 +13542,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /namespace/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -13713,7 +13713,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p add-to-locations"
+													"text" : "p add-to-ls"
 												}
 
 											}
@@ -13727,7 +13727,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 601.0, 531.5, 331.0, 20.0 ],
-													"text" : "/namespace add /zorglub inlet @type Tfloat (..) hubName"
+													"text" : "/n add /zorglub inlet @type Tfloat (..) hubName"
 												}
 
 											}
@@ -13745,7 +13745,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /revinstances.coll"
+													"text" : "coll /revis.coll"
 												}
 
 											}
@@ -13763,7 +13763,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace.coll"
+													"text" : "coll /n.coll"
 												}
 
 											}
@@ -13879,7 +13879,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 375.0, 163.0, 20.0 ],
-																					"text" : "prepend /namespace add"
+																					"text" : "prepend /n add"
 																				}
 
 																			}
@@ -13893,7 +13893,7 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 84.5, 401.5, 331.0, 20.0 ],
-																					"text" : "/namespace add /zorglub inlet @type Tfloat (..) hubName"
+																					"text" : "/n add /zorglub inlet @type Tfloat (..) hubName"
 																				}
 
 																			}
@@ -13936,7 +13936,7 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 325.0, 185.0, 150.0, 33.0 ],
-																					"text" : "get the namespace data for these local variables"
+																					"text" : "get the n data for these local variables"
 																				}
 
 																			}
@@ -14038,7 +14038,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /revinstances.coll"
+																					"text" : "coll /revis.coll"
 																				}
 
 																			}
@@ -14056,7 +14056,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll /namespace.coll"
+																					"text" : "coll /n.coll"
 																				}
 
 																			}
@@ -14250,7 +14250,7 @@
 																		"tags" : ""
 																	}
 ,
-																	"text" : "p dump-namespace"
+																	"text" : "p dump-n"
 																}
 
 															}
@@ -14379,7 +14379,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p get namespace"
+													"text" : "p get n"
 												}
 
 											}
@@ -14419,7 +14419,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 245.5, 467.0, 203.0, 20.0 ],
-													"text" : "OSC-route /hello /bye"
+													"text" : "OSC-route /hl /b"
 												}
 
 											}
@@ -14452,7 +14452,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /remote/namespaces/out"
+													"text" : "coll /remote/ns/out"
 												}
 
 											}
@@ -14632,7 +14632,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p /namespace"
+									"text" : "p /n"
 								}
 
 							}
@@ -14646,7 +14646,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 20.0, 21.0, 90.0, 20.0 ],
-									"text" : "r /broadcast"
+									"text" : "r /b"
 								}
 
 							}
@@ -15095,7 +15095,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 358.0, 139.538483, 127.0, 20.0 ],
-																	"text" : "prepend /hub ntmy"
+																	"text" : "prepend /h ntmy"
 																}
 
 															}
@@ -15151,7 +15151,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 168.307678, 112.0, 18.0 ],
-																	"text" : "/namespace get"
+																	"text" : "/n get"
 																}
 
 															}
@@ -15372,7 +15372,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p \"ask namespace\""
+													"text" : "p \"ask n\""
 												}
 
 											}
@@ -15549,7 +15549,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 50.0, 60.0, 337.5, 20.0 ],
-													"text" : "route hello ntmy bye"
+													"text" : "route hl ntmy b"
 												}
 
 											}
@@ -15865,7 +15865,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 417.0, 171.0, 149.0, 20.0 ],
-																	"text" : "prepend /platform/hello"
+																	"text" : "prepend /platform/hl"
 																}
 
 															}
@@ -15921,7 +15921,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 88.5, 40.0, 179.5, 33.0 ],
-																	"text" : "replies \"nice to meet you\" with hub info to the hub saying hello"
+																	"text" : "replies \"nice to meet you\" with hub info to the hub saying hl"
 																}
 
 															}
@@ -16232,7 +16232,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 157.538483, 127.0, 20.0 ],
-																	"text" : "prepend /hub ntmy"
+																	"text" : "prepend /h ntmy"
 																}
 
 															}
@@ -16748,7 +16748,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /hubs.coll"
+													"text" : "coll /hs.coll"
 												}
 
 											}
@@ -16905,7 +16905,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p /hub"
+									"text" : "p /h"
 								}
 
 							}
@@ -16919,7 +16919,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 20.0, 228.5, 163.0, 20.0 ],
-									"text" : "OSC-route /hub /namespace"
+									"text" : "OSC-route /h /n"
 								}
 
 							}
@@ -17160,7 +17160,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 243.0, 229.0, 163.0, 20.0 ],
-													"text" : "prepend /namespace rem"
+													"text" : "prepend /n rem"
 												}
 
 											}
@@ -17286,7 +17286,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /hubs.coll"
+													"text" : "coll /hs.coll"
 												}
 
 											}
@@ -17613,7 +17613,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p gate-was-it-last-local-instance?"
+									"text" : "p gate-was-it-last-local-i?"
 								}
 
 							}
@@ -17662,7 +17662,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 45.0, 103.0, 125.0, 20.0 ],
-													"text" : "s /hub.receive/umenu"
+													"text" : "s /h.receive/umenu"
 												}
 
 											}
@@ -17675,7 +17675,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 45.0, 77.0, 113.0, 20.0 ],
-													"text" : "s /hub.send/umenu"
+													"text" : "s /h.send/umenu"
 												}
 
 											}
@@ -17782,7 +17782,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /instances.coll"
+													"text" : "coll /is.coll"
 												}
 
 											}
@@ -17868,7 +17868,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p remove from instances"
+									"text" : "p remove from is"
 								}
 
 							}
@@ -18066,7 +18066,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /instances.coll"
+																	"text" : "coll /is.coll"
 																}
 
 															}
@@ -18317,7 +18317,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /revinstances.coll"
+													"text" : "coll /revis.coll"
 												}
 
 											}
@@ -18391,7 +18391,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /revinstances.coll"
+													"text" : "coll /revis.coll"
 												}
 
 											}
@@ -18719,7 +18719,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p filter-out key from revinstance"
+									"text" : "p filter-out key from revi"
 								}
 
 							}
@@ -18871,7 +18871,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p bye"
+					"text" : "p b"
 				}
 
 			}
@@ -18949,7 +18949,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 155.0, 196.0, 20.0 ],
-									"text" : "add to inlet/outlet specific locations"
+									"text" : "add to inlet/outlet specific ls"
 								}
 
 							}
@@ -18964,7 +18964,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 90.205475, 382.0, 33.0 ],
-									"text" : "change broadcast @1999 pour multicast 239.255.255.250 @1900 (cf https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol)"
+									"text" : "change b @1999 pour multicast 239.255.255.250 @1900 (cf https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol)"
 								}
 
 							}
@@ -19487,7 +19487,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /remote/namespace/in"
+																	"text" : "coll /remote/n/in"
 																}
 
 															}
@@ -19711,7 +19711,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 84.5, 100.0, 65.0, 20.0 ],
-													"text" : "r cp.router"
+													"text" : "r cp.r"
 												}
 
 											}
@@ -20145,7 +20145,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 70.0, 36.0, 150.0, 20.0 ],
-									"text" : "all router version"
+									"text" : "all r version"
 								}
 
 							}
@@ -20195,7 +20195,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 27.0, 59.0, 20.0 ],
-													"text" : "r /hub/sw"
+													"text" : "r /h/sw"
 												}
 
 											}
@@ -20227,7 +20227,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace/in/locations.coll"
+													"text" : "coll /n/in/ls.coll"
 												}
 
 											}
@@ -20427,7 +20427,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace/locations.coll"
+													"text" : "coll /n/ls.coll"
 												}
 
 											}
@@ -20660,7 +20660,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.5, 64.0, 77.0, 20.0 ],
-									"text" : "r /hub/router"
+									"text" : "r /h/r"
 								}
 
 							}
@@ -20838,7 +20838,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/out/connections.coll"
+									"text" : "coll /n/out/cn.coll"
 								}
 
 							}
@@ -20923,7 +20923,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p message-router"
+					"text" : "p message-r"
 				}
 
 			}
@@ -20973,7 +20973,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 607.5, 365.0, 229.0, 20.0 ],
-									"text" : "loadmess refer /namespace/locations.coll"
+									"text" : "loadmess refer /n/ls.coll"
 								}
 
 							}
@@ -21041,7 +21041,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 301.5, 365.0, 270.0, 20.0 ],
-									"text" : "loadmess refer /namespace/out/connections.coll"
+									"text" : "loadmess refer /n/out/cn.coll"
 								}
 
 							}
@@ -21070,7 +21070,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.5, 365.0, 270.0, 20.0 ],
-									"text" : "loadmess refer /namespace/in/connections.coll"
+									"text" : "loadmess refer /n/in/cn.coll"
 								}
 
 							}
@@ -21103,7 +21103,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/locations.coll"
+									"text" : "coll /n/ls.coll"
 								}
 
 							}
@@ -21133,7 +21133,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 864.5, 116.304321, 504.0, 69.0 ],
-									"text" : "[coll /revinstances.coll] : maintient une liste inversé du coll /instances.coll.\nform : moduleName, instance1 instance2 instance3;\ne.g. : /fantazio, 1524 77679 98347 7883;\n       /zorglub, 7627 23746 3799;"
+									"text" : "[coll /revis.coll] : maintient une liste inversé du coll /is.coll.\nform : moduleName, i1 i2 i3;\ne.g. : /fantazio, 1524 77679 98347 7883;\n       /zorglub, 7627 23746 3799;"
 								}
 
 							}
@@ -21151,7 +21151,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /revinstances.coll"
+									"text" : "coll /revis.coll"
 								}
 
 							}
@@ -21178,7 +21178,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 864.5, 41.0, 470.0, 57.0 ],
-									"text" : "[coll /instances.coll] : maintient une liste de toutes les instances locales de modules.\nform : instance(#0), name type {} \ne.g. : 27523, /spirou inlet @datatype Tfloat @default 0;"
+									"text" : "[coll /is.coll] : maintient une liste de toutes les is locales de modules.\nform : i(#0), name type {} \ne.g. : 27523, /spirou inlet @datatype Tfloat @default 0;"
 								}
 
 							}
@@ -21194,7 +21194,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 862.5, 276.0, 501.0, 57.0 ],
-									"text" : "[coll /namespace/out/connected.coll] : maintient une liste des outlets avec la liste des inlets auxquelles elle s'adresse.\nform : paramOutName, [list of inlets].\ne.g. : /zorglub, /fantazio;"
+									"text" : "[coll /n/out/connected.coll] : maintient une liste des outlets avec la liste des inlets auxquelles elle s'adresse.\nform : paramOutName, [list of inlets].\ne.g. : /zorglub, /fantazio;"
 								}
 
 							}
@@ -21212,7 +21212,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/out/connections.coll"
+									"text" : "coll /n/out/cn.coll"
 								}
 
 							}
@@ -21228,7 +21228,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 195.5, 276.0, 471.0, 57.0 ],
-									"text" : "[coll /namespace/in/connected.coll] : maintient une liste des inlets avec la liste des outlets qui s'adresse à elle\nform : paramInName, [list of outlets].\ne.g. : /fantazio, /zorglub /marsu;"
+									"text" : "[coll /n/in/connected.coll] : maintient une liste des inlets avec la liste des outlets qui s'adresse à elle\nform : paramInName, [list of outlets].\ne.g. : /fantazio, /zorglub /marsu;"
 								}
 
 							}
@@ -21246,7 +21246,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/in/connections.coll"
+									"text" : "coll /n/in/cn.coll"
 								}
 
 							}
@@ -21264,7 +21264,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /instances.coll"
+									"text" : "coll /is.coll"
 								}
 
 							}
@@ -21280,7 +21280,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 193.5, 116.304321, 471.0, 69.0 ],
-									"text" : "[coll /namespace] : maintient une définition du type de module en face de chaque nom de module.\nform : moduleName, type {optional attributes};\ne.g. : /fantazio, inlet @datatype Tfloat_array @unit dB @default 0 5.2 3\n       /zorglub, outlet @datatype Tfloat @unit dB;"
+									"text" : "[coll /n] : maintient une définition du type de module en face de chaque nom de module.\nform : moduleName, type {optional attributes};\ne.g. : /fantazio, inlet @datatype Tfloat_array @unit dB @default 0 5.2 3\n       /zorglub, outlet @datatype Tfloat @unit dB;"
 								}
 
 							}
@@ -21298,7 +21298,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace.coll"
+									"text" : "coll /n.coll"
 								}
 
 							}
@@ -21314,7 +21314,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 862.5, 217.0, 477.0, 57.0 ],
-									"text" : "[coll /namespace/out/locations] : maintient une liste des hubs hébergeant **au moins** une instance dudit /namespace/out. \nform : paramOutName, [list of hosting hubs].\ne.g. : /zorglub, myLocalPlaform myOtherPlatform;"
+									"text" : "[coll /n/out/ls] : maintient une liste des hubs hébergeant **au moins** une i dudit /n/out. \nform : paramOutName, [list of hosting hubs].\ne.g. : /zorglub, myLocalPlaform myOtherPlatform;"
 								}
 
 							}
@@ -21332,7 +21332,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/out/locations.coll"
+									"text" : "coll /n/out/ls.coll"
 								}
 
 							}
@@ -21348,7 +21348,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 195.5, 217.0, 471.0, 57.0 ],
-									"text" : "[coll /namespace/in/locations] : maintient une liste des hubs hébergeant **au moins** une instance dudit /namespace/in. \nform : paramInName, [list of hosting hubs].\ne.g. : /fantazio, myLocalPlaform myRemotePlatform myOtherPlatform;"
+									"text" : "[coll /n/in/ls] : maintient une liste des hubs hébergeant **au moins** une i dudit /n/in. \nform : paramInName, [list of hosting hubs].\ne.g. : /fantazio, myLocalPlaform myRemotePlatform myOtherPlatform;"
 								}
 
 							}
@@ -21366,7 +21366,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /namespace/in/locations.coll"
+									"text" : "coll /n/in/ls.coll"
 								}
 
 							}
@@ -21382,7 +21382,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 195.5, 47.0, 470.0, 45.0 ],
-									"text" : "[coll /hubs.coll] : maintient une liste des hubs actifs. \nform : plateformName, IP port;\ne.g. : myLocalPlaform, 127.0.0.1 6000;"
+									"text" : "[coll /hs.coll] : maintient une liste des hubs actifs. \nform : plateformName, IP port;\ne.g. : myLocalPlaform, 127.0.0.1 6000;"
 								}
 
 							}
@@ -21400,7 +21400,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /hubs.coll"
+									"text" : "coll /hs.coll"
 								}
 
 							}
@@ -21681,7 +21681,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /root/namespace.coll"
+									"text" : "coll /root/n.coll"
 								}
 
 							}
@@ -21900,7 +21900,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 190.0, 75.0, 20.0 ],
-					"text" : "r /hub"
+					"text" : "r /h"
 				}
 
 			}
@@ -22001,7 +22001,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 243.0, 179.0, 186.0, 20.0 ],
-													"text" : "prepend /namespace connect"
+													"text" : "prepend /n connect"
 												}
 
 											}
@@ -22127,7 +22127,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /hubs.coll"
+													"text" : "coll /hs.coll"
 												}
 
 											}
@@ -22372,7 +22372,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace.coll"
+													"text" : "coll /n.coll"
 												}
 
 											}
@@ -22494,7 +22494,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p filter-out params not in the namespace"
+									"text" : "p filter-out params not in the n"
 								}
 
 							}
@@ -22677,7 +22677,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace.coll"
+													"text" : "coll /n.coll"
 												}
 
 											}
@@ -22707,7 +22707,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 271.5, 151.0, 471.0, 69.0 ],
-													"text" : "[coll /namespace] : maintient une définition du type de module en face de chaque nom de module.\nform : moduleName, type {optional attributes};\ne.g. : /fantazio, inlet @datatype Tfloat_array @unit dB @default 0 5.2 3\n       /zorglub, outlet @datatype Tfloat @unit dB;"
+													"text" : "[coll /n] : maintient une définition du type de module en face de chaque nom de module.\nform : moduleName, type {optional attributes};\ne.g. : /fantazio, inlet @datatype Tfloat_array @unit dB @default 0 5.2 3\n       /zorglub, outlet @datatype Tfloat @unit dB;"
 												}
 
 											}
@@ -22825,7 +22825,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p add-instance-to-namespace"
+									"text" : "p add-i-to-n"
 								}
 
 							}
@@ -23006,7 +23006,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /namespace.coll"
+													"text" : "coll /n.coll"
 												}
 
 											}
@@ -23146,7 +23146,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p check-if-already-in-namespace (TODO)"
+									"text" : "p check-if-already-in-n (TODO)"
 								}
 
 							}
@@ -23229,7 +23229,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /revinstances.coll"
+													"text" : "coll /revis.coll"
 												}
 
 											}
@@ -23387,7 +23387,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /revinstances.coll"
+													"text" : "coll /revis.coll"
 												}
 
 											}
@@ -23614,7 +23614,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p add-to-revinstances"
+									"text" : "p add-to-revis"
 								}
 
 							}
@@ -23697,7 +23697,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /instances.coll"
+													"text" : "coll /is.coll"
 												}
 
 											}
@@ -23783,7 +23783,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p add-to-instances"
+									"text" : "p add-to-is"
 								}
 
 							}
@@ -23832,7 +23832,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 45.0, 126.0, 125.0, 20.0 ],
-													"text" : "s /hub.receive/umenu"
+													"text" : "s /h.receive/umenu"
 												}
 
 											}
@@ -23845,7 +23845,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 45.0, 100.0, 113.0, 20.0 ],
-													"text" : "s /hub.send/umenu"
+													"text" : "s /h.send/umenu"
 												}
 
 											}
@@ -24344,7 +24344,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 243.0, 181.0, 163.0, 20.0 ],
-													"text" : "prepend /namespace add"
+													"text" : "prepend /n add"
 												}
 
 											}
@@ -24485,7 +24485,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll /hubs.coll"
+													"text" : "coll /hs.coll"
 												}
 
 											}
@@ -24676,7 +24676,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 63.0, 254.0, 232.0, 60.0 ],
-									"text" : "if this is the first instance of this variable: \n- declare it to remote plateform \n- add it to the relevant collection\n- refresh menus"
+									"text" : "if this is the first i of this variable: \n- declare it to remote plateform \n- add it to the relevant collection\n- refresh menus"
 								}
 
 							}
@@ -24793,7 +24793,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p hello"
+					"text" : "p hl"
 				}
 
 			}
@@ -24807,7 +24807,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 12.0, 219.0, 514.0, 20.0 ],
-					"text" : "route hello bye connect strip init"
+					"text" : "route hl b connect strip init"
 				}
 
 			}

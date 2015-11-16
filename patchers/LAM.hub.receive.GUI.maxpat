@@ -410,7 +410,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /param/in/connections.coll"
+									"text" : "coll /n/in/cn.coll"
 								}
 
 							}
@@ -755,7 +755,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /param/in/connections.coll"
+									"text" : "coll /n/in/cn.coll"
 								}
 
 							}
@@ -778,7 +778,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-52",
-									"items" : [ " ", ",", "/truc", ",", "/bidule", ",", "/muche", ",", "#1" ],
+									"items" : [ " ", ",", "/truc", ",", "/bidule" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -987,8 +987,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 291.0, 307.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 290.5, 307.0, 0.0, 0.0 ]
+									"patching_rect" : [ 291.0, 307.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1013,7 +1012,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 81.166672, 100.0, 123.0, 20.0 ],
-									"text" : "r /hub.receive/umenu"
+									"text" : "r /h.receive/umenu"
 								}
 
 							}
@@ -1189,7 +1188,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /param/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -1324,7 +1323,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p append-location"
+													"text" : "p append-l"
 												}
 
 											}
@@ -1352,7 +1351,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 50.0, 121.0, 20.0 ],
-													"text" : "r /hub.receive/details"
+													"text" : "r /h.receive/details"
 												}
 
 											}
@@ -1497,7 +1496,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p append-locations"
+									"text" : "p append-ls"
 								}
 
 							}
@@ -1621,7 +1620,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /param/out/connections.coll"
+									"text" : "coll /n/out/cn.coll"
 								}
 
 							}
@@ -1840,7 +1839,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"id" : "obj-40",
-					"items" : [ " ", ",", "/truc", ",", "/bidule", ",", "/muche", ",", "#1" ],
+					"items" : [ " ", ",", "/truc", ",", "/bidule" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1926,7 +1925,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.5, 233.0, 146.0, 20.0 ],
+					"patching_rect" : [ 242.5, 233.0, 140.0, 20.0 ],
 					"text" : "LAM.hub.receive #1"
 				}
 
@@ -2080,7 +2079,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.hub.receive.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/misc/LAM.hub",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

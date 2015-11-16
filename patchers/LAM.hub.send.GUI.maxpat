@@ -212,7 +212,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /param/out/connections.coll"
+									"text" : "coll /n/out/cn.coll"
 								}
 
 							}
@@ -549,7 +549,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /param/out/connections.coll"
+									"text" : "coll /n/out/cn.coll"
 								}
 
 							}
@@ -572,7 +572,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-52",
-									"items" : [ "( )", ",", "/machin", ",", "/chouette", ",", "/chose" ],
+									"items" : [ "( )", ",", "/machin", ",", "/chouette", ",", "#1", ",", "/chose" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -977,7 +977,7 @@
 																		"embed" : 0
 																	}
 ,
-																	"text" : "coll /param/locations.coll"
+																	"text" : "coll /n/ls.coll"
 																}
 
 															}
@@ -1112,7 +1112,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p append-location"
+													"text" : "p append-l"
 												}
 
 											}
@@ -1140,7 +1140,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 50.0, 121.0, 20.0 ],
-													"text" : "r /hub.receive/details"
+													"text" : "r /h.receive/details"
 												}
 
 											}
@@ -1285,7 +1285,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p append-locations"
+									"text" : "p append-ls"
 								}
 
 							}
@@ -1366,7 +1366,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 80.416672, 100.0, 111.0, 20.0 ],
-									"text" : "r /hub.send/umenu"
+									"text" : "r /h.send/umenu"
 								}
 
 							}
@@ -1437,7 +1437,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll /param/in/connections.coll"
+									"text" : "coll /n/in/cn.coll"
 								}
 
 							}
@@ -1656,7 +1656,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"id" : "obj-40",
-					"items" : [ "( )", ",", "/machin", ",", "/chouette", ",", "/chose" ],
+					"items" : [ "( )", ",", "/machin", ",", "/chouette", ",", "#1", ",", "/chose" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1822,7 +1822,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.hub.send.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/misc/LAM.hub",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
