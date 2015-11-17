@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 95.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 167.666672, 37.0, 18.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -52,7 +66,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 349.0, 167.666672, 189.0, 20.0 ],
-					"presentation_rect" : [ 432.0, 157.666672, 0.0, 0.0 ],
 					"text" : "POP = remove first element"
 				}
 
@@ -81,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 431.0, 194.0, 189.0, 20.0 ],
-					"presentation_rect" : [ 343.0, 136.333344, 0.0, 0.0 ],
 					"text" : "EJECT = remove last element"
 				}
 
@@ -96,7 +108,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 297.0, 141.333328, 193.0, 20.0 ],
-					"presentation_rect" : [ 299.0, 120.0, 0.0, 0.0 ],
 					"text" : "INJECT = append to end of queue"
 				}
 
@@ -111,7 +122,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.0, 115.0, 226.0, 20.0 ],
-					"presentation_rect" : [ 214.0, 90.0, 0.0, 0.0 ],
 					"text" : "PUSH = insert at the beginning of queue"
 				}
 
@@ -136,11 +146,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 254.0, 102.0, 20.0 ],
-					"text" : "size of the queue"
+					"patching_rect" : [ 461.0, 254.0, 249.0, 33.0 ],
+					"text" : "size of the queue (will output -1 when trying to pop/eject an empty queue, like zl objects)"
 				}
 
 			}
@@ -154,8 +165,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.0, 115.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 83.0, 146.0, 0.0, 0.0 ]
+					"patching_rect" : [ 165.0, 115.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -283,6 +293,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
