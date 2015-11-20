@@ -32,6 +32,48 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 574.0, 150.0, 97.0, 20.0 ],
+					"text" : "prepend bgcolor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 574.0, 124.705475, 111.0, 20.0 ],
+					"text" : "route done bgcolor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 391.0, 99.0, 202.0, 20.0 ],
+					"text" : "patcherargs @bgcolor 0.5 1 0.5 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -778,7 +820,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-52",
-									"items" : " ",
+									"items" : [ " ", ",", "/vinc/wacom", ",", "/vinc/TUIO", ",", "/vinc/key", ",", "/GLengine/bus1/ck", ",", "/GLengine/bus2/ck", ",", "/GLengine/bus3/ck", ",", "/GLengine/bus4/ck", ",", "/LeMetro/bang", ",", "/charseq/V/LeBeep", ",", "/charseq/V/outchar" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1880,6 +1922,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.5, 1.0, 0.5, 0.5 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -1889,7 +1932,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 135.705475, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.5, -2.0, 98.5, 20.0 ],
+					"presentation_rect" : [ -1.0, -2.0, 105.0, 20.0 ],
 					"text" : "#1"
 				}
 
@@ -1969,6 +2012,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1982,6 +2034,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -2073,6 +2134,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 238.5, 189.0, 343.75, 189.0, 343.75, 95.0, 300.5, 95.0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
