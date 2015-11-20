@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 24.0, 87.0, 1186.0, 662.0 ],
+		"rect" : [ 80.0, 106.0, 1186.0, 662.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 197,
+									"rows" : 198,
 									"selmode" : 3
 								}
 
@@ -1130,7 +1130,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 795.0, 600.34021, 180.0, 20.0 ],
+					"patching_rect" : [ 795.0, 615.34021, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1310,7 +1310,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 504.170105, 180.0, 103.170105 ],
+					"patching_rect" : [ 795.0, 519.170105, 180.0, 103.170105 ],
 					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~" ]
 				}
 
@@ -1324,7 +1324,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 488.170105, 128.0, 19.0 ],
+					"patching_rect" : [ 825.0, 503.170105, 128.0, 19.0 ],
 					"text" : "AUDIO VISUALIZATION"
 				}
 
@@ -1372,8 +1372,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 165.0, 180.0, 308.0 ],
-					"tabs" : [ "LAM.slidems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~" ]
+					"patching_rect" : [ 795.0, 165.0, 180.0, 326.0 ],
+					"tabs" : [ "LAM.slidems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~" ]
 				}
 
 			}
@@ -2545,6 +2545,98 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bgcolor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live.guilib.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tosymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "regexp.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "split.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "coll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "deferlow.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.cellblock.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "substitute.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
