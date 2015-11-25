@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 475.0, 122.0, 700.0, 528.0 ],
+		"rect" : [ 100.0, 100.0, 827.0, 445.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -52,7 +52,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 28.0, 304.0, 19.0, 20.0 ],
-					"presentation_rect" : [ 27.0, 303.0, 0.0, 0.0 ],
 					"text" : "L"
 				}
 
@@ -67,7 +66,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 100.0, 229.0, 19.0, 20.0 ],
-					"presentation_rect" : [ 103.0, 229.0, 0.0, 0.0 ],
 					"text" : "y"
 				}
 
@@ -96,8 +94,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 304.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 120.0, 284.0, 0.0, 0.0 ]
+					"patching_rect" : [ 195.0, 304.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -111,8 +108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 43.0, 304.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 44.0, 284.0, 0.0, 0.0 ]
+					"patching_rect" : [ 43.0, 304.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -416,6 +412,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 500.0, 318.0, 568.0, 284.0 ],
+		"rect" : [ 199.0, 218.0, 568.0, 284.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,33 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 194.0, 89.0, 32.5, 18.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 190.0, 112.0, 104.0, 20.0 ],
+					"text" : "s #1.verbose"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1636,7 +1663,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 377.0, 501.0, 640.0, 480.0 ],
+										"rect" : [ 273.0, 358.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2608,7 +2635,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 349.0, 134.0, 223.0, 18.0 ],
-													"text" : "192.168.1.13"
+													"text" : "192.168.1.10"
 												}
 
 											}
@@ -4086,7 +4113,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 16.0, 27.0, 121.0, 74.0 ],
+													"patching_rect" : [ 16.0, 27.0, 121.0, 60.0 ],
 													"text" : "loopback used when no network is detected and b would not work"
 												}
 
@@ -7851,7 +7878,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 141.5, 25.0, 181.0, 18.0 ],
-																					"text" : "#1/test /voro/merge"
+																					"text" : "/truc /machin"
 																				}
 
 																			}
@@ -11530,7 +11557,6 @@
 																	}
 ,
 																	"patching_rect" : [ 217.25, 327.0, 94.0, 20.0 ],
-																	"presentation_rect" : [ 292.25, 362.5, 0.0, 0.0 ],
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Arial",
@@ -14527,7 +14553,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 50.0, 180.0, 20.0 ],
-									"text" : "udpsend 255.255.255.255 2000"
+									"text" : "udpsend 224.0.0.5 2000"
 								}
 
 							}
@@ -21778,6 +21804,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

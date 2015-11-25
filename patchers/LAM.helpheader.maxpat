@@ -162,7 +162,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 356.0, 183.0, 813.0, 404.0 ],
+						"rect" : [ 356.0, 183.0, 978.0, 390.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -185,13 +185,24 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 391.0, 133.5, 33.0, 19.0 ],
+									"text" : "t b s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "button",
+									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.0, 193.0, 141.0, 17.0 ],
-									"text" : "http://www.lam.jussieu.fr"
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 391.0, 159.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -199,12 +210,27 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
-									"id" : "obj-2",
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 391.0, 182.0, 544.0, 31.0 ],
+									"text" : "combine https://github.com/LAM-IJLRA/lam-lib/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+ LAM.lib.super_module"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-3",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.0, 151.0, 141.0, 17.0 ],
+									"patching_rect" : [ 155.0, 193.0, 141.0, 17.0 ],
 									"text" : "http://www.lam.jussieu.fr"
 								}
 
@@ -691,11 +717,11 @@
 									"hidden" : 1,
 									"id" : "obj-27",
 									"maxclass" : "newobj",
-									"numinlets" : 6,
-									"numoutlets" : 6,
-									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+									"numinlets" : 5,
+									"numoutlets" : 5,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
 									"patching_rect" : [ 50.0, 73.5, 281.5, 19.0 ],
-									"text" : "sel 0 3 1 4 2"
+									"text" : "sel 0 3 1 2"
 								}
 
 							}
@@ -717,7 +743,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 421.0, 107.0, 617.0, 413.0 ],
+										"rect" : [ 739.0, 374.0, 615.0, 353.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 10.0,
@@ -739,6 +765,41 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
+													"fontsize" : 18.0,
+													"frgb" : 0.0,
+													"id" : "obj-13",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 36.0, 46.0, 189.0, 50.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 21.0, 9.0, 246.0, 28.0 ],
+													"text" : "Found a bug in LAM-lib ?",
+													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Verdana",
+													"fontsize" : 10.0,
+													"frgb" : 0.0,
+													"id" : "obj-1",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 48.0, 241.0, 431.0, 31.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 48.0, 211.0, 496.0, 19.0 ],
+													"text" : "Check that your problem was not already mentionned. If not, just click  the \"New Issue\" button."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"hidden" : 1,
 													"id" : "obj-39",
@@ -756,23 +817,6 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
-													"id" : "obj-20",
-													"linecount" : 2,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 449.0, 166.0, 134.0, 29.0 ],
-													"presentation" : 1,
-													"presentation_rect" : [ 337.0, 371.0, 167.0, 17.0 ],
-													"text" : "www.jamoma.org/forums.html"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Verdana",
-													"fontsize" : 10.0,
 													"frgb" : 0.0,
 													"id" : "obj-18",
 													"linecount" : 4,
@@ -781,8 +825,8 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 208.0, 285.0, 150.0, 55.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 48.0, 270.0, 485.0, 19.0 ],
-													"text" : "Add your findings, if applicable, please add a small Max5 example-patch (copy compressed)."
+													"presentation_rect" : [ 48.0, 233.0, 485.0, 19.0 ],
+													"text" : "Add your findings, if applicable, please add a small Max example-patch (copy compressed)."
 												}
 
 											}
@@ -791,15 +835,15 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-16",
-													"linecount" : 7,
+													"linecount" : 6,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 533.0, 207.0, 50.0, 90.0 ],
+													"patching_rect" : [ 533.0, 207.0, 50.0, 77.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 163.0, 234.0, 272.0, 17.0 ],
-													"text" : "http://redmine.jamoma.org/projects/show/modular"
+													"presentation_rect" : [ 184.0, 190.0, 238.0, 17.0 ],
+													"text" : "https://github.com/LAM-IJLRA/lam-lib/issues"
 												}
 
 											}
@@ -808,15 +852,15 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-14",
-													"linecount" : 6,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 391.0, 167.0, 50.0, 77.0 ],
+													"patching_rect" : [ 391.0, 167.0, 50.0, 41.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 321.0, 197.0, 237.0, 17.0 ],
-													"text" : "http://redmine.jamoma.org/account/register"
+													"presentation_rect" : [ 301.0, 167.0, 129.0, 17.0 ],
+													"text" : "https://github.com/join"
 												}
 
 											}
@@ -837,22 +881,6 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"frgb" : 0.0,
-													"id" : "obj-13",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 66.0, 362.0, 431.0, 19.0 ],
-													"presentation" : 1,
-													"presentation_rect" : [ 48.0, 371.0, 293.0, 19.0 ],
-													"text" : "You can find more information about the mailing lists at "
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Verdana",
-													"fontsize" : 10.0,
-													"frgb" : 0.0,
 													"id" : "obj-12",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -860,8 +888,8 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 66.0, 319.0, 432.0, 31.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 48.0, 343.0, 530.0, 19.0 ],
-													"text" : "Alternatively to the first option, you can also use the Jamoma User mailing list to report an issue. "
+													"presentation_rect" : [ 48.0, 305.0, 530.0, 19.0 ],
+													"text" : "Alternatively to the first option, you can also report a bug by email to vincent_at_lam.jussieu.fr"
 												}
 
 											}
@@ -876,8 +904,8 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 66.0, 242.0, 431.0, 19.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 48.0, 293.0, 405.0, 19.0 ],
-													"text" : "Submitt your report by pressing  the \"Create\"-button at the end of the page."
+													"presentation_rect" : [ 48.0, 255.0, 405.0, 19.0 ],
+													"text" : "Submitt your report by pressing  the \"Submit\"-button at the end of the page."
 												}
 
 											}
@@ -887,15 +915,13 @@
 													"fontsize" : 10.0,
 													"frgb" : 0.0,
 													"id" : "obj-10",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 59.0, 224.0, 431.0, 31.0 ],
+													"patching_rect" : [ 59.0, 224.0, 431.0, 19.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 48.0, 234.0, 533.0, 31.0 ],
-													"text" : "if you signed in, go to                                                                               and select \"New issue\" from the menu. "
+													"presentation_rect" : [ 48.0, 189.0, 386.0, 19.0 ],
+													"text" : "After you signed in, go to                                                                      ."
 												}
 
 											}
@@ -911,9 +937,8 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 58.0, 190.0, 430.0, 31.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 48.0, 197.0, 515.0, 31.0 ],
-													"text" : "If you don't have an account yet, please navigate to                                \nto register for the Jamoma development resources."
+													"presentation_rect" : [ 48.0, 167.0, 501.0, 19.0 ],
+													"text" : "If you don't have an account, please navigate to                                       to register."
 												}
 
 											}
@@ -928,8 +953,8 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 46.0, 171.0, 306.0, 19.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 24.0, 166.0, 236.0, 19.0 ],
-													"text" : "1. Jamoma Developer Page (recommended)",
+													"presentation_rect" : [ 24.0, 136.0, 236.0, 19.0 ],
+													"text" : "1. GitHub issue (recommended)",
 													"underline" : 1
 												}
 
@@ -945,8 +970,8 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 43.0, 292.0, 150.0, 19.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 24.0, 318.0, 125.0, 19.0 ],
-													"text" : "2. Jamoma User List",
+													"presentation_rect" : [ 24.0, 280.0, 125.0, 19.0 ],
+													"text" : "2. The old way",
 													"underline" : 1
 												}
 
@@ -957,15 +982,15 @@
 													"fontsize" : 10.0,
 													"frgb" : 0.0,
 													"id" : "obj-2",
-													"linecount" : 7,
+													"linecount" : 3,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 35.0, 46.0, 506.0, 92.0 ],
+													"patching_rect" : [ 35.0, 46.0, 506.0, 43.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 7,
-													"presentation_rect" : [ 12.0, 73.0, 578.0, 92.0 ],
-													"text" : "All issue/bug reports are highly appreciated. \n\nPlease check through the \"issues\" button of the Jamoma helpfile, if the issue you have discovered has not been already reported yet. If you have indeed found a new one, please let us know - the earlier something is reported, the earlier we can fix it. \n\nThere are two ways how to report an issue:"
+													"presentation_linecount" : 3,
+													"presentation_rect" : [ 12.0, 73.0, 578.0, 43.0 ],
+													"text" : "All issue/bug reports are highly appreciated. \n\nThere are two ways how to report an issue:"
 												}
 
 											}
@@ -981,9 +1006,9 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 21.0, 31.0, 189.0, 50.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 20.0, 10.0, 246.0, 28.0 ],
-													"text" : "Found a bug in Jamoma ?",
-													"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ]
+													"presentation_rect" : [ 19.0, 11.0, 246.0, 28.0 ],
+													"text" : "Found a bug in LAM-lib ?",
+													"textcolor" : [ 0.098039, 0.098039, 0.098039, 1.0 ]
 												}
 
 											}
@@ -1000,13 +1025,13 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 20.0, 40.0, 230.0, 19.0 ],
 													"text" : "How to report it.",
-													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+													"bgcolor" : [ 0.090196, 0.266667, 0.270588, 1.0 ],
 													"id" : "obj-8",
 													"maxclass" : "panel",
 													"numinlets" : 1,
@@ -1034,15 +1059,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-20", 0 ]
 												}
 
 											}
@@ -1118,21 +1134,6 @@
 									"fontname" : "Lucida Grande",
 									"fontsize" : 11.0,
 									"hidden" : 1,
-									"id" : "obj-38",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.0, 126.5, 480.0, 19.0 ],
-									"text" : "sprintf http://redmine.jamoma.org/search/index/jamoma?q=%s&scope=all&&issues=1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Lucida Grande",
-									"fontsize" : 11.0,
-									"hidden" : 1,
 									"id" : "obj-36",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1173,17 +1174,34 @@
 									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 217.5, 192.25, 269.5, 192.25 ],
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-27", 3 ]
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -1202,6 +1220,24 @@
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 1 ]
 								}
 
 							}
@@ -1234,19 +1270,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
+									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-36", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-38", 0 ]
 								}
 
 							}
@@ -1779,12 +1806,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 574.0, 31.0, 221.0, 22.0 ],
+					"patching_rect" : [ 619.0, 31.0, 178.0, 23.0 ],
 					"rounded" : 0.0,
 					"spacing_x" : 1.0,
 					"spacing_y" : 0.0,
 					"tabcolor" : [ 0.85098, 0.85098, 0.85098, 0.0 ],
-					"tabs" : [ "overview", "credits", "issues", "report", "donate" ],
+					"tabs" : [ "overview", "credits", "issues", "report" ],
 					"textcolor" : [ 0.815379, 0.812888, 0.85641, 1.0 ],
 					"varname" : "redminetext"
 				}
@@ -2187,7 +2214,7 @@
 					"destination" : [ "obj-81", 2 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 785.5, 550.0, 556.5, 550.0 ],
+					"midpoints" : [ 787.5, 550.0, 556.5, 550.0 ],
 					"source" : [ "obj-40", 2 ]
 				}
 
