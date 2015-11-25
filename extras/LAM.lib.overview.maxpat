@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 198,
+									"rows" : 203,
 									"selmode" : 3
 								}
 
@@ -1250,8 +1250,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 461.170105 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.pivot2d", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.OSC.leveldown", "LAM.dict.reify", "LAM.OSC2dict" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 476.170105 ],
+					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.pivot2d", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.OSC.leveldown", "LAM.dict.reify", "LAM.OSC2dict", "LAM.ascii2utf8" ]
 				}
 
 			}
@@ -2545,98 +2545,6 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "panel.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "comment.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bgcolor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "toggle.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "loadmess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "live.guilib.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "patcherargs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fpic.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tosymbol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "umenu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sprintf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "regexp.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "split.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "number.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "coll.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pak.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "deferlow.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.cellblock.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "substitute.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
