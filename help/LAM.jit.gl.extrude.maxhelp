@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 110.0, 119.0, 845.0, 387.0 ],
+		"rect" : [ 496.0, 96.0, 845.0, 387.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -476,20 +476,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 238.0, 339.0, 540.0, 20.0 ],
 					"text" : "LAM.jit.gl.extrude extrude-ctx @position -0.5 -0.5 @dim 100 100 @color 1 1 1 1 @lighting_enable 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-49",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 682.0, 295.0, 50.0, 20.0 ]
 				}
 
 			}
