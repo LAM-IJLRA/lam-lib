@@ -1,3 +1,6 @@
+// taken from here : 
+// http://stackoverflow.com/questions/13818186/converting-shell-wildcards-to-regex
+
 function anything()
 {
 	var a = arrayfromargs(messagename, arguments);

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 824.0, 587.0 ],
+		"rect" : [ 64.0, 208.0, 824.0, 587.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -910,7 +910,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 208.0, 136.0, 41.0, 18.0 ],
-													"presentation_rect" : [ 208.0, 83.0, 0.0, 0.0 ],
 													"text" : "nb $1"
 												}
 
@@ -923,8 +922,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 208.0, 40.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 208.0, 40.0, 0.0, 0.0 ]
+													"patching_rect" : [ 208.0, 40.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1543,7 +1541,6 @@
 					}
 ,
 					"patching_rect" : [ 528.5, 94.0, 119.0, 20.0 ],
-					"presentation_rect" : [ 528.5, 94.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2313,6 +2310,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 41.0, 11.0, 102.0, 20.0 ],
+									"presentation_rect" : [ 36.0, 12.0, 0.0, 0.0 ],
+									"text" : "work in progress!"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -3343,7 +3355,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 26.0, 70.0, 598.0, 620.0 ],
+						"rect" : [ 502.0, 53.0, 598.0, 620.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4710,8 +4722,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 319.0, 318.0, 20.0 ],
-									"text" : "poly~ LAM.fadeoctave.GLsynth.p 5 @args fadeoctave-ctx"
+									"patching_rect" : [ 275.0, 319.0, 329.0, 20.0 ],
+									"text" : "poly~ LAM.fadeoctave.GLsynth.p 5 @args fadeoctave-ctx 5"
 								}
 
 							}
@@ -5617,10 +5629,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-12::obj-106" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-7::obj-16" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-10::obj-106" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-12::obj-106" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-16" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
