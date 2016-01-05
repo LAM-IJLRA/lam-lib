@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 215,
+									"rows" : 219,
 									"selmode" : 3
 								}
 
@@ -1452,8 +1452,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 165.0, 177.9375, 491.170105 ],
-					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.quantizattack", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.dec2hex", "LAM.hex2dec", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade", "LAM.list.xfade", "LAM.notepress", "LAM.addeltaclip", "LAM.showip", "LAM.deque", "LAM.ascii2utf8" ]
+					"patching_rect" : [ 15.0, 165.0, 177.9375, 507.170105 ],
+					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.quantizattack", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.dec2hex", "LAM.hex2dec", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade", "LAM.list.xfade", "LAM.notepress", "LAM.addeltaclip", "LAM.showip", "LAM.deque", "LAM.ascii2utf8", "LAM.namey" ]
 				}
 
 			}
