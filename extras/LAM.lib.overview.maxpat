@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 219,
+									"rows" : 221,
 									"selmode" : 3
 								}
 
@@ -1130,7 +1130,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 795.0, 615.34021, 180.0, 20.0 ],
+					"patching_rect" : [ 795.0, 630.34021, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1190,7 +1190,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 603.170105, 180.0, 20.0 ],
+					"patching_rect" : [ 609.0, 595.34021, 180.0, 20.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1220,7 +1220,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 686.483215, 1147.0, 20.0 ]
+					"patching_rect" : [ 22.9375, 686.483215, 1147.0, 20.0 ],
+					"text" : "Tap it to know the tempo."
 				}
 
 			}
@@ -1250,8 +1251,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 507.170105 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.pivot2d", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.list.ncg", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.OSC.leveldown", "LAM.dict.reify", "LAM.OSC2dict", "LAM.ascii2utf8", "LAM.wc2re" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 521.483215 ],
+					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.pivot2d", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.list.ncg", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.OSC.leveldown", "LAM.dict.reify", "LAM.OSC2dict", "LAM.ascii2utf8", "LAM.wc2re", "LAM.taptempo" ]
 				}
 
 			}
@@ -1310,7 +1311,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 519.170105, 180.0, 103.170105 ],
+					"patching_rect" : [ 795.0, 534.170105, 180.0, 103.170105 ],
 					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~" ]
 				}
 
@@ -1324,7 +1325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 503.170105, 128.0, 19.0 ],
+					"patching_rect" : [ 825.0, 518.170105, 128.0, 19.0 ],
 					"text" : "AUDIO VISUALIZATION"
 				}
 
@@ -1356,7 +1357,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 555.829895, 180.0, 85.34021 ],
+					"patching_rect" : [ 609.0, 548.0, 180.0, 85.34021 ],
 					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.satellites", "LAM.jit.RLEreader", "LAM.jit.GOL.scoreMaker", "LAM.voronoijs" ]
 				}
 
@@ -1372,8 +1373,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 165.0, 180.0, 326.0 ],
-					"tabs" : [ "LAM.slidems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~" ]
+					"patching_rect" : [ 795.0, 165.0, 180.0, 338.0 ],
+					"tabs" : [ "LAM.slidems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~", "LAM.taptempo~" ]
 				}
 
 			}
@@ -1508,7 +1509,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 540.829895, 104.0, 19.0 ],
+					"patching_rect" : [ 647.0, 533.0, 104.0, 19.0 ],
 					"text" : "DYNAMIC MODELS"
 				}
 
