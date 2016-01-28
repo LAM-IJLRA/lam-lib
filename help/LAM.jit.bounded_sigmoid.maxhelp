@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 640.0, 480.0 ],
+		"rect" : [ 100.0, 100.0, 933.0, 466.0 ],
 		"bgcolor" : [ 0.778249, 0.826924, 0.836038, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -36,7 +36,7 @@
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.5, 8.060059, 479.0, 55.0 ]
+					"patching_rect" : [ -0.5, 0.060059, 803.0, 56.0 ]
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 351.0, 156.0, 33.0 ],
+					"patching_rect" : [ 308.0, 343.0, 156.0, 33.0 ],
 					"text" : "see the transfer curve with LAM.bounded_sigmoid"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 197.0, 186.060059, 281.0, 20.0 ],
+					"patching_rect" : [ 183.0, 178.060059, 281.0, 20.0 ],
 					"text" : "jit.expr @expr 0.5*(sin(80*in[0])*sin(7*sin(in[0]))+1)"
 				}
 
@@ -76,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 197.0, 130.0, 20.0, 20.0 ]
+					"patching_rect" : [ 183.0, 122.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -89,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 197.0, 156.060059, 153.0, 20.0 ],
+					"patching_rect" : [ 183.0, 148.060059, 153.0, 20.0 ],
 					"text" : "jit.gencoord 1 float32 200"
 				}
 
@@ -103,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 233.060059, 85.0, 20.0 ],
+					"patching_rect" : [ 327.0, 225.060059, 85.0, 20.0 ],
 					"text" : "loadmess 100"
 				}
 
@@ -118,7 +118,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 341.0, 286.0, 50.0, 20.0 ]
+					"patching_rect" : [ 327.0, 278.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -131,7 +131,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 227.0, 348.060059, 80.0, 60.0 ],
+					"patching_rect" : [ 213.0, 340.060059, 80.0, 60.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 100,
@@ -148,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.0, 265.0, 81.0, 20.0 ],
+					"patching_rect" : [ 327.0, 257.0, 81.0, 20.0 ],
 					"text" : "graph size"
 				}
 
@@ -162,7 +162,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 227.0, 315.060059, 133.0, 20.0 ],
+					"patching_rect" : [ 213.0, 307.060059, 133.0, 20.0 ],
 					"text" : "LAM.bounded_sigmoid"
 				}
 
@@ -176,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.5, 93.060059, 400.0, 20.0 ],
+					"patching_rect" : [ -0.5, 85.060059, 400.0, 20.0 ],
 					"text" : " Useful for magnifier effect (scale coordinates)."
 				}
 
@@ -190,7 +190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.5, 73.060059, 361.0, 20.0 ],
+					"patching_rect" : [ -0.5, 65.060059, 361.0, 20.0 ],
 					"text" : "This applies a (0-1) bounded sigmoidal function to an input matrix."
 				}
 
@@ -204,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 62.0, 138.0, 60.0, 20.0 ],
+					"patching_rect" : [ 48.0, 130.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -216,7 +216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.5, 233.060059, 80.0, 60.0 ]
+					"patching_rect" : [ 5.5, 225.060059, 80.0, 60.0 ]
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.5, 348.060059, 80.0, 60.0 ]
+					"patching_rect" : [ 5.5, 340.060059, 80.0, 60.0 ]
 				}
 
 			}
@@ -239,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 19.5, 133.060059, 20.0, 20.0 ]
+					"patching_rect" : [ 5.5, 125.060059, 20.0, 20.0 ]
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 19.5, 164.060059, 153.0, 20.0 ],
+					"patching_rect" : [ 5.5, 156.060059, 153.0, 20.0 ],
 					"text" : "jit.gencoord 1 float32 200"
 				}
 
@@ -266,7 +266,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.5, 251.060059, 47.0, 20.0 ],
+					"patching_rect" : [ 166.5, 243.060059, 47.0, 20.0 ],
 					"text" : "delta"
 				}
 
@@ -280,7 +280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.5, 251.060059, 47.0, 20.0 ],
+					"patching_rect" : [ 116.5, 243.060059, 47.0, 20.0 ],
 					"text" : "courbe"
 				}
 
@@ -295,7 +295,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 131.5, 272.060059, 50.0, 20.0 ]
+					"patching_rect" : [ 117.5, 264.060059, 50.0, 20.0 ]
 				}
 
 			}
@@ -311,7 +311,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.5, 272.060059, 50.0, 20.0 ]
+					"patching_rect" : [ 166.5, 264.060059, 50.0, 20.0 ]
 				}
 
 			}
@@ -324,7 +324,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 19.5, 314.060059, 180.0, 20.0 ],
+					"patching_rect" : [ 5.5, 306.060059, 180.0, 20.0 ],
 					"text" : "LAM.jit.bounded_sigmoid"
 				}
 
@@ -338,7 +338,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 292.060059, 19.0, 20.0 ],
+					"patching_rect" : [ 183.0, 284.060059, 19.0, 20.0 ],
 					"text" : "a"
 				}
 
@@ -352,7 +352,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.5, 292.060059, 19.0, 20.0 ],
+					"patching_rect" : [ 131.5, 284.060059, 19.0, 20.0 ],
 					"text" : "p"
 				}
 
@@ -513,6 +513,13 @@
 				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

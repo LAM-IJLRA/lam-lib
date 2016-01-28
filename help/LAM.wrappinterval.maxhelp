@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 817.0, 534.0 ],
+		"rect" : [ 100.0, 100.0, 817.0, 534.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -328,8 +328,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 98.375, 233.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 94.25, 303.386475, 0.0, 0.0 ]
+					"patching_rect" : [ 98.375, 233.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -343,8 +342,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 155.5, 233.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 144.25, 303.386475, 0.0, 0.0 ]
+					"patching_rect" : [ 155.5, 233.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -358,8 +356,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.25, 167.386475, 50.0, 20.0 ],
-					"presentation_rect" : [ 76.25, 211.386475, 0.0, 0.0 ]
+					"patching_rect" : [ 64.25, 167.386475, 50.0, 20.0 ]
 				}
 
 			}
@@ -425,7 +422,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 41.25, 389.0, 193.0, 48.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 34.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -484,7 +481,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.wrapinterval", "@obj-desc", "Wrapped arpeggi" ],
+					"args" : [ "@obj-name", "LAM.wrappinterval", "@obj-desc", "Wrapped arpeggi" ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",

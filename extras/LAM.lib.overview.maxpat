@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 30.0, 49.0, 1174.0, 722.0 ],
+		"rect" : [ 320.0, 45.0, 1174.0, 722.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 221,
+									"rows" : 231,
 									"selmode" : 3
 								}
 
@@ -1085,7 +1085,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.9375, 658.483215, 170.0, 20.0 ],
+					"patching_rect" : [ 22.9375, 630.34021, 170.0, 20.0 ],
 					"text" : "r _lamlib_to_helper_comment"
 				}
 
@@ -1220,8 +1220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 686.483215, 1147.0, 20.0 ],
-					"text" : "Tap it to know the tempo."
+					"patching_rect" : [ 22.9375, 699.483215, 1147.0, 20.0 ]
 				}
 
 			}
@@ -1251,8 +1250,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 521.483215 ],
-					"tabs" : [ "LAM.energizer", "LAM.ravg", "LAM.grid", "LAM.gridindex", "LAM.crossProduct", "LAM.scalarProduct", "LAM.interpolist", "LAM.transratio", "LAM.ratiotrans", "LAM.anyrotate", "LAM.pv2si", "LAM.pa2si", "LAM.LAOS", "LAM.vproduct", "LAM.pivot2d", "LAM.indexToCoord", "LAM.baglist", "LAM.closest", "LAM.list.find", "LAM.list.ncg", "LAM.scroller", "LAM.LAOS", "LAM.speedgate", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.fadeoctave", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.levelup", "LAM.OSC.leveldown", "LAM.dict.reify", "LAM.OSC2dict", "LAM.ascii2utf8", "LAM.wc2re", "LAM.taptempo" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 534.483215 ],
+					"tabs" : [ "LAM.hex2dec", "LAM.hysteresis", "LAM.indexToCoord", "LAM.intbetween", "LAM.interpolist", "LAM.jit.bounded_sigmoid", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.spread", "LAM.list.xfade", "LAM.nameyLAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.vproduct", "LAM.wc2re", "LAM.wrappinterval", "LAM.xy2lr" ]
 				}
 
 			}
@@ -1453,8 +1452,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 165.0, 177.9375, 507.170105 ],
-					"tabs" : [ "LAM.bounded_sigmoid", "LAM.bounded_pseudosigmoid", "LAM.jit.bounded_sigmoid", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.quantizattack", "LAM.rect2poscale", "LAM.poscale2rect", "LAM.xy2lr", "LAM.intbetween", "LAM.2d_index", "LAM.%wrap", "LAM.EqualLoudnessCurve", "LAM.addeltaclip", "LAM.dec2bin", "LAM.dec2hex", "LAM.hex2dec", "LAM.cartohexagrid", "LAM.d2r", "LAM.r2d", "LAM.carrywrap", "LAM.hysteresis", "LAM.dotproduct", "LAM.bounds.index", "LAM.bounds", "LAM.freqtosamps", "LAM.list.bfade", "LAM.list.xfade", "LAM.notepress", "LAM.addeltaclip", "LAM.showip", "LAM.deque", "LAM.ascii2utf8", "LAM.namey" ]
+					"patching_rect" : [ 15.0, 165.0, 177.9375, 521.483215 ],
+					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.reify", "LAM.dotproduct", "LAM.fadeoctave", "LAM.freqtosamps", "LAM.goldenratio", "LAM.grid", "LAM.gridindex" ]
 				}
 
 			}
