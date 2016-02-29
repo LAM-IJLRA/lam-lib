@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 320.0, 45.0, 1174.0, 722.0 ],
+		"rect" : [ 266.0, 45.0, 1174.0, 722.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 231,
+									"rows" : 233,
 									"selmode" : 3
 								}
 
@@ -1220,7 +1220,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 699.483215, 1147.0, 20.0 ]
+					"patching_rect" : [ 22.9375, 699.483215, 1147.0, 20.0 ],
+					"text" : "Convert x/y axis to left/right range"
 				}
 
 			}
@@ -1250,8 +1251,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 534.483215 ],
-					"tabs" : [ "LAM.hex2dec", "LAM.hysteresis", "LAM.indexToCoord", "LAM.intbetween", "LAM.interpolist", "LAM.jit.bounded_sigmoid", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.spread", "LAM.list.xfade", "LAM.nameyLAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.vproduct", "LAM.wc2re", "LAM.wrappinterval", "LAM.xy2lr" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 543.483215 ],
+					"tabs" : [ "LAM.hex2dec", "LAM.hysteresis", "LAM.indexToCoord", "LAM.intbetween", "LAM.interpolist", "LAM.jit.bounded_sigmoid", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.spread", "LAM.list.xfade", "LAM.namey", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.vproduct", "LAM.wc2re", "LAM.wrappinterval", "LAM.xy2lr" ]
 				}
 
 			}
