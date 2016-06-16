@@ -932,7 +932,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 233,
+									"rows" : 239,
 									"selmode" : 3
 								}
 
@@ -1220,8 +1220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 699.483215, 1147.0, 20.0 ],
-					"text" : "Convert x/y axis to left/right range"
+					"patching_rect" : [ 22.9375, 699.483215, 1147.0, 20.0 ]
 				}
 
 			}
@@ -1281,8 +1280,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 990.0, 165.0, 180.0, 427.34021 ],
-					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist" ]
+					"patching_rect" : [ 990.0, 165.0, 180.0, 472.34021 ],
+					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist", "LAM.jit.perimeter", "LAM.jit.shoelacearea", "LAM.jit.compactness" ]
 				}
 
 			}
