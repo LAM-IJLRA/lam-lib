@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -51,8 +51,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -111,8 +111,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 3,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -351,8 +351,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 3,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -563,8 +563,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 3,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -991,7 +991,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 241,
+									"rows" : 244,
 									"selmode" : 3
 								}
 
@@ -1160,7 +1160,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 600.0, 406.0, 180.0, 22.0 ],
+					"patching_rect" : [ 600.0, 352.0, 180.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1472,9 +1472,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 600.0, 165.0, 180.0, 250.0 ],
+					"patching_rect" : [ 600.0, 165.0, 180.0, 264.0 ],
 					"style" : "",
-					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~", "LAM.handclap~", "LAM.pulse~", "LAM.simpler~", "LAM.filterSimpler~", "LAM.livelooping~", "LAM.stretcher~", "LAM.ac-supersaw~", "LAM.additive", "LAM.additiveFM~" ]
+					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~", "LAM.handclap~", "LAM.pulse~", "LAM.simpler~", "LAM.filterSimpler~", "LAM.livelooping~", "LAM.stretcher~", "LAM.ac-supersaw~", "LAM.additive~", "LAM.additiveFM~", "LAM.blowtube~" ]
 				}
 
 			}
