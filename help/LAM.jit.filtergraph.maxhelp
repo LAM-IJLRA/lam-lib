@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 79.0, 797.0, 536.0 ],
+		"rect" : [ 100.0, 100.0, 797.0, 536.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,39 @@
 		"style" : "",
 		"subpatcher_template" : "LAM.lib.HelpPatcher",
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "edit_mode",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-2",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 89.75, 260.0, 83.0, 46.0 ],
+					"style" : "",
+					"text_width" : 83.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"items" : [ "off", ",", "LPF", ",", "HPF", ",", "BPFgain", ",", "BPF", ",", "notch", ",", "APF", ",", "peak", ",", "lowShelf", ",", "highShelf" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 246.25, 79.0, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -70,7 +103,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 311.0, 138.0, 81.0, 20.0 ],
-					"presentation_rect" : [ 362.5, 170.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "nb points"
 				}
@@ -151,7 +183,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 52.0, 313.0, 437.0, 162.0 ],
-					"setfilter" : [ 0, 5, 1, 0, 0, 1761.0, 2.187762, 1.154339, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 5, 1, 0, 0, 534.0, 1.554175, 2.704179, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "filtergraph~"
 				}
@@ -214,8 +246,8 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 52.0, 213.0, 278.0, 22.0 ],
 					"style" : "",
 					"text" : "LAM.jit.filtergraph"
@@ -247,7 +279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 116.75, 177.0, 55.0, 22.0 ],
+					"patching_rect" : [ 116.75, 177.0, 56.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -322,6 +354,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -361,7 +402,16 @@
 					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-18", 2 ]
+					"source" : [ "obj-18", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -434,7 +484,7 @@
 			}
 , 			{
 				"name" : "LAM.jit.filtergraph.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
