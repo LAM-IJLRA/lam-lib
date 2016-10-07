@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -201,7 +201,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 124.5, 140.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "lores~ 5 0.7"
+					"text" : "lores~ 5 0.9"
 				}
 
 			}
@@ -396,6 +396,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
