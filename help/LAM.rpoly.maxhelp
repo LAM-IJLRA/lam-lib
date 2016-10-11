@@ -2,42 +2,51 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 10,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 3,
+			"revision" : 0,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 410.0, 127.0, 813.0, 746.0 ],
+		"rect" : [ 100.0, 100.0, 813.0, 746.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 139.5, 462.0, 459.0, 60.0 ],
+					"style" : "",
 					"text" : "messages :\n- noteon eventID (...) followed by any number of arguments : activate a voice.\n- noteoff eventID (...) followed by any number of arguments : shut a voice.\n- noteset eventID paramName paramValues : modulation parameters for this event."
 				}
 
@@ -46,13 +55,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 477.0, 548.787109, 268.0, 47.0 ],
+					"style" : "",
 					"text" : "LAM.rpoly argument is a context name which should be provided to both LAM.rpoly.route and LAM.rpoly.insidepoly, thru poly~ arguments."
 				}
 
@@ -61,13 +70,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 524.0, 352.5, 237.0, 20.0 ],
-					"text" : "change filterFreq  for ongoing event #1234"
+					"style" : "",
+					"text" : "change filterFreq  for ongoing event #678"
 				}
 
 			}
@@ -75,13 +84,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-40",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 468.5, 352.5, 50.0, 20.0 ]
+					"patching_rect" : [ 468.5, 352.5, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -94,7 +105,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.5, 376.0, 147.0, 18.0 ],
+					"patching_rect" : [ 468.5, 376.0, 147.0, 22.0 ],
+					"style" : "",
 					"text" : "noteset 678 filterFreq $1"
 				}
 
@@ -103,13 +115,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.5, 352.5, 229.0, 20.0 ],
-					"text" : "change pitch for ongoing event #1234"
+					"style" : "",
+					"text" : "change pitch for ongoing event #678"
 				}
 
 			}
@@ -117,13 +129,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-43",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 182.5, 352.5, 50.0, 20.0 ]
+					"patching_rect" : [ 182.5, 352.5, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -136,7 +150,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.5, 376.0, 119.0, 18.0 ],
+					"patching_rect" : [ 182.5, 376.0, 119.0, 22.0 ],
+					"style" : "",
 					"text" : "noteset 678 pitch $1"
 				}
 
@@ -145,12 +160,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 491.5, 211.5, 226.0, 20.0 ],
+					"style" : "",
 					"text" : "change velocity for ongoing event #1234"
 				}
 
@@ -159,13 +174,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-37",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 436.0, 211.5, 50.0, 20.0 ]
+					"patching_rect" : [ 436.0, 211.5, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -178,7 +195,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 235.0, 141.0, 18.0 ],
+					"patching_rect" : [ 436.0, 235.0, 141.0, 22.0 ],
+					"style" : "",
 					"text" : "noteset 1234 velocity $1"
 				}
 
@@ -187,12 +205,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.5, 211.5, 211.0, 20.0 ],
+					"style" : "",
 					"text" : "change pitch for ongoing event #1234"
 				}
 
@@ -201,12 +219,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 293.5, 328.5, 219.0, 20.0 ],
+					"style" : "",
 					"text" : "note-on for event #678 with arguments "
 				}
 
@@ -220,7 +238,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 328.5, 111.0, 18.0 ],
+					"patching_rect" : [ 167.0, 328.5, 111.0, 22.0 ],
+					"style" : "",
 					"text" : "noteon 678 80 127"
 				}
 
@@ -229,12 +248,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.5, 190.0, 353.0, 20.0 ],
+					"style" : "",
 					"text" : "note-on for event #1324 with arguments (here pitch and velocity)"
 				}
 
@@ -247,9 +266,10 @@
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 44.5, 367.0, 50.0, 20.0 ]
+					"patching_rect" : [ 44.5, 367.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -262,7 +282,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.5, 391.0, 54.0, 18.0 ],
+					"patching_rect" : [ 44.5, 391.0, 54.0, 22.0 ],
+					"style" : "",
 					"text" : "open $1"
 				}
 
@@ -277,7 +298,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 531.287109, 146.0, 20.0 ],
+					"patching_rect" : [ 121.0, 531.287109, 146.0, 22.0 ],
+					"style" : "",
 					"text" : "LAM.rpoly.route my_rpoly"
 				}
 
@@ -291,7 +313,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 190.0, 118.0, 18.0 ],
+					"patching_rect" : [ 146.0, 190.0, 118.0, 22.0 ],
+					"style" : "",
 					"text" : "noteon 1234 40 127"
 				}
 
@@ -300,13 +323,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-13",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 162.0, 211.5, 50.0, 20.0 ]
+					"patching_rect" : [ 162.0, 211.5, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -319,7 +344,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.0, 235.0, 125.0, 18.0 ],
+					"patching_rect" : [ 162.0, 235.0, 125.0, 22.0 ],
+					"style" : "",
 					"text" : "noteset 1234 pitch $1"
 				}
 
@@ -330,12 +356,12 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-152",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 106.0, 269.0, 39.0 ],
+					"style" : "",
 					"text" : "Start and stop notes below and watch polyphony"
 				}
 
@@ -344,12 +370,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-126",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 248.0, 308.5, 161.0, 20.0 ],
+					"style" : "",
 					"text" : "note-off for event #678"
 				}
 
@@ -358,12 +384,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-127",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 242.5, 287.5, 161.0, 20.0 ],
+					"style" : "",
 					"text" : "note-on for event #678"
 				}
 
@@ -377,7 +403,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 308.5, 70.0, 18.0 ],
+					"patching_rect" : [ 156.0, 308.5, 70.0, 22.0 ],
+					"style" : "",
 					"text" : "noteoff 678"
 				}
 
@@ -391,7 +418,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 287.5, 71.0, 18.0 ],
+					"patching_rect" : [ 145.0, 287.5, 71.0, 22.0 ],
+					"style" : "",
 					"text" : "noteon 678"
 				}
 
@@ -404,7 +432,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 37.0, 476.0, 20.0, 20.0 ]
+					"patching_rect" : [ 37.0, 476.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -417,7 +446,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 37.0, 502.0, 65.0, 20.0 ],
+					"patching_rect" : [ 37.0, 502.0, 65.0, 22.0 ],
+					"style" : "",
 					"text" : "metro 100"
 				}
 
@@ -431,7 +461,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 562.287109, 85.0, 20.0 ],
+					"patching_rect" : [ 27.0, 562.287109, 85.0, 22.0 ],
+					"style" : "",
 					"text" : "loadmess 100"
 				}
 
@@ -440,12 +471,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-114",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 227.5, 168.0, 150.0, 20.0 ],
+					"style" : "",
 					"text" : "note-off for event #1324"
 				}
 
@@ -454,12 +485,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-113",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.5, 147.0, 150.0, 20.0 ],
+					"style" : "",
 					"text" : "note-on for event #1324"
 				}
 
@@ -473,7 +504,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 168.0, 78.0, 18.0 ],
+					"patching_rect" : [ 133.0, 168.0, 78.0, 22.0 ],
+					"style" : "",
 					"text" : "noteoff 1234"
 				}
 
@@ -487,7 +519,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 147.0, 77.0, 18.0 ],
+					"patching_rect" : [ 121.0, 147.0, 77.0, 22.0 ],
+					"style" : "",
 					"text" : "noteon 1234"
 				}
 
@@ -501,7 +534,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 591.287109, 221.0, 18.0 ],
+					"patching_rect" : [ 249.0, 591.287109, 221.0, 22.0 ],
+					"style" : "",
 					"text" : "1 1 1 1 1"
 				}
 
@@ -512,31 +546,36 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 664.287109, 45.0, 45.0 ]
+					"patching_rect" : [ 121.0, 664.287109, 45.0, 45.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"interpinlet" : 1,
 					"maxclass" : "gain~",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 147.0, 591.287109, 24.0, 68.0 ]
+					"patching_rect" : [ 147.0, 591.287109, 24.0, 68.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"interpinlet" : 1,
 					"maxclass" : "gain~",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 591.287109, 24.0, 68.0 ]
+					"patching_rect" : [ 121.0, 591.287109, 24.0, 68.0 ],
+					"style" : ""
 				}
 
 			}
@@ -549,7 +588,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 121.0, 561.287109, 349.0, 22.0 ],
+					"patching_rect" : [ 121.0, 561.287109, 349.0, 24.0 ],
+					"style" : "",
 					"text" : "poly~ LAM.ez-rpolysynth 5 @args my_rpoly"
 				}
 
@@ -563,7 +603,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 531.287109, 71.0, 18.0 ],
+					"patching_rect" : [ 37.0, 531.287109, 71.0, 22.0 ],
+					"style" : "",
 					"text" : "mutemap 1"
 				}
 
@@ -571,26 +612,38 @@
 , 			{
 				"box" : 				{
 					"args" : [ "@obj-name", "LAM.rpoly", "@obj-desc", "Interactive polyphony." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-29",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.060059, 802.0, 57.0 ]
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1.0, 2.060059, 802.0, 57.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.18 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.41 ],
 					"id" : "obj-157",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 101.0, 761.0, 328.0 ],
-					"rounded" : 20
+					"proportion" : 0.39,
+					"rounded" : 20,
+					"style" : ""
 				}
 
 			}
@@ -598,13 +651,13 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"border" : 0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 13.0,
 					"hint" : "",
 					"id" : "obj-93",
 					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -612,9 +665,13 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 106.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
+					"style" : "",
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -875,40 +932,36 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.ez-rpolysynth.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.rpoly.insidepoly.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.rpoly.route.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

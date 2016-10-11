@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 591.0, 79.0, 767.0, 578.0 ],
+		"rect" : [ 229.0, 291.0, 767.0, 578.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -263,8 +263,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -348,9 +348,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 100.0, 113.0, 41.0, 22.0 ],
+									"patching_rect" : [ 100.0, 113.0, 47.0, 22.0 ],
 									"style" : "",
-									"text" : "$1 20"
+									"text" : "$1 500"
 								}
 
 							}
@@ -479,8 +479,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -521,7 +521,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 100.0, 89.0, 34.0, 20.0 ],
+									"patching_rect" : [ 100.0, 89.0, 34.0, 22.0 ],
 									"style" : "",
 									"text" : "mtof"
 								}
@@ -536,7 +536,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 89.0, 34.0, 20.0 ],
+									"patching_rect" : [ 6.0, 89.0, 34.0, 22.0 ],
 									"style" : "",
 									"text" : "mtof"
 								}
@@ -551,9 +551,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 100.0, 122.0, 41.0, 18.0 ],
+									"patching_rect" : [ 100.0, 122.0, 47.0, 22.0 ],
 									"style" : "",
-									"text" : "$1 20"
+									"text" : "$1 500"
 								}
 
 							}
@@ -566,7 +566,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 6.0, 167.0, 36.0, 20.0 ],
+									"patching_rect" : [ 6.0, 167.0, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "line~"
 								}
@@ -751,10 +751,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 529.0, 491.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -799,10 +795,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 491.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -818,10 +810,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 42.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
