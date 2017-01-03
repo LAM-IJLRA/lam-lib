@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
+		"rect" : [ 54.0, 79.0, 811.0, 376.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -36,15 +36,29 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "LAM.lib.HelpPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 377.0, 155.0, 79.0, 22.0 ],
+					"style" : "",
+					"text" : "LAM.ravg 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.0, 254.0, 353.0, 20.0 ],
-					"presentation_rect" : [ 243.0, 254.0, 0.0, 0.0 ],
+					"patching_rect" : [ 335.0, 253.0, 353.0, 20.0 ],
 					"style" : "",
 					"text" : "attributes : @init : initialize the average at a specific value"
 				}
@@ -56,9 +70,36 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.0, 232.0, 353.0, 20.0 ],
+					"patching_rect" : [ 335.0, 231.0, 353.0, 20.0 ],
 					"style" : "",
 					"text" : "argument : number of samples on which to compute the average"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-11",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 114.0, 261.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 114.0, 199.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -72,7 +113,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 174.0, 203.0, 50.0, 22.0 ],
+					"patching_rect" : [ 221.0, 199.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -85,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.0, 297.0, 192.0, 24.0 ],
+					"patching_rect" : [ 114.0, 292.0, 192.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.0, 132.0, 192.0, 24.0 ],
+					"patching_rect" : [ 114.0, 160.0, 192.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -112,15 +153,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 114.0, 231.0, 79.0, 22.0 ],
+					"patching_rect" : [ 114.0, 231.0, 126.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.ravg 10"
+					"text" : "LAM.pravg 10"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.ravg", "@obj-desc", "Computes running average over last N samples" ],
+					"args" : [ "@obj-name", "LAM.pravg", "@obj-desc", "Progressive running average." ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -135,6 +176,21 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.5, 65.060059, 590.0, 33.0 ],
+					"style" : "",
+					"text" : "Compared with LAM.ravg, this version computes the average on the amount of input sample received before effectively computing it on the amount of averaging samples specified."
 				}
 
 			}
@@ -159,13 +215,22 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -178,6 +243,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -195,13 +269,25 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "LAM.pravg.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "LAM.ravg.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgfillcolor_type" : "gradient",
+		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+		"bgfillcolor_angle" : 270.0,
+		"bgfillcolor_proportion" : 0.39
 	}
 
 }
