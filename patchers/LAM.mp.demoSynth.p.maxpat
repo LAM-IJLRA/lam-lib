@@ -72,10 +72,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 711.666626, 534.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -90,7 +86,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.0, 479.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "mute 0"
+					"text" : "mute 1"
 				}
 
 			}
@@ -103,7 +99,7 @@
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 24.0, 71.0, 505.666687, 22.0 ],
 					"style" : "",
-					"text" : "LAM.mp.muter #1"
+					"text" : "LAM.mp.muter #1 @automute 0"
 				}
 
 			}
@@ -861,10 +857,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 534.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -909,10 +901,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 266.666656, 544.0, 52.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -928,6 +916,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 33.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}

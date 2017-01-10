@@ -122,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 349.0, 126.0, 24.0, 24.0 ],
+					"patching_rect" : [ 267.0, 126.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -577,9 +577,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 44.0, 97.302368, 324.0, 22.0 ],
+					"patching_rect" : [ 44.0, 97.302368, 242.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.mp.router #0.pppContext @steal 1 @automute 0"
+					"text" : "LAM.mp.router #0.pppContext @steal 1 "
 				}
 
 			}
@@ -621,7 +621,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.5, 57.0, 30.0, 30.0 ],
+					"patching_rect" : [ 155.5, 57.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
