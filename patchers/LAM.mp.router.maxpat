@@ -321,7 +321,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 50.0, 30.0, 30.0, 30.0 ],
 													"style" : ""
 												}
@@ -1351,7 +1351,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 10.0, 91.0, 155.0, 358.0 ],
-									"rows" : 16
+									"rows" : 5
 								}
 
 							}
@@ -1380,7 +1380,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 172.0, 91.0, 155.0, 358.0 ],
-									"rows" : 4
+									"rows" : 3
 								}
 
 							}
@@ -1470,10 +1470,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "int", "int" ],
+					"outlettype" : [ "int", "int", "int" ],
 					"patching_rect" : [ 181.0, 357.0, 38.0, 22.0 ],
 					"style" : "",
-					"text" : "t b i 0"
+					"text" : "t 2 i 0"
 				}
 
 			}
