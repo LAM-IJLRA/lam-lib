@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 331.0, 364.0, 637.0, 317.0 ],
+		"rect" : [ 331.0, 364.0, 833.0, 498.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -180,9 +180,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 69.0, 88.0, 22.0 ],
+					"patching_rect" : [ 516.0, 69.0, 41.0, 22.0 ],
 					"style" : "",
-					"text" : "slide_down $1"
+					"text" : "ho $1"
 				}
 
 			}
@@ -207,9 +207,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.5, 69.0, 72.0, 22.0 ],
+					"patching_rect" : [ 440.5, 69.0, 37.0, 22.0 ],
 					"style" : "",
-					"text" : "slide_up $1"
+					"text" : "lo $1"
 				}
 
 			}
@@ -222,7 +222,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.609894, 210.0, 430.390106, 22.0 ],
 					"style" : "",
-					"text" : "poly~ LAM.mposc.slide.p #1 @args #0.pppContext"
+					"text" : "poly~ LAM.mposc.scale.p #1 @args #0.pppContext"
 				}
 
 			}
