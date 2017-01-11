@@ -99,8 +99,8 @@
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 24.0, 71.0, 505.666687, 22.0 ],
 					"style" : "",
 					"text" : "LAM.mposc.muter #1 @automute 0"
@@ -1136,7 +1136,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-46", 1 ]
+					"source" : [ "obj-46", 2 ]
 				}
 
 			}
@@ -1145,7 +1145,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-46", 3 ]
+					"source" : [ "obj-46", 4 ]
 				}
 
 			}
@@ -1154,7 +1154,7 @@
 					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-46", 2 ]
+					"source" : [ "obj-46", 3 ]
 				}
 
 			}
