@@ -151,7 +151,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 44.0, 173.589478, 575.0, 24.0 ],
 					"style" : "",
-					"text" : "poly~ LAM.mposc.note2Chord.mp 1 args #0.pppContext"
+					"text" : "poly~ LAM.mposc.note2Chord.mp 1 args #0.mpContext"
 				}
 
 			}
@@ -577,9 +577,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 44.0, 97.302368, 254.0, 22.0 ],
+					"patching_rect" : [ 44.0, 97.302368, 251.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.mposc.router #0.pppContext @steal 1 "
+					"text" : "LAM.mposc.router #0.mpContext @steal 1 "
 				}
 
 			}

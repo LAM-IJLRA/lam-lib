@@ -38,13 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.0, 60.0, 482.0, 20.0 ],
+					"presentation_rect" : [ 37.0, 60.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "!!! this should be updated to new mp-notes format"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 577.0, 361.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 575.0, 361.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "+ 0"
 				}
@@ -58,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 614.0, 326.0, 32.0, 22.0 ],
-					"presentation_rect" : [ 612.0, 326.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "* 16"
 				}
@@ -72,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 553.0, 449.287109, 99.0, 22.0 ],
-					"presentation_rect" : [ 551.0, 449.287109, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "touch $1, state 2"
 				}
@@ -86,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 577.0, 417.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 575.0, 417.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "ID $1"
 				}
@@ -99,7 +108,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 609.0, 287.0, 89.0, 20.0 ],
-					"presentation_rect" : [ 607.0, 287.0, 0.0, 0.0 ],
 					"style" : "helpfile_label",
 					"text" : "Control value"
 				}
@@ -116,7 +124,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 601.0, 236.0, 53.0, 23.0 ],
-					"presentation_rect" : [ 599.0, 236.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -132,7 +139,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 577.0, 262.0, 53.0, 23.0 ],
-					"presentation_rect" : [ 575.0, 262.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -148,7 +154,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 553.0, 287.0, 53.0, 23.0 ],
-					"presentation_rect" : [ 551.0, 287.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -176,7 +181,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 250.0, 417.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 350.5, 419.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "int"
 				}
@@ -189,7 +193,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 106.5, 255.0, 101.0, 20.0 ],
-					"presentation_rect" : [ 106.5, 237.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "velocity, pitch, ID"
 				}
