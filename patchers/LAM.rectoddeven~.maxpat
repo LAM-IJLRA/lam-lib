@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -79,7 +79,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 153.926605, 187.5, 32.5, 20.0 ],
-					"text" : "*~"
+					"text" : "*~ 1"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 64.999985, 187.5, 32.5, 20.0 ],
-					"text" : "*~"
+					"text" : "*~ 0"
 				}
 
 			}
@@ -132,7 +132,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 258.926636, 47.0, 25.0, 25.0 ]
 				}
 
@@ -144,7 +144,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 64.999985, 59.0, 25.0, 25.0 ]
 				}
 
