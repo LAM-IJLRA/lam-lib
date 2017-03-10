@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 88.0, 1174.0, 722.0 ],
+		"rect" : [ 75.0, 113.0, 992.0, 722.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -51,8 +51,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -111,8 +111,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 2,
-											"architecture" : "x86",
+											"revision" : 3,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -353,8 +353,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 2,
-											"architecture" : "x86",
+											"revision" : 3,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -567,8 +567,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 2,
-											"architecture" : "x86",
+											"revision" : 3,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -949,6 +949,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 0,
 													"source" : [ "obj-35", 0 ]
 												}
 
@@ -958,6 +959,7 @@
 													"destination" : [ "obj-36", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"order" : 1,
 													"source" : [ "obj-35", 0 ]
 												}
 
@@ -996,7 +998,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 263,
+									"rows" : 267,
 									"selmode" : 3
 								}
 
@@ -1197,7 +1199,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 795.0, 660.34021, 180.0, 22.0 ],
+					"patching_rect" : [ 795.0, 681.34021, 180.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1353,9 +1355,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 990.0, 165.0, 180.0, 472.34021 ],
+					"patching_rect" : [ 990.0, 165.0, 180.0, 487.34021 ],
 					"style" : "",
-					"tabs" : [ "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist", "LAM.jit.perimeter", "LAM.jit.shoelacearea", "LAM.jit.compactness" ]
+					"tabs" : [ "LAM.jit.gaussian", "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist", "LAM.jit.perimeter", "LAM.jit.shoelacearea", "LAM.jit.compactness" ]
 				}
 
 			}
@@ -1383,7 +1385,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 564.170105, 180.0, 103.170105 ],
+					"patching_rect" : [ 795.0, 585.170105, 180.0, 103.170105 ],
 					"style" : "",
 					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~" ]
 				}
@@ -1397,7 +1399,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 548.170105, 128.0, 19.0 ],
+					"patching_rect" : [ 825.0, 569.170105, 128.0, 19.0 ],
 					"style" : "",
 					"text" : "AUDIO VISUALIZATION"
 				}
@@ -1445,9 +1447,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 165.0, 180.0, 366.170105 ],
+					"patching_rect" : [ 795.0, 165.0, 180.0, 397.170105 ],
 					"style" : "",
-					"tabs" : [ "LAM.slidems~", "LAM.filterslide~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~" ]
+					"tabs" : [ "LAM.slidems~", "LAM.filterslide~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.son~", "LAM.fon~" ]
 				}
 
 			}
@@ -2637,10 +2639,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
