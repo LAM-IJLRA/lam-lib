@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 149.0, 102.0, 755.0, 668.0 ],
+		"rect" : [ 100.0, 100.0, 755.0, 668.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -43,8 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.5, 155.0, 83.0, 20.0 ],
-					"presentation_rect" : [ 113.0, 154.0, 0.0, 0.0 ],
+					"patching_rect" : [ 134.5, 155.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "not smoothed"
 				}
@@ -813,12 +812,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 217.0, 196.0, 20.0 ],
+					"patching_rect" : [ 165.0, 218.0, 156.0, 33.0 ],
 					"style" : "",
-					"text" : "arguments : slide_up, slide_down"
+					"text" : "arguments : slide up and down half-times in ms"
 				}
 
 			}
@@ -832,7 +832,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 117.0, 179.5, 50.0, 22.0 ],
+					"patching_rect" : [ 130.0, 179.5, 50.0, 22.0 ],
 					"style" : ""
 				}
 
