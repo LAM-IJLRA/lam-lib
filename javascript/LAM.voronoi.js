@@ -2001,6 +2001,13 @@ function getCell(cellId){
 	}
 }
 
+function getSite(siteId){
+
+	var siteArray = [];
+	siteArray.push(VoronoiDemo.sites[siteId].x, VoronoiDemo.sites[siteId].y);
+	outlet(0, "site", "siteData", siteArray);
+
+}
 
 /**
  * Returns a number whose value is limited to the given range.
