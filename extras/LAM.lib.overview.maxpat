@@ -998,7 +998,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 275,
+									"rows" : 276,
 									"selmode" : 3
 								}
 
@@ -1103,7 +1103,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 277.5, 124.0, 22.0 ],
+					"patching_rect" : [ 433.0, 466.5, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1119,7 +1119,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 333.0, 124.0, 22.0 ],
+					"patching_rect" : [ 433.0, 522.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1247,7 +1247,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 448.0, 180.0, 22.0 ],
+					"patching_rect" : [ 405.0, 637.0, 180.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1339,7 +1339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 151.5, 64.0, 19.0 ],
+					"patching_rect" : [ 465.0, 340.5, 64.0, 19.0 ],
 					"style" : "",
 					"text" : "EXAMPLES"
 				}
@@ -1463,7 +1463,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 333.0, 180.0, 15.0 ],
+					"patching_rect" : [ 405.0, 522.0, 180.0, 15.0 ],
 					"style" : "",
 					"tabs" : [ "LAM.TUIO.decode" ]
 				}
@@ -1495,7 +1495,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 370.0, 180.0, 148.0 ],
+					"patching_rect" : [ 405.0, 559.0, 180.0, 148.0 ],
 					"style" : "",
 					"tabs" : [ "LAM.mpoly.param", "LAM.mpoly.notonoff", "LAM.mpoly.insidepoly", "LAM.rpoly", "LAM.rpoly.route", "LAM.rpoly.insidepoly", "LAM.polytop.router", "LAM.makenoteID", "LAM.polymited", "LAM.MIDI.panic" ]
 				}
@@ -1511,7 +1511,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 273.0, 180.0, 45.0 ],
+					"patching_rect" : [ 405.0, 462.0, 180.0, 45.0 ],
 					"style" : "",
 					"tabs" : [ "LAM.proba", "LAM.randistlist", "LAM.urndistlist" ]
 				}
@@ -1529,7 +1529,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 165.0, 177.9375, 538.34021 ],
 					"style" : "",
-					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.freqtosamps", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups" ]
+					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.fontlist", "LAM.freqtosamps", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups" ]
 				}
 
 			}
@@ -1541,7 +1541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 258.0, 78.0, 19.0 ],
+					"patching_rect" : [ 456.0, 447.0, 78.0, 19.0 ],
 					"style" : "",
 					"text" : "PROBABILITY"
 				}
@@ -1555,7 +1555,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 318.0, 74.0, 19.0 ],
+					"patching_rect" : [ 465.0, 507.0, 74.0, 19.0 ],
 					"style" : "",
 					"text" : "INTERFACES"
 				}
@@ -1569,7 +1569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 355.0, 146.0, 19.0 ],
+					"patching_rect" : [ 420.0, 544.0, 146.0, 19.0 ],
 					"style" : "",
 					"text" : "POLYPHONY MANAGEMENT"
 				}
@@ -1599,7 +1599,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 194.085052, 76.0, 21.0 ],
+					"patching_rect" : [ 453.0, 383.085052, 76.0, 21.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -1615,7 +1615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 213.085052, 49.0, 21.0 ],
+					"patching_rect" : [ 453.0, 402.085052, 49.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2118,7 +2118,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 165.0, 178.0, 88.170105 ],
+					"patching_rect" : [ 405.0, 354.0, 178.0, 88.170105 ],
 					"style" : "",
 					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback", "LAM.AVlooper" ]
 				}

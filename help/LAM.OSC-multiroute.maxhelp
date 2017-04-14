@@ -2,42 +2,51 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 10,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 3,
+			"revision" : 3,
+			"architecture" : "x64",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 14.0, 240.0, 801.0, 396.0 ],
+		"rect" : [ 100.0, 100.0, 801.0, 396.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 351.0, 150.0, 20.0 ],
+					"style" : "",
 					"text" : "index, routed message"
 				}
 
@@ -46,13 +55,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.5, 175.0, 285.0, 20.0 ],
-					"presentation_rect" : [ 621.0, 191.0, 0.0, 0.0 ],
+					"style" : "",
 					"text" : "match /bob, /John or /johnny (on respective indices)"
 				}
 
@@ -66,8 +74,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.563171, 175.0, 109.0, 18.0 ],
-					"presentation_rect" : [ 526.063171, 190.0, 0.0, 0.0 ],
+					"patching_rect" : [ 378.563171, 175.0, 109.0, 22.0 ],
+					"style" : "",
 					"text" : "/bob /John /johnny"
 				}
 
@@ -76,13 +84,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 436.0, 199.0, 178.0, 20.0 ],
-					"presentation_rect" : [ 571.0, 192.0, 0.0, 0.0 ],
+					"style" : "",
 					"text" : "match any string (on first index)"
 				}
 
@@ -91,12 +98,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 452.0, 144.0, 255.0, 20.0 ],
+					"style" : "",
 					"text" : "match /John or /johnny (on respective indices)"
 				}
 
@@ -105,14 +112,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-9",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 71.063171, 196.0, 50.0, 20.0 ],
-					"presentation_rect" : [ 176.063171, 196.0, 0.0, 0.0 ]
+					"patching_rect" : [ 71.063171, 196.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -125,8 +133,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.063171, 224.0, 144.0, 18.0 ],
-					"presentation_rect" : [ 176.063171, 224.0, 0.0, 0.0 ],
+					"patching_rect" : [ 71.063171, 224.0, 144.0, 22.0 ],
+					"style" : "",
 					"text" : "/bob/my/osc/message $1"
 				}
 
@@ -140,8 +148,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.063171, 144.0, 82.0, 18.0 ],
-					"presentation_rect" : [ 72.063171, 151.0, 0.0, 0.0 ],
+					"patching_rect" : [ 370.063171, 144.0, 82.0, 22.0 ],
+					"style" : "",
 					"text" : "/johnny /John"
 				}
 
@@ -155,7 +163,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.563171, 199.0, 44.0, 18.0 ],
+					"patching_rect" : [ 386.563171, 199.0, 44.0, 22.0 ],
+					"style" : "",
 					"text" : "(/\\\\w+)"
 				}
 
@@ -169,7 +178,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.063171, 86.0, 49.0, 18.0 ],
+					"patching_rect" : [ 341.063171, 86.0, 49.0, 22.0 ],
+					"style" : "",
 					"text" : "/johnny"
 				}
 
@@ -183,7 +193,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.063171, 114.0, 40.0, 18.0 ],
+					"patching_rect" : [ 356.063171, 114.0, 40.0, 22.0 ],
+					"style" : "",
 					"text" : "/John"
 				}
 
@@ -197,8 +208,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.063171, 285.0, 222.0, 18.0 ],
-					"text" : "/John/my/osc/message 1.608"
+					"patching_rect" : [ 138.063171, 285.0, 222.0, 22.0 ],
+					"style" : "",
+					"text" : "/johnny/my/osc/message 0.44"
 				}
 
 			}
@@ -206,13 +218,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-8",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 58.063171, 141.0, 50.0, 20.0 ]
+					"patching_rect" : [ 58.063171, 141.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -225,7 +239,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.063171, 169.0, 159.0, 18.0 ],
+					"patching_rect" : [ 58.063171, 169.0, 159.0, 22.0 ],
+					"style" : "",
 					"text" : "/John/my/osc/message $1"
 				}
 
@@ -239,8 +254,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.063171, 323.0, 232.0, 18.0 ],
-					"text" : "0 /my/osc/message 2.367"
+					"patching_rect" : [ 42.063171, 323.0, 232.0, 22.0 ],
+					"style" : "",
+					"text" : "1 /my/osc/message 3.588"
 				}
 
 			}
@@ -248,13 +264,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"format" : 6,
 					"id" : "obj-3",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 42.063171, 86.0, 50.0, 20.0 ]
+					"patching_rect" : [ 42.063171, 86.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -267,7 +285,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.063171, 114.0, 159.0, 18.0 ],
+					"patching_rect" : [ 42.063171, 114.0, 159.0, 22.0 ],
+					"style" : "",
 					"text" : "/johnny/my/osc/message $1"
 				}
 
@@ -281,20 +300,29 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 42.063171, 257.0, 318.0, 20.0 ],
-					"text" : "LAM.OSC-multiroute /John/my"
+					"patching_rect" : [ 42.063171, 257.0, 318.0, 22.0 ],
+					"style" : "",
+					"text" : "LAM.OSC-multiroute /John/my /bob"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "@obj-name", "LAM.OSC-multiroute", "@obj-desc", "Regexp based OSC list routing." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-5",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ]
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -307,7 +335,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.0, 27.0, 95.0, 17.0 ],
+					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
 
@@ -434,26 +463,24 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.OSC-multiroute.maxpat",
-				"bootpath" : "/Users/vg/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
