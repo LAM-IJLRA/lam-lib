@@ -67,7 +67,7 @@
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 289.0, 278.0, 22.0 ],
 					"style" : "",
@@ -120,9 +120,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 96.0, 142.0, 76.0, 22.0 ],
+					"patching_rect" : [ 96.0, 142.0, 35.0, 22.0 ],
 					"style" : "",
-					"text" : "minimum~ 1"
+					"text" : ">~ 0"
 				}
 
 			}
