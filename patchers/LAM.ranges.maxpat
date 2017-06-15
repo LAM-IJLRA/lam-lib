@@ -129,9 +129,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "input value",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -143,9 +143,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "list of float defining the intervals",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -157,9 +157,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "list of scaled values",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -249,9 +249,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
