@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 390.0, 79.0, 505.0, 403.0 ],
+		"rect" : [ 390.0, 79.0, 803.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 293.0, 85.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "abs~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
@@ -306,7 +319,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 348.0, 195.0, 22.0 ],
+					"patching_rect" : [ 176.0, 348.0, 227.0, 22.0 ],
 					"style" : "",
 					"text" : "LAM.sagrada.multiout~ #1"
 				}
@@ -319,9 +332,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 176.0, 200.0, 96.0, 22.0 ],
+					"patching_rect" : [ 176.0, 200.0, 136.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.clickramp~"
+					"text" : "LAM.clickramp.bipolar~"
 				}
 
 			}
@@ -893,7 +906,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
@@ -997,6 +1010,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

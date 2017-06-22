@@ -107,10 +107,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 237.700012, 54.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in~ 1"
 				}
@@ -124,6 +120,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.700012, 54.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -175,9 +175,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 146.700012, 200.0, 110.0, 22.0 ],
+					"patching_rect" : [ 146.700012, 200.0, 136.0, 22.0 ],
 					"style" : "",
-					"text" : "LAM.clickramp~"
+					"text" : "LAM.clickramp.bipolar~"
 				}
 
 			}
