@@ -45,7 +45,7 @@
 					"outlettype" : [ "", "signal", "signal", "" ],
 					"patching_rect" : [ 40.700012, 74.0, 217.599976, 22.0 ],
 					"style" : "",
-					"text" : "LAM.sagrada.iosetter~ #1"
+					"text" : "LAM.sagrada.iosetter~ myContext"
 				}
 
 			}
@@ -310,9 +310,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.700012, 246.0, 122.0, 22.0 ],
+					"patching_rect" : [ 40.700012, 246.0, 195.0, 22.0 ],
 					"style" : "",
-					"text" : "send~ #0.dummy"
+					"text" : "LAM.sagrada.multiout~ #1"
 				}
 
 			}
@@ -348,7 +348,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 188.899994, 46.0, 37.0, 22.0 ],
+=======
+					"patching_rect" : [ 201.299988, 122.0, 37.0, 22.0 ],
+>>>>>>> sagrada-poly-io
 					"style" : "",
 					"text" : "in~ 1"
 				}
