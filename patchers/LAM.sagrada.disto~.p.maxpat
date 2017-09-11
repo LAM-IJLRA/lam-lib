@@ -348,11 +348,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-<<<<<<< HEAD
 					"patching_rect" : [ 188.899994, 46.0, 37.0, 22.0 ],
-=======
 					"patching_rect" : [ 201.299988, 122.0, 37.0, 22.0 ],
->>>>>>> sagrada-poly-io
 					"style" : "",
 					"text" : "in~ 1"
 				}
