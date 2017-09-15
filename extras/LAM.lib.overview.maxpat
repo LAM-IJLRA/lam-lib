@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1250.0, 783.0 ],
+		"rect" : [ 34.0, 78.0, 1264.0, 783.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 256,
+									"rows" : 257,
 									"selmode" : 3
 								}
 
@@ -1270,7 +1270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
 					"style" : "",
-					"text" : "DSP debounce utility."
+					"text" : "Gaussian function."
 				}
 
 			}
@@ -1502,9 +1502,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 165.0, 177.9375, 538.34021 ],
+					"patching_rect" : [ 15.0, 165.0, 177.9375, 557.34021 ],
 					"style" : "",
-					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.fontlist", "LAM.freqtosamps", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups", "LAM.indexToCoord" ]
+					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.fontlist", "LAM.freqtosamps", "LAM.gaussian", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups", "LAM.indexToCoord" ]
 				}
 
 			}
