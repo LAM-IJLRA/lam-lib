@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1264.0, 783.0 ],
+		"rect" : [ 82.0, 78.0, 1264.0, 783.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 257,
+									"rows" : 258,
 									"selmode" : 3
 								}
 
@@ -1269,8 +1269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
-					"style" : "",
-					"text" : "Gaussian function."
+					"style" : ""
 				}
 
 			}
@@ -1424,7 +1423,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.0, 165.0, 180.0, 428.170105 ],
 					"style" : "",
-					"tabs" : [ "LAM.debounce~", "LAM.debounceclick~", "LAM.slidems~", "LAM.filterslide~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.son~", "LAM.fon~" ]
+					"tabs" : [ "LAM.debounce~", "LAM.debounceclick~", "LAM.slidems~", "LAM.filterslide~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.son~", "LAM.trianglewave~", "LAM.fon~" ]
 				}
 
 			}
