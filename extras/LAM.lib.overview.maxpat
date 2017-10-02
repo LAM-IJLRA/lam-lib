@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 82.0, 78.0, 1264.0, 783.0 ],
+		"rect" : [ 75.0, 130.0, 1214.0, 783.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -84,7 +84,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -144,7 +144,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -370,7 +370,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -574,7 +574,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 258,
+									"rows" : 263,
 									"selmode" : 3
 								}
 
@@ -1269,7 +1269,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "A audio synth based on glissandi"
 				}
 
 			}
@@ -1299,9 +1300,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 542.483215 ],
+					"patching_rect" : [ 210.0, 165.0, 179.0, 557.34021 ],
 					"style" : "",
-					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.jit.bounded_sigmoid", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.namey", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
+					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.jit.bounded_sigmoid", "LAM.lin2pow", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.namey", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.ttpb", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
 				}
 
 			}
@@ -1331,7 +1332,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 990.0, 165.0, 180.0, 487.34021 ],
 					"style" : "",
-					"tabs" : [ "LAM.jit.gaussian", "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist", "LAM.jit.perimeter", "LAM.jit.shoelacearea", "LAM.jit.compactness" ]
+					"tabs" : [ "LAM.bounds.index", "LAM.jit.gaussian", "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist", "LAM.jit.perimeter", "LAM.jit.shoelacearea", "LAM.jit.compactness" ]
 				}
 
 			}
@@ -1423,7 +1424,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.0, 165.0, 180.0, 428.170105 ],
 					"style" : "",
-					"tabs" : [ "LAM.debounce~", "LAM.debounceclick~", "LAM.slidems~", "LAM.filterslide~", "LAM.ntapin~", "LAM.ntapout~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.padsr~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.dpr~", "LAM.energizer~", "LAM.anticlick~", "LAM.s-anticlick~", "LAM.fadeoctave~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.%wrap~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.son~", "LAM.trianglewave~", "LAM.fon~" ]
+					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
 				}
 
 			}
