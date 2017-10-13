@@ -63,9 +63,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 165.0, 179.0, 13.483215 ],
+					"patching_rect" : [ 405.0, 165.0, 179.0, 29.483215 ],
 					"style" : "",
-					"tabs" : [ "LAM.FAOS" ]
+					"tabs" : [ "LAM.FAOS", "LAM.Nclick" ]
 				}
 
 			}
@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 263,
+									"rows" : 267,
 									"selmode" : 3
 								}
 
@@ -1270,7 +1270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
 					"style" : "",
-					"text" : "A audio synth based on glissandi"
+					"text" : "Detect double, triple, etc.. clicks."
 				}
 
 			}
