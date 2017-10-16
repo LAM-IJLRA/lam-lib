@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 75.0, 130.0, 1214.0, 783.0 ],
+		"rect" : [ 100.0, 78.0, 1214.0, 783.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 274,
+									"rows" : 275,
 									"selmode" : 3
 								}
 
@@ -1173,7 +1173,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 795.0, 711.34021, 180.0, 22.0 ],
+					"patching_rect" : [ 795.0, 741.34021, 180.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1270,7 +1270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
 					"style" : "",
-					"text" : "A gate that holds its output."
+					"text" : "Like slide~ but with arguments expressed in ms"
 				}
 
 			}
@@ -1360,7 +1360,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 615.170105, 180.0, 103.170105 ],
+					"patching_rect" : [ 795.0, 645.170105, 180.0, 103.170105 ],
 					"style" : "",
 					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~" ]
 				}
@@ -1374,7 +1374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 599.170105, 128.0, 19.0 ],
+					"patching_rect" : [ 825.0, 629.170105, 128.0, 19.0 ],
 					"style" : "",
 					"text" : "AUDIO VISUALIZATION"
 				}
@@ -1422,9 +1422,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 165.0, 180.0, 428.170105 ],
+					"patching_rect" : [ 795.0, 165.0, 180.0, 459.0 ],
 					"style" : "",
-					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gah~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.pdf~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
+					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gah~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.matrix~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.pdf~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
 				}
 
 			}
