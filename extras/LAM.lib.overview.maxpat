@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 270,
+									"rows" : 274,
 									"selmode" : 3
 								}
 
@@ -1269,7 +1269,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "A gate that holds its output."
 				}
 
 			}
@@ -1423,7 +1424,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.0, 165.0, 180.0, 428.170105 ],
 					"style" : "",
-					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.pdf~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
+					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gah~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.pdf~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
 				}
 
 			}
