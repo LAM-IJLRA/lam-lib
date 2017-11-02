@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 78.0, 1214.0, 783.0 ],
+		"rect" : [ 102.0, 112.0, 1214.0, 783.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -982,7 +982,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 275,
+									"rows" : 280,
 									"selmode" : 3
 								}
 
@@ -1269,8 +1269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
-					"style" : "",
-					"text" : "Like slide~ but with arguments expressed in ms"
+					"style" : ""
 				}
 
 			}
@@ -1302,7 +1301,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 210.0, 165.0, 179.0, 565.34021 ],
 					"style" : "",
-					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.jit.bounded_sigmoid", "LAM.lin2pow", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.namey", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.ttpb", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
+					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.jit.bounded_sigmoid", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.morse.decode", "LAM.namey", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.transratio", "LAM.ttpb", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
 				}
 
 			}
@@ -1424,7 +1423,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 795.0, 165.0, 180.0, 459.0 ],
 					"style" : "",
-					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gah~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.matrix~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.pdf~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
+					"tabs" : [ "LAM.anticlick~", "LAM.s-anticlick~", "LAM.crosscorrelation.fft~", "LAM.crosscorrelation.pfft~", "LAM.crosscorrelation.fft.zeropad~", "LAM.debounce~", "LAM.debounceclick~", "LAM.dpr~", "LAM.energizer~", "LAM.fadeoctave~", "LAM.filterslide~", "LAM.fon~", "LAM.gah~", "LAM.gcdlcm~", "LAM.gaussian~", "LAM.hysteresis~", "LAM.gen.onepolems~", "LAM.matrix~", "LAM.ntapin~", "LAM.ntapout~", "LAM.padsr~", "LAM.pdf~", "LAM.PLL~", "LAM.gen.PLL~", "LAM.phasorloop~", "LAM.taptempo~", "LAM.slicereverser~", "LAM.slidems~", "LAM.slopeclip~", "LAM.s2pr~", "LAM.son~", "LAM.trianglewave~", "LAM.%wrap~" ]
 				}
 
 			}
