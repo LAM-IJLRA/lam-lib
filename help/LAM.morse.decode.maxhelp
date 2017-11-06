@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 124.0, 809.0, 529.0 ],
+		"rect" : [ 100.0, 100.0, 809.0, 529.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,12 +39,25 @@
 		"subpatcher_template" : "LAM.lib.HelpPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 185.0, 297.0, 179.0, 22.0 ],
+					"style" : "",
+					"text" : "-.."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-104",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 368.0, 79.0, 22.0 ],
+					"patching_rect" : [ 170.0, 393.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "route symbol"
 				}
@@ -57,9 +70,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 403.0, 79.0, 22.0 ],
+					"patching_rect" : [ 170.0, 428.0, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "E"
+					"text" : "D"
 				}
 
 			}
@@ -70,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 300.0, 96.0, 22.0 ],
+					"patching_rect" : [ 170.0, 325.0, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend symbol"
 				}
@@ -83,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 170.0, 333.0, 141.0, 22.0 ],
+					"patching_rect" : [ 170.0, 358.0, 141.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -116,7 +129,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.0, 181.0, 115.0, 78.0 ],
-					"presentation_rect" : [ 227.0, 210.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "output :\n1 = word start\n2 = short pulse\n3 = long pulse\n4 = word end"
 				}
@@ -552,7 +564,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 170.0, 144.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 678.0, 188.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -565,7 +576,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 170.0, 90.0, 60.0, 22.0 ],
-					"presentation_rect" : [ 678.0, 134.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -579,7 +589,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 170.0, 117.0, 73.0, 22.0 ],
-					"presentation_rect" : [ 678.0, 161.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "mousestate"
 				}
@@ -593,7 +602,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 325.0, 161.0, 272.0, 60.0 ],
-					"presentation_rect" : [ 800.0, 223.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "attributes: \n@iwt = inter-word time in ms (default 600) \n@spr = short pulse range in ms (default : 0 300) \n@lpr  = long pulse range in ms (default 300 800)"
 				}
@@ -701,6 +709,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
+					"order" : 1,
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"midpoints" : [ 179.5, 293.0, 354.5, 293.0 ],
+					"order" : 0,
 					"source" : [ "obj-87", 0 ]
 				}
 
