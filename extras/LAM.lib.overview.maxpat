@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 61.0, 76.0, 1214.0, 783.0 ],
+		"rect" : [ 135.0, 78.0, 1214.0, 783.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,55 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-35",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 425.5, 274.258392, 143.0, 19.0 ],
+					"presentation_rect" : [ 422.5, 275.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "FUNCTION CALLBACK"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 405.0, 316.5, 179.0, 22.0 ],
+					"presentation_rect" : [ 405.0, 306.483215, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "lamlib.sethelper"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"button" : 1,
+					"fontsize" : 11.0,
+					"id" : "obj-34",
+					"maxclass" : "tab",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 405.0, 291.258392, 179.0, 43.224823 ],
+					"presentation_rect" : [ 405.0, 231.0, 0.0, 0.0 ],
+					"style" : "",
+					"tabs" : [ "LAM.f.call", "LAM.f.dcall", "LAM.f.io" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -47,7 +96,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 287.483215, 179.0, 22.0 ],
+					"patching_rect" : [ 405.0, 240.483215, 179.0, 22.0 ],
 					"style" : "",
 					"text" : "lamlib.sethelper"
 				}
@@ -1030,7 +1079,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 37.0, 245.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 282,
+									"rows" : 290,
 									"selmode" : 3
 								}
 
@@ -1327,7 +1376,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 750.483215, 1147.0, 20.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "Calling callback functions."
 				}
 
 			}
@@ -1371,7 +1421,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 340.5, 64.0, 19.0 ],
+					"patching_rect" : [ 465.0, 338.5, 64.0, 19.0 ],
 					"style" : "",
 					"text" : "EXAMPLES"
 				}
@@ -2613,6 +2663,42 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 2 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-34", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 1 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-34", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
