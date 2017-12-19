@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 427.0, 78.0, 809.0, 330.0 ],
+		"rect" : [ 186.0, 300.0, 809.0, 330.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -61,12 +61,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 3,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -100,7 +100,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 387.0, 261.0 ],
+									"patching_rect" : [ 50.0, 100.0, 387.0, 248.0 ],
 									"style" : "",
 									"text" : "from : http://mathforum.org/library/drmath/view/51797.html\n\nTo solve sin(x)/x = k for some constant k > 0 is the same as finding a \nroot of the equation\n\n     f(x) = sin(x) - k*x = 0\n\nThis can be done using Newton's Method as follows. Guess a starting \nvalue of\n\n     x(0) = sqrt(6-6*k)\n\nThen for each n = 0, 1, 2, ..., compute\n\n     x(n+1) = x(n) - (sin[x(n)]-k*x[n])/(cos[x(n)]-k)\n\nContinue this until |x(n+1)-x(n)| is smaller than the accuracy sought. \nThen x(n+1) agrees with the actual root to that level of accuracy.\n"
 								}
@@ -233,8 +233,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -242,8 +240,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -251,8 +247,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 43.5, 146.5, 143.5, 146.5 ],
 					"order" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -262,8 +256,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -272,8 +264,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -282,18 +272,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.sinx=kx.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

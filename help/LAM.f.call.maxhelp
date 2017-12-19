@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 427.0, 78.0, 814.0, 409.0 ],
+		"rect" : [ 100.0, 100.0, 814.0, 409.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "LAM.lib.HelpPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 398.5, 363.0, 285.0, 20.0 ],
+					"style" : "",
+					"text" : "Note : beware that LAM.f.call cannnot accept bangs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-29",
 					"maxclass" : "flonum",
@@ -47,7 +59,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 166.875, 248.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 158.875, 233.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -62,7 +73,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 166.875, 200.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 158.875, 185.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -90,7 +100,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.875, 248.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 32.875, 233.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -105,7 +114,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.875, 200.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 32.875, 185.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -133,7 +141,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 288.875, 155.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 279.875, 160.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -148,7 +155,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 288.875, 107.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 279.875, 99.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -161,7 +167,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 288.875, 131.0, 117.0, 22.0 ],
-					"presentation_rect" : [ 279.875, 129.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "LAM.f.call timesTwo"
 				}
@@ -177,7 +182,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 166.875, 155.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 157.875, 162.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -192,7 +196,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 166.875, 107.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 157.875, 101.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -205,7 +208,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.875, 131.0, 117.0, 22.0 ],
-					"presentation_rect" : [ 157.875, 131.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "LAM.f.call timesTwo"
 				}
@@ -463,8 +465,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -472,8 +472,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -481,8 +479,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 536.0, 319.0, 519.75, 319.0, 519.75, 216.0, 536.0, 216.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -491,8 +487,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -500,8 +494,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -509,8 +501,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -518,8 +508,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -527,8 +515,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -536,8 +522,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -545,8 +529,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -554,8 +536,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -563,8 +543,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -572,8 +550,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -581,8 +557,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -590,8 +564,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 41.375, 355.5, 146.375, 355.5 ],
 					"source" : [ "obj-66", 0 ]
 				}
@@ -600,8 +572,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -609,8 +579,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -618,8 +586,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -628,8 +594,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -638,8 +602,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-81", 0 ]
 				}
 
@@ -647,8 +609,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-83", 0 ]
 				}
 
@@ -656,8 +616,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -666,30 +624,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.f.dcall.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.f.io.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.f.call.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
