@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 186.0, 300.0, 809.0, 330.0 ],
+		"rect" : [ 100.0, 100.0, 809.0, 330.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -45,6 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 155.0, 153.0, 150.0, 47.0 ],
+					"presentation_rect" : [ 155.0, 153.0, 150.0, 47.0 ],
 					"style" : "",
 					"text" : "argument : @iter = nb of iteration to find result (default = 3)"
 				}
@@ -59,10 +60,10 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x86",
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -100,7 +101,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 387.0, 248.0 ],
+									"patching_rect" : [ 50.0, 100.0, 387.0, 261.0 ],
+									"presentation_rect" : [ 50.0, 100.0, 387.0, 261.0 ],
 									"style" : "",
 									"text" : "from : http://mathforum.org/library/drmath/view/51797.html\n\nTo solve sin(x)/x = k for some constant k > 0 is the same as finding a \nroot of the equation\n\n     f(x) = sin(x) - k*x = 0\n\nThis can be done using Newton's Method as follows. Guess a starting \nvalue of\n\n     x(0) = sqrt(6-6*k)\n\nThen for each n = 0, 1, 2, ..., compute\n\n     x(n+1) = x(n) - (sin[x(n)]-k*x[n])/(cos[x(n)]-k)\n\nContinue this until |x(n+1)-x(n)| is smaller than the accuracy sought. \nThen x(n+1) agrees with the actual root to that level of accuracy.\n"
 								}
@@ -111,6 +113,7 @@
 					}
 ,
 					"patching_rect" : [ 180.0, 110.0, 71.0, 22.0 ],
+					"presentation_rect" : [ 180.0, 110.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -134,6 +137,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0, 271.0, 75.0, 22.0 ],
+					"presentation_rect" : [ 34.0, 271.0, 75.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -146,6 +150,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 229.0, 119.0, 22.0 ],
+					"presentation_rect" : [ 34.0, 229.0, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "expr sin($f1)-$f1*$f2"
 				}
@@ -161,6 +166,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0, 189.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 34.0, 189.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -177,6 +183,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0, 117.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 34.0, 117.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -189,6 +196,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 34.0, 154.0, 79.0, 22.0 ],
+					"presentation_rect" : [ 34.0, 154.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "LAM.sinx=kx"
 				}
@@ -210,6 +218,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -224,6 +233,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
