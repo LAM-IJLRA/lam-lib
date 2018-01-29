@@ -459,7 +459,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "LAM.f.dcall", "@obj-desc", "Calling callback functions." ],
+					"args" : [ "@obj-name", "LAM.f.dio", "@obj-desc", "Calling callback functions." ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
