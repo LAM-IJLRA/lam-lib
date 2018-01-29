@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 3,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 337.0, 382.0, 810.0, 480.0 ],
+		"rect" : [ 100.0, 100.0, 801.0, 308.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -47,7 +47,8 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.0, 296.0, 453.0, 41.0 ],
+					"patching_rect" : [ 136.0, 243.0, 453.0, 41.0 ],
+					"presentation_rect" : [ 136.0, 243.0, 453.0, 41.0 ],
 					"signed" : 1,
 					"style" : ""
 				}
@@ -64,7 +65,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.0, 267.0, 50.0, 22.0 ],
+					"patching_rect" : [ 136.0, 214.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 136.0, 214.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -77,7 +79,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 174.0, 87.0, 20.0 ],
+					"patching_rect" : [ 247.0, 121.0, 87.0, 20.0 ],
+					"presentation_rect" : [ 247.0, 121.0, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "N steps"
 				}
@@ -91,7 +94,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 174.0, 87.0, 20.0 ],
+					"patching_rect" : [ 136.0, 121.0, 87.0, 20.0 ],
+					"presentation_rect" : [ 136.0, 121.0, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "go from 1 to N"
 				}
@@ -103,11 +107,13 @@
 					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "number",
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.0, 200.0, 50.0, 22.0 ],
+					"patching_rect" : [ 136.0, 147.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 136.0, 147.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +128,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 234.0, 200.0, 50.0, 22.0 ],
+					"patching_rect" : [ 234.0, 147.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 234.0, 147.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -136,9 +143,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 136.0, 235.0, 126.0, 22.0 ],
+					"patching_rect" : [ 136.0, 182.0, 130.0, 22.0 ],
+					"presentation_rect" : [ 136.0, 182.0, 130.0, 22.0 ],
 					"style" : "",
-					"text" : "WM.dispatcher.sin 10"
+					"text" : "LAM.dispatcher.sin 10"
 				}
 
 			}
@@ -152,8 +160,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.5, 63.060059, 617.0, 33.0 ],
+					"presentation_rect" : [ 12.5, 63.060059, 617.0, 33.0 ],
 					"style" : "",
-					"text" : "WM.dispatcher.sin will dispatch input indexes in the -1,1 range.\nUseful for panning the voices of a poly~ abstraction, with 1st voices in the middle and following voices surrounding"
+					"text" : "LAM.dispatcher.sin will dispatch input indexes in the -1,1 range.\nUseful for panning the voices of a poly~ abstraction, with 1st voices in the middle and following voices surrounding"
 				}
 
 			}
@@ -173,6 +182,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -187,6 +197,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
@@ -196,8 +207,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -205,8 +214,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -214,8 +221,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -223,8 +228,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -233,18 +236,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "WM.dispatcher.sin.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/patchers",
+				"name" : "LAM.dispatcher.sin.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
