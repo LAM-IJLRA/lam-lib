@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 806.0, 307.0 ],
+		"rect" : [ 106.0, 502.0, 806.0, 307.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -286,8 +286,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 65.060059, 590.0, 20.0 ],
-					"presentation_rect" : [ 5.5, 65.060059, 590.0, 20.0 ],
+					"patching_rect" : [ 5.5, 65.060059, 371.0, 20.0 ],
+					"presentation_rect" : [ 5.5, 65.060059, 371.0, 20.0 ],
 					"style" : "",
 					"text" : "Remember if button is active or not and output the last activated one"
 				}
