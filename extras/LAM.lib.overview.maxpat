@@ -1207,7 +1207,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 43.0, 302.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 303,
+									"rows" : 305,
 									"selmode" : 3
 								}
 
@@ -1492,8 +1492,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 750.48321533203125, 1147.0, 20.0 ],
-					"text" : "Based on the Roulette theory by Blaise Pascal after his toothache."
+					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ],
+					"text" : "Signal version of LAM.anticlick~."
 				}
 
 			}
@@ -1522,8 +1522,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 565.340209999999956 ],
-					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.jit.bounded_sigmoid", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.maxima", "LAM.list.minima", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.morse.decode", "LAM.namey", "LAM.Nclick", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 578.3402099609375 ],
+					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.jit.bounded_sigmoid", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.maxima", "LAM.list.minima", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.morse.decode", "LAM.namey", "LAM.Nclick", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.dec2base" ]
 				}
 
 			}
@@ -1711,8 +1711,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 165.0, 177.9375, 578.340209999999956 ],
-					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.keyrename", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.FAOS", "LAM.fontlist", "LAM.freqtosamps", "LAM.gaussian", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups", "LAM.indexToCoord" ]
+					"patching_rect" : [ 15.0, 165.0, 177.9375, 591.3402099609375 ],
+					"tabs" : [ "LAM.bin2dec", "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.keyrename", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.FAOS", "LAM.fontlist", "LAM.freqtosamps", "LAM.gaussian", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups", "LAM.indexToCoord" ]
 				}
 
 			}
@@ -2116,7 +2116,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.729187000000024, 42.75, 237.0, 29.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr/Acces.php"
 				}
 
@@ -2177,7 +2176,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.729187000000024, 8.75, 191.0, 29.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\rmax launchbrowser http://www.lam.jussieu.fr"
 				}
 
@@ -2206,7 +2204,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.9375, 91.875, 1139.0625, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The LAM.lib library is a set of abstractions and externals that are useful to build digital music instrument with Max. This set of objet is mostly made of vanilla max objects, and aims at format stability. However, it is still in a beta version and subject to change. Do not hesistate to send feedback and/or contribute to it !",
 					"textcolor" : [ 0.275959998369217, 0.276001989841461, 0.275940001010895, 1.0 ],
 					"varname" : "autohelp_top_description"
