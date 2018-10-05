@@ -1207,7 +1207,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 43.0, 302.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 305,
+									"rows" : 307,
 									"selmode" : 3
 								}
 
@@ -1492,8 +1492,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ],
-					"text" : "Signal version of LAM.anticlick~."
+					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ]
 				}
 
 			}
@@ -1578,8 +1577,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 795.0, 645.170105000000035, 180.0, 103.170105000000007 ],
-					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~" ]
+					"patching_rect" : [ 795.0, 645.17010498046875, 180.0, 111.17010498046875 ],
+					"tabs" : [ "LAM.jit.gl.circularwave~", "LAM.jit.gl.DSW~", "LAM.jit.3dscope~", "LAM.jit.gl.spectroscope", "LAM.jit.gl.waveform~", "LAM.AVlooper.rec~", "LAM.AVlooper.play~", "LAM.jit.gl.circlewave~" ]
 				}
 
 			}
