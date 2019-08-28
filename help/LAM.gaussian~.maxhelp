@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 115.0, 252.0, 807.0, 496.0 ],
-		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 100.0, 100.0, 807.0, 496.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,9 +65,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 65.060059, 590.0, 20.0 ],
-					"style" : "",
-					"text" : "Customize the header with arguments. You can also add some more documentation here about your module."
+					"patching_rect" : [ 5.5, 65.060058999999995, 590.0, 20.0 ],
+					"text" : "Dynamic gaussian wavetable"
 				}
 
 			}
@@ -81,7 +80,6 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
-					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
 
@@ -94,9 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 309.0, 130.0, 130.0 ],
-					"presentation_rect" : [ 83.0, 309.0, 0.0, 0.0 ],
 					"range" : [ 0.0, 1.0 ],
-					"style" : "",
 					"trigger" : 1,
 					"triglevel" : 0.001
 				}
@@ -111,8 +107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.0, 176.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 82.0, 176.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -124,7 +119,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 257.0, 241.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "sig~"
 				}
 
@@ -136,8 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 198.666672, 241.0, 33.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 198.666672000000005, 241.0, 33.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -150,7 +143,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 141.0, 241.0, 33.0, 22.0 ],
-					"style" : "",
 					"text" : "sig~"
 				}
 
@@ -161,8 +153,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 394.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 237.0, 394.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -174,7 +165,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 82.0, 204.0, 64.0, 22.0 ],
-					"style" : "",
 					"text" : "phasor~ 1"
 				}
 
@@ -186,8 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "float", "float" ],
-					"patching_rect" : [ 141.0, 135.0, 135.666687, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 141.0, 135.0, 135.666686999999996, 22.0 ],
 					"text" : "t 1 0.5 0.1"
 				}
 
@@ -200,7 +189,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 141.0, 111.0, 60.0, 22.0 ],
-					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -211,8 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 311.666687, 208.0, 63.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 311.666687000000024, 208.0, 63.0, 20.0 ],
 					"text" : "width"
 				}
 
@@ -223,8 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.166687, 184.0, 63.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 251.166686999999996, 184.0, 63.0, 20.0 ],
 					"text" : "center"
 				}
 
@@ -235,8 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.666672, 160.0, 63.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 193.666672000000005, 160.0, 63.0, 20.0 ],
 					"text" : "amplitude"
 				}
 
@@ -250,8 +235,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 141.0, 160.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 141.0, 160.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -264,8 +248,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 199.333344, 184.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 199.333344000000011, 184.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -278,8 +261,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 257.666687, 208.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 257.666687000000024, 208.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -291,7 +273,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 82.0, 273.0, 194.0, 22.0 ],
-					"style" : "",
 					"text" : "LAM.gaussian~"
 				}
 
@@ -389,10 +370,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "LAM.gaussian~.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
@@ -415,7 +392,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 	}
 
 }
