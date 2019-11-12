@@ -65,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 411.0, 748.48321533203125, 291.0, 29.0 ],
-					"presentation_linecount" : 3,
 					"text" : ";\rmax launchbrowser https://github.com/LAM-IJLRA/ModularPolyphony"
 				}
 
@@ -80,7 +79,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.0, 679.829894999999965, 155.0, 43.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Polyphony management has led to the MP package. Check it out on Github."
 				}
 
@@ -1598,7 +1596,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 990.0, 165.0, 180.0, 487.340210000000013 ],
-					"tabs" : [ "LAM.jit.bfade", "LAM.jit.bounded_sigmoid", "LAM.jit.cartopol", "LAM.jit.cartospher", "LAM.jit.compactness", "LAM.jit.dim.dotproduct", "LAM.jit.dimsum", "LAM.jit.gaussian", "LAM.jit.gl.circlemesh", "LAM.jit.gl.dyncanvas", "LAM.jit.gl.slitscan", "LAM.jit.gl.squaremesh", "LAM.jit.gl.textureset", "LAM.jit.HaarDecomposition", "LAM.jit.lfade", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.oplist", "LAM.jit.pa2si", "LAM.jit.perimeter", "LAM.jit.plane.dotproduct", "LAM.jit.polar.xfade", "LAM.jit.poltocar", "LAM.jit.pv2si", "LAM.jit.roundedpolygon", "LAM.jit.shoelacearea", "LAM.jit.sigmofade", "LAM.jit.slitscan", "LAM.jit.sphertocar", "LAM.jit.submatrix.fill", "LAM.jit.submatrix.select", "LAM.jit.sum", "LAM.polytexture" ]
+					"tabs" : [ "LAM.jit.bfade", "LAM.jit.bounded_sigmoid", "LAM.jit.cartopol", "LAM.jit.cartospher", "LAM.jit.compactness", "LAM.jit.dim.dotproduct", "LAM.jit.dimsum", "LAM.jit.gaussian", "LAM.jit.gl.circlemesh", "LAM.jit.gl.dyncanvas", "LAM.jit.gl.grads", "LAM.jit.gl.slitscan", "LAM.jit.gl.squaremesh", "LAM.jit.gl.textureset", "LAM.jit.HaarDecomposition", "LAM.jit.lfade", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.oplist", "LAM.jit.pa2si", "LAM.jit.perimeter", "LAM.jit.plane.dotproduct", "LAM.jit.polar.xfade", "LAM.jit.poltocar", "LAM.jit.pv2si", "LAM.jit.roundedpolygon", "LAM.jit.shoelacearea", "LAM.jit.sigmofade", "LAM.jit.slitscan", "LAM.jit.sphertocar", "LAM.jit.submatrix.fill", "LAM.jit.submatrix.select", "LAM.jit.sum", "LAM.polytexture" ]
 				}
 
 			}
