@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 78.0, 806.0, 350.0 ],
+		"rect" : [ 100.0, 79.0, 806.0, 350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 476.0, 189.0, 133.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "nb of recoreded frames"
 				}
 
@@ -56,7 +55,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 321.0, 103.0, 101.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "reduction amount"
 				}
 
@@ -170,14 +168,14 @@
 					"patching_rect" : [ 260.0, 198.0, 136.0, 33.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ -70 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -70 ]
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -216,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 65.06005859375, 590.0, 20.0 ],
-					"text" : "Original code by JesterN on C74 forum."
+					"text" : "Original code by Jester Nordin on C74 forum."
 				}
 
 			}

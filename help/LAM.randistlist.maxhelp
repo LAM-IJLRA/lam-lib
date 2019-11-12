@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 860.0, 662.0 ],
+		"rect" : [ 100.0, 79.0, 860.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 103.0, 273.0, 34.0, 23.0 ],
+					"patching_rect" : [ 103.0, 279.0, 34.0, 23.0 ],
 					"text" : "+ 60"
 				}
 
@@ -62,17 +62,17 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 103.0, 352.5, 136.0, 30.0 ],
+					"patching_rect" : [ 103.0, 358.5, 136.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ -18 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -89,7 +89,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.0, 399.0, 44.0, 44.0 ],
+					"patching_rect" : [ 103.0, 405.0, 44.0, 44.0 ],
 					"prototypename" : "helpfile"
 				}
 
@@ -103,7 +103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 103.0, 321.0, 145.0, 23.0 ],
+					"patching_rect" : [ 103.0, 327.0, 145.0, 23.0 ],
 					"text" : "poly~ ez-synth 12"
 				}
 
@@ -129,8 +129,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 103.0, 114.0, 69.0, 22.0 ],
-					"text" : "qmetro 100"
+					"patching_rect" : [ 103.0, 114.0, 63.0, 22.0 ],
+					"text" : "metro 100"
 				}
 
 			}

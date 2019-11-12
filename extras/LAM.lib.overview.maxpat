@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 146.0, 90.0, 1214.0, 783.0 ],
+		"rect" : [ 319.0, 79.0, 1214.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,54 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-49",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 425.5, 724.829894999999965, 100.0, 20.0 ],
+					"rounded" : 4.0,
+					"text" : "MP-package",
+					"textoncolor" : [ 0.164705882352941, 0.490196078431373, 0.533333333333333, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.160197999999999,
+					"hidden" : 1,
+					"id" : "obj-40",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 411.0, 748.48321533203125, 291.0, 29.0 ],
+					"presentation_linecount" : 3,
+					"text" : ";\rmax launchbrowser https://github.com/LAM-IJLRA/ModularPolyphony"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-36",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 411.0, 679.829894999999965, 155.0, 43.0 ],
+					"presentation_linecount" : 3,
+					"text" : "Polyphony management has led to the MP package. Check it out on Github."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -88,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.5, 274.258392000000015, 143.0, 19.0 ],
+					"patching_rect" : [ 425.5, 293.999999999999943, 143.0, 19.0 ],
 					"text" : "FUNCTION CALLBACK"
 				}
 
@@ -103,7 +151,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 316.5, 179.0, 22.0 ],
+					"patching_rect" : [ 405.0, 331.5, 179.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -118,7 +166,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 295.887572999999975, 179.0, 60.224823000000001 ],
+					"patching_rect" : [ 405.0, 310.887572999999975, 179.0, 60.224823000000001 ],
 					"tabs" : [ "LAM.f.call", "LAM.f.dcall", "LAM.f.io", "LAM.f.recurse" ]
 				}
 
@@ -148,8 +196,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 165.0, 179.0, 101.483215000000001 ],
-					"tabs" : [ "LAM.transratio", "LAM.ttpb", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
+					"patching_rect" : [ 405.0, 165.0, 179.0, 124.483214999999973 ],
+					"tabs" : [ "LAM.transratio", "LAM.ttpb", "LAM.uint2float32", "LAM.urndistlist", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
 				}
 
 			}
@@ -166,8 +214,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -213,8 +261,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -401,8 +449,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -619,8 +667,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -815,8 +863,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1207,7 +1255,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 43.0, 302.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 307,
+									"rows" : 312,
 									"selmode" : 3
 								}
 
@@ -1313,7 +1361,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 496.5, 124.0, 22.0 ],
+					"patching_rect" : [ 433.0, 511.5, 124.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1328,7 +1376,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 552.0, 124.0, 22.0 ],
+					"patching_rect" : [ 433.0, 567.0, 124.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1433,7 +1481,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 600.0, 591.17010498046875, 180.0, 22.0 ],
+					"patching_rect" : [ 600.0, 579.17010498046875, 180.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1448,7 +1496,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 667.0, 180.0, 22.0 ],
+					"patching_rect" : [ 405.0, 652.6597900390625, 180.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1463,7 +1511,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 600.0, 725.32989501953125, 180.0, 22.0 ],
+					"patching_rect" : [ 600.0, 740.32989501953125, 180.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1521,8 +1569,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 578.3402099609375 ],
-					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.jit.bounded_sigmoid", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.maxima", "LAM.list.minima", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.morse.decode", "LAM.namey", "LAM.Nclick", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.speedgate", "LAM.taptempo", "LAM.toLowerCase", "LAM.toUpperCase", "LAM.dec2base" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 591.3402099609375 ],
+					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.maxima", "LAM.list.minima", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.morse.decode", "LAM.namey", "LAM.Nclick", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.sinx=kx", "LAM.speedgate", "LAM.taptempo", "LAM.tempered_fret_position", "LAM.toLowerCase", "LAM.toUpperCase" ]
 				}
 
 			}
@@ -1534,7 +1582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 368.5, 64.0, 19.0 ],
+					"patching_rect" : [ 465.0, 383.5, 64.0, 19.0 ],
 					"text" : "EXAMPLES"
 				}
 
@@ -1550,7 +1598,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 990.0, 165.0, 180.0, 487.340210000000013 ],
-					"tabs" : [ "LAM.bounds.index", "LAM.jit.gaussian", "LAM.jit.poltocar", "LAM.jit.cartopol", "LAM.jit.sphertocar", "LAM.jit.cartospher", "LAM.jit.submatrix.select", "LAM.jit.submatrix.fill", "LAM.polytexture", "LAM.jit.gl.squaremesh", "LAM.jit.gl.circlemesh", "LAM.jit.roundedpolygon", "LAM.jit.lfade", "LAM.jit.bfade", "LAM.jit.pa2si", "LAM.jit.pv2si", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.sum", "LAM.jit.dimsum", "LAM.jit.dim.dotproduct", "LAM.jit.plane.dotproduct", "LAM.jit.slitscan", "LAM.jit.gl.slitscan", "LAM.jit.gl.dyncanvas", "LAM.jit.sigmofade", "LAM.jit.HaarDecomposition", "LAM.jit.polar.xfade", "LAM.jit.gl.textureset", "LAM.jit.oplist", "LAM.jit.perimeter", "LAM.jit.shoelacearea", "LAM.jit.compactness" ]
+					"tabs" : [ "LAM.jit.bfade", "LAM.jit.bounded_sigmoid", "LAM.jit.cartopol", "LAM.jit.cartospher", "LAM.jit.compactness", "LAM.jit.dim.dotproduct", "LAM.jit.dimsum", "LAM.jit.gaussian", "LAM.jit.gl.circlemesh", "LAM.jit.gl.dyncanvas", "LAM.jit.gl.slitscan", "LAM.jit.gl.squaremesh", "LAM.jit.gl.textureset", "LAM.jit.HaarDecomposition", "LAM.jit.lfade", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.oplist", "LAM.jit.pa2si", "LAM.jit.perimeter", "LAM.jit.plane.dotproduct", "LAM.jit.polar.xfade", "LAM.jit.poltocar", "LAM.jit.pv2si", "LAM.jit.roundedpolygon", "LAM.jit.shoelacearea", "LAM.jit.sigmofade", "LAM.jit.slitscan", "LAM.jit.sphertocar", "LAM.jit.submatrix.fill", "LAM.jit.submatrix.select", "LAM.jit.sum", "LAM.polytexture" ]
 				}
 
 			}
@@ -1605,8 +1653,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 600.0, 475.68511962890625, 180.0, 112.31488037109375 ],
-					"tabs" : [ "LAM.CheapAutotune~", "LAM.cheapvocoder~", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.wobblefilter~", "LAM.NR.profile~" ]
+					"patching_rect" : [ 600.0, 463.68511962890625, 180.0, 171.31488037109375 ],
+					"tabs" : [ "LAM.CheapAutotune~", "LAM.cheapvocoder~", "LAM.dist.tanh~", "LAM.dist.atan~", "LAM.ducker~", "LAM.lowboost~", "LAM.NR.profile~", "LAM.squash~", "LAM.squirrelcomp~", "LAM.vdb~", "LAM.wobblefilter~" ]
 				}
 
 			}
@@ -1620,7 +1668,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 600.0, 637.6597900390625, 180.0, 85.3402099609375 ],
+					"patching_rect" : [ 600.0, 652.6597900390625, 180.0, 85.3402099609375 ],
 					"tabs" : [ "LAM.jit.verlet", "LAM.Roulette", "LAM.jit.satellites", "LAM.jit.RLEreader", "LAM.jit.GOL.scoreMaker", "LAM.voronoijs" ]
 				}
 
@@ -1650,7 +1698,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 552.0, 180.0, 15.0 ],
+					"patching_rect" : [ 405.0, 567.0, 180.0, 15.0 ],
 					"tabs" : [ "LAM.TUIO.decode" ]
 				}
 
@@ -1666,7 +1714,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 600.0, 165.0, 180.0, 277.0 ],
-					"tabs" : [ "LAM.karpizz~", "LAM.gen.karpizz~", "LAM.harmoFM~", "LAM.glissandi~", "LAM.paf~", "LAM.rectoddeven~", "LAM.wobblebass~", "LAM.wobblepad~", "LAM.sawcloud~", "LAM.handclap~", "LAM.pulse~", "LAM.simpler~", "LAM.filterSimpler~", "LAM.livelooping~", "LAM.stretcher~", "LAM.ac-supersaw~", "LAM.additive~", "LAM.additiveFM~", "LAM.blowtube~" ]
+					"tabs" : [ "LAM.ac-supersaw~", "LAM.additiveFM~", "LAM.additive~", "LAM.blowtube~", "LAM.filterSimpler~", "LAM.gen.karpizz~", "LAM.glissandi~", "LAM.handclap~", "LAM.harmoFM~", "LAM.karpizz~", "LAM.livelooping~", "LAM.paf~", "LAM.pulse~", "LAM.rectoddeven~", "LAM.sawcloud~", "LAM.simpler~", "LAM.stretcher~", "LAM.wobblebass~", "LAM.wobblepad~" ]
 				}
 
 			}
@@ -1680,8 +1728,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 589.0, 180.0, 148.0 ],
-					"tabs" : [ "LAM.mpoly.param", "LAM.mpoly.notonoff", "LAM.mpoly.insidepoly", "LAM.rpoly", "LAM.rpoly.route", "LAM.rpoly.insidepoly", "LAM.polytop.router", "LAM.makenoteID", "LAM.polymited", "LAM.MIDI.panic" ]
+					"patching_rect" : [ 405.0, 604.0, 180.0, 45.0 ],
+					"tabs" : [ "LAM.makenoteID", "LAM.polymited", "LAM.MIDI.panic" ]
 				}
 
 			}
@@ -1695,7 +1743,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 492.0, 180.0, 45.0 ],
+					"patching_rect" : [ 405.0, 507.0, 180.0, 45.0 ],
 					"tabs" : [ "LAM.proba", "LAM.randistlist", "LAM.urndistlist" ]
 				}
 
@@ -1711,7 +1759,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 165.0, 177.9375, 591.3402099609375 ],
-					"tabs" : [ "LAM.bin2dec", "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.keyrename", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.FAOS", "LAM.fontlist", "LAM.freqtosamps", "LAM.gaussian", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.hex2dec", "LAM.hysteresis", "LAM.groups", "LAM.indexToCoord" ]
+					"tabs" : [ "LAM.%wrap", "LAM.2d_index", "LAM.EqualLoudnessCurve", "LAM.FAOS", "LAM.LAOS", "LAM.OSC-monoroute", "LAM.OSC-multiroute", "LAM.OSC.leveldown", "LAM.OSC.levelup", "LAM.OSC2dict", "LAM.addeltaclip", "LAM.addeltaclip", "LAM.anyrotate", "LAM.ascii2utf8", "LAM.baglist", "LAM.bin2dec", "LAM.bounded_pseudosigmoid", "LAM.bounded_sigmoid", "LAM.bounds", "LAM.bounds.index", "LAM.carrywrap", "LAM.cartohexagrid", "LAM.closest", "LAM.crossProduct", "LAM.d2r", "LAM.dec2base", "LAM.dec2bin", "LAM.dec2hex", "LAM.deque", "LAM.dict.keyrename", "LAM.dict.reify", "LAM.dispatcher.sin", "LAM.dotproduct", "LAM.fadeoctave", "LAM.fontlist", "LAM.freqtosamps", "LAM.gaussian", "LAM.goldenratio", "LAM.grid", "LAM.gridindex", "LAM.groups", "LAM.hex2dec", "LAM.hysteresis", "LAM.indexToCoord" ]
 				}
 
 			}
@@ -1723,7 +1771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 477.0, 78.0, 19.0 ],
+					"patching_rect" : [ 456.0, 492.0, 78.0, 19.0 ],
 					"text" : "PROBABILITY"
 				}
 
@@ -1736,7 +1784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 537.0, 74.0, 19.0 ],
+					"patching_rect" : [ 465.0, 552.0, 74.0, 19.0 ],
 					"text" : "INTERFACES"
 				}
 
@@ -1749,7 +1797,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 574.0, 146.0, 19.0 ],
+					"patching_rect" : [ 420.0, 589.0, 146.0, 19.0 ],
 					"text" : "POLYPHONY MANAGEMENT"
 				}
 
@@ -1762,7 +1810,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 638.0, 621.98968505859375, 104.0, 19.0 ],
+					"patching_rect" : [ 638.0, 636.98968505859375, 104.0, 19.0 ],
 					"text" : "DYNAMIC MODELS"
 				}
 
@@ -1777,7 +1825,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 413.085052000000019, 76.0, 21.0 ],
+					"patching_rect" : [ 453.0, 428.085052000000019, 76.0, 21.0 ],
 					"text" : "prepend load"
 				}
 
@@ -1792,7 +1840,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 432.085052000000019, 49.0, 21.0 ],
+					"patching_rect" : [ 453.0, 447.085052000000019, 49.0, 21.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1805,7 +1853,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.5, 461.0, 143.0, 19.0 ],
+					"patching_rect" : [ 618.5, 449.0, 143.0, 19.0 ],
 					"text" : "AUDIO TRANSFORMATION"
 				}
 
@@ -2271,7 +2319,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 384.0, 178.0, 88.170105000000007 ],
+					"patching_rect" : [ 405.0, 399.0, 178.0, 88.170105000000007 ],
 					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback", "LAM.AVlooper" ]
 				}
 
@@ -2770,6 +2818,14 @@
 					"destination" : [ "obj-112", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-49", 1 ]
 				}
 
 			}
