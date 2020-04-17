@@ -1,11 +1,10 @@
 # LAM-lib [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
 
-his library is a toolkit for digital instrument making in Max (® Cycling74).
+This library is a toolkit for digital instrument making in Max (® Cycling74).
 
-This code is under GNU-LGPL licence which can be read in the file named LICENCE.md.
+The code is under GNU-LGPL licence which can be read in the file named LICENCE.md.
 
-This is all draft at the moment.
-Use at your own risk and curiosity.
+This is all draft at the moment. Use at your own risk and curiosity.
 
 ## Usage
 Download or clone this repository and put it in your Max package folder.
