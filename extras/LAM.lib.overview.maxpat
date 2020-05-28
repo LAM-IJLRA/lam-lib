@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
@@ -134,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.5, 293.999999999999943, 143.0, 19.0 ],
+					"patching_rect" : [ 425.5, 316.999999999999943, 143.0, 19.0 ],
 					"text" : "FUNCTION CALLBACK"
 				}
 
@@ -149,7 +150,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 331.5, 179.0, 22.0 ],
+					"patching_rect" : [ 405.0, 354.5, 179.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -164,7 +165,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 310.887572999999975, 179.0, 60.224823000000001 ],
+					"patching_rect" : [ 405.0, 333.887572999999975, 179.0, 60.224823000000001 ],
 					"tabs" : [ "LAM.f.call", "LAM.f.dcall", "LAM.f.io", "LAM.f.recurse" ]
 				}
 
@@ -213,7 +214,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -246,6 +247,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -260,7 +262,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -293,6 +295,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -318,7 +321,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 50.0, 126.0, 121.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 0
+														"embed" : 0,
+														"precision" : 6
 													}
 ,
 													"text" : "coll lamlib-helper.coll"
@@ -448,7 +452,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -481,6 +485,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -548,7 +553,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 50.0, 124.445740000000001, 121.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 0
+														"embed" : 0,
+														"precision" : 6
 													}
 ,
 													"text" : "coll lamlib-helper.coll"
@@ -666,7 +672,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -699,6 +705,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -738,7 +745,8 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 50.0, 126.0, 121.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 0
+														"embed" : 0,
+														"precision" : 6
 													}
 ,
 													"text" : "coll lamlib-helper.coll"
@@ -862,7 +870,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -895,6 +903,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1253,7 +1262,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 43.0, 302.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 312,
+									"rows" : 314,
 									"selmode" : 3
 								}
 
@@ -1359,7 +1368,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 511.5, 124.0, 22.0 ],
+					"patching_rect" : [ 433.0, 534.5, 124.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1374,7 +1383,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 433.0, 567.0, 124.0, 22.0 ],
+					"patching_rect" : [ 433.0, 590.0, 124.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1494,7 +1503,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 405.0, 652.6597900390625, 180.0, 22.0 ],
+					"patching_rect" : [ 405.0, 675.6597900390625, 180.0, 22.0 ],
 					"text" : "lamlib.sethelper"
 				}
 
@@ -1538,7 +1547,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ]
+					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ],
+					"text" : "Like a checkbox but with continuous edit."
 				}
 
 			}
@@ -1567,8 +1577,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 165.0, 179.0, 591.3402099609375 ],
-					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.maxima", "LAM.list.minima", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.morse.decode", "LAM.namey", "LAM.Nclick", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.sinx=kx", "LAM.speedgate", "LAM.taptempo", "LAM.tempered_fret_position", "LAM.toLowerCase", "LAM.toUpperCase" ]
+					"patching_rect" : [ 210.0, 165.0, 179.0, 605.3402099609375 ],
+					"tabs" : [ "LAM.intbetween", "LAM.interpolist", "LAM.intnogap", "LAM.lin2pow", "LAM.list.product", "LAM.list2pairs", "LAM.list.bfade", "LAM.list.find", "LAM.list.maxima", "LAM.list.minima", "LAM.list.ncg", "LAM.list.nearest", "LAM.list.spread", "LAM.list.xfade", "LAM.matrixtoggle", "LAM.morse.decode", "LAM.namey", "LAM.Nclick", "LAM.energizer", "LAM.notepress", "LAM.pa2si", "LAM.pdf", "LAM.pivot2d", "LAM.poscale2rect", "LAM.pravg", "LAM.pv2si", "LAM.quantizattack", "LAM.quantize.cat", "LAM.quantize.dog", "LAM.r2d", "LAM.ranges", "LAM.ratiotrans", "LAM.ravg", "LAM.rect2poscale", "LAM.scalarProduct", "LAM.scroller", "LAM.showip", "LAM.sinx=kx", "LAM.speedgate", "LAM.taptempo", "LAM.tempered_fret_position", "LAM.toLowerCase", "LAM.toUpperCase" ]
 				}
 
 			}
@@ -1580,7 +1590,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 383.5, 64.0, 19.0 ],
+					"patching_rect" : [ 465.0, 406.5, 64.0, 19.0 ],
 					"text" : "EXAMPLES"
 				}
 
@@ -1696,7 +1706,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 567.0, 180.0, 15.0 ],
+					"patching_rect" : [ 405.0, 590.0, 180.0, 15.0 ],
 					"tabs" : [ "LAM.TUIO.decode" ]
 				}
 
@@ -1726,7 +1736,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 604.0, 180.0, 45.0 ],
+					"patching_rect" : [ 405.0, 627.0, 180.0, 45.0 ],
 					"tabs" : [ "LAM.makenoteID", "LAM.polymited", "LAM.MIDI.panic" ]
 				}
 
@@ -1741,7 +1751,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 507.0, 180.0, 45.0 ],
+					"patching_rect" : [ 405.0, 530.0, 180.0, 45.0 ],
 					"tabs" : [ "LAM.proba", "LAM.randistlist", "LAM.urndistlist" ]
 				}
 
@@ -1769,7 +1779,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 492.0, 78.0, 19.0 ],
+					"patching_rect" : [ 456.0, 515.0, 78.0, 19.0 ],
 					"text" : "PROBABILITY"
 				}
 
@@ -1782,7 +1792,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 552.0, 74.0, 19.0 ],
+					"patching_rect" : [ 465.0, 575.0, 74.0, 19.0 ],
 					"text" : "INTERFACES"
 				}
 
@@ -1795,7 +1805,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 589.0, 146.0, 19.0 ],
+					"patching_rect" : [ 420.0, 612.0, 146.0, 19.0 ],
 					"text" : "POLYPHONY MANAGEMENT"
 				}
 
@@ -1823,7 +1833,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 428.085052000000019, 76.0, 21.0 ],
+					"patching_rect" : [ 453.0, 451.085052000000019, 76.0, 21.0 ],
 					"text" : "prepend load"
 				}
 
@@ -1838,7 +1848,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 447.085052000000019, 49.0, 21.0 ],
+					"patching_rect" : [ 453.0, 470.085052000000019, 49.0, 21.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2317,7 +2327,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 399.0, 178.0, 88.170105000000007 ],
+					"patching_rect" : [ 405.0, 422.0, 178.0, 88.170105000000007 ],
 					"tabs" : [ "LAM.pitch.processing", "LAM.gen~.utilities", "LAM.PolarMapping", "LAM.jit.gl.2d.magnifier", "LAM.TactileFeedback", "LAM.AVlooper" ]
 				}
 
