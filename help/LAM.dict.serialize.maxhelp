@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 79.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 79.0, 845.0, 387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,35 +64,37 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"/wheels" : 						{
-							"/front" : 							{
-								"/spokecount" : 24,
-								"/lacing" : "radial",
-								"/tirewidth" : 21
-							}
-,
-							"/rear" : 							{
-								"/spokecount" : 28,
-								"/lacing" : "2-cross",
-								"/tirewidth" : 25,
-								"/brand" : "profile"
+						"my-string-array" : [ "a", "b", "c" ],
+						"my-int-array" : [ 3, 4, 5 ],
+						"my-simple-param" : "toto",
+						"my-simple-dict" : 						{
+							"dict-key1" : "one",
+							"dict-key2" : "two",
+							"my-nested-dict" : 							{
+								"nested-dict-key1" : "nested-one",
+								"nested-dict-key2" : "nested-two",
+								"nested-dict-key3" : "nested-three"
 							}
 
 						}
 ,
-						"/drivetrain" : 						{
-							"/chainring" : 							{
-								"/make" : "FSA",
-								"/cogs" : [ 53, 39 ]
+						"my-array-of-dict" : [ 							{
+								"frequency" : 1000,
+								"resonance" : 0.1
 							}
-,
-							"/cassette" : 							{
-								"/make" : "Campagnolo",
-								"/cogs" : [ 12, 13, 14, 15, 16, 17, 19, 21, 23, 25 ]
+, 							{
+								"frequency" : 2000,
+								"resonance" : 0.2
 							}
-
-						}
-
+, 							{
+								"frequency" : 3000,
+								"resonance" : 0.3
+							}
+, 							{
+								"frequency" : 4000,
+								"resonance" : 0.4
+							}
+ ]
 					}
 ,
 					"fontname" : "Arial",
@@ -120,8 +122,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 184.0, 103.0, 22.0 ],
-					"text" : "LAM.dict.serialize"
+					"patching_rect" : [ 129.0, 184.0, 184.0, 22.0 ],
+					"text" : "LAM.dict.serialize @separator /"
 				}
 
 			}
