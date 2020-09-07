@@ -1,0 +1,28 @@
+{
+	"name" : "LAM-lib",
+	"displayname" : "",
+	"version" : "0.0.1",
+	"author" : "Vincent Goudard, Hugues Genevois, et al.",
+	"authors" : [  ],
+	"description" : "A toolbox for digital luthery",
+	"tags" : ["gestural interaction", "dynamic intermediate models"],
+	"website" : "https://github.com/LAM-IJLRA/lam-lib",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "8",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.7.x",
+			"platform" : [ "ia32", "x64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "none",
+			"platform" : [ "ia32", "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "LAM.lib.overview.maxpat"
+}
