@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 351.5, 158.0, 327.0, 22.0 ],
+					"presentation_linecount" : 7,
+					"text" : "showdoc https://cycling74.com/forums/open-reference-page"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -48,8 +61,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -377,6 +390,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 361.0, 190.0, 57.5, 190.0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -509,21 +530,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/extras",
 				"patcherrelativepath" : "../extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LAM.max.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
