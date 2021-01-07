@@ -86,6 +86,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 270.0, 221.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
@@ -274,7 +286,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 352.0, 100.0, 187.0, 23.0 ],
-									"text" : "definedomain 20. $1 linear"
+									"text" : "definedomain 20. 20000 linear"
 								}
 
 							}
@@ -294,6 +306,38 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"order" : 2,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"order" : 3,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"color" : [ 0.4, 0.4, 0.701961, 1.0 ],
 									"destination" : [ "obj-43", 0 ],
@@ -392,7 +436,7 @@
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 78.0, 245.0, 57.0, 22.0 ],
+					"patching_rect" : [ 71.0, 239.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -419,23 +463,6 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "margins",
-					"displaymode" : 4,
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-16",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 80.0, 278.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"gridorigincolor" : [ 0.8, 0.2, 0.0, 1.0 ],
 					"id" : "obj-2",
@@ -443,9 +470,9 @@
 					"maxclass" : "plot~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"numpoints" : 500,
+					"numpoints" : 200,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.625, 289.0, 426.125, 168.0 ],
+					"patching_rect" : [ 54.375, 289.0, 426.125, 168.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
 							"thickness" : 1.0,
@@ -454,7 +481,7 @@
 							"number_style" : "none",
 							"filter" : "none",
 							"domain_start" : 20.0,
-							"domain_end" : 5693.0,
+							"domain_end" : 20000.0,
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
@@ -673,7 +700,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 52.0, 289.0, 424.0, 168.0 ],
+					"patching_rect" : [ 54.375, 289.0, 424.0, 168.0 ],
 					"setfilter" : [ 4, 0, 1, 0, 0, 202.5, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3, 0, 1, 0, 0, 135.0, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 0, 1, 0, 0, 90.0, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 0, 1, 0, 0, 60.0, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 0, 1, 0, 0, 101.825302124023438, 1.467717289924622, 2.040843725204468, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "filtergraph~"
 				}
@@ -686,7 +713,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 230.75, 156.0, 81.0, 20.0 ],
-					"text" : "witdth octave"
+					"text" : "width octave"
 				}
 
 			}
@@ -717,10 +744,10 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "list", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "list" ],
 					"patching_rect" : [ 52.0, 213.0, 278.0, 22.0 ],
-					"text" : "LAM.jit.filtergraph3"
+					"text" : "LAM.jit.cascade"
 				}
 
 			}
@@ -846,7 +873,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"order" : 0,
-					"source" : [ "obj-18", 2 ]
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
@@ -854,7 +881,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"order" : 1,
-					"source" : [ "obj-18", 2 ]
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
@@ -951,7 +978,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 538.5, 241.0, 59.125, 241.0 ],
+					"midpoints" : [ 538.5, 272.0, 63.875, 272.0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
@@ -988,7 +1015,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.filtergraph3.maxpat",
+				"name" : "LAM.jit.cascade.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
