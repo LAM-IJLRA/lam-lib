@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 278.0, 98.0, 869.0, 836.0 ],
+		"rect" : [ 249.0, 98.0, 898.0, 836.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.613647000000014, 98.0, 71.0, 22.0 ],
-					"text" : "r #0.SR"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "message",
@@ -93,37 +81,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-144",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 222.613647000000014, 127.454552000000035, 29.5, 22.0 ],
-					"text" : "/ 2."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-143",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 176.363647000000014, 156.227294999999998, 100.0, 22.0 ],
-					"text" : "clip 1. 22050."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-128",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.14285714285711, 156.227294999999998, 39.0, 22.0 ],
-					"text" : "dbtoa"
+					"text" : "clip 1. 20000."
 				}
 
 			}
@@ -147,7 +111,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "int" ],
 					"patching_rect" : [ 79.0, 359.0, 303.5, 22.0 ],
-					"text" : "t b l 0"
+					"text" : "t b l 1"
 				}
 
 			}
@@ -183,7 +147,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 203.0, 624.136230000000069, 169.0, 22.0 ],
-					"text" : "vexpr $f1+$f2 @scalarmode 1"
+					"text" : "vexpr $f1*$f2 @scalarmode 1"
 				}
 
 			}
@@ -236,6 +200,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 168.0, 361.772705000000087, 167.0, 20.0 ],
+									"text" : "clip gain like filtergraph~ does"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-42",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -256,18 +231,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 243.500015000000019, 46.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-139",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 429.0, 41.0, 22.0 ],
-									"text" : "atodb"
 								}
 
 							}
@@ -309,11 +272,11 @@
 								"box" : 								{
 									"id" : "obj-51",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "int" ],
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 361.772705000000087, 116.0, 22.0 ],
-									"text" : "maximum 0.000001"
+									"text" : "clip 0.00001 10000."
 								}
 
 							}
@@ -737,7 +700,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-139", 0 ],
+									"destination" : [ "obj-110", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -769,13 +732,6 @@
 									"destination" : [ "obj-193", 1 ],
 									"order" : 1,
 									"source" : [ "obj-109", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-110", 0 ],
-									"source" : [ "obj-139", 0 ]
 								}
 
 							}
@@ -939,10 +895,10 @@
 , 							{
 								"name" : "tap-dark",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-									"fontname" : [ "Ableton Sans Light Regular" ],
+									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+									"fontname" : [ "Ableton Sans Light Regular" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1199,10 +1155,10 @@
 , 							{
 								"name" : "tap-dark",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-									"fontname" : [ "Ableton Sans Light Regular" ],
+									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+									"fontname" : [ "Ableton Sans Light Regular" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1440,13 +1396,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-144", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-101", 0 ]
 				}
@@ -1572,13 +1521,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 6 ],
-					"source" : [ "obj-128", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 5 ],
 					"source" : [ "obj-143", 0 ]
 				}
@@ -1586,14 +1528,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-143", 2 ],
-					"source" : [ "obj-144", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
+					"destination" : [ "obj-11", 6 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1787,10 +1722,10 @@
 , 			{
 				"name" : "tap-dark",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"fontname" : [ "Ableton Sans Light Regular" ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+					"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
+					"fontname" : [ "Ableton Sans Light Regular" ]
 				}
 ,
 				"parentstyle" : "",
