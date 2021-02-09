@@ -109,6 +109,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 134.5, 79.0, 194.0, 21.0 ],
+									"presentation_linecount" : 2,
+									"text" : "see also LAM.framedfeed~ draft"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-60",
 									"maxclass" : "newobj",
 									"numinlets" : 5,
@@ -126,7 +138,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 43.0, 150.0, 36.0 ],
+									"patching_rect" : [ 134.5, 35.0, 150.0, 36.0 ],
 									"text" : "draft for a filtered feedback reverb"
 								}
 
@@ -886,7 +898,7 @@
 , 			{
 				"name" : "LAM.DC20block~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
