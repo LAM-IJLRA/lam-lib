@@ -1,6 +1,7 @@
 # LAM-lib
+
 Copyright (C) 2013-2021 LAM-IJLRA, Sorbonne-Université
----------------------------------------------------------------------
+----
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
@@ -15,7 +16,7 @@ Copyright (C) 2013-2021 LAM-IJLRA, Sorbonne-Université
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
------------------------------------------------------------------------
+---
 
 ### GNU GENERAL PUBLIC LICENSE
 
