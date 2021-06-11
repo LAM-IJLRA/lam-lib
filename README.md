@@ -1,4 +1,4 @@
-# LAM-lib [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
+# LAM-lib [![License: LGPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 This library is a toolkit for digital instrument making in Max (® Cycling74).
 
