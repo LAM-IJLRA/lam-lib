@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 4,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -196,7 +196,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 405.0, 165.0, 179.0, 124.483214999999973 ],
-					"tabs" : [ "LAM.transratio", "LAM.ttpb", "LAM.uint2float32", "LAM.urndistlist", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist" ]
+					"tabs" : [ "LAM.transratio", "LAM.ttpb", "LAM.uint2float32", "LAM.urndistlist", "LAM.vproduct", "LAM.wildcard", "LAM.wrappinterval", "LAM.xy2lr", "LAM.zlbaglist", "LAM.nojitter" ]
 				}
 
 			}
@@ -213,8 +213,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 4,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -261,8 +261,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 4,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -451,8 +451,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 4,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -671,8 +671,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 4,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -869,8 +869,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 4,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1262,7 +1262,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 43.0, 302.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 314,
+									"rows" : 329,
 									"selmode" : 3
 								}
 
@@ -1547,8 +1547,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ],
-					"text" : "Like a checkbox but with continuous edit."
+					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ]
 				}
 
 			}
@@ -1962,7 +1961,14 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.78125, 70.75, 1159.21875, 10.0 ]
+					"patching_rect" : [ 3.78125, 70.75, 1159.21875, 10.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1973,7 +1979,14 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.78125, 69.75, 1159.21875, 10.0 ]
+					"patching_rect" : [ 2.78125, 69.75, 1159.21875, 10.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1984,7 +1997,14 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.78125, 3.75, 1159.21875, 10.0 ]
+					"patching_rect" : [ 3.78125, 3.75, 1159.21875, 10.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1995,7 +2015,14 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.78125, 2.75, 1159.21875, 10.0 ]
+					"patching_rect" : [ 2.78125, 2.75, 1159.21875, 10.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -2896,21 +2923,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/extras",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib.sethelper.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1

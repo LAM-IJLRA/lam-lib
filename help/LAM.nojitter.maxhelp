@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 109.0, 154.0, 640.0, 480.0 ],
+		"rect" : [ 109.0, 154.0, 827.0, 366.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 164.0, 238.0, 82.0, 20.0 ],
+					"text" : "beyond range"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 308.0, 238.0, 167.0, 20.0 ],
+					"text" : "within jitter range (filtered out)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@obj-name", "LAM.nojitter", "@obj-desc", "Anti jitter utility for wiggling inputs." ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "LAM.helpheader.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-7",
 					"maxclass" : "flonum",
@@ -47,7 +89,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 304.0, 221.0, 50.0, 22.0 ]
+					"patching_rect" : [ 304.0, 208.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -60,7 +102,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 172.0, 221.0, 50.0, 22.0 ]
+					"patching_rect" : [ 172.0, 208.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -81,11 +123,11 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 172.0, 174.0, 151.0, 22.0 ],
-					"text" : "LAM.nojitter -0.1 1. @init 5"
+					"text" : "LAM.zl.bqueue"
 				}
 
 			}
@@ -113,10 +155,24 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.nojitter.maxpat",
+				"name" : "LAM.zl.bqueue.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "~/Documents/Max 8/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
