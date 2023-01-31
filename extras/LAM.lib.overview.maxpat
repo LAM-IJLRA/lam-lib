@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 319.0, 79.0, 1214.0, 783.0 ],
+		"rect" : [ 319.0, 87.0, 1192.0, 815.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -213,8 +213,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -261,8 +261,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -451,8 +451,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -671,8 +671,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -869,8 +869,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1262,7 +1262,7 @@
 									"outmode" : 1,
 									"patching_rect" : [ 43.0, 302.0, 510.0, 66.0 ],
 									"readonly" : 1,
-									"rows" : 329,
+									"rows" : 330,
 									"selmode" : 3
 								}
 
@@ -1547,7 +1547,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.9375, 757.48321533203125, 1147.0, 20.0 ]
+					"patching_rect" : [ 22.9375, 772.48321533203125, 1147.0, 20.0 ]
 				}
 
 			}
@@ -1605,7 +1605,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 990.0, 165.0, 180.0, 487.340210000000013 ],
-					"tabs" : [ "LAM.jit.bfade", "LAM.jit.bounded_sigmoid", "LAM.jit.cartopol", "LAM.jit.cartospher", "LAM.jit.compactness", "LAM.jit.dim.dotproduct", "LAM.jit.dimsum", "LAM.jit.gaussian", "LAM.jit.gl.circlemesh", "LAM.jit.gl.dyncanvas", "LAM.jit.gl.grads", "LAM.jit.gl.slitscan", "LAM.jit.gl.squaremesh", "LAM.jit.gl.textureset", "LAM.jit.HaarDecomposition", "LAM.jit.lfade", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.oplist", "LAM.jit.pa2si", "LAM.jit.perimeter", "LAM.jit.plane.dotproduct", "LAM.jit.polar.xfade", "LAM.jit.poltocar", "LAM.jit.pv2si", "LAM.jit.roundedpolygon", "LAM.jit.shoelacearea", "LAM.jit.sigmofade", "LAM.jit.slitscan", "LAM.jit.sphertocar", "LAM.jit.submatrix.fill", "LAM.jit.submatrix.select", "LAM.jit.sum", "LAM.polytexture" ]
+					"tabs" : [ "LAM.jit.bfade", "LAM.jit.bounded_sigmoid", "LAM.jit.cartopol", "LAM.jit.cartospher", "LAM.jit.compactness", "LAM.jit.dim.dotproduct", "LAM.jit.dimsum", "LAM.jit.ftom", "LAM.jit.gaussian", "LAM.jit.gl.circlemesh", "LAM.jit.gl.dyncanvas", "LAM.jit.gl.grads", "LAM.jit.gl.slitscan", "LAM.jit.gl.squaremesh", "LAM.jit.gl.textureset", "LAM.jit.HaarDecomposition", "LAM.jit.lfade", "LAM.jit.mirror.plane", "LAM.jit.mirror.quadratic", "LAM.jit.norm", "LAM.jit.oplist", "LAM.jit.pa2si", "LAM.jit.perimeter", "LAM.jit.plane.dotproduct", "LAM.jit.polar.xfade", "LAM.jit.poltocar", "LAM.jit.pv2si", "LAM.jit.roundedpolygon", "LAM.jit.shoelacearea", "LAM.jit.sigmofade", "LAM.jit.slitscan", "LAM.jit.sphertocar", "LAM.jit.submatrix.fill", "LAM.jit.submatrix.select", "LAM.jit.sum", "LAM.polytexture" ]
 				}
 
 			}
@@ -1944,6 +1944,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-33",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
