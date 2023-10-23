@@ -2,7 +2,7 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
+			"major" : 9,
 			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 88.0, 202.0, 640.0, 480.0 ],
+		"rect" : [ 826.0, 624.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 0,
@@ -47,8 +48,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 50.0, 100.0, 183.0, 23.0 ],
-					"text" : "pfft~ LAM.NR.profile.pfft 512 4"
+					"patching_rect" : [ 50.0, 100.0, 190.0, 23.0 ],
+					"text" : "pfft~ LAM.NR.profile.pfft 1024 4"
 				}
 
 			}
@@ -56,7 +57,7 @@
 				"box" : 				{
 					"comment" : "audio input",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -69,7 +70,7 @@
 				"box" : 				{
 					"comment" : "removal factor",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -82,7 +83,7 @@
 				"box" : 				{
 					"comment" : "acquire signal (on/off)",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -95,7 +96,7 @@
 				"box" : 				{
 					"comment" : "audio output",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -107,7 +108,7 @@
 				"box" : 				{
 					"comment" : "nb of recorded frames",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -151,24 +152,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-34::obj-1" : [ "live.menu[2]", "live.menu", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "LAM.NR.profile.pfft.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
