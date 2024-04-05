@@ -42,6 +42,82 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 427.0, 267.0, 31.0, 22.0 ],
+					"text" : "t s 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 427.0, 177.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 604.0, 349.0, 70.0, 22.0 ],
+					"text" : "jit.gl.texture"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 427.0, 236.0, 191.0, 22.0 ],
+					"text" : "opendialog BMP JPEG PICT PNG"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 485.42855800000001, 311.0, 29.5, 22.0 ],
+					"text" : "int"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 451.0, 311.0, 29.5, 22.0 ],
+					"text" : "+ 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2191,9 +2267,9 @@
 			}
 , 			{
 				"box" : 				{
-					"coldef" : [ [ 0, 30, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"coldef" : [ [ 0, 30, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 120, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 2, 250, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
 					"colhead" : 1,
-					"cols" : 1,
+					"cols" : 3,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -2205,7 +2281,7 @@
 					"patching_rect" : [ 853.0, 311.0, 246.0, 98.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 67.0, 418.0, 196.0 ],
-					"rows" : 1
+					"rows" : 16
 				}
 
 			}
@@ -2571,7 +2647,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-47",
-									"items" : [ "aigu.png", ",", "attentionA.png", ",", "attentionB.png", ",", "boutons_1.png", ",", "boutons_2.png", ",", "boutons_3.png", ",", "boutons_4.png", ",", "clic_main_droite.png", ",", "crescendo.png", ",", "diminuendo.png", ",", "forte.png", ",", "fortissimo.png", ",", "grave.png", ",", "jouer_en_boucle.png", ",", "partez.png", ",", "pause.png", ",", "pianissimo.png", ",", "piano.png", ",", "solo.png", ",", "stop.png", ",", "variation_hauteur.png", ",", "variation_volume.png" ],
+									"items" : [ "29297452-vector-illustration-of-engraving-human-ear-on-white-background.jpg", ",", "Capture d’écran 2018-06-05 à 02.00.28.png", ",", "Capture d’écran 2018-09-19 à 16.42.39.png", ",", "Capture d’écran 2018-11-15 à 09.20.22.png", ",", "Capture d’écran 2019-02-12 à 23.05.06.png", ",", "ear.jpg", ",", "ear.png", ",", "EarAndInnerEar.jpg", ",", "EarAndInnerEarAlpha.png", ",", "F5.large.jpg", ",", "il_fullxfull.163332033.jpg", ",", "IMG_6157 crop.jpg", ",", "InnerEar.jpg", ",", "InnerEar.png", ",", "InnerEar2.jpeg", ",", "InnerEarWhiteAlpha.png" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2993,7 +3069,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-47",
-									"items" : "<empty>",
+									"items" : [ "29297452-vector-illustration-of-engraving-human-ear-on-white-background.jpg", ",", "Capture d’écran 2018-06-05 à 02.00.28.png", ",", "Capture d’écran 2018-09-19 à 16.42.39.png", ",", "Capture d’écran 2018-11-15 à 09.20.22.png", ",", "Capture d’écran 2019-02-12 à 23.05.06.png", ",", "ear.jpg", ",", "ear.png", ",", "EarAndInnerEar.jpg", ",", "EarAndInnerEarAlpha.png", ",", "F5.large.jpg", ",", "il_fullxfull.163332033.jpg", ",", "IMG_6157 crop.jpg", ",", "InnerEar.jpg", ",", "InnerEar.png", ",", "InnerEar2.jpeg", ",", "InnerEarWhiteAlpha.png" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3268,7 +3344,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "dump" ],
 					"patching_rect" : [ 334.000030999999979, 94.0, 30.0, 30.0 ]
 				}
 
@@ -3391,7 +3467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 485.42855800000001, 320.0, 40.0, 22.0 ],
+					"patching_rect" : [ 485.42855800000001, 339.0, 40.0, 22.0 ],
 					"text" : "t i i i"
 				}
 
@@ -3550,7 +3626,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"items" : "<empty>",
+					"items" : [ "29297452-vector-illustration-of-engraving-human-ear-on-white-background.jpg", ",", "Capture d’écran 2018-06-05 à 02.00.28.png", ",", "Capture d’écran 2018-09-19 à 16.42.39.png", ",", "Capture d’écran 2018-11-15 à 09.20.22.png", ",", "Capture d’écran 2019-02-12 à 23.05.06.png", ",", "ear.jpg", ",", "ear.png", ",", "EarAndInnerEar.jpg", ",", "EarAndInnerEarAlpha.png", ",", "F5.large.jpg", ",", "il_fullxfull.163332033.jpg", ",", "IMG_6157 crop.jpg", ",", "InnerEar.jpg", ",", "InnerEar.png", ",", "InnerEar2.jpeg", ",", "InnerEarWhiteAlpha.png" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3633,7 +3709,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -3815,6 +3891,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -3872,6 +3955,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"order" : 1,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-48", 2 ]
 				}
@@ -3921,6 +4020,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-48", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -3945,16 +4051,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 1 ],
-					"order" : 0,
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-5", 1 ]
+					"destination" : [ "obj-51", 1 ],
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -3969,6 +4075,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -3990,6 +4103,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-59", 1 ]
 				}
 
 			}
@@ -4059,6 +4193,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-9", 1 ]
 				}
@@ -4099,6 +4241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
