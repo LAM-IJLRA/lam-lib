@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 447.0, 246.0, 640.0, 480.0 ],
+		"rect" : [ 53.0, 523.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -88,14 +88,14 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 206.0, 232.0, 22.0 ],
-					"text" : "vexpr (1-$f1)*$f2+$f1*$f3 @scalarmode 1"
+					"patching_rect" : [ 96.0, 206.0, 327.0, 22.0 ],
+					"text" : "vexpr (1-$f1)*$f2+$f1*$f3 @scalarmode 1 @maxsize 32000"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "list output",
 					"id" : "obj-3",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -107,20 +107,20 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "2nd list",
 					"id" : "obj-2",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 112.0, 25.0, 25.0 ]
+					"patching_rect" : [ 404.0, 58.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "list input, xfade, setfade",
 					"id" : "obj-1",
 					"index" : 1,
 					"maxclass" : "inlet",
