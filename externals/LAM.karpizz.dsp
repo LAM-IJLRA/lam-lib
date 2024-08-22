@@ -2,7 +2,7 @@ declare name "LAM.karpizz.followpinch - Karplus-Strong based synthesis with non-
 declare author "Vincent Goudard";
 declare version "1.0"; 
 declare license "BSD";
-declare copyright "© Vincent Goudard (vincent_at_mazirkat.org)";
+declare copyright "© Vincent Goudard (vincent_at_vincentgoudard.com)";
 declare copyright "© LAM - IJLRA 2011";
 declare description "a Karplus-Strong based synthesis with pitch and duration correction and non-linear pseudo pinch buzz";
 
