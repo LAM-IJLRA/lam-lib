@@ -2,40 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
+			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 467.0, 334.0, 801.0, 312.0 ],
-		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"classnamespace" : "box",
+		"rect" : [ 100.0, 100.0, 801.0, 312.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "LAM.lib.HelpPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -44,8 +20,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 333.0, 108.0, 100.0, 20.0 ],
-					"presentation_rect" : [ 333.0, 108.0, 100.0, 20.0 ],
-					"style" : "",
 					"text" : "solving sin(x)=kx"
 				}
 
@@ -59,40 +33,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
+							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 59.0, 103.0, 355.0, 220.0 ],
-						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "LAM.lib.HelpPatcher",
 						"boxes" : [ 							{
 								"box" : 								{
@@ -103,9 +53,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 152.875, 109.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 152.875, 109.0, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 152.875, 109.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -117,8 +65,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 206.875, 109.0, 105.0, 22.0 ],
-									"presentation_rect" : [ 206.875, 109.0, 105.0, 22.0 ],
-									"style" : "",
 									"text" : "LAM.f.call mySqrt"
 								}
 
@@ -131,8 +77,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"patching_rect" : [ 152.875, 85.0, 127.0, 22.0 ],
-									"presentation_rect" : [ 152.875, 85.0, 127.0, 22.0 ],
-									"style" : "",
 									"text" : "LAM.f.recurse @iter 4"
 								}
 
@@ -146,9 +90,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 35.875, 109.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 35.875, 109.0, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 35.875, 109.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -161,9 +103,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 35.875, 37.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 35.875, 37.0, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 35.875, 37.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -175,8 +115,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.875, 85.0, 105.0, 22.0 ],
-									"presentation_rect" : [ 35.875, 85.0, 105.0, 22.0 ],
-									"style" : "",
 									"text" : "LAM.f.call mySqrt"
 								}
 
@@ -189,8 +127,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 226.5, 37.0, 96.0, 22.0 ],
-									"presentation_rect" : [ 226.5, 37.0, 96.0, 22.0 ],
-									"style" : "",
 									"text" : "LAM.f.io mySqrt"
 								}
 
@@ -203,8 +139,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 184.25, 37.0, 31.0, 22.0 ],
-									"presentation_rect" : [ 184.25, 37.0, 31.0, 22.0 ],
-									"style" : "",
 									"text" : "sqrt"
 								}
 
@@ -268,20 +202,17 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-25092",
+						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 660.0, 181.0, 77.0, 22.0 ],
-					"presentation_rect" : [ 660.0, 181.0, 77.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
+						"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
-					"style" : "",
 					"text" : "p using f.call"
 				}
 
@@ -293,8 +224,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.0, 259.0, 40.0, 20.0 ],
-					"presentation_rect" : [ 439.0, 259.0, 40.0, 20.0 ],
-					"style" : "",
 					"text" : "result"
 				}
 
@@ -308,9 +237,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 331.0, 259.0, 101.0, 22.0 ],
-					"presentation_rect" : [ 331.0, 259.0, 101.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 331.0, 259.0, 101.0, 22.0 ]
 				}
 
 			}
@@ -325,9 +252,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 331.0, 139.0, 61.0, 22.0 ],
-					"presentation_rect" : [ 331.0, 139.0, 61.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 331.0, 139.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -338,8 +263,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 188.0, 139.0, 94.0, 20.0 ],
-					"presentation_rect" : [ 188.0, 139.0, 94.0, 20.0 ],
-					"style" : "",
 					"text" : "nb iteration"
 				}
 
@@ -351,8 +274,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 134.0, 259.0, 40.0, 20.0 ],
-					"presentation_rect" : [ 134.0, 259.0, 40.0, 20.0 ],
-					"style" : "",
 					"text" : "result"
 				}
 
@@ -364,8 +285,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 188.0, 208.0, 94.0, 20.0 ],
-					"presentation_rect" : [ 188.0, 208.0, 94.0, 20.0 ],
-					"style" : "",
 					"text" : "current iteration"
 				}
 
@@ -377,8 +296,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.0, 231.0, 125.0, 20.0 ],
-					"presentation_rect" : [ 110.0, 231.0, 125.0, 20.0 ],
-					"style" : "",
 					"text" : "the recursive function"
 				}
 
@@ -391,8 +308,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 108.0, 44.0, 22.0 ],
-					"presentation_rect" : [ 26.0, 108.0, 44.0, 22.0 ],
-					"style" : "",
 					"text" : "65536"
 				}
 
@@ -406,9 +321,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 134.0, 139.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 134.0, 139.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 134.0, 139.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -420,9 +333,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 134.0, 208.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 134.0, 208.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 134.0, 208.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -435,9 +346,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 26.0, 259.0, 101.0, 22.0 ],
-					"presentation_rect" : [ 26.0, 259.0, 101.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 26.0, 259.0, 101.0, 22.0 ]
 				}
 
 			}
@@ -449,8 +358,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 80.0, 231.0, 31.0, 22.0 ],
-					"presentation_rect" : [ 80.0, 231.0, 31.0, 22.0 ],
-					"style" : "",
 					"text" : "sqrt"
 				}
 
@@ -464,9 +371,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 26.0, 139.0, 61.0, 22.0 ],
-					"presentation_rect" : [ 26.0, 139.0, 61.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 26.0, 139.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -478,8 +383,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 26.0, 181.0, 127.0, 22.0 ],
-					"presentation_rect" : [ 26.0, 181.0, 127.0, 22.0 ],
-					"style" : "",
 					"text" : "LAM.f.recurse @iter 4"
 				}
 
@@ -494,13 +397,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
-					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -513,9 +416,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 65.060059, 301.0, 20.0 ],
-					"presentation_rect" : [ 5.5, 65.060059, 301.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 5.5, 65.060058999999995, 301.0, 20.0 ],
 					"text" : "Handling the recursive side of a recursive function call."
 				}
 
@@ -530,8 +431,6 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
-					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
-					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
 
@@ -546,42 +445,30 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
+							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 103.0, 436.0, 356.0 ],
-						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 103.0, 555.0, 487.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "LAM.lib.HelpPatcher",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 43.0, 374.0, 311.0, 47.0 ],
+									"text" : "Example for solving  equation sin(x)/x = k\n\nSee: http://mathforum.org/library/drmath/view/51797.html"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-19",
 									"maxclass" : "newobj",
@@ -589,8 +476,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
 									"patching_rect" : [ 228.5, 159.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 228.5, 159.0, 29.5, 22.0 ],
-									"style" : "",
 									"text" : "t f f"
 								}
 
@@ -602,9 +487,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 300.0, 148.0, 24.0, 24.0 ],
-									"presentation_rect" : [ 300.0, 148.0, 24.0, 24.0 ],
-									"style" : ""
+									"parameter_enable" : 0,
+									"patching_rect" : [ 300.0, 148.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -615,8 +499,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 332.0, 49.0, 105.0, 20.0 ],
-									"presentation_rect" : [ 332.0, 49.0, 105.0, 20.0 ],
-									"style" : "",
 									"text" : "detect init value"
 								}
 
@@ -628,8 +510,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 287.0, 238.5, 105.0, 20.0 ],
-									"presentation_rect" : [ 287.0, 238.5, 105.0, 20.0 ],
-									"style" : "",
 									"text" : "recursive functino"
 								}
 
@@ -641,8 +521,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 348.0, 189.5, 58.0, 20.0 ],
-									"presentation_rect" : [ 348.0, 189.5, 58.0, 20.0 ],
-									"style" : "",
 									"text" : "init value"
 								}
 
@@ -655,8 +533,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 239.0, 204.5, 104.0, 22.0 ],
-									"presentation_rect" : [ 239.0, 204.5, 104.0, 22.0 ],
-									"style" : "",
 									"text" : "expr sqrt(6-6*$f1)"
 								}
 
@@ -669,9 +545,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 35.0, 94.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 35.0, 94.0, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 35.0, 94.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -683,8 +557,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 35.0, 163.5, 24.0, 22.0 ],
-									"presentation_rect" : [ 35.0, 163.5, 24.0, 22.0 ],
-									"style" : "",
 									"text" : "t b"
 								}
 
@@ -697,8 +569,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 35.0, 208.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 35.0, 208.0, 29.5, 22.0 ],
-									"style" : "",
 									"text" : "f 0."
 								}
 
@@ -712,9 +582,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.0, 11.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 287.0, 11.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 287.0, 11.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -726,8 +594,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 287.0, 77.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 287.0, 77.0, 29.5, 22.0 ],
-									"style" : "",
 									"text" : "+ 1"
 								}
 
@@ -740,8 +606,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 287.0, 49.0, 35.0, 22.0 ],
-									"presentation_rect" : [ 287.0, 49.0, 35.0, 22.0 ],
-									"style" : "",
 									"text" : "== 0"
 								}
 
@@ -754,8 +618,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 130.5, 212.5, 22.0 ],
-									"presentation_rect" : [ 35.0, 130.5, 212.5, 22.0 ],
-									"style" : "",
 									"text" : "gate 2 1"
 								}
 
@@ -768,8 +630,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
 									"patching_rect" : [ 35.0, 272.5, 69.5, 22.0 ],
-									"presentation_rect" : [ 35.0, 272.5, 69.5, 22.0 ],
-									"style" : "",
 									"text" : "t f f"
 								}
 
@@ -782,8 +642,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 238.5, 223.0, 22.0 ],
-									"presentation_rect" : [ 35.0, 238.5, 223.0, 22.0 ],
-									"style" : "",
 									"text" : "expr $f2-(sin($f2)-$f1*$f2)/(cos($f2)-$f1)"
 								}
 
@@ -797,9 +655,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 228.5, 11.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 228.5, 11.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 228.5, 11.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -811,9 +667,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.0, 308.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 35.0, 308.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 35.0, 308.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -933,20 +787,17 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-25114",
+						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 385.0, 231.0, 73.0, 22.0 ],
-					"presentation_rect" : [ 385.0, 231.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
+						"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
-					"style" : "",
 					"text" : "p recurse"
 				}
 
@@ -958,8 +809,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 493.0, 139.0, 94.0, 20.0 ],
-					"presentation_rect" : [ 493.0, 139.0, 94.0, 20.0 ],
-					"style" : "",
 					"text" : "nb iteration"
 				}
 
@@ -972,8 +821,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 493.0, 208.0, 145.0, 33.0 ],
-					"presentation_rect" : [ 493.0, 208.0, 145.0, 33.0 ],
-					"style" : "",
+					"presentation_linecount" : 2,
 					"text" : "use current iteration to check for initial condition"
 				}
 
@@ -987,9 +835,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 439.0, 139.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 439.0, 139.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 439.0, 139.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1001,9 +847,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 439.0, 207.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 439.0, 207.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 439.0, 207.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1015,8 +859,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 331.0, 181.0, 127.0, 22.0 ],
-					"presentation_rect" : [ 331.0, 181.0, 127.0, 22.0 ],
-					"style" : "",
 					"text" : "LAM.f.recurse @iter 4"
 				}
 
@@ -1123,49 +965,9 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "LAM.f.recurse.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.f.io.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.f.call.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"originid" : "pat-25090",
 		"autosave" : 0,
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39
+		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 	}
 
 }
